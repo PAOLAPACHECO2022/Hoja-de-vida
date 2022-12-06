@@ -39,7 +39,8 @@ body h3 {
 }
 .App {
   min-height: 100vh;
-  background-image: url(https://1.bp.blogspot.com/-_OpHFmQXisU/XS81p6qJWPI/AAAAAAAAGoA/lIMpJpGBxW0TFPT1UciK6bfQtX_1bWPVwCLcBGAs/s1600/Agroneg%25C3%25B3cio.jpg);
+  background-image: url(
+    "./alitas.PNG");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: relative;

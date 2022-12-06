@@ -1,0 +1,37 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #272829;
+  }
+  
+  a {
+    color: #149ddd;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #37b3ed;
+    text-decoration: none;
+  }
+ h3 {
+    font-family: "Raleway", sans-serif;
+  }
+  
+  
+  h1, h2, h4, h5, h6 {
+    font-family: "Raleway", sans-serif;
+  }
+
+  .zoom{
+    transition: 0.5s ease;
+     -moz-transition: 0.5s ease; /* Firefox */
+     -webkit-transition: 0.5s ease; /* Chrome - Safari */
+     -o-transition: 0.5s ease; /* Opera */
+}
+.zoom:hover{
+    transform : scale(1.2);
+    -moz-transform : scale(1.2); /* Firefox */
+    -webkit-transform : scale(1.2); /* Chrome - Safari */
+    -o-transform : scale(1.2); /* Opera */
+    -ms-transform : scale(1.2); /* IE9 */
+}
+  
