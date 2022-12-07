@@ -1,121 +1,693 @@
+import "bootstrap/dist/css/bootstrap.css";
+import Button from "react-bootstrap/Button";
+import Figure from "react-bootstrap/Figure";
+import React, { useState, useRef } from "react";
+import ProgressBar from "react-bootstrap/ProgressBar";
+import Overlay from "react-bootstrap/Overlay";
+import Tooltip from "react-bootstrap/Tooltip";
+import { Col, Row } from "react-bootstrap";
+export default function Habilidades() {
+  const now = 85;
+  const [show, setShow] = useState(false);
+  const target = useRef(null);
 
-import {  CDBBox} from 'cdbreact';
-import React, { Component } from "react";
-import "./css/style.css";
-export default class Habilidades extends Component {
+  const ynow = 80;
+  const [yshow, setyShow] = useState(false);
+  const ytarget = useRef(null);
 
-  render() {
-    return (
+  const xnow = 85;
+  const [xshow, setxShow] = useState(false);
+  const xtarget = useRef(null);
 
-<div class="row ei m-5" id="habilidades" >
+  const pnow = 85;
+  const [pshow, setpShow] = useState(false);
+  const ptarget = useRef(null);
 
-  <p  style={{fontFamily:"cursive,bold"}} className="text-thumbnail h1 text-center bg-light rounded-4 my-5 font-weight-bold mt-5">
-    Habilidades
-  </p>
+  const vnow = 75;
+  const [vshow, setvShow] = useState(false);
+  const vtarget = useRef(null);
 
-  <div class="col-6 col-sm-3 col-md-2 text-center">
-  <CDBBox display="flex" >
-    <a href="/" className="d-flex  p-0 text-dark">
-    <img src="./html5.png" class="rounded-circle border imgHabilidad zoom" width="150" height="150" alt="..."/>
-        </a>
-      </CDBBox>
-    
-    <p className="bg-warning rounded-4" >
-      HML5
-     </p>
-  </div> 
+  const rnow = 70;
+  const [rshow, setrShow] = useState(false);
+  const rtarget = useRef(null);
 
-  <div class="col-6 col-sm-3 col-md-2 text-center">
-    <img src="./javascript.png" class="rounded-circle border imgHabilidad zoom" width="150" height="150" alt="..."/>
-    <p className="bg-warning rounded-4">
-      javascript
-     </p>
-  </div> 
+  const mnow = 80;
+  const [mshow, setmShow] = useState(false);
+  const mtarget = useRef(null);
 
-  <div class="col-6 col-sm-3 col-md-2 text-center">
-    <img src="./css3.png" class="rounded-circle border imgHabilidad zoom" width="150" height="150" alt="..."/>
-    <p className="bg-warning rounded-4">
-      CSS3
-     </p>
-  </div> 
+  
+  const qnow = 80;
+  const [qshow, setqShow] = useState(false);
+  const qtarget = useRef(null);
 
-  <div class="col-6 col-sm-3 col-md-2 text-center">
-    <img src="./bootstrap.png" class="rounded-circle border imgHabilidad zoom"  width="150" height="150" alt="..."/>
-    <p className="bg-warning rounded-4">
-      Bootstrap
-     </p>
-  </div> 
+  const tnow = 85;
+  const [tshow, settShow] = useState(false);
+  const ttarget = useRef(null);
 
-  <div class="col-6 col-sm-3 col-md-2 text-center">
-    <img src="./sqlserver.png" class="rounded-circle border imgHabilidad zoom" width="150" height="150" alt="..."/>
-    <p className="bg-warning rounded-4">
-      SqlServer
-     </p>
-  </div> 
+  const dnow = 80;
+  const [dshow, setdShow] = useState(false);
+  const dtarget = useRef(null);
 
-  <div class="col-6 col-sm-3 col-md-2 text-center hvr-grow">
-    <img src="./potsgre.png" class="rounded-circle border imgHabilidad zoom" width="150" height="150"  alt="..."/>
-    <p className="bg-warning rounded-4">
-      PotsgreSQL
-     </p>
-  </div> 
-  <div class="col-6 col-sm-3 col-md-2 text-center hvr-grow">
-    <img src="./mongo.png" class="rounded-circle border imgHabilidad zoom"  width="150" height="150" alt="..."/>
-    <p className="bg-warning rounded-4">
-      MongoDB
-     </p>
-  </div> 
+  const znow = 80;
+  const [zshow, setzShow] = useState(false);
+  const ztarget = useRef(null);
 
-  <div class="col-6 col-sm-3 col-md-2 text-center">
-    <img src="./mySql.png" class="rounded-circle border imgHabilidad zoom" width="150" height="150" alt="..."/>
-    <p className="bg-warning rounded-4">
-      mySql
-     </p>
-  </div> 
+  const gnow = 40;
+  const [gshow, setgShow] = useState(false);
+  const gtarget = useRef(null);
 
-  <div class="col-6 col-sm-3 col-md-2 text-center">
-    <img src="./python.png" class="rounded-circle border imgHabilidad zoom" width="150" height="150" alt="..."/>
-    <p className="bg-warning rounded-4">
-      Python
-     </p>
-  </div> 
+  const jnow = 75;
+  const [jshow, setjShow] = useState(false);
+  const jtarget = useRef(null);
 
-  <div class="col-6 col-sm-3 col-md-2 text-center">
-    <img src="./restadistico.png" class="rounded-circle border imgHabilidad zoom w-30" width="150" height="150" alt="..."/>
-    <p className="bg-warning rounded-4">
-      R estadistico
-     </p>
-  </div> 
+  const fnow = 50;
+  const [fshow, setfShow] = useState(false);
+  const ftarget = useRef(null);
 
-  <div class="col-6 col-sm-3 col-md-2 text-center">
-    <img src="./excel1.png" class="rounded-circle border imgHabilidad zoom" width="150" height="150" alt="..."/>
-    <p className="bg-warning rounded-4">
-      Excel
-     </p>
-  </div>  
+  const know = 90;
+  const [kshow, setkShow] = useState(false);
+  const ktarget = useRef(null);
 
-  <div class="col-6 col-sm-3 col-md-2 text-center">
-    <img src="./Aillustrator.png" class="rounded-circle border imgHabilidad zoom" width="150" height="150" alt="..."/>
-    <p className="bg-warning rounded-4">
-      Adobe Illustrator
-     </p>
-  </div> 
-
-    <section id="skills" class="skills section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <p className="img-thumbnail bg-light rounded-4" >Soy una persona que le gusta asumir retos constantemente, es por esto que trato de estar listo para ello, capacitandome 
+  return (
+    <>
+      <p
+        style={{ fontFamily: "cursive,bold" }}
+        className="text-thumbnail h1 text-center bg-light rounded-4 my-5 font-weight-bold mt-5"
+      >
+        Habilidades
+      </p>
+      <p className="img-thumbnail bg-light rounded-4" >Soy una persona que le gusta asumir retos constantemente, es por esto que trato de estar lista para ello, capacitandome 
              con diversos conocimientos que me ayuden con el cumplimiento de mis objetivos.
           </p>
-        </div>
+      <Row xs={1} md={3} className="g-4  mt-5">
+  
+
+{Array.from({ length: 1 }).map((_, idx) => (
+          <Col>
+            <Figure>
+              <Figure.Image
+                width={150}
+                height={150}
+                rounded="circle"
+                alt="171x180"
+                src="./javascript.png"
+                className="rounded-circle border imgHabilidad zoom"
+              />
+              <Figure.Caption>
+              <p className="bg-warning rounded-4 text-center">JS</p>
+                <Button
+                  variant="primary"
+                  ref={ytarget}
+                  onClick={() => setyShow(!yshow)}
+                >
+                  Progreso
+                </Button>
+                <Overlay target={ytarget.current} show={yshow} placement="right">
+                  {(props) => (
+                    <Tooltip id="overlay-example" {...props}>
+                      Porcentaje estimado
+                      <div>
+                        <ProgressBar
+                          animated
+                          variant="success"
+                          now={ynow}
+                          label={`${ynow}%`}
+                        />
+                      </div>
+                    </Tooltip>
+                  )}
+                </Overlay>
+              </Figure.Caption>
+            </Figure>
+          </Col>
+        ))}
 
 
-      </div>
-    </section>
+{Array.from({ length: 1 }).map((_, idx) => (
+          <Col>
+            <Figure>
+              <Figure.Image
+                width={150}
+                height={150}
+                rounded="circle"
+                alt="171x180"
+                src="./html5.png"
+                className="rounded-circle border imgHabilidad zoom"
+              />
+              <Figure.Caption>
+                <p className="bg-warning rounded-4 text-center">HTML</p>
+                <Button
+                  variant="primary"
+                  ref={target}
+                  onClick={() => setShow(!show)}
+                >
+                  Progreso
+                </Button>
+                <Overlay target={target.current} show={show} placement="right">
+                  {(props) => (
+                    <Tooltip id="overlay-example" {...props}>
+                      Porcentaje estimado
+                      <div>
+                        <ProgressBar
+                          animated
+                          variant="success"
+                          now={now}
+                          label={`${now}%`}
+                        />
+                      </div>
+                    </Tooltip>
+                  )}
+                </Overlay>
+              </Figure.Caption>
+            </Figure>
+          </Col>
+        ))}
 
-</div>   
-   );
-     
-  }
+{Array.from({ length: 1 }).map((_, idx) => (
+          <Col>
+            <Figure>
+              <Figure.Image
+                width={150}
+                height={150}
+                rounded="circle"
+                alt="171x180"
+                src="./css3.png" 
+                className="rounded-circle border imgHabilidad zoom"
+              />
+              <Figure.Caption>
+                <p className="bg-warning rounded-4 text-center">CSS</p>
+                <Button
+                  variant="primary"
+                  ref={xtarget}
+                  onClick={() => setxShow(!xshow)}
+                >
+                  Progreso
+                </Button>
+                <Overlay target={xtarget.current} show={xshow} placement="right">
+                  {(props) => (
+                    <Tooltip id="overlay-example" {...props}>
+                      Porcentaje estimado
+                      <div>
+                        <ProgressBar
+                          animated
+                          variant="success"
+                          now={xnow}
+                          label={`${xnow}%`}
+                        />
+                      </div>
+                    </Tooltip>
+                  )}
+                </Overlay>
+              </Figure.Caption>
+            </Figure>
+          </Col>
+        ))}
+
+{Array.from({ length: 1 }).map((_, idx) => (
+          <Col>
+            <Figure>
+              <Figure.Image
+                width={150}
+                height={150}
+                rounded="circle"
+                alt="171x180"
+                src="./bootstrap.png" 
+                className="rounded-circle border imgHabilidad zoom"
+              />
+              <Figure.Caption>
+                <p className="bg-warning rounded-4 text-center">Bootstrap</p>
+                <Button
+                  variant="primary"
+                  ref={ptarget}
+                  onClick={() => setpShow(!pshow)}
+                >
+                  Progreso
+                </Button>
+                <Overlay target={ptarget.current} show={pshow} placement="right">
+                  {(props) => (
+                    <Tooltip id="overlay-example" {...props}>
+                      Porcentaje estimado
+                      <div>
+                        <ProgressBar
+                          animated
+                          variant="success"
+                          now={pnow}
+                          label={`${pnow}%`}
+                        />
+                      </div>
+                    </Tooltip>
+                  )}
+                </Overlay>
+              </Figure.Caption>
+            </Figure>
+          </Col>
+        ))}
+
+
+{Array.from({ length: 1 }).map((_, idx) => (
+          <Col>
+            <Figure>
+              <Figure.Image
+                width={150}
+                height={150}
+                rounded="circle"
+                alt="171x180"
+                src="./sqlserver.png"
+                className="rounded-circle border imgHabilidad zoom"
+              />
+              <Figure.Caption>
+                <p className="bg-warning rounded-4 text-center">SQLServer</p>
+                <Button
+                  variant="primary"
+                  ref={vtarget}
+                  onClick={() => setvShow(!vshow)}
+                >
+                  Progreso
+                </Button>
+                <Overlay target={vtarget.current} show={vshow} placement="right">
+                  {(props) => (
+                    <Tooltip id="overlay-example" {...props}>
+                      Porcentaje estimado
+                      <div>
+                        <ProgressBar
+                          animated
+                          variant="success"
+                          now={vnow}
+                          label={`${vnow}%`}
+                        />
+                      </div>
+                    </Tooltip>
+                  )}
+                </Overlay>
+              </Figure.Caption>
+            </Figure>
+          </Col>
+        ))}
+
+
+{Array.from({ length: 1 }).map((_, idx) => (
+          <Col>
+            <Figure>
+              <Figure.Image
+                width={150}
+                height={150}
+                rounded="circle"
+                alt="171x180"
+                src="./potsgre.png"
+                className="rounded-circle border imgHabilidad zoom"
+              />
+              <Figure.Caption>
+                <p className="bg-warning rounded-4 text-center">PotsgreSQL</p>
+                <Button
+                  variant="primary"
+                  ref={rtarget}
+                  onClick={() => setrShow(!rshow)}
+                >
+                  Progreso
+                </Button>
+                <Overlay target={rtarget.current} show={rshow} placement="right">
+                  {(props) => (
+                    <Tooltip id="overlay-example" {...props}>
+                      Porcentaje estimado
+                      <div>
+                        <ProgressBar
+                          animated
+                          variant="success"
+                          now={rnow}
+                          label={`${rnow}%`}
+                        />
+                      </div>
+                    </Tooltip>
+                  )}
+                </Overlay>
+              </Figure.Caption>
+            </Figure>
+          </Col>
+        ))}
+
+{Array.from({ length: 1 }).map((_, idx) => (
+          <Col>
+            <Figure>
+              <Figure.Image
+                width={150}
+                height={150}
+                rounded="circle"
+                alt="171x180"
+                src="./mongo.png"
+                className="rounded-circle border imgHabilidad zoom"
+              />
+              <Figure.Caption>
+                <p className="bg-warning rounded-4 text-center">MongoDB</p>
+                <Button
+                  variant="primary"
+                  ref={mtarget}
+                  onClick={() => setmShow(!mshow)}
+                >
+                  Progreso
+                </Button>
+                <Overlay target={mtarget.current} show={mshow} placement="right">
+                  {(props) => (
+                    <Tooltip id="overlay-example" {...props}>
+                      Porcentaje estimado
+                      <div>
+                        <ProgressBar
+                          animated
+                          variant="success"
+                          now={mnow}
+                          label={`${mnow}%`}
+                        />
+                      </div>
+                    </Tooltip>
+                  )}
+                </Overlay>
+              </Figure.Caption>
+            </Figure>
+          </Col>
+        ))}
+
+{Array.from({ length: 1 }).map((_, idx) => (
+          <Col>
+            <Figure>
+              <Figure.Image
+                width={150}
+                height={150}
+                rounded="circle"
+                alt="171x180"
+                src="./mySql.png"
+                className="rounded-circle border imgHabilidad zoom"
+              />
+              <Figure.Caption>
+                <p className="bg-warning rounded-4 text-center">MySQL</p>
+                <Button
+                  variant="primary"
+                  ref={qtarget}
+                  onClick={() => setqShow(!qshow)}
+                >
+                  Progreso
+                </Button>
+                <Overlay target={qtarget.current} show={qshow} placement="right">
+                  {(props) => (
+                    <Tooltip id="overlay-example" {...props}>
+                      Porcentaje estimado
+                      <div>
+                        <ProgressBar
+                          animated
+                          variant="success"
+                          now={qnow}
+                          label={`${qnow}%`}
+                        />
+                      </div>
+                    </Tooltip>
+                  )}
+                </Overlay>
+              </Figure.Caption>
+            </Figure>
+          </Col>
+        ))}
+
+{Array.from({ length: 1 }).map((_, idx) => (
+          <Col>
+            <Figure>
+              <Figure.Image
+                width={150}
+                height={150}
+                rounded="circle"
+                alt="171x180"
+                src="./python.png"
+                className="rounded-circle border imgHabilidad zoom"
+              />
+              <Figure.Caption>
+                <p className="bg-warning rounded-4 text-center">Python</p>
+                <Button
+                  variant="primary"
+                  ref={ttarget}
+                  onClick={() => settShow(!tshow)}
+                >
+                  Progreso
+                </Button>
+                <Overlay target={ttarget.current} show={tshow} placement="right">
+                  {(props) => (
+                    <Tooltip id="overlay-example" {...props}>
+                      Porcentaje estimado
+                      <div>
+                        <ProgressBar
+                          animated
+                          variant="success"
+                          now={tnow}
+                          label={`${tnow}%`}
+                        />
+                      </div>
+                    </Tooltip>
+                  )}
+                </Overlay>
+              </Figure.Caption>
+            </Figure>
+          </Col>
+        ))}
+
+{Array.from({ length: 1 }).map((_, idx) => (
+          <Col>
+            <Figure>
+              <Figure.Image
+                width={150}
+                height={150}
+                rounded="circle"
+                alt="171x180"
+                src="./java.png"
+                className="rounded-circle border imgHabilidad zoom"
+              />
+              <Figure.Caption>
+                <p className="bg-warning rounded-4 text-center">JAVA</p>
+                <Button
+                  variant="primary"
+                  ref={jtarget}
+                  onClick={() => setjShow(!jshow)}
+                >
+                  Progreso
+                </Button>
+                <Overlay target={jtarget.current} show={jshow} placement="right">
+                  {(props) => (
+                    <Tooltip id="overlay-example" {...props}>
+                      Porcentaje estimado
+                      <div>
+                        <ProgressBar
+                          animated
+                          variant="success"
+                          now={jnow}
+                          label={`${jnow}%`}
+                        />
+                      </div>
+                    </Tooltip>
+                  )}
+                </Overlay>
+              </Figure.Caption>
+            </Figure>
+          </Col>
+        ))}
+
+{Array.from({ length: 1 }).map((_, idx) => (
+          <Col>
+            <Figure>
+              <Figure.Image
+                width={150}
+                height={150}
+                rounded="circle"
+                alt="171x180"
+                src="./restadistico.png"
+                className="rounded-circle border imgHabilidad zoom"
+              />
+              <Figure.Caption>
+                <p className="bg-warning rounded-4 text-center"> R estadistico</p>
+                <Button
+                  variant="primary"
+                  ref={dtarget}
+                  onClick={() => setdShow(!dshow)}
+                >
+                  Progreso
+                </Button>
+                <Overlay target={dtarget.current} show={dshow} placement="right">
+                  {(props) => (
+                    <Tooltip id="overlay-example" {...props}>
+                      Porcentaje estimado
+                      <div>
+                        <ProgressBar
+                          animated
+                          variant="success"
+                          now={dnow}
+                          label={`${dnow}%`}
+                        />
+                      </div>
+                    </Tooltip>
+                  )}
+                </Overlay>
+              </Figure.Caption>
+            </Figure>
+          </Col>
+        ))}
+
+{Array.from({ length: 1 }).map((_, idx) => (
+          <Col>
+            <Figure>
+              <Figure.Image
+                width={150}
+                height={150}
+                rounded="circle"
+                alt="171x180"
+                src="./excel1.png"
+                className="rounded-circle border imgHabilidad zoom"
+              />
+              <Figure.Caption>
+                <p className="bg-warning rounded-4 text-center"> Excel</p>
+                <Button
+                  variant="primary"
+                  ref={ztarget}
+                  onClick={() => setzShow(!zshow)}
+                >
+                  Progreso
+                </Button>
+                <Overlay target={ztarget.current} show={zshow} placement="right">
+                  {(props) => (
+                    <Tooltip id="overlay-example" {...props}>
+                      Porcentaje estimado
+                      <div>
+                        <ProgressBar
+                          animated
+                          variant="success"
+                          now={znow}
+                          label={`${znow}%`}
+                        />
+                      </div>
+                    </Tooltip>
+                  )}
+                </Overlay>
+              </Figure.Caption>
+            </Figure>
+          </Col>
+        ))}
+
+{Array.from({ length: 1 }).map((_, idx) => (
+          <Col>
+            <Figure>
+              <Figure.Image
+                width={150}
+                height={150}
+                rounded="circle"
+                alt="171x180"
+                src="./Aillustrator.png"
+                className="rounded-circle border imgHabilidad zoom"
+              />
+              <Figure.Caption>
+                <p className="bg-warning rounded-4 text-center"> Adobe Illustrator</p>
+                <Button
+                  variant="primary"
+                  ref={gtarget}
+                  onClick={() => setgShow(!gshow)}
+                >
+                  Progreso
+                </Button>
+                <Overlay target={gtarget.current} show={gshow} placement="right">
+                  {(props) => (
+                    <Tooltip id="overlay-example" {...props}>
+                      Porcentaje estimado
+                      <div>
+                        <ProgressBar
+                          animated
+                          variant="success"
+                          now={gnow}
+                          label={`${gnow}%`}
+                        />
+                      </div>
+                    </Tooltip>
+                  )}
+                </Overlay>
+              </Figure.Caption>
+            </Figure>
+          </Col>
+        ))}
+
+{Array.from({ length: 1 }).map((_, idx) => (
+          <Col>
+            <Figure>
+              <Figure.Image
+                width={150}
+                height={150}
+                rounded="circle"
+                alt="171x180"
+                src="./autocad.png"
+                className="rounded-circle border imgHabilidad zoom"
+              />
+              <Figure.Caption>
+                <p className="bg-warning rounded-4 text-center"> AUTOCAD</p>
+                <Button
+                  variant="primary"
+                  ref={ftarget}
+                  onClick={() => setfShow(!fshow)}
+                >
+                  Progreso
+                </Button>
+                <Overlay target={ftarget.current} show={fshow} placement="right">
+                  {(props) => (
+                    <Tooltip id="overlay-example" {...props}>
+                      Porcentaje estimado
+                      <div>
+                        <ProgressBar
+                          animated
+                          variant="success"
+                          now={fnow}
+                          label={`${fnow}%`}
+                        />
+                      </div>
+                    </Tooltip>
+                  )}
+                </Overlay>
+              </Figure.Caption>
+            </Figure>
+          </Col>
+        ))}
+
+{Array.from({ length: 1 }).map((_, idx) => (
+          <Col>
+            <Figure>
+              <Figure.Image
+                width={150}
+                height={150}
+                rounded="circle"
+                alt="171x180"
+                src="./geogebra.png"
+                className="rounded-circle border imgHabilidad zoom"
+              />
+              <Figure.Caption>
+                <p className="bg-warning rounded-4 text-center">Geogebra</p>
+                <Button
+                  variant="primary"
+                  ref={ktarget}
+                  onClick={() => setkShow(!kshow)}
+                >
+                  Progreso
+                </Button>
+                <Overlay target={ktarget.current} show={kshow} placement="right">
+                  {(props) => (
+                    <Tooltip id="overlay-example" {...props}>
+                      Porcentaje estimado
+                      <div>
+                        <ProgressBar
+                          animated
+                          variant="success"
+                          now={know}
+                          label={`${know}%`}
+                        />
+                      </div>
+                    </Tooltip>
+                  )}
+                </Overlay>
+              </Figure.Caption>
+            </Figure>
+          </Col>
+        ))}
+
+
+
+      </Row>
+    </>
+  );
 }

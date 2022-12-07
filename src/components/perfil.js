@@ -16,10 +16,12 @@ export default class Perfil extends Component {
        class="container my-5 d-flex justify-content-center form-wrapper rounded-4 " >
          <div className="form-content">                    
                       <div className="form-content">
-                      <h1 style={{fontFamily:"Raleway,bold"}} className="text-thumbnail bg-warning font-weight-bold mt-5 justify-content-center d-flex form-wrapper">Dora Paola Pacheco Moreno</h1>
-                         <h3 style={{fontFamily:"Raleway, bold "}} className="img-thumbnail form-title mt-5 d-flex justify-content-center aline-100 bg-light form-wrapper rounded-4 ">Sobre mí</h3>
+                      <img 
+        src="/fotop.jpeg" alt="" className=" img-thumbnail zoom rounded-circle w-50 my-5 mt-5 d-flex justify-content-center form-wrapper"></img>
+                      <h3 style={{fontFamily:"Raleway,bold"}} className="text-thumbnail-center bg-warning font-weight-bold mt-5 justify-content-center d-flex form-wrapper rounded-4 ">Dora Paola Pacheco Moreno</h3>
+                         <h3 style={{fontFamily:"Raleway, bold "}} className="text-thumbnail bg-light font-weight-bold mt-5 justify-content-center d-flex form-wrapper rounded-4 ">Sobre mí</h3>
                       </div>
-               <h5 style={{fontFamily:"cursive,bold"}}  className="img-thumbnail rounded-4  tex_perfil mx-5 mt-5 my-5 mt-5 bg-light text-align: justify; padding: 2em
+               <h5 style={{fontFamily:"cursive,bold"}}  className="img-thumbnail rounded-4  tex_perfil mx-2 mt-2 my-3 bg-light text-align: justify; padding: 2em
  ">
                Soy Licenciada en matemáticas y estadística, con experiencia en la administración de bases de datos,
                análisis de datos estadísticos, sistematización de información, verificación y validación de datos,
@@ -39,8 +41,7 @@ export default class Perfil extends Component {
             </div>
        
         
-        <img 
-        src="/fotop.jpeg" alt="" className=" img-thumbnail zoom rounded-circle w-50 my-5 mt-5 d-flex justify-content-center form-wrapper"></img>
+       
   
         </div>
         

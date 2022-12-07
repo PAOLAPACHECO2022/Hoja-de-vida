@@ -29,6 +29,10 @@ export default function Education() {
   const [sxShow, setsxShow] = useState(false);
   const [sgShow, setsgShow] = useState(false);
   const [swShow, setswShow] = useState(false);
+  const [enShow, setenShow] = useState(false);
+  const [paShow, setpaShow] = useState(false);
+  const [laShow, setlaShow] = useState(false);
+  const [faShow, setfaShow] = useState(false);
   return (
     <>
       <div className="Apps-thumbnail rounded-4 mt-5 d-flex justify-content-center bg-light form-wrapper">
@@ -92,32 +96,23 @@ export default function Education() {
           <Accordion.Item eventKey="0">
             {/* ------------------------------------misióntoc certificaciones--------------------------------- */}
 
-            <Accordion.Header>MISIÓN TIC</Accordion.Header>
-            <Accordion.Body>
-              <Table striped bordered hover className="my-5 mt-4">
-                <thead class="bg-warning form-wrapper rounded-4">
-                  <tr>
-                    <th>#</th>
-                    <th>Nombre del curso</th>
-                    <th>Plataforma virtual</th>
-                    <th>Link</th>
-                    <th>CERTIFICACIÓN</th>
-                  </tr>
-                </thead>
-
-                <tbody variant="primmary">
-                  <tr>
-                    <td>Ciclo 1</td>
-                    <td>Diplomado en Fundamentos de Programación en Python</td>
-                    <td>
-                      <img
+            <Accordion.Header><img
                         alt=""
                         width="100"
                         height="100"
                         src="./misionticp.PNG"
                         className="boton1 img-thumbnail  d-flex justify-content-center form-wrapper"
                       ></img>
-                    </td>
+              MISIÓN TIC</Accordion.Header>
+            <Accordion.Body>
+            <div className=" img-thumbnail w-100 my-5 mt-5 d-flex justify-content-center form-wrapper">
+              <Table striped bordered hover className=" img-thumbnail w-100 my-5 mt-5 d-flex justify-content-center form-wrapper">
+              
+                <tbody variant="primmary" className="form-wrapper">
+                  <tr className="form-wrapper">
+                   
+                    <td className="form-wrapper">Diplomado en Fundamentos de Programación en Python</td>
+                   
                     <td>
                       {" "}
                       <a href="https://certificadomisionticutp.com/apiv1/public/docs/1/_1052400786-.pdf">
@@ -159,18 +154,10 @@ export default function Education() {
                     </td>
                   </tr>
 
-                  <tr>
-                    <td>Ciclo 2</td>
+                  <tr className="form-wrapper">
+                 
                     <td>Diplomado en Programación Básica en Java</td>
-                    <td>
-                      <img
-                        alt=""
-                        width="100"
-                        height="100"
-                        src="./misionticp.PNG"
-                        className="boton1 img-thumbnail  d-flex justify-content-center form-wrapper"
-                      ></img>
-                    </td>
+                   
                     <td>
                       {" "}
                       <a href="https://certificadomisionticutp.com/apiv1/public/docs/2/_1052400786-.pdf">
@@ -213,17 +200,9 @@ export default function Education() {
                   </tr>
 
                   <tr>
-                    <td>Ciclo 3</td>
+                   
                     <td>Diplomado en Desarrollo de software</td>
-                    <td>
-                      <img
-                        alt=""
-                        width="100"
-                        height="100"
-                        src="./misionticp.PNG"
-                        className="boton1 img-thumbnail  d-flex justify-content-center form-wrapper"
-                      ></img>
-                    </td>
+                  
                     <td>
                       {" "}
                       <a href="https://certificadomisionticutp.com/apiv1/public/docs/3/_1052400786-.pdf">
@@ -265,18 +244,10 @@ export default function Education() {
                     </td>
                   </tr>
 
-                  <tr>
-                    <td>Ciclo 4</td>
+                  <tr className="form-wrapper">
+                   
                     <td>Desarrollo De Aplicaciones Web</td>
-                    <td>
-                      <img
-                        alt=""
-                        width="100"
-                        height="100"
-                        src="./misionticp.PNG"
-                        className="boton1 img-thumbnail  d-flex justify-content-center form-wrapper"
-                      ></img>
-                    </td>
+                   
                     <td>
                       {" "}
                       <a href="https://drive.google.com/file/d/1iABIKN7qhr0aB4zBldY-E5dYBJql8v2H/view?usp=sharing">
@@ -319,35 +290,40 @@ export default function Education() {
                   </tr>
                 </tbody>
               </Table>
+             
+              </div>
             </Accordion.Body>
           </Accordion.Item>
 
           {/* ------------------------------------Coursera certificaciones--------------------------------- */}
 
           <Accordion.Item eventKey="1">
-            <Accordion.Header>COURSERA</Accordion.Header>
+            <Accordion.Header> <img
+                        src="./captural.PNG"
+                        width="100"
+                        height="100"
+                        alt=""
+                        className="boton1 img-thumbnail  d-flex justify-content-center form-wrapper"
+                      ></img>
+              COURSERA</Accordion.Header>
+            
             <Accordion.Body>
-              <Table striped bordered hover className="my-5 mt-4">
+            <div className=" img-thumbnail w-100 my-5 mt-5 d-flex justify-content-center form-wrapper">
+              <Table striped bordered hover >
                 <thead class="bg-warning form-wrapper rounded-4">
-                  <tr>
-                    <th>#</th>
+                  <tr className="form-wrapper">
+              
                     <th>Nombre del curso</th>
-                    <th>Plataforma virtual</th>
+                  
                     <th>Link</th>
-                    <th>CERTIFICACIÓN</th>
+                    <th>Certificación</th>
                   </tr>
                 </thead>
-                <tbody variant="primmary">
-                  <tr>
-                    <td>1</td>
+                <tbody variant="primmary" className="form-wrapper">
+                  <tr className="form-wrapper">
+                   
                     <td>Aspectos básicos: datos, datos, en todas partes</td>
-                    <td>
-                      <img
-                        src="./captural.PNG"
-                        alt=""
-                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
-                      ></img>
-                    </td>
+                    
                     <td>
                       {" "}
                       <a href="https://coursera.org/share/12dbacae516ec6e36bf9272b291d85f7">
@@ -391,34 +367,35 @@ export default function Education() {
                   </tr>
                 </tbody>
               </Table>
+              </div>
             </Accordion.Body>
           </Accordion.Item>
           {/* ------------------------------------PLatzi certificaciones--------------------------------- */}
 
           <Accordion.Item eventKey="2">
-            <Accordion.Header>PLATZI</Accordion.Header>
+            <Accordion.Header> <img
+                        src="./platzi.PNG"
+                        width="90"
+                        height="90"
+                        alt=""
+                        className="boton1 img-thumbnail d-flex justify-content-center form-wrapper"
+                      ></img>
+              PLATZI</Accordion.Header>
             <Accordion.Body>
-              <Table striped bordered hover className="my-5 mt-4">
-                <thead class="bg-warning form-wrapper rounded-4">
-                  <tr>
-                    <th>#</th>
-                    <th>Nombre del curso</th>
-                    <th>Plataforma virtual</th>
-                    <th>Link</th>
-                    <th>CERTIFICACIÓN</th>
+              <div className=" img-thumbnail w-100 my-3 mt-3 d-flex justify-content-center form-wrapper">
+              <Table striped bordered hover className="mt-3">
+                <thead class= "ustify-content-center form-wrapper">
+                  <tr className="form-wrapper">
+                    <th className="form-wrapper">Nombre del curso</th>
+                    <th className="form-wrapper">Link</th>
+                    <th className="form-wrapper">Certificación</th>
                   </tr>
                 </thead>
-                <tbody variant="primmary">
-                  <tr>
-                    <td>1</td>
+                <tbody variant="primmary" className="form-wrapper">
+                  <tr className="form-wrapper">
+                   
                     <td>Ingeniería de datos con Python</td>
-                    <td>
-                      <img
-                        src="./platzi.PNG"
-                        alt=""
-                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
-                      ></img>
-                    </td>
+                 
                     <td>
                       {" "}
                       <a href="https://platzi.com/p/paolapacheco.moreno/curso/1385-ingenieria-datos/diploma/detalle/">
@@ -461,16 +438,10 @@ export default function Education() {
                     </td>
                   </tr>
 
-                  <tr>
-                    <td>2</td>
+                  <tr className="form-wrapper">
+              
                     <td>Python Básico</td>
-                    <td>
-                      <img
-                        src="./platzi.PNG"
-                        alt=""
-                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
-                      ></img>
-                    </td>
+                   
                     <td>
                       {" "}
                       <a href="https://platzi.com/p/paolapacheco.moreno/curso/1937-python/diploma/detalle/">
@@ -513,16 +484,10 @@ export default function Education() {
                     </td>
                   </tr>
 
-                  <tr>
-                    <td>3</td>
+                  <tr className="form-wrapper">
+                    
                     <td>Python Intermedio</td>
-                    <td>
-                      <img
-                        src="./platzi.PNG"
-                        alt=""
-                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
-                      ></img>
-                    </td>
+                 
                     <td>
                       {" "}
                       <a href="https://platzi.com/p/paolapacheco.moreno/curso/2255-python-intermedio/diploma/detalle/">
@@ -566,15 +531,9 @@ export default function Education() {
                   </tr>
 
                   <tr>
-                    <td>4</td>
+                   
                     <td>Python Profesional</td>
-                    <td>
-                      <img
-                        src="./platzi.PNG"
-                        alt=""
-                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
-                      ></img>
-                    </td>
+                   
                     <td>
                       {" "}
                       <a href="https://platzi.com/p/paolapacheco.moreno/curso/2397-python-profesional/diploma/detalle/">
@@ -617,16 +576,10 @@ export default function Education() {
                     </td>
                   </tr>
 
-                  <tr>
-                    <td>5</td>
+                  <tr className="form-wrapper">
+                   
                     <td>Estadística computacional con Python</td>
-                    <td>
-                      <img
-                        src="./platzi.PNG"
-                        alt=""
-                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
-                      ></img>
-                    </td>
+                  
                     <td>
                       {" "}
                       <a href="https://platzi.com/p/paolapacheco.moreno/curso/1835-programacion-estocastica/diploma/detalle/">
@@ -669,16 +622,10 @@ export default function Education() {
                     </td>
                   </tr>
 
-                  <tr>
-                    <td>6</td>
+                  <tr className="form-wrapper">
+                    
                     <td>Estructura de datos lineales con Python</td>
-                    <td>
-                      <img
-                        src="./platzi.PNG"
-                        alt=""
-                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
-                      ></img>
-                    </td>
+                 
                     <td>
                       {" "}
                       <a href="https://platzi.com/p/paolapacheco.moreno/curso/2299-estructuras-datos-python/diploma/detalle/">
@@ -721,16 +668,10 @@ export default function Education() {
                     </td>
                   </tr>
 
-                  <tr>
-                    <td>7</td>
+                  <tr className="form-wrapper">
+                
                     <td>Machine Learning con Python</td>
-                    <td>
-                      <img
-                        src="./platzi.PNG"
-                        alt=""
-                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
-                      ></img>
-                    </td>
+                  
                     <td>
                       {" "}
                       <a href="https://platzi.com/p/paolapacheco.moreno/curso/1178-scikit/diploma/detalle/">
@@ -773,16 +714,10 @@ export default function Education() {
                     </td>
                   </tr>
 
-                  <tr>
-                    <td>8</td>
+                  <tr className="form-wrapper">
+                
                     <td>Curso Profesional de Scrum</td>
-                    <td>
-                      <img
-                        src="./platzi.PNG"
-                        alt=""
-                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
-                      ></img>
-                    </td>
+                 
                     <td>
                       {" "}
                       <a href="https://platzi.com/r/paolapacheco.moreno/">
@@ -826,37 +761,38 @@ export default function Education() {
                   </tr>
                 </tbody>
               </Table>
+              </div>
             </Accordion.Body>
           </Accordion.Item>
 
           {/* ------------------------------------UDEMY certificaciones--------------------------------- */}
 
           <Accordion.Item eventKey="3">
-            <Accordion.Header>UDEMY</Accordion.Header>
-            <Accordion.Body>
-              <Table striped bordered hover className="my-5 mt-4">
-                <thead class="bg-warning form-wrapper rounded-4">
-                  <tr>
-                    <th>#</th>
-                    <th>Nombre del curso</th>
-                    <th>Plataforma virtual</th>
-                    <th>Link</th>
-                    <th>CERTIFICACIÓN</th>
-                  </tr>
-                </thead>
-                <tbody variant="primmary">
-                  <tr>
-                    <td>1</td>
-                    <td>Excel Desde cero hasta avanzado</td>
-                    <td>
-                      <img
-                        width="100"
-                        height="100"
+            <Accordion.Header> <img
+                        width="80"
+                        height="80"
                         src="./udemy.PNG"
                         alt=""
                         className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
                       ></img>
-                    </td>
+              UDEMY</Accordion.Header>
+            <Accordion.Body>
+            <div className=" img-thumbnail w-100 my-5 mt-5 d-flex justify-content-center form-wrapper">
+              <Table striped bordered hover >
+                <thead class="bg-warning form-wrapper rounded-4">
+                  <tr class="form-wrapper">
+                  
+                    <th>Nombre del curso</th>
+                   
+                    <th>Link</th>
+                    <th>Certificación</th>
+                  </tr>
+                </thead>
+                <tbody variant="primmary"  class="form-wrapper mt-auto">
+                  <tr className="form-wrapper">
+                 
+                    <td>Excel Desde cero hasta avanzado</td>
+                    
                     <td>
                       {" "}
                       <a href="ude.my/UC-9e7c7937-bee4-4de5-9b6e-2915a850df0f">
@@ -898,18 +834,10 @@ export default function Education() {
                     </td>
                   </tr>
 
-                  <tr>
-                    <td>2</td>
+                  <tr className="form-wrapper">
+                    
                     <td>SQL Básico a Intermedio</td>
-                    <td>
-                      <img
-                        width="100"
-                        height="100"
-                        src="./udemy.PNG"
-                        alt=""
-                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
-                      ></img>
-                    </td>
+                    
                     <td>
                       {" "}
                       <a href="ude.my/UC-834b2d23-8446-4f1a-856b-bb4cf4a69696">
@@ -952,18 +880,10 @@ export default function Education() {
                     </td>
                   </tr>
 
-                  <tr>
-                    <td>3</td>
+                  <tr className="form-wrapper">
+               
                     <td>SQL Cero a Profesional</td>
-                    <td>
-                      <img
-                        width="100"
-                        height="100"
-                        src="./udemy.PNG"
-                        alt=""
-                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
-                      ></img>
-                    </td>
+                  
                     <td>
                       {" "}
                       <a href="ude.my/UC-d4dec75c-0148-4fc8-af1c-f64d3ef44cc6">
@@ -1007,8 +927,207 @@ export default function Education() {
                   </tr>
                 </tbody>
               </Table>
+              </div>
             </Accordion.Body>
           </Accordion.Item>
+
+
+      {/* ------------------------------------INGLES SENA certificaciones--------------------------------- */}
+
+      <Accordion.Item eventKey="4">
+            <Accordion.Header> <img
+                        width="120"
+                        height="120"
+                        src="./sena.PNG"
+                        alt=""
+                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
+                      ></img>
+              SENA</Accordion.Header>
+            <Accordion.Body>
+            <div className=" img-thumbnail w-100 my-5 mt-5 d-flex justify-content-center form-wrapper">
+              <Table striped bordered hover >
+                <thead class="bg-warning form-wrapper rounded-4">
+                  <tr class="form-wrapper">
+                  
+                    <th>Nombre del curso</th>
+                   
+                  
+                    <th>Certificación</th>
+                  </tr>
+                </thead>
+                <tbody variant="primmary"  class="form-wrapper mt-auto">
+                  <tr className="form-wrapper">
+                 
+                    <td>ENGLISH DOT WORKS 1 (INGLES)</td>
+                  
+                    <td>
+                      <Button
+                        variant="success"
+                        onClick={() => setenShow(true)}
+                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
+                      >
+                        Ver
+                      </Button>
+                      <Modal
+                        show={enShow}
+                        onHide={() => setenShow(false)}
+                        dialogClassName="modal-dialog modal-lg"
+                        aria-labelledby="example-modal-sizes-title-sm"
+                      >
+                        <Modal.Header closeButton>
+                          <Modal.Title variant="success">
+                            <h5
+                              style={{ fontFamily: "Raleway,bold" }}
+                              className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
+                            >
+                              ENGLISH DOT WORKS 1 (INGLES)
+
+                            </h5>
+                          </Modal.Title>
+                        </Modal.Header>
+                        <Modal.Body>
+                          <img
+                            src="./ingles1.PNG"
+                            alt=""
+                            className="boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
+                          ></img>
+                        </Modal.Body>
+                      </Modal>
+                    </td>
+                  </tr>
+
+
+                  <tr className="form-wrapper">
+                    
+                    <td>ENGLISH DOT WORKS 2 (INGLES)</td>
+                    
+               
+                    <td>
+                      <Button
+                        variant="success"
+                        onClick={() => setfaShow(true)}
+                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
+                      >
+                        Ver
+                      </Button>
+
+                      <Modal
+                        show={faShow}
+                        onHide={() => setfaShow(false)}
+                        dialogClassName="modal-dialog modal-lg"
+                        aria-labelledby="example-modal-sizes-title-sm"
+                      >
+                        <Modal.Header closeButton>
+                          <Modal.Title variant="success">
+                            <h5
+                              style={{ fontFamily: "Raleway,bold" }}
+                              className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
+                            >
+                              ENGLISH DOT WORKS 2 (INGLES)
+                            </h5>
+                          </Modal.Title>
+                        </Modal.Header>
+                        <Modal.Body>
+                          <img
+                            src="./ingles2.PNG"
+                            alt=""
+                            className="boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
+                          ></img>
+                        </Modal.Body>
+                      </Modal>
+                    </td>
+                  </tr>
+
+
+
+                  <tr className="form-wrapper">
+               
+                    <td>ENGLISH DOT WORKS 3 (INGLES)</td>
+                  
+                    <td>
+                      <Button
+                        variant="success"
+                        onClick={() => setlaShow(true)}
+                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
+                      >
+                        Ver
+                      </Button>
+
+                      <Modal
+                        show={laShow}
+                        onHide={() => setlaShow(false)}
+                        dialogClassName="modal-dialog modal-lg"
+                        aria-labelledby="example-modal-sizes-title-sm"
+                      >
+                        <Modal.Header closeButton>
+                          <Modal.Title variant="success">
+                            <h5
+                              style={{ fontFamily: "Raleway,bold" }}
+                              className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
+                            >
+                            ENGLISH DOT WORKS 3 (INGLES)
+                            </h5>
+                          </Modal.Title>
+                        </Modal.Header>
+                        <Modal.Body>
+                          <img
+                            src="./ingles3.PNG"
+                            alt=""
+                            className="boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
+                          ></img>
+                        </Modal.Body>
+                      </Modal>
+                    </td>
+                  </tr>
+
+
+                  <tr className="form-wrapper">
+               
+                    <td>ENGLISH DOT WORKS 4 (INGLES)</td>
+                  
+                    <td>
+                      <Button
+                        variant="success"
+                        onClick={() => setpaShow(true)}
+                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
+                      >
+                        Ver
+                      </Button>
+
+                      <Modal
+                        show={paShow}
+                        onHide={() => setpaShow(false)}
+                        dialogClassName="modal-dialog modal-lg"
+                        aria-labelledby="example-modal-sizes-title-sm"
+                      >
+                        <Modal.Header closeButton>
+                          <Modal.Title variant="success">
+                            <h5
+                              style={{ fontFamily: "Raleway,bold" }}
+                              className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
+                            >
+                            ENGLISH DOT WORKS 4 (INGLES)
+                            </h5>
+                          </Modal.Title>
+                        </Modal.Header>
+                        <Modal.Body>
+                          <img
+                            src="./ingles4.PNG"
+                            alt=""
+                            className="boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
+                          ></img>
+                        </Modal.Body>
+                      </Modal>
+                    </td>
+                  </tr>
+                </tbody>
+              </Table>
+              </div>
+            </Accordion.Body>
+          </Accordion.Item>
+
+
+
         </Accordion>
       </Col>
     </>

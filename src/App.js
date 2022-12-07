@@ -1,4 +1,3 @@
-//import "./App.css";
 import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from 'react-bootstrap/Nav';
@@ -8,7 +7,6 @@ import Col from "react-bootstrap/Col";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import {  CDBBtn, CDBIcon, CDBBox} from 'cdbreact';
-//import { Form, Button} from "react-bootstrap";
 import { Dropdown} from 'react-bootstrap';
 import { Link } from "react-router-dom";
 
@@ -16,24 +14,13 @@ import "bootstrap/dist/css/bootstrap.css";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-
-//import CreateProduct from "./components/create-product.component";
-//import EditProduct  from "./components/edit-product.component";
-//import ProductList from "./components/product-list.component";
-
-
-//import "bootstrap/dist/css/bootstrap.css";
-//import Home from "./components/home";
+import Home from "./components/home";
 import Perfil from "./components/perfil";
 import Education from "./components/education";
 import Portafolio from "./components/portafolio";
 import Habilidades from "./components/habilidades";
 import Experiencia from "./components/experiencia"
-//import Profile from "./components/myperfil.component";
-
-
-
-
+import Contacto from "./components/contacto"
 function App() {
   return (
     <Router>
@@ -54,12 +41,13 @@ function App() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link  className="bx bx-user" href="/perfil">MY PERFIL PROFESIONAL</Nav.Link>
-            <Nav.Link  className="bx bx-file-blank" href="/education">EDUCACIÓN</Nav.Link>
-            <Nav.Link className="bx bx-book-content" href="/portafolio">PORTAFOLIO</Nav.Link>
-            <Nav.Link className="bx bx-server"  href="/habilidades">HABILIDADES</Nav.Link>
-            <Nav.Link className="bx bx-server"  href="/experiencia">EXPERIENCIA</Nav.Link>
-            <Nav.Link className="bx bx-envelope" href="/contacto">CONTACTO</Nav.Link>
+            <Nav.Link  className="bx bx-user" href="/perfil">Mi perfil profesional</Nav.Link>
+            <Nav.Link  className="bx bx-file-blank" href="/education">Educación</Nav.Link>
+            <Nav.Link className="bx bx-book-content" href="/portafolio">Portafolio</Nav.Link>
+            <Nav.Link className="bx bx-server"  href="/habilidades">Habilidades</Nav.Link>
+            <Nav.Link className="bx bx-server"  href="/experiencia">Experiencia</Nav.Link>
+            <Nav.Link className="bx bx-envelope" href="/contacto">Contacto</Nav.Link>
+            <Nav.Link className="bx bx-envelope" href="/home">Mis pasatiempos</Nav.Link>
             
           </Nav>
           <Nav>
@@ -105,6 +93,16 @@ function App() {
                     path="/habilidades"
                     component={(props) => < Habilidades {...props} />}
                   />
+                   <Route
+                    exact
+                    path="/contacto"
+                    component={(props) => < Contacto {...props} />}
+                  />
+                 <Route
+                    exact
+                    path="/home"
+                    component={(props) => < Home {...props} />}
+                  />
                
               
               </Switch>
@@ -137,7 +135,7 @@ function App() {
       </p>
     </CDBBox>
     <CDBBox>
-      <p className="h5 mb-4" style={{ fontWeight: '600' }}>
+      <p className="h6 mb-4" style={{ fontWeight: '600' }}>
       Contactenos
       </p>
       <CDBBox flex="column" display="flex" style={{ cursor: 'pointer', padding: '0' }}>
@@ -146,7 +144,7 @@ function App() {
       </CDBBox>
     </CDBBox>
     <CDBBox>
-      <p className="h5 mb-4" style={{ fontWeight: '600' }}>
+      <p className="h6 mb-4" style={{ fontWeight: '600' }}>
       Formaciones
       </p>
       <CDBBox display="flex" flex="column" style={{ cursor: 'pointer', padding: '0' }}>
@@ -160,7 +158,7 @@ function App() {
       </CDBBox>
     </CDBBox>
     <CDBBox>
-      <p className="h5 mb-3" style={{ fontWeight: '600' }}>
+      <p className="h6 mb-3" style={{ fontWeight: '600' }}>
         Lenguajes(Estadística, Back end y Front end)
       </p>
       <CDBBox display="flex" flex="column" style={{ cursor: 'pointer', padding: '0' }}>

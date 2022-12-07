@@ -40,7 +40,7 @@ body h3 {
 .App {
   min-height: 100vh;
   background-image: url(
-    "./alitas.PNG");
+    "./F3.PNG");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: relative;
@@ -51,5 +51,5 @@ footer {
   position: absolute;
   width: 100%;
   min-height: 18vh;
-  color: rgb(101, 189, 20);
+  color: rgb(172, 161, 63);
 }

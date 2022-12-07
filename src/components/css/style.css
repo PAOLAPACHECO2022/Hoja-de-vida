@@ -1,6 +1,6 @@
 body {
     font-family: "Open Sans", sans-serif;
-    color: #272829;
+    color: #e0ded0e3;
   }
   
   a {
@@ -19,6 +19,7 @@ body {
   
   h1, h2, h4, h5, h6 {
     font-family: "Raleway", sans-serif;
+   
   }
 
   .zoom{

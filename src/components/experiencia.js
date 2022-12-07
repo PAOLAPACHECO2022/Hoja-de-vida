@@ -1,15 +1,12 @@
 import "bootstrap/dist/css/bootstrap.css";
-//import Table from "react-bootstrap/Table";
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
 import React, { useState } from "react";
-//import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 import {
   Col,
   Row,
 
-  //Image,
 } from "react-bootstrap";
 export default function Experiencia() {
   const [show, setShow] = useState(false);
@@ -20,7 +17,7 @@ export default function Experiencia() {
   return (
     <>
          
-      <Row xs={1} md={2} className="g-4  mt-5">
+      <Row xs={1} md={3} className="g-4  mt-5">
 
          {Array.from({ length: 1 }).map((_, idx) => (
           <Col>
@@ -241,12 +238,11 @@ conceptos matemáticos y estadísticos.
                 </Modal.Header>
                 <Modal.Body>
                   <p>
-                  Análisis estadístico de información de los puntajes de la prueba Saber
-Pro del programa de Administración Agropecuaria de la Universidad Pedagógica y Tecnológica
-seccional Duitama, donde se llevó a cabo el desarrollo y ejecución de modelos
-estadísticos(Modelos de regresión logística-Predicción de los puntajes de la prueba saber Pro),
-análisis de datos mediante estadísticas descriptivas, inferencias, análisis probabilístico y análisis
-multivariado, todo estomediantelos programas (Excel, R estadístico, SPSS, Statistics).
+                  Análisis estadístico de información de los puntajes de la prueba Saber Pro del programa de Administración Agropecuaria de la Universidad Pedagógica y Tecnológica
+                  seccional Duitama, donde se llevó a cabo el desarrollo y ejecución de modelos
+                  estadísticos(Modelos de regresión logística-Predicción de los puntajes de la prueba saber Pro),
+                  análisis de datos mediante estadísticas descriptivas, inferencias, análisis probabilístico y análisis
+                  multivariado, todo estomediantelos programas (Excel, R estadístico, SPSS, Statistics).
                   </p>
                 </Modal.Body>
               </Modal>
