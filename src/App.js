@@ -36,29 +36,29 @@ function App() {
           height="200"
        
         />{' '}            
-   
+  
        
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link  className="bx bx-user" href="/perfil">Mi perfil profesional</Nav.Link>
-            <Nav.Link  className="bx bx-file-blank" href="/education">Educación</Nav.Link>
-            <Nav.Link className="bx bx-book-content" href="/portafolio">Portafolio</Nav.Link>
-            <Nav.Link className="bx bx-server"  href="/habilidades">Habilidades</Nav.Link>
-            <Nav.Link className="bx bx-server"  href="/experiencia">Experiencia</Nav.Link>
-            <Nav.Link className="bx bx-envelope" href="/contacto">Contacto</Nav.Link>
-            <Nav.Link className="bx bx-envelope" href="/home">Mis pasatiempos</Nav.Link>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" Style={"color: #eed757;"}/>
+        <Navbar.Collapse  id="responsive-navbar-nav" >
+          <Nav  id="opciones" Style={"color: #ecdb7a;"}>
+            <Nav.Link Style={"color: #ecdb7a;"} className="bx- bx-user " href="/perfil">Mi perfil profesional</Nav.Link>
+            <Nav.Link Style={"color: #ecdb7a;"} className="bx bx-file-blank" href="/education">Educación</Nav.Link>
+            <Nav.Link Style={"color: #ecdb7a;"} className="bx bx-book-content" href="/portafolio">Portafolio</Nav.Link>
+            <Nav.Link Style={"color: #ecdb7a;"} className="bx bx-server"  href="/habilidades">Habilidades</Nav.Link>
+            <Nav.Link Style={"color: #ecdb7a;"} className="bx bx-server"  href="/experiencia">Experiencia</Nav.Link>
+            <Nav.Link Style={"color: #ecdb7a;"} className="bx bx-envelope " href="/home">Mis pasatiempos</Nav.Link>
+            <Nav.Link Style={"color: #ecdb7a;"} className="bx bx-envelope" href="/contacto">Contacto</Nav.Link>
             
           </Nav>
           <Nav>
           <Dropdown.Header>
-                            <CDBBtn className="mx-3 p-2 rounded-3">
+                            <CDBBtn className="mx-3 p-2 rounded-3 bg-warning">
                             <img
           alt=""
           src="./cubo.gif"
           width="30"
           height="30"
-          className="bg-warning form-wrapper rounded-4"
+          className=" form-wrapper rounded-4"
         />{' '}
         
         <Dropdown.Item href="/ " className=" h7">Cerrar sesión</Dropdown.Item>
@@ -149,10 +149,10 @@ function App() {
       </p>
       <CDBBox display="flex" flex="column" style={{ cursor: 'pointer', padding: '0' }}>
       <ul className="list-unstyled">
-              <li><a href="/home">Matemáticas</a></li>
-              <li><a href="/">Estadistica</a></li>
-              <li><a href="/signup">programación</a></li>
-              <li><a href="/signup">Manualidades y pintura</a></li>
+              <li><a href="#opciones">Matemáticas</a></li>
+              <li><a href="#opcione">Estadistica</a></li>
+              <li><a href="#opcione">programación</a></li>
+              <li><a href="#opcione">Manualidades y pintura</a></li>
              
           </ul>
       </CDBBox>
@@ -244,8 +244,3 @@ function App() {
 }
 
 export default App;
-
-
-
-
-

@@ -71,27 +71,42 @@ export default function Habilidades() {
   return (
     <>
       <p
-        style={{ fontFamily: "cursive,bold" }}
+         style={{
+          backgroundImage: `url("./jirasol.PNG")`,
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+          border: "1px solid #565555",
+          fontFamily: "cursive,bold" 
+         
+        }}
         className="text-thumbnail h1 text-center bg-light rounded-4 my-5 font-weight-bold mt-5"
       >
         Habilidades
       </p>
-      <p className="img-thumbnail bg-light rounded-4" >Soy una persona que le gusta asumir retos constantemente, es por esto que trato de estar lista para ello, capacitandome 
+      <p 
+       style={{
+        backgroundImage: `url("./koko.PNG")`,
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+        border: "1px solid #565555",
+        
+       
+       
+      }}
+      
+      className="img-thumbnail bg-light rounded-4 text-justify fw-bold" >Soy una persona que le gusta asumir retos constantemente, es por esto que trato de estar lista para ello, capacitandome 
              con diversos conocimientos que me ayuden con el cumplimiento de mis objetivos.
           </p>
-      <Row xs={1} md={3} className="g-4  mt-5">
+      <Row xs={1} md={3} className="g-4 mx-4 my-3  mt-5">
   
 
 {Array.from({ length: 1 }).map((_, idx) => (
           <Col>
             <Figure>
               <Figure.Image
-                width={150}
-                height={150}
-                rounded="circle"
-                alt="171x180"
-                src="./javascript.png"
-                className="rounded-circle border imgHabilidad zoom"
+                width="150" height="150"  variant="top"  className=" zoom rounded-circle border" src="./javascript.PNG"
               />
               <Figure.Caption>
               <p className="bg-warning rounded-4 text-center">JS</p>
@@ -127,12 +142,8 @@ export default function Habilidades() {
           <Col>
             <Figure>
               <Figure.Image
-                width={150}
-                height={150}
-                rounded="circle"
-                alt="171x180"
-                src="./html5.png"
-                className="rounded-circle border imgHabilidad zoom"
+                width="150" height="150"  variant="top"  className=" zoom rounded-circle border"
+                src="./html5.PNG"
               />
               <Figure.Caption>
                 <p className="bg-warning rounded-4 text-center">HTML</p>
@@ -167,12 +178,8 @@ export default function Habilidades() {
           <Col>
             <Figure>
               <Figure.Image
-                width={150}
-                height={150}
-                rounded="circle"
-                alt="171x180"
-                src="./css3.png" 
-                className="rounded-circle border imgHabilidad zoom"
+                width="150" height="150"  variant="top"  className=" zoom rounded-circle border"
+                src="./css3.PNG" 
               />
               <Figure.Caption>
                 <p className="bg-warning rounded-4 text-center">CSS</p>
@@ -207,12 +214,10 @@ export default function Habilidades() {
           <Col>
             <Figure>
               <Figure.Image
-                width={150}
-                height={150}
-                rounded="circle"
-                alt="171x180"
-                src="./bootstrap.png" 
-                className="rounded-circle border imgHabilidad zoom"
+                width="150" height="150"  variant="top"  className=" zoom rounded-circle border"
+               
+                src="./bootstrap.PNG" 
+               
               />
               <Figure.Caption>
                 <p className="bg-warning rounded-4 text-center">Bootstrap</p>
@@ -248,15 +253,12 @@ export default function Habilidades() {
           <Col>
             <Figure>
               <Figure.Image
-                width={150}
-                height={150}
-                rounded="circle"
-                alt="171x180"
-                src="./sqlserver.png"
-                className="rounded-circle border imgHabilidad zoom"
+                width="150" height="150"  variant="top"  className=" zoom rounded-circle border"             
+                src="./sqlserver.PNG"
+               
               />
               <Figure.Caption>
-                <p className="bg-warning rounded-4 text-center">SQLServer</p>
+                <p className="bg-warning rounded-4 text-center"> SQLServer </p>
                 <Button
                   variant="primary"
                   ref={vtarget}
@@ -289,12 +291,9 @@ export default function Habilidades() {
           <Col>
             <Figure>
               <Figure.Image
-                width={150}
-                height={150}
-                rounded="circle"
-                alt="171x180"
-                src="./potsgre.png"
-                className="rounded-circle border imgHabilidad zoom"
+                width="150" height="150"  variant="top"  className=" zoom rounded-circle border"
+                src="./potsgre.PNG"
+               
               />
               <Figure.Caption>
                 <p className="bg-warning rounded-4 text-center">PotsgreSQL</p>
@@ -329,12 +328,8 @@ export default function Habilidades() {
           <Col>
             <Figure>
               <Figure.Image
-                width={150}
-                height={150}
-                rounded="circle"
-                alt="171x180"
-                src="./mongo.png"
-                className="rounded-circle border imgHabilidad zoom"
+              width="150" height="150"  variant="top"  className=" zoom rounded-circle border"
+                src="./mongo.PNG"
               />
               <Figure.Caption>
                 <p className="bg-warning rounded-4 text-center">MongoDB</p>
@@ -369,12 +364,9 @@ export default function Habilidades() {
           <Col>
             <Figure>
               <Figure.Image
-                width={150}
-                height={150}
-                rounded="circle"
-                alt="171x180"
-                src="./mySql.png"
-                className="rounded-circle border imgHabilidad zoom"
+             width="150" height="150"  variant="top"  className=" zoom rounded-circle border"
+                src="./mySql.PNG"
+                
               />
               <Figure.Caption>
                 <p className="bg-warning rounded-4 text-center">MySQL</p>
@@ -409,12 +401,9 @@ export default function Habilidades() {
           <Col>
             <Figure>
               <Figure.Image
-                width={150}
-                height={150}
-                rounded="circle"
-                alt="171x180"
-                src="./python.png"
-                className="rounded-circle border imgHabilidad zoom"
+               width="150" height="150"  variant="top"  className=" zoom rounded-circle border"
+                src="./python.PNG"
+                
               />
               <Figure.Caption>
                 <p className="bg-warning rounded-4 text-center">Python</p>
@@ -449,12 +438,9 @@ export default function Habilidades() {
           <Col>
             <Figure>
               <Figure.Image
-                width={150}
-                height={150}
-                rounded="circle"
-                alt="171x180"
-                src="./java.png"
-                className="rounded-circle border imgHabilidad zoom"
+                width="150" height="150"  variant="top"  className=" zoom rounded-circle border"
+                src="./java.PNG"
+               
               />
               <Figure.Caption>
                 <p className="bg-warning rounded-4 text-center">JAVA</p>
@@ -489,12 +475,9 @@ export default function Habilidades() {
           <Col>
             <Figure>
               <Figure.Image
-                width={150}
-                height={150}
-                rounded="circle"
-                alt="171x180"
-                src="./restadistico.png"
-                className="rounded-circle border imgHabilidad zoom"
+                width="150" height="150"  variant="top"  className=" zoom rounded-circle border"
+                src="./restadistico.PNG"
+            
               />
               <Figure.Caption>
                 <p className="bg-warning rounded-4 text-center"> R estadistico</p>
@@ -529,12 +512,9 @@ export default function Habilidades() {
           <Col>
             <Figure>
               <Figure.Image
-                width={150}
-                height={150}
-                rounded="circle"
-                alt="171x180"
-                src="./excel1.png"
-                className="rounded-circle border imgHabilidad zoom"
+               width="150" height="150"  variant="top"  className=" zoom rounded-circle border"
+                src="./excel1.PNG"
+              
               />
               <Figure.Caption>
                 <p className="bg-warning rounded-4 text-center"> Excel</p>
@@ -569,19 +549,17 @@ export default function Habilidades() {
           <Col>
             <Figure>
               <Figure.Image
-                width={150}
-                height={150}
-                rounded="circle"
-                alt="171x180"
-                src="./Aillustrator.png"
-                className="rounded-circle border imgHabilidad zoom"
+            width="150" height="150"  variant="top"  className=" zoom rounded-circle border"
+                src="./Aillustrator.PNG"
+               
               />
               <Figure.Caption>
-                <p className="bg-warning rounded-4 text-center"> Adobe Illustrator</p>
+                <p className="bg-warning form-wrapper rounded-4 text-center"> Adobe Illustrator</p>
                 <Button
                   variant="primary"
                   ref={gtarget}
                   onClick={() => setgShow(!gshow)}
+                  className="mt-3"
                 >
                   Progreso
                 </Button>
@@ -609,12 +587,9 @@ export default function Habilidades() {
           <Col>
             <Figure>
               <Figure.Image
-                width={150}
-                height={150}
-                rounded="circle"
-                alt="171x180"
-                src="./autocad.png"
-                className="rounded-circle border imgHabilidad zoom"
+               width="150" height="150"  variant="top"  className=" zoom rounded-circle border"
+                src="./autocad.PNG"
+            
               />
               <Figure.Caption>
                 <p className="bg-warning rounded-4 text-center"> AUTOCAD</p>
@@ -649,12 +624,9 @@ export default function Habilidades() {
           <Col>
             <Figure>
               <Figure.Image
-                width={150}
-                height={150}
-                rounded="circle"
-                alt="171x180"
-                src="./geogebra.png"
-                className="rounded-circle border imgHabilidad zoom"
+                width="150" height="150"  variant="top"  className=" zoom rounded-circle border"
+                src="./geogebra.PNG"
+              
               />
               <Figure.Caption>
                 <p className="bg-warning rounded-4 text-center">Geogebra</p>

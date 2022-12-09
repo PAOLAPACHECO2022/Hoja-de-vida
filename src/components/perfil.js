@@ -1,4 +1,4 @@
-/* eslint-disable react/jsx-no-undef */
+//* eslint-disable react/jsx-no-undef */
 import React, { Component } from "react";
 import "./css/style.css";
 export default class Perfil extends Component {
@@ -18,13 +18,17 @@ export default class Perfil extends Component {
                       <div className="form-content">
                       <img 
         src="/fotop.jpeg" alt="" className=" img-thumbnail zoom rounded-circle w-50 my-5 mt-5 d-flex justify-content-center form-wrapper"></img>
-                      <h3 style={{fontFamily:"Raleway,bold"}} className="text-thumbnail-center bg-warning font-weight-bold mt-5 justify-content-center d-flex form-wrapper rounded-4 ">Dora Paola Pacheco Moreno</h3>
-                         <h3 style={{fontFamily:"Raleway, bold "}} className="text-thumbnail bg-light font-weight-bold mt-5 justify-content-center d-flex form-wrapper rounded-4 ">Sobre mí</h3>
+        <p
+        style={{ fontFamily: "cursive,bold" }}
+        className="text-thumbnail h1 text-center bg-warning rounded-4 my-5 font-weight-bold mt-5"
+         >
+        Dora Paola Pacheco Moreno
+        </p>
+   
+                         <h3 style={{ fontFamily: "cursive,bold" }} className="text-thumbnail bg-light font-weight-bold mt-5 justify-content-center d-flex form-wrapper rounded-4 ">Sobre mí</h3>
                       </div>
-               <h5 style={{fontFamily:"cursive,bold"}}  className="img-thumbnail rounded-4  tex_perfil mx-2 mt-2 my-3 bg-light text-align: justify; padding: 2em
- ">
-               Soy Licenciada en matemáticas y estadística, con experiencia en la administración de bases de datos,
-               análisis de datos estadísticos, sistematización de información, verificación y validación de datos,
+               <h5 style={{fontFamily:"cursive,bold, text-justify" }}  className="img-thumbnail rounded-4 text-justify mx-2 mt-2 my-3 bg-light">
+               Soy Licenciada en matemáticas y estadística, con experiencia en análisis de datos estadísticos, sistematización de información, verificación y validación de datos,
                establecimiento y medición de indicadores, sacar inferencias y presentación de informes de gestión y
                resultados. Con competencias y capacidades como la orientación a los resultados, la planeación, la
                creatividad, el mejoramiento continuo y la capacidad de análisis. Licenciada en matemáticas y
@@ -53,6 +57,3 @@ export default class Perfil extends Component {
 
 
 }
-
-
-
