@@ -14,24 +14,24 @@ export default function Experiencia() {
       <Row xs={1} md={2} className="g-4  mt-5">
         {Array.from({ length: 1 }).map((_, idx) => (
           <Col>
-            <Card className="img-thumbnail"
-             style={{
-              backgroundImage: `url("./jiras.PNG")`,
-              backgroundPosition: "center",
-              backgroundRepeat: "no-repeat",
-              backgroundSize: "cover",
-              border: "1px solid #565555",
-             
-            }}
-            class="container my-5 d-flex justify-content-center form-wrapper rounded-4 "
+            <Card
+              className="img-thumbnail"
+              style={{
+                backgroundImage: `url("./jiras.PNG")`,
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+                border: "1px solid #565555",
+              }}
+              class="container my-5 d-flex justify-content-center form-wrapper rounded-4 "
             >
               <Card.Img
-               style={{ height: '10rem', width: '10rem' }}
+                style={{ height: "10rem", width: "10rem" }}
                 variant="top"
                 className=" zoom rounded-circle border d-flex justify-content-center form-wrapper"
                 src="./celestin.PNG"
               />
-              <Card.Body >
+              <Card.Body>
                 <Card.Title className="fw-bold">
                   Docente de matemáticas, estadística y geometría
                 </Card.Title>
@@ -55,17 +55,18 @@ export default function Experiencia() {
                   aria-labelledby="example-custom-modal-styling-title"
                   ClassName="modal-dialog modal-xl"
                 >
-                  <Modal.Header closeButton 
-                  style={{
-              backgroundImage: `url("./jirasol.PNG")`,
-              backgroundPosition: "center",
-              backgroundRepeat: "no-repeat",
-              backgroundSize: "cover",
-              border: "1px solid #565555",
-             
-            }}>
+                  <Modal.Header
+                    closeButton
+                    style={{
+                      backgroundImage: `url("./jirasol.PNG")`,
+                      backgroundPosition: "center",
+                      backgroundRepeat: "no-repeat",
+                      backgroundSize: "cover",
+                      border: "1px solid #565555",
+                    }}
+                  >
                     <Modal.Title
-                    variant="primary"
+                      variant="primary"
                       id=" example-custom-modal-styling-title h5"
                     >
                       <h5
@@ -76,7 +77,7 @@ export default function Experiencia() {
                       </h5>
                     </Modal.Title>
                   </Modal.Header>
-                  <Modal.Body >
+                  <Modal.Body>
                     <p>
                       Diseño y aplicación de planes de clase, desarrollo y
                       análisis de guías de trabajo enfocadas al mejoramiento del
@@ -102,17 +103,18 @@ export default function Experiencia() {
 
         {Array.from({ length: 1 }).map((_, idx) => (
           <Col>
-            <Card className="img-thumbnail"
-             style={{
-              backgroundImage: `url("./flor.PNG")`,
-              backgroundPosition: "center",
-              backgroundRepeat: "no-repeat",
-              backgroundSize: "cover",
-              border: "1px solid #565555",
-             
-            }}>
+            <Card
+              className="img-thumbnail"
+              style={{
+                backgroundImage: `url("./flor.PNG")`,
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+                border: "1px solid #565555",
+              }}
+            >
               <Card.Img
-               style={{ height: '10rem', width: '10rem' }}
+                style={{ height: "10rem", width: "10rem" }}
                 variant="top"
                 className="img-thumbnail zoom rounded-circle border d-flex justify-content-center form-wrapper"
                 src="./icck.PNG"
@@ -144,15 +146,16 @@ export default function Experiencia() {
                   aria-labelledby="example-custom-modal-styling-title"
                   ClassName="modal-dialog modal-xl"
                 >
-                  <Modal.Header closeButton
-                   style={{
-                    backgroundImage: `url("./jirasol.PNG")`,
-                    backgroundPosition: "center",
-                    backgroundRepeat: "no-repeat",
-                    backgroundSize: "cover",
-                    border: "1px solid #565555",
-                   
-                  }}>
+                  <Modal.Header
+                    closeButton
+                    style={{
+                      backgroundImage: `url("./jirasol.PNG")`,
+                      backgroundPosition: "center",
+                      backgroundRepeat: "no-repeat",
+                      backgroundSize: "cover",
+                      border: "1px solid #565555",
+                    }}
+                  >
                     <Modal.Title
                       variant="primary"
                       id=" example-custom-modal-styling-title h5"
@@ -182,17 +185,19 @@ export default function Experiencia() {
 
         {Array.from({ length: 1 }).map((_, idx) => (
           <Col>
-            <Card className="img-thumbnail"
-             style={{
-              backgroundImage: `url("./marceles.PNG")`,
-              backgroundPosition: "center",
-              backgroundRepeat: "no-repeat",
-              backgroundSize: "cover",
-              border: "1px solid #565555",
-             
-            }}>
+            <Card
+              className="img-thumbnail"
+              style={{
+                backgroundImage: `url("./marceles.PNG")`,
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+                border: "4px solid #565555",
+                
+              }}
+            >
               <Card.Img
-               style={{ height: '10rem', width: '10rem' }}
+                style={{ height: "10rem", width: "10rem" }}
                 variant="top"
                 className="img-thumbnail zoom rounded-circle border d-flex justify-content-center form-wrapper"
                 src="./valencia.PNG"
@@ -225,15 +230,16 @@ export default function Experiencia() {
                   aria-labelledby="example-custom-modal-styling-title"
                   ClassName="modal-dialog modal-xl"
                 >
-                  <Modal.Header closeButton
-                   style={{
-                    backgroundImage: `url("./jirasol.PNG")`,
-                    backgroundPosition: "center",
-                    backgroundRepeat: "no-repeat",
-                    backgroundSize: "cover",
-                    border: "1px solid #565555",
-                   
-                  }}>
+                  <Modal.Header
+                    closeButton
+                    style={{
+                      backgroundImage: `url("./jirasol.PNG")`,
+                      backgroundPosition: "center",
+                      backgroundRepeat: "no-repeat",
+                      backgroundSize: "cover",
+                      border: "1px solid #565555",
+                    }}
+                  >
                     <Modal.Title
                       variant="primary"
                       id=" example-custom-modal-styling-title h5"
@@ -264,24 +270,26 @@ export default function Experiencia() {
 
         {Array.from({ length: 1 }).map((_, idx) => (
           <Col>
-            <Card className="img-thumbnail"
-            style={{
-              backgroundImage: `url("./mari.PNG")`,
-              backgroundPosition: "center",
-              backgroundRepeat: "no-repeat",
-              backgroundSize: "cover",
-              border: "1px solid #565555",
-             
-            }}>
+            <Card
+              className="img-thumbnail"
+              style={{
+                backgroundImage: `url("./mari.PNG")`,
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+                border: "1px solid #565555",
+              }}
+            >
               <Card.Img
-                style={{ height: '10rem', width: '10rem' }}
+                style={{ height: "10rem", width: "10rem" }}
                 variant="top"
                 className="img-thumbnail zoom rounded-circle border d-flex justify-content-center form-wrapper"
                 src="./uptc.PNG"
               />
               <Card.Body>
                 <Card.Title className="fw-bold">
-                  Monografía-Desarrollo de Modelo de Predicción (Machine Learning){" "}
+                  Monografía-Desarrollo de Modelo de Predicción (Machine
+                  Learning){" "}
                 </Card.Title>
                 <Card.Text className="fw-bold">
                   <p>
@@ -307,15 +315,16 @@ export default function Experiencia() {
                   aria-labelledby="example-custom-modal-styling-title"
                   ClassName="modal-dialog modal-xl"
                 >
-                  <Modal.Header closeButton
-                   style={{
-                    backgroundImage: `url("./jirasol.PNG")`,
-                    backgroundPosition: "center",
-                    backgroundRepeat: "no-repeat",
-                    backgroundSize: "cover",
-                    border: "1px solid #565555",
-                   
-                  }}>
+                  <Modal.Header
+                    closeButton
+                    style={{
+                      backgroundImage: `url("./jirasol.PNG")`,
+                      backgroundPosition: "center",
+                      backgroundRepeat: "no-repeat",
+                      backgroundSize: "cover",
+                      border: "1px solid #565555",
+                    }}
+                  >
                     <Modal.Title
                       variant="primary"
                       id=" example-custom-modal-styling-title h5"

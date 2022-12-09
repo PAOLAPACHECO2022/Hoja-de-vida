@@ -28,7 +28,7 @@ function App() {
 
      <Navbar collapseOnSelect expand="lg" 
        style={{
-        backgroundImage: `url("/header.PNG")`,
+        backgroundImage: `url("/header1.PNG")`,
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
@@ -47,16 +47,16 @@ function App() {
         />{' '}            
   
        
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" Style={"color: #eed757;"}/>
-        <Navbar.Collapse  id="responsive-navbar-nav" >
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" Style={"color: #eed757;"} className="bg-dark"/>
+        <Navbar.Collapse  id="responsive-navbar-nav"  >
           <Nav  id="opciones" Style={"color: #eed757;"}>
-            <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"}className="bx- bx-user " href="/perfil">Mi perfil profesional</Nav.Link>
-            <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"} className="bx bx-file-blank" href="/education">Educación</Nav.Link>
-            <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"} className="bx bx-book-content" href="/portafolio">Portafolio</Nav.Link>
-            <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"} className="bx bx-server"  href="/habilidades">Habilidades</Nav.Link>
-            <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"} className="bx bx-server"  href="/experiencia">Experiencia</Nav.Link>
-            <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"} className="bx bx-envelope " href="/home">Mis pasatiempos</Nav.Link>
-            <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"} className="bx bx-envelope" href="/contacto">Contacto</Nav.Link>
+            <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"}className="bx- bx-user fw-bold " href="/perfil">Mi perfil profesional</Nav.Link>
+            <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"} className="bx bx-file-blank fw-bold" href="/education">Educación</Nav.Link>
+            <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"} className="bx bx-book-content fw-bold" href="/portafolio">Portafolio</Nav.Link>
+            <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"} className="bx bx-server fw-bold"  href="/habilidades">Habilidades</Nav.Link>
+            <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"} className="bx bx-server fw-bold"  href="/experiencia">Experiencia</Nav.Link>
+            <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"} className="bx bx-envelope fw-bold " href="/home">Mis pasatiempos</Nav.Link>
+            <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"} className="bx bx-envelope fw-bold" href="/contacto">Contacto</Nav.Link>
             
           </Nav>
           <Nav>
