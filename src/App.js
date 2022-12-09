@@ -33,8 +33,7 @@ function App() {
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         border: "1px solid #565555",
-        height: "w-100",
-        fontFamily: "cursive,bold" 
+        height: "w-100"
       }} >
       <Container>
         
@@ -130,10 +129,10 @@ function App() {
       backgroundSize: "cover",
       border: "1px solid #565555",
       height: "w-100",
-      fontFamily: "cursive,bold" 
+      fontFamily: "bold" 
     }}>
     
-  <CDBBox display="flex" flex="column" className="mx-auto py-5" style={{ width: '90%' }}>
+  <CDBBox display="flex" flex="column" className="mx-auto py-5 fw-bold" style={{ width: '90%' }}>
   <CDBBox display="flex" justifyContent="between" className="flex-wrap">
     <CDBBox>
       <a href="/" className="d-flex align-items-center p-0 text-dark">
