@@ -26,28 +26,37 @@ function App() {
     <Router>
     <div className="App ">
 
-     <Navbar collapseOnSelect expand="lg" bg="black" variant="dark" >
+     <Navbar collapseOnSelect expand="lg" 
+       style={{
+        backgroundImage: `url("/header.PNG")`,
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+        border: "1px solid #565555",
+        height: "w-100",
+        fontFamily: "cursive,bold" 
+      }} >
       <Container>
         
           <img
           alt=""
-          src="/logo.gif"
-          width="200"
-          height="200"
+          src="/logo.png"
+          width="100"
+          height="100"
        
         />{' '}            
   
        
         <Navbar.Toggle aria-controls="responsive-navbar-nav" Style={"color: #eed757;"}/>
         <Navbar.Collapse  id="responsive-navbar-nav" >
-          <Nav  id="opciones" Style={"color: #ecdb7a;"}>
-            <Nav.Link Style={"color: #ecdb7a;"} className="bx- bx-user " href="/perfil">Mi perfil profesional</Nav.Link>
-            <Nav.Link Style={"color: #ecdb7a;"} className="bx bx-file-blank" href="/education">Educación</Nav.Link>
-            <Nav.Link Style={"color: #ecdb7a;"} className="bx bx-book-content" href="/portafolio">Portafolio</Nav.Link>
-            <Nav.Link Style={"color: #ecdb7a;"} className="bx bx-server"  href="/habilidades">Habilidades</Nav.Link>
-            <Nav.Link Style={"color: #ecdb7a;"} className="bx bx-server"  href="/experiencia">Experiencia</Nav.Link>
-            <Nav.Link Style={"color: #ecdb7a;"} className="bx bx-envelope " href="/home">Mis pasatiempos</Nav.Link>
-            <Nav.Link Style={"color: #ecdb7a;"} className="bx bx-envelope" href="/contacto">Contacto</Nav.Link>
+          <Nav  id="opciones" Style={"color: #eed757;"}>
+            <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"}className="bx- bx-user " href="/perfil">Mi perfil profesional</Nav.Link>
+            <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"} className="bx bx-file-blank" href="/education">Educación</Nav.Link>
+            <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"} className="bx bx-book-content" href="/portafolio">Portafolio</Nav.Link>
+            <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"} className="bx bx-server"  href="/habilidades">Habilidades</Nav.Link>
+            <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"} className="bx bx-server"  href="/experiencia">Experiencia</Nav.Link>
+            <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"} className="bx bx-envelope " href="/home">Mis pasatiempos</Nav.Link>
+            <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"} className="bx bx-envelope" href="/contacto">Contacto</Nav.Link>
             
           </Nav>
           <Nav>
@@ -113,7 +122,16 @@ function App() {
           </Container>
   
   
-  <footer className="footer bg-black">
+  <footer className="footer"
+     style={{
+      backgroundImage: `url("/footer.PNG")`,
+      backgroundPosition: "center",
+      backgroundRepeat: "no-repeat",
+      backgroundSize: "cover",
+      border: "1px solid #565555",
+      height: "w-100",
+      fontFamily: "cursive,bold" 
+    }}>
     
   <CDBBox display="flex" flex="column" className="mx-auto py-5" style={{ width: '90%' }}>
   <CDBBox display="flex" justifyContent="between" className="flex-wrap">
@@ -122,9 +140,10 @@ function App() {
       <Link to={"/create-product"} className="nav-link">
           <img
           alt=""
-          src="/logo.gif"
-          width="200"
-          height="200"
+       
+          src="/logo.png"
+          width="100"
+          height="100"
           className="d-inline-block align-top"
         />{' '}            
           
