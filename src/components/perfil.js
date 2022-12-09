@@ -6,7 +6,7 @@ export default class Perfil extends Component {
     return (
       <div
         style={{
-          backgroundImage: `url("./F5.PNG")`,
+          backgroundImage: `url("./jirasol.PNG")`,
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
