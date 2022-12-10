@@ -19,7 +19,7 @@ export default class Perfil extends Component {
           <div className="form-content">
             <img
             style={{border: "3px solid #d8b208" }}
-              src="/fotop.jpeg"
+              src="/fotop1.PNG"
               alt=""
               className=" img-thumbnail zoom rounded-circle w-50 my-5 mt-5 d-flex justify-content-center form-wrapper"
             ></img>
