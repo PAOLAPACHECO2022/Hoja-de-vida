@@ -35,43 +35,50 @@ export default function Education() {
   const [faShow, setfaShow] = useState(false);
   return (
     <>
-      <div className="Apps-thumbnail rounded-4 mt-5 d-flex justify-content-center bg-light form-wrapper"
-       style={{
-        backgroundImage: `url("./jirasol.PNG")`,
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "cover",
-        border: "1px solid #565555",
-       
-      }}>
-        <Col md={12} >
-          <Card className="img-thumbnail rounded-4"
-           style={{
-            backgroundImage: `url("./jirasol.PNG")`,
-            backgroundPosition: "center",
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "cover",
-            border: "1px solid #565555",
-           
-          }}>
-            <Card.Header
-             style={{
-              backgroundImage: `url("./koko.PNG")`,
+      <div
+        className="Apps-thumbnail rounded-4 mt-5 d-flex justify-content-center bg-light form-wrapper"
+        style={{
+          backgroundImage: `url("./jirasol.PNG")`,
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+          border: "1px solid #565555",
+        }}
+      >
+        <Col md={12}>
+          <Card
+            className="img-thumbnail rounded-4"
+            style={{
+              backgroundImage: `url("./jirasol.PNG")`,
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
               backgroundSize: "cover",
               border: "1px solid #565555",
-             
             }}
-            className="img-thumbnail rounded-4 text-center"
-          >FORMACIÓN PROFESIONAL</Card.Header>
-            <Card.Body
+          >
+            <Card.Header
+              style={{
+                backgroundImage: `url("./koko.PNG")`,
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+                border: "1px solid #565555",
+                fontFamily: "Raleway,bold"
+              }}
+              className="img-thumbnail rounded-4 text-center fw-bold"
             >
-              <Card.Title>Licenciatura en matemáticas y estadística</Card.Title>
-              <Card.Text>
+              FORMACIÓN PROFESIONAL
+            </Card.Header>
+            <Card.Body>
+              <Card.Title style={{ fontFamily: "Raleway,bold" }}
+              className="fw-bold"
+              >Licenciatura en matemáticas y estadística</Card.Title>
+              <Card.Text style={{ fontFamily: "Raleway,bold" }}
+               className="fw-bold"
+              >
                 <p>Nivel educativo: Universitaria </p>
-                <p>Institución: U. PEDAGOGICA Y TECNOLOGICA DE COLOMBIA - -</p>
-                <p>UPTC - - DUITAMA</p>
+                <p>Institución: U. Pedagógica y Tecnológica de Colombia - -</p>
+                <p>UPTC - - Duitama</p>
                 <p>Estado: Graduado</p>
                 <p>Fecha de finalización: Junio de 2018</p>
               </Card.Text>
@@ -86,17 +93,17 @@ export default function Education() {
                 aria-labelledby="example-custom-modal-styling-title"
                 ClassName="modal-dialog modal-xl"
               >
-                <Modal.Header closeButton
-                 style={{
-                  backgroundImage: `url("./jirasol.PNG")`,
-                  backgroundPosition: "center",
-                  backgroundRepeat: "no-repeat",
-                  backgroundSize: "cover",
-                  border: "1px solid #565555",
-                 
-                }}>
+                <Modal.Header
+                  closeButton
+                  style={{
+                    backgroundImage: `url("./jirasol.PNG")`,
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat",
+                    backgroundSize: "cover",
+                    border: "1px solid #565555",
+                  }}
+                >
                   <Modal.Title
-                  
                     variant="primary"
                     id=" example-custom-modal-styling-title h5"
                   >
@@ -124,54 +131,59 @@ export default function Education() {
       {/* ------------------------------------ACORDION--------------------------------- */}
       <Col md={12}>
         <Row className="mt-5">
-          <h1 
-           style={{
-            backgroundImage: `url("./koko.PNG")`,
-            backgroundPosition: "center",
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "cover",
-            border: "1px solid #565555",
-           
-          }}
-          className="text-center text-uppercase font-weight-bold h5 text-dark my-3 bg-warning rounded-4 ">
+          <h1
+            style={{
+              backgroundImage: `url("./koko.PNG")`,
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+              border: "1px solid #565555",
+            }}
+            className="text-center text-uppercase font-weight-bold h5 text-dark my-3 bg-warning rounded-4 "
+          >
             FORMACIÓN COMPLEMENTARIA
-           
           </h1>
         </Row>
-        <Accordion className="mt-5 my-5 justify-content-center form-wrapper"
-        >
-          <Accordion.Item eventKey="0"
+        <Accordion className="mt-5 my-5 justify-content-center form-wrapper">
+          <Accordion.Item
+            eventKey="0"
             style={{
               backgroundImage: `url("./alas.PNG")`,
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
               backgroundSize: "cover",
               border: "1px solid #565555",
-             
-            }}>
+            }}
+          >
             {/* ------------------------------------misióntoc certificaciones--------------------------------- */}
 
-            <Accordion.Header><img
-                        alt=""
-                        width="100"
-                        height="100"
-                        src="./misionticp.PNG"
-                        className="boton1 img-thumbnail  d-flex justify-content-center form-wrapper"
-                      ></img>
-              MISIÓN TIC</Accordion.Header>
+            <Accordion.Header>
+              <img
+                alt=""
+                width="100"
+                height="100"
+                src="./misionticp.PNG"
+                className="boton1 img-thumbnail  d-flex justify-content-center form-wrapper"
+              ></img>
+              MISIÓN TIC
+            </Accordion.Header>
             <Accordion.Body>
-            
-              <Table striped bordered hover className=" img-thumbnail w-100 my-2 mt-2 d-flex justify-content-center form-wrapper">
-              
+              <Table
+                striped
+                bordered
+                hover
+                className=" img-thumbnail w-100 my-2 mt-2 d-flex justify-content-center form-wrapper"
+              >
                 <tbody variant="primmary" className="form-wrapper">
                   <tr className="form-wrapper">
-                   
-                    <td className="form-wrapper">Diplomado en Fundamentos de Programación en Python</td>
-                   
+                    <td className="form-wrapper">
+                      Diplomado en Fundamentos de Programación en Python
+                    </td>
+
                     <td>
                       {" "}
                       <a href="https://certificadomisionticutp.com/apiv1/public/docs/1/_1052400786-.pdf">
-                       PDF
+                        PDF
                       </a>
                     </td>
                     <td>
@@ -188,15 +200,16 @@ export default function Education() {
                         dialogClassName="modal-dialog modal-lg"
                         aria-labelledby="example-modal-sizes-title-sm"
                       >
-                        <Modal.Header closeButton
-                            style={{
-                              backgroundImage: `url("./jirasol.PNG")`,
-                              backgroundPosition: "center",
-                              backgroundRepeat: "no-repeat",
-                              backgroundSize: "cover",
-                              border: "1px solid #565555",
-                             
-                            }}>
+                        <Modal.Header
+                          closeButton
+                          style={{
+                            backgroundImage: `url("./jirasol.PNG")`,
+                            backgroundPosition: "center",
+                            backgroundRepeat: "no-repeat",
+                            backgroundSize: "cover",
+                            border: "1px solid #565555",
+                          }}
+                        >
                           <Modal.Title variant="primary">
                             <h5
                               style={{ fontFamily: "Raleway,bold" }}
@@ -206,7 +219,7 @@ export default function Education() {
                             </h5>
                           </Modal.Title>
                         </Modal.Header>
-                        <Modal.Body >
+                        <Modal.Body>
                           <img
                             src="./mtciclo1.PNG"
                             alt=""
@@ -218,9 +231,8 @@ export default function Education() {
                   </tr>
 
                   <tr className="form-wrapper">
-                 
                     <td>Diplomado en Programación Básica en Java</td>
-                   
+
                     <td>
                       {" "}
                       <a href="https://certificadomisionticutp.com/apiv1/public/docs/2/_1052400786-.pdf">
@@ -241,15 +253,16 @@ export default function Education() {
                         dialogClassName="modal-dialog modal-lg"
                         aria-labelledby="example-modal-sizes-title-sm"
                       >
-                        <Modal.Header closeButton
-                        style={{
-                          backgroundImage: `url("./jirasol.PNG")`,
-                          backgroundPosition: "center",
-                          backgroundRepeat: "no-repeat",
-                          backgroundSize: "cover",
-                          border: "1px solid #565555",
-                         
-                        }}>
+                        <Modal.Header
+                          closeButton
+                          style={{
+                            backgroundImage: `url("./jirasol.PNG")`,
+                            backgroundPosition: "center",
+                            backgroundRepeat: "no-repeat",
+                            backgroundSize: "cover",
+                            border: "1px solid #565555",
+                          }}
+                        >
                           <Modal.Title variant="primary">
                             <h5
                               style={{ fontFamily: "Raleway,bold" }}
@@ -271,9 +284,8 @@ export default function Education() {
                   </tr>
 
                   <tr>
-                   
                     <td>Diplomado en Desarrollo de software</td>
-                  
+
                     <td>
                       {" "}
                       <a href="https://certificadomisionticutp.com/apiv1/public/docs/3/_1052400786-.pdf">
@@ -294,15 +306,16 @@ export default function Education() {
                         dialogClassName="modal-dialog modal-lg"
                         aria-labelledby="example-modal-sizes-title-sm"
                       >
-                        <Modal.Header closeButton
-                        style={{
-                          backgroundImage: `url("./jirasol.PNG")`,
-                          backgroundPosition: "center",
-                          backgroundRepeat: "no-repeat",
-                          backgroundSize: "cover",
-                          border: "1px solid #565555",
-                         
-                        }}>
+                        <Modal.Header
+                          closeButton
+                          style={{
+                            backgroundImage: `url("./jirasol.PNG")`,
+                            backgroundPosition: "center",
+                            backgroundRepeat: "no-repeat",
+                            backgroundSize: "cover",
+                            border: "1px solid #565555",
+                          }}
+                        >
                           <Modal.Title variant="primary">
                             <h5
                               style={{ fontFamily: "Raleway,bold" }}
@@ -324,9 +337,8 @@ export default function Education() {
                   </tr>
 
                   <tr className="form-wrapper">
-                   
                     <td>Desarrollo De Aplicaciones Web</td>
-                   
+
                     <td>
                       {" "}
                       <a href="https://drive.google.com/file/d/1iABIKN7qhr0aB4zBldY-E5dYBJql8v2H/view?usp=sharing">
@@ -347,15 +359,16 @@ export default function Education() {
                         dialogClassName="modal-dialog modal-lg"
                         aria-labelledby="example-modal-sizes-title-sm"
                       >
-                        <Modal.Header closeButton
-                        style={{
-                          backgroundImage: `url("./jirasol.PNG")`,
-                          backgroundPosition: "center",
-                          backgroundRepeat: "no-repeat",
-                          backgroundSize: "cover",
-                          border: "1px solid #565555",
-                         
-                        }}>
+                        <Modal.Header
+                          closeButton
+                          style={{
+                            backgroundImage: `url("./jirasol.PNG")`,
+                            backgroundPosition: "center",
+                            backgroundRepeat: "no-repeat",
+                            backgroundSize: "cover",
+                            border: "1px solid #565555",
+                          }}
+                        >
                           <Modal.Title variant="success">
                             <h5
                               style={{ fontFamily: "Raleway,bold" }}
@@ -381,16 +394,17 @@ export default function Education() {
           </Accordion.Item>
 
           {/* ------------------------------------Coursera certificaciones--------------------------------- */}
-     <Accordion.Item eventKey="1"
-     style={{
-      backgroundImage: `url("./alas.PNG")`,
-      backgroundPosition: "center",
-      backgroundRepeat: "no-repeat",
-      backgroundSize: "cover",
-      border: "1px solid #565555",
-     
-    }}>
-         <Accordion.Header>
+          <Accordion.Item
+            eventKey="1"
+            style={{
+              backgroundImage: `url("./alas.PNG")`,
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+              border: "1px solid #565555",
+            }}
+          >
+            <Accordion.Header>
               {" "}
               <img
                 src="./courserar.PNG"
@@ -399,26 +413,28 @@ export default function Education() {
                 alt=""
                 className="boton1 img-thumbnail d-flex justify-content-center form-wrapper"
               ></img>
-             COURSERA
+              COURSERA
             </Accordion.Header>
-            
+
             <Accordion.Body>
-            
-              <Table striped bordered hover className="justify-content-center form-wrapper" >
+              <Table
+                striped
+                bordered
+                hover
+                className="justify-content-center form-wrapper"
+              >
                 <thead class="bg-warning form-wrapper rounded-4">
                   <tr className="form-wrapper">
-              
                     <th>Curso</th>
-                  
+
                     <th>Acceso</th>
                     <th>Certificación</th>
                   </tr>
                 </thead>
                 <tbody variant="primmary" className="form-wrapper">
                   <tr className="form-wrapper">
-                   
                     <td>Aspectos básicos: datos, datos, en todas partes</td>
-                    
+
                     <td>
                       {" "}
                       <a href="https://coursera.org/share/12dbacae516ec6e36bf9272b291d85f7">
@@ -440,15 +456,16 @@ export default function Education() {
                         dialogClassName="modal-dialog modal-lg"
                         aria-labelledby="example-modal-sizes-title-sm"
                       >
-                        <Modal.Header closeButton
-                        style={{
-                          backgroundImage: `url("./jirasol.PNG")`,
-                          backgroundPosition: "center",
-                          backgroundRepeat: "no-repeat",
-                          backgroundSize: "cover",
-                          border: "1px solid #565555",
-                         
-                        }}>
+                        <Modal.Header
+                          closeButton
+                          style={{
+                            backgroundImage: `url("./jirasol.PNG")`,
+                            backgroundPosition: "center",
+                            backgroundRepeat: "no-repeat",
+                            backgroundSize: "cover",
+                            border: "1px solid #565555",
+                          }}
+                        >
                           <Modal.Title variant="success">
                             <h5
                               style={{ fontFamily: "Raleway,bold" }}
@@ -470,32 +487,39 @@ export default function Education() {
                   </tr>
                 </tbody>
               </Table>
-              
             </Accordion.Body>
           </Accordion.Item>
           {/* ------------------------------------PLatzi certificaciones--------------------------------- */}
 
-          <Accordion.Item eventKey="2"
-          style={{
-            backgroundImage: `url("./alas.PNG")`,
-            backgroundPosition: "center",
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "cover",
-            border: "1px solid #565555",
-           
-          }}>
-            <Accordion.Header> <img
-                        src="./platzi.PNG"
-                        width="90"
-                        height="90"
-                        alt=""
-                        className="boton1 img-thumbnail justify-content-center form-wrapper"
-                      ></img>
-              PLATZI</Accordion.Header>
+          <Accordion.Item
+            eventKey="2"
+            style={{
+              backgroundImage: `url("./alas.PNG")`,
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+              border: "1px solid #565555",
+            }}
+          >
+            <Accordion.Header>
+              {" "}
+              <img
+                src="./platzi.PNG"
+                width="90"
+                height="90"
+                alt=""
+                className="boton1 img-thumbnail justify-content-center form-wrapper"
+              ></img>
+              PLATZI
+            </Accordion.Header>
             <Accordion.Body>
-              
-              <Table striped bordered hover className="mt-2 justify-content-center form-wrapper">
-                <thead class= "bg-warning form-wrapper rounded-4">
+              <Table
+                striped
+                bordered
+                hover
+                className="mt-2 justify-content-center form-wrapper"
+              >
+                <thead class="bg-warning form-wrapper rounded-4">
                   <tr className="form-wrapper">
                     <th className="form-wrapper">Curso</th>
                     <th className="form-wrapper">Enlace</th>
@@ -504,9 +528,8 @@ export default function Education() {
                 </thead>
                 <tbody variant="primmary" className="form-wrapper">
                   <tr className="form-wrapper">
-                   
                     <td>Ingeniería de datos con Python</td>
-                 
+
                     <td>
                       {" "}
                       <a href="https://platzi.com/p/paolapacheco.moreno/curso/1385-ingenieria-datos/diploma/detalle/">
@@ -528,15 +551,16 @@ export default function Education() {
                         dialogClassName="modal-dialog modal-lg"
                         aria-labelledby="example-modal-sizes-title-sm"
                       >
-                        <Modal.Header closeButton
-                           style={{
+                        <Modal.Header
+                          closeButton
+                          style={{
                             backgroundImage: `url("./jirasol.PNG")`,
                             backgroundPosition: "center",
                             backgroundRepeat: "no-repeat",
                             backgroundSize: "cover",
                             border: "1px solid #565555",
-                           
-                          }}>
+                          }}
+                        >
                           <Modal.Title variant="success">
                             <h5
                               style={{ fontFamily: "Raleway,bold" }}
@@ -558,9 +582,8 @@ export default function Education() {
                   </tr>
 
                   <tr className="form-wrapper">
-              
                     <td>Python Básico</td>
-                   
+
                     <td>
                       {" "}
                       <a href="https://platzi.com/p/paolapacheco.moreno/curso/1937-python/diploma/detalle/">
@@ -582,15 +605,16 @@ export default function Education() {
                         dialogClassName="modal-dialog modal-lg"
                         aria-labelledby="example-modal-sizes-title-sm"
                       >
-                        <Modal.Header closeButton
-                           style={{
+                        <Modal.Header
+                          closeButton
+                          style={{
                             backgroundImage: `url("./jirasol.PNG")`,
                             backgroundPosition: "center",
                             backgroundRepeat: "no-repeat",
                             backgroundSize: "cover",
                             border: "1px solid #565555",
-                           
-                          }}>
+                          }}
+                        >
                           <Modal.Title variant="success">
                             <h5
                               style={{ fontFamily: "Raleway,bold" }}
@@ -612,9 +636,8 @@ export default function Education() {
                   </tr>
 
                   <tr className="form-wrapper">
-                    
                     <td>Python Intermedio</td>
-                 
+
                     <td>
                       {" "}
                       <a href="https://platzi.com/p/paolapacheco.moreno/curso/2255-python-intermedio/diploma/detalle/">
@@ -636,15 +659,16 @@ export default function Education() {
                         dialogClassName="modal-dialog modal-lg"
                         aria-labelledby="example-modal-sizes-title-sm"
                       >
-                        <Modal.Header closeButton
-                           style={{
+                        <Modal.Header
+                          closeButton
+                          style={{
                             backgroundImage: `url("./jirasol.PNG")`,
                             backgroundPosition: "center",
                             backgroundRepeat: "no-repeat",
                             backgroundSize: "cover",
                             border: "1px solid #565555",
-                           
-                          }}>
+                          }}
+                        >
                           <Modal.Title variant="success">
                             <h5
                               style={{ fontFamily: "Raleway,bold" }}
@@ -666,9 +690,8 @@ export default function Education() {
                   </tr>
 
                   <tr>
-                   
                     <td>Python Profesional</td>
-                   
+
                     <td>
                       {" "}
                       <a href="https://platzi.com/p/paolapacheco.moreno/curso/2397-python-profesional/diploma/detalle/">
@@ -690,15 +713,16 @@ export default function Education() {
                         dialogClassName="modal-dialog modal-lg"
                         aria-labelledby="example-modal-sizes-title-sm"
                       >
-                        <Modal.Header closeButton
-                           style={{
+                        <Modal.Header
+                          closeButton
+                          style={{
                             backgroundImage: `url("./jirasol.PNG")`,
                             backgroundPosition: "center",
                             backgroundRepeat: "no-repeat",
                             backgroundSize: "cover",
                             border: "1px solid #565555",
-                           
-                          }}>
+                          }}
+                        >
                           <Modal.Title variant="success">
                             <h5
                               style={{ fontFamily: "Raleway,bold" }}
@@ -720,9 +744,8 @@ export default function Education() {
                   </tr>
 
                   <tr className="form-wrapper">
-                   
                     <td>Estadística computacional con Python</td>
-                  
+
                     <td>
                       {" "}
                       <a href="https://platzi.com/p/paolapacheco.moreno/curso/1835-programacion-estocastica/diploma/detalle/">
@@ -744,15 +767,16 @@ export default function Education() {
                         dialogClassName="modal-dialog modal-lg"
                         aria-labelledby="example-modal-sizes-title-sm"
                       >
-                        <Modal.Header closeButton
-                           style={{
+                        <Modal.Header
+                          closeButton
+                          style={{
                             backgroundImage: `url("./jirasol.PNG")`,
                             backgroundPosition: "center",
                             backgroundRepeat: "no-repeat",
                             backgroundSize: "cover",
                             border: "1px solid #565555",
-                           
-                          }}>
+                          }}
+                        >
                           <Modal.Title variant="success">
                             <h5
                               style={{ fontFamily: "Raleway,bold" }}
@@ -774,9 +798,8 @@ export default function Education() {
                   </tr>
 
                   <tr className="form-wrapper">
-                    
                     <td>Estructura de datos lineales con Python</td>
-                 
+
                     <td>
                       {" "}
                       <a href="https://platzi.com/p/paolapacheco.moreno/curso/2299-estructuras-datos-python/diploma/detalle/">
@@ -798,15 +821,16 @@ export default function Education() {
                         dialogClassName="modal-dialog modal-lg"
                         aria-labelledby="example-modal-sizes-title-sm"
                       >
-                        <Modal.Header closeButton
-                           style={{
+                        <Modal.Header
+                          closeButton
+                          style={{
                             backgroundImage: `url("./jirasol.PNG")`,
                             backgroundPosition: "center",
                             backgroundRepeat: "no-repeat",
                             backgroundSize: "cover",
                             border: "1px solid #565555",
-                           
-                          }}>
+                          }}
+                        >
                           <Modal.Title variant="success">
                             <h5
                               style={{ fontFamily: "Raleway,bold" }}
@@ -828,9 +852,8 @@ export default function Education() {
                   </tr>
 
                   <tr className="form-wrapper">
-                
                     <td>Machine Learning con Python</td>
-                  
+
                     <td>
                       {" "}
                       <a href="https://platzi.com/p/paolapacheco.moreno/curso/1178-scikit/diploma/detalle/">
@@ -852,15 +875,16 @@ export default function Education() {
                         dialogClassName="modal-dialog modal-lg"
                         aria-labelledby="example-modal-sizes-title-sm"
                       >
-                        <Modal.Header closeButton
-                           style={{
+                        <Modal.Header
+                          closeButton
+                          style={{
                             backgroundImage: `url("./jirasol.PNG")`,
                             backgroundPosition: "center",
                             backgroundRepeat: "no-repeat",
                             backgroundSize: "cover",
                             border: "1px solid #565555",
-                           
-                          }}>
+                          }}
+                        >
                           <Modal.Title variant="success">
                             <h5
                               style={{ fontFamily: "Raleway,bold" }}
@@ -882,9 +906,8 @@ export default function Education() {
                   </tr>
 
                   <tr className="form-wrapper">
-                
                     <td>Curso Profesional de Scrum</td>
-                 
+
                     <td>
                       {" "}
                       <a href="https://platzi.com/r/paolapacheco.moreno/">
@@ -906,15 +929,16 @@ export default function Education() {
                         dialogClassName="modal-dialog modal-lg"
                         aria-labelledby="example-modal-sizes-title-sm"
                       >
-                        <Modal.Header closeButton
-                           style={{
+                        <Modal.Header
+                          closeButton
+                          style={{
                             backgroundImage: `url("./jirasol.PNG")`,
                             backgroundPosition: "center",
                             backgroundRepeat: "no-repeat",
                             backgroundSize: "cover",
                             border: "1px solid #565555",
-                           
-                          }}>
+                          }}
+                        >
                           <Modal.Title variant="success">
                             <h5
                               style={{ fontFamily: "Raleway,bold" }}
@@ -936,46 +960,51 @@ export default function Education() {
                   </tr>
                 </tbody>
               </Table>
-             
             </Accordion.Body>
           </Accordion.Item>
 
           {/* ------------------------------------UDEMY certificaciones--------------------------------- */}
 
-          <Accordion.Item eventKey="3"
-             style={{
+          <Accordion.Item
+            eventKey="3"
+            style={{
               backgroundImage: `url("./alas.PNG")`,
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
               backgroundSize: "cover",
               border: "1px solid #565555",
-             
-            }}>
-            <Accordion.Header> <img
-                        width="80"
-                        height="80"
-                        src="./udemy.PNG"
-                        alt=""
-                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
-                      ></img>
-              UDEMY</Accordion.Header>
+            }}
+          >
+            <Accordion.Header>
+              {" "}
+              <img
+                width="80"
+                height="80"
+                src="./udemy.PNG"
+                alt=""
+                className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
+              ></img>
+              UDEMY
+            </Accordion.Header>
             <Accordion.Body>
-          
-              <Table striped bordered hover className="justify-content-center form-wrapper" >
+              <Table
+                striped
+                bordered
+                hover
+                className="justify-content-center form-wrapper"
+              >
                 <thead class="bg-warning form-wrapper rounded-4">
                   <tr class="form-wrapper">
-                  
                     <th>Curso</th>
-                   
+
                     <th>Enlace</th>
                     <th>Certificación</th>
                   </tr>
                 </thead>
-                <tbody variant="primmary"  class="form-wrapper mt-auto">
+                <tbody variant="primmary" class="form-wrapper mt-auto">
                   <tr className="form-wrapper">
-                 
                     <td>Excel Desde cero hasta avanzado</td>
-                    
+
                     <td>
                       {" "}
                       <a href="https://www.udemy.com/certificate/UC-9e7c7937-bee4-4de5-9b6e-2915a850df0f/">
@@ -996,15 +1025,16 @@ export default function Education() {
                         dialogClassName="modal-dialog modal-lg"
                         aria-labelledby="example-modal-sizes-title-sm"
                       >
-                        <Modal.Header closeButton
-                           style={{
+                        <Modal.Header
+                          closeButton
+                          style={{
                             backgroundImage: `url("./jirasol.PNG")`,
                             backgroundPosition: "center",
                             backgroundRepeat: "no-repeat",
                             backgroundSize: "cover",
                             border: "1px solid #565555",
-                           
-                          }}>
+                          }}
+                        >
                           <Modal.Title variant="success">
                             <h5
                               style={{ fontFamily: "Raleway,bold" }}
@@ -1026,9 +1056,8 @@ export default function Education() {
                   </tr>
 
                   <tr className="form-wrapper">
-                    
                     <td>SQL Básico a Intermedio</td>
-                    
+
                     <td>
                       {" "}
                       <a href="https://www.udemy.com/certificate/UC-834b2d23-8446-4f1a-856b-bb4cf4a69696/">
@@ -1050,15 +1079,16 @@ export default function Education() {
                         dialogClassName="modal-dialog modal-lg"
                         aria-labelledby="example-modal-sizes-title-sm"
                       >
-                        <Modal.Header closeButton
-                           style={{
+                        <Modal.Header
+                          closeButton
+                          style={{
                             backgroundImage: `url("./jirasol.PNG")`,
                             backgroundPosition: "center",
                             backgroundRepeat: "no-repeat",
                             backgroundSize: "cover",
                             border: "1px solid #565555",
-                           
-                          }}>
+                          }}
+                        >
                           <Modal.Title variant="success">
                             <h5
                               style={{ fontFamily: "Raleway,bold" }}
@@ -1080,9 +1110,8 @@ export default function Education() {
                   </tr>
 
                   <tr className="form-wrapper">
-               
                     <td>SQL Cero a Profesional</td>
-                  
+
                     <td>
                       {" "}
                       <a href="https://www.udemy.com/certificate/UC-d4dec75c-0148-4fc8-af1c-f64d3ef44cc6/">
@@ -1104,15 +1133,16 @@ export default function Education() {
                         dialogClassName="modal-dialog modal-lg"
                         aria-labelledby="example-modal-sizes-title-sm"
                       >
-                        <Modal.Header closeButton
-                           style={{
+                        <Modal.Header
+                          closeButton
+                          style={{
                             backgroundImage: `url("./jirasol.PNG")`,
                             backgroundPosition: "center",
                             backgroundRepeat: "no-repeat",
                             backgroundSize: "cover",
                             border: "1px solid #565555",
-                           
-                          }}>
+                          }}
+                        >
                           <Modal.Title variant="success">
                             <h5
                               style={{ fontFamily: "Raleway,bold" }}
@@ -1134,47 +1164,50 @@ export default function Education() {
                   </tr>
                 </tbody>
               </Table>
-             
             </Accordion.Body>
           </Accordion.Item>
 
+          {/* ------------------------------------INGLES SENA certificaciones--------------------------------- */}
 
-      {/* ------------------------------------INGLES SENA certificaciones--------------------------------- */}
-
-      <Accordion.Item eventKey="4"
-         style={{
-          backgroundImage: `url("./alas.PNG")`,
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
-          border: "1px solid #565555",
-         
-        }}>
-            <Accordion.Header> <img
-                        width="120"
-                        height="120"
-                        src="./sena.PNG"
-                        alt=""
-                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
-                      ></img>
-              SENA</Accordion.Header>
+          <Accordion.Item
+            eventKey="4"
+            style={{
+              backgroundImage: `url("./alas.PNG")`,
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+              border: "1px solid #565555",
+            }}
+          >
+            <Accordion.Header>
+              {" "}
+              <img
+                width="120"
+                height="120"
+                src="./sena.PNG"
+                alt=""
+                className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
+              ></img>
+              SENA
+            </Accordion.Header>
             <Accordion.Body>
-            
-              <Table striped bordered hover className="justify-content-center form-wrapper" >
+              <Table
+                striped
+                bordered
+                hover
+                className="justify-content-center form-wrapper"
+              >
                 <thead class="bg-warning form-wrapper rounded-4 text-center">
                   <tr class="form-wrapper">
-                  
                     <th>Nombre del curso</th>
-                   
-                  
+
                     <th>Certificación</th>
                   </tr>
                 </thead>
-                <tbody variant="primmary"  class="form-wrapper mt-auto">
+                <tbody variant="primmary" class="form-wrapper mt-auto">
                   <tr className="form-wrapper">
-                 
                     <td>ENGLISH DOT WORKS 1 (INGLES)</td>
-                  
+
                     <td>
                       <Button
                         variant="success"
@@ -1189,22 +1222,22 @@ export default function Education() {
                         dialogClassName="modal-dialog modal-lg"
                         aria-labelledby="example-modal-sizes-title-sm"
                       >
-                        <Modal.Header closeButton
-                           style={{
+                        <Modal.Header
+                          closeButton
+                          style={{
                             backgroundImage: `url("./jirasol.PNG")`,
                             backgroundPosition: "center",
                             backgroundRepeat: "no-repeat",
                             backgroundSize: "cover",
                             border: "1px solid #565555",
-                           
-                          }}>
+                          }}
+                        >
                           <Modal.Title variant="success">
                             <h5
                               style={{ fontFamily: "Raleway,bold" }}
                               className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
                             >
                               ENGLISH DOT WORKS 1 (INGLES)
-
                             </h5>
                           </Modal.Title>
                         </Modal.Header>
@@ -1219,12 +1252,9 @@ export default function Education() {
                     </td>
                   </tr>
 
-
                   <tr className="form-wrapper">
-                    
                     <td>ENGLISH DOT WORKS 2 (INGLES)</td>
-                    
-               
+
                     <td>
                       <Button
                         variant="success"
@@ -1240,15 +1270,16 @@ export default function Education() {
                         dialogClassName="modal-dialog modal-lg"
                         aria-labelledby="example-modal-sizes-title-sm"
                       >
-                        <Modal.Header closeButton
-                           style={{
+                        <Modal.Header
+                          closeButton
+                          style={{
                             backgroundImage: `url("./jirasol.PNG")`,
                             backgroundPosition: "center",
                             backgroundRepeat: "no-repeat",
                             backgroundSize: "cover",
                             border: "1px solid #565555",
-                           
-                          }}>
+                          }}
+                        >
                           <Modal.Title variant="success">
                             <h5
                               style={{ fontFamily: "Raleway,bold" }}
@@ -1269,12 +1300,9 @@ export default function Education() {
                     </td>
                   </tr>
 
-
-
                   <tr className="form-wrapper">
-               
                     <td>ENGLISH DOT WORKS 3 (INGLES)</td>
-                  
+
                     <td>
                       <Button
                         variant="success"
@@ -1290,21 +1318,22 @@ export default function Education() {
                         dialogClassName="modal-dialog modal-lg"
                         aria-labelledby="example-modal-sizes-title-sm"
                       >
-                        <Modal.Header closeButton
-                           style={{
+                        <Modal.Header
+                          closeButton
+                          style={{
                             backgroundImage: `url("./jirasol.PNG")`,
                             backgroundPosition: "center",
                             backgroundRepeat: "no-repeat",
                             backgroundSize: "cover",
                             border: "1px solid #565555",
-                           
-                          }}>
+                          }}
+                        >
                           <Modal.Title variant="success">
                             <h5
                               style={{ fontFamily: "Raleway,bold" }}
                               className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
                             >
-                            ENGLISH DOT WORKS 3 (INGLES)
+                              ENGLISH DOT WORKS 3 (INGLES)
                             </h5>
                           </Modal.Title>
                         </Modal.Header>
@@ -1319,11 +1348,9 @@ export default function Education() {
                     </td>
                   </tr>
 
-
                   <tr className="form-wrapper">
-               
                     <td>ENGLISH DOT WORKS 4 (INGLES)</td>
-                  
+
                     <td>
                       <Button
                         variant="success"
@@ -1339,21 +1366,22 @@ export default function Education() {
                         dialogClassName="modal-dialog modal-lg"
                         aria-labelledby="example-modal-sizes-title-sm"
                       >
-                        <Modal.Header closeButton
-                           style={{
+                        <Modal.Header
+                          closeButton
+                          style={{
                             backgroundImage: `url("./jirasol.PNG")`,
                             backgroundPosition: "center",
                             backgroundRepeat: "no-repeat",
                             backgroundSize: "cover",
                             border: "1px solid #565555",
-                           
-                          }}>
+                          }}
+                        >
                           <Modal.Title variant="success">
                             <h5
                               style={{ fontFamily: "Raleway,bold" }}
                               className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
                             >
-                            ENGLISH DOT WORKS 4 (INGLES)
+                              ENGLISH DOT WORKS 4 (INGLES)
                             </h5>
                           </Modal.Title>
                         </Modal.Header>
@@ -1369,12 +1397,8 @@ export default function Education() {
                   </tr>
                 </tbody>
               </Table>
-             
             </Accordion.Body>
           </Accordion.Item>
-
-
-
         </Accordion>
       </Col>
     </>
