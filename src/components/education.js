@@ -130,7 +130,8 @@ export default function Education() {
 
       {/* ------------------------------------ACORDION--------------------------------- */}
       <Col md={12}>
-        <Row className="mt-5">
+      <Row>
+          <div className="mt-5 d-flex justify-content-center form-wrapper">
           <h1
             style={{
               backgroundImage: `url("./koko.PNG")`,
@@ -139,10 +140,11 @@ export default function Education() {
               backgroundSize: "cover",
               border: "1px solid #565555",
             }}
-            className="text-center text-uppercase font-weight-bold h5 text-dark my-3 bg-warning rounded-4 "
+            className="text-center mx-3  font-weight-bold h5 text-dark my-3 rounded-4"
           >
             FORMACIÓN COMPLEMENTARIA
           </h1>
+          </div>
         </Row>
         <Accordion className="mt-5 my-5 justify-content-center form-wrapper">
           <Accordion.Item
