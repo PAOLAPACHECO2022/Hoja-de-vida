@@ -69,6 +69,7 @@ export default function Habilidades() {
 
   return (
     <>
+    <div className="d-flex justify-content-center  text-center  rounded-4 my-5 font-weight-bold mt-5">
       <p
         style={{
           backgroundImage: `url("./jirasol.PNG")`,
@@ -82,7 +83,16 @@ export default function Habilidades() {
       >
         Habilidades
       </p>
+      </div>
       <p
+      style={{
+        backgroundImage: `url("./jiras.PNG")`,
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+        border: "1px solid #565555",
+        fontFamily: "cursive,bold",
+      }}
        
         className="img-thumbnail bg-warning rounded-4 text-justify fw-bold"
       >
