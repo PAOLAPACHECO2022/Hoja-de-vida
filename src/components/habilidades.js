@@ -104,7 +104,7 @@ export default function Habilidades() {
               <Figure.Caption>
                 <p className="bg-warning rounded-4 text-center">JS</p>
                 <Button
-                  variant="primary"
+                  variant="success"
                   ref={ytarget}
                   onClick={() => setyShow(!yshow)}
                 >
@@ -147,7 +147,7 @@ export default function Habilidades() {
               <Figure.Caption>
                 <p className="bg-warning rounded-4 text-center">HTML</p>
                 <Button
-                  variant="primary"
+                  variant="success"
                   ref={target}
                   onClick={() => setShow(!show)}
                 >
@@ -186,7 +186,7 @@ export default function Habilidades() {
               <Figure.Caption>
                 <p className="bg-warning rounded-4 text-center">CSS</p>
                 <Button
-                  variant="primary"
+                  variant="success"
                   ref={xtarget}
                   onClick={() => setxShow(!xshow)}
                 >
@@ -229,7 +229,7 @@ export default function Habilidades() {
               <Figure.Caption>
                 <p className="bg-warning rounded-4 text-center">Bootstrap</p>
                 <Button
-                  variant="primary"
+                  variant="success"
                   ref={ptarget}
                   onClick={() => setpShow(!pshow)}
                 >
@@ -272,7 +272,7 @@ export default function Habilidades() {
               <Figure.Caption>
                 <p className="bg-warning rounded-4 text-center"> SQLServer </p>
                 <Button
-                  variant="primary"
+                  variant="success"
                   ref={vtarget}
                   onClick={() => setvShow(!vshow)}
                 >
@@ -315,7 +315,7 @@ export default function Habilidades() {
               <Figure.Caption>
                 <p className="bg-warning rounded-4 text-center">PotsgreSQL</p>
                 <Button
-                  variant="primary"
+                  variant="success"
                   ref={rtarget}
                   onClick={() => setrShow(!rshow)}
                 >
@@ -358,7 +358,7 @@ export default function Habilidades() {
               <Figure.Caption>
                 <p className="bg-warning rounded-4 text-center">MongoDB</p>
                 <Button
-                  variant="primary"
+                  variant="success"
                   ref={mtarget}
                   onClick={() => setmShow(!mshow)}
                 >
@@ -401,7 +401,7 @@ export default function Habilidades() {
               <Figure.Caption>
                 <p className="bg-warning rounded-4 text-center">MySQL</p>
                 <Button
-                  variant="primary"
+                  variant="success"
                   ref={qtarget}
                   onClick={() => setqShow(!qshow)}
                 >
@@ -444,8 +444,8 @@ export default function Habilidades() {
               <Figure.Caption>
                 <p className="bg-warning rounded-4 text-center">Python</p>
                 <Button
-                  variant="primary"
-                  ref={ttarget}
+                  variant="success"
+                   ref={ttarget}
                   onClick={() => settShow(!tshow)}
                 >
                   Progreso
@@ -487,7 +487,7 @@ export default function Habilidades() {
               <Figure.Caption>
                 <p className="bg-warning rounded-4 text-center">JAVA</p>
                 <Button
-                  variant="primary"
+                  variant="success"  
                   ref={jtarget}
                   onClick={() => setjShow(!jshow)}
                 >
@@ -533,7 +533,7 @@ export default function Habilidades() {
                   R estadistico
                 </p>
                 <Button
-                  variant="primary"
+                  variant="success"
                   ref={dtarget}
                   onClick={() => setdShow(!dshow)}
                 >
@@ -576,7 +576,7 @@ export default function Habilidades() {
               <Figure.Caption>
                 <p className="bg-warning rounded-4 text-center"> Excel</p>
                 <Button
-                  variant="primary"
+                  variant="success" 
                   ref={ztarget}
                   onClick={() => setzShow(!zshow)}
                 >
@@ -622,8 +622,8 @@ export default function Habilidades() {
                   Adobe Illustrator
                 </p>
                 <Button
-                  variant="primary"
-                  ref={gtarget}
+                  variant="success"
+                    ref={gtarget}
                   onClick={() => setgShow(!gshow)}
                   className="mt-3"
                 >
@@ -666,7 +666,7 @@ export default function Habilidades() {
               <Figure.Caption>
                 <p className="bg-warning rounded-4 text-center"> AUTOCAD</p>
                 <Button
-                  variant="primary"
+                  variant="success"  
                   ref={ftarget}
                   onClick={() => setfShow(!fshow)}
                 >
@@ -709,8 +709,8 @@ export default function Habilidades() {
               <Figure.Caption>
                 <p className="bg-warning rounded-4 text-center">Geogebra</p>
                 <Button
-                  variant="primary"
-                  ref={ktarget}
+                  variant="success"
+                    ref={ktarget}
                   onClick={() => setkShow(!kshow)}
                 >
                   Progreso
