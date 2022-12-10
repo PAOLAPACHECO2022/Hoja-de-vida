@@ -25,7 +25,7 @@ export default class Perfil extends Component {
             ></img>
             <p
               style={{ fontFamily: "cursive,bold" }}
-              className="text-thumbnail h1 text-center bg-warning rounded-4 my-5 font-weight-bold mt-5"
+             className="text-thumbnail h1 text-center rounded-4 my-5 font-weight-bold mt-5"
             >
               Dora Paola Pacheco Moreno
             </p>
