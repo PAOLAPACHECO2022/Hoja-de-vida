@@ -35,7 +35,6 @@ export default function Habilidades() {
   const [mshow, setmShow] = useState(false);
   const mtarget = useRef(null);
 
-  
   const qnow = 80;
   const [qshow, setqShow] = useState(false);
   const qtarget = useRef(null);
@@ -71,45 +70,39 @@ export default function Habilidades() {
   return (
     <>
       <p
-         style={{
+        style={{
           backgroundImage: `url("./jirasol.PNG")`,
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
           border: "1px solid #565555",
-          fontFamily: "cursive,bold" 
-         
+          fontFamily: "cursive,bold",
         }}
         className="text-thumbnail h1 text-center bg-light rounded-4 my-5 font-weight-bold mt-5"
       >
         Habilidades
       </p>
-      <p 
-       style={{
-        backgroundImage: `url("./koko.PNG")`,
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "cover",
-        border: "1px solid #565555",
-        
+      <p
        
-       
-      }}
-      
-      className="img-thumbnail bg-light rounded-4 text-justify fw-bold" >Soy una persona que le gusta asumir retos constantemente, es por esto que trato de estar lista para ello, capacitandome 
-             con diversos conocimientos que me ayuden con el cumplimiento de mis objetivos.
-          </p>
+        className="img-thumbnail bg-warning rounded-4 text-justify fw-bold"
+      >
+        Soy una persona que le gusta asumir retos constantemente, es por esto
+        que trato de estar lista para ello, capacitandome con diversos
+        conocimientos que me ayuden con el cumplimiento de mis objetivos.
+      </p>
       <Row xs={1} md={3} className="g-4 mx-4 my-3  mt-5">
-  
-
-{Array.from({ length: 1 }).map((_, idx) => (
+        {Array.from({ length: 1 }).map((_, idx) => (
           <Col>
             <Figure>
               <Figure.Image
-                width="150" height="150"  variant="top"  className=" zoom rounded-circle border" src="./javascript.PNG"
+                width="150"
+                height="150"
+                variant="top"
+                className=" zoom rounded-circle border"
+                src="./javascript.PNG"
               />
               <Figure.Caption>
-              <p className="bg-warning rounded-4 text-center">JS</p>
+                <p className="bg-warning rounded-4 text-center">JS</p>
                 <Button
                   variant="primary"
                   ref={ytarget}
@@ -117,7 +110,11 @@ export default function Habilidades() {
                 >
                   Progreso
                 </Button>
-                <Overlay target={ytarget.current} show={yshow} placement="right">
+                <Overlay
+                  target={ytarget.current}
+                  show={yshow}
+                  placement="right"
+                >
                   {(props) => (
                     <Tooltip id="overlay-example" {...props}>
                       Porcentaje estimado
@@ -137,12 +134,14 @@ export default function Habilidades() {
           </Col>
         ))}
 
-
-{Array.from({ length: 1 }).map((_, idx) => (
+        {Array.from({ length: 1 }).map((_, idx) => (
           <Col>
             <Figure>
               <Figure.Image
-                width="150" height="150"  variant="top"  className=" zoom rounded-circle border"
+                width="150"
+                height="150"
+                variant="top"
+                className=" zoom rounded-circle border"
                 src="./html5.PNG"
               />
               <Figure.Caption>
@@ -174,12 +173,15 @@ export default function Habilidades() {
           </Col>
         ))}
 
-{Array.from({ length: 1 }).map((_, idx) => (
+        {Array.from({ length: 1 }).map((_, idx) => (
           <Col>
             <Figure>
               <Figure.Image
-                width="150" height="150"  variant="top"  className=" zoom rounded-circle border"
-                src="./css3.PNG" 
+                width="150"
+                height="150"
+                variant="top"
+                className=" zoom rounded-circle border"
+                src="./css3.PNG"
               />
               <Figure.Caption>
                 <p className="bg-warning rounded-4 text-center">CSS</p>
@@ -190,7 +192,11 @@ export default function Habilidades() {
                 >
                   Progreso
                 </Button>
-                <Overlay target={xtarget.current} show={xshow} placement="right">
+                <Overlay
+                  target={xtarget.current}
+                  show={xshow}
+                  placement="right"
+                >
                   {(props) => (
                     <Tooltip id="overlay-example" {...props}>
                       Porcentaje estimado
@@ -210,14 +216,15 @@ export default function Habilidades() {
           </Col>
         ))}
 
-{Array.from({ length: 1 }).map((_, idx) => (
+        {Array.from({ length: 1 }).map((_, idx) => (
           <Col>
             <Figure>
               <Figure.Image
-                width="150" height="150"  variant="top"  className=" zoom rounded-circle border"
-               
-                src="./bootstrap.PNG" 
-               
+                width="150"
+                height="150"
+                variant="top"
+                className=" zoom rounded-circle border"
+                src="./bootstrap.PNG"
               />
               <Figure.Caption>
                 <p className="bg-warning rounded-4 text-center">Bootstrap</p>
@@ -228,7 +235,11 @@ export default function Habilidades() {
                 >
                   Progreso
                 </Button>
-                <Overlay target={ptarget.current} show={pshow} placement="right">
+                <Overlay
+                  target={ptarget.current}
+                  show={pshow}
+                  placement="right"
+                >
                   {(props) => (
                     <Tooltip id="overlay-example" {...props}>
                       Porcentaje estimado
@@ -248,14 +259,15 @@ export default function Habilidades() {
           </Col>
         ))}
 
-
-{Array.from({ length: 1 }).map((_, idx) => (
+        {Array.from({ length: 1 }).map((_, idx) => (
           <Col>
             <Figure>
               <Figure.Image
-                width="150" height="150"  variant="top"  className=" zoom rounded-circle border"             
+                width="150"
+                height="150"
+                variant="top"
+                className=" zoom rounded-circle border"
                 src="./sqlserver.PNG"
-               
               />
               <Figure.Caption>
                 <p className="bg-warning rounded-4 text-center"> SQLServer </p>
@@ -266,7 +278,11 @@ export default function Habilidades() {
                 >
                   Progreso
                 </Button>
-                <Overlay target={vtarget.current} show={vshow} placement="right">
+                <Overlay
+                  target={vtarget.current}
+                  show={vshow}
+                  placement="right"
+                >
                   {(props) => (
                     <Tooltip id="overlay-example" {...props}>
                       Porcentaje estimado
@@ -286,14 +302,15 @@ export default function Habilidades() {
           </Col>
         ))}
 
-
-{Array.from({ length: 1 }).map((_, idx) => (
+        {Array.from({ length: 1 }).map((_, idx) => (
           <Col>
             <Figure>
               <Figure.Image
-                width="150" height="150"  variant="top"  className=" zoom rounded-circle border"
+                width="150"
+                height="150"
+                variant="top"
+                className=" zoom rounded-circle border"
                 src="./potsgre.PNG"
-               
               />
               <Figure.Caption>
                 <p className="bg-warning rounded-4 text-center">PotsgreSQL</p>
@@ -304,7 +321,11 @@ export default function Habilidades() {
                 >
                   Progreso
                 </Button>
-                <Overlay target={rtarget.current} show={rshow} placement="right">
+                <Overlay
+                  target={rtarget.current}
+                  show={rshow}
+                  placement="right"
+                >
                   {(props) => (
                     <Tooltip id="overlay-example" {...props}>
                       Porcentaje estimado
@@ -324,11 +345,14 @@ export default function Habilidades() {
           </Col>
         ))}
 
-{Array.from({ length: 1 }).map((_, idx) => (
+        {Array.from({ length: 1 }).map((_, idx) => (
           <Col>
             <Figure>
               <Figure.Image
-              width="150" height="150"  variant="top"  className=" zoom rounded-circle border"
+                width="150"
+                height="150"
+                variant="top"
+                className=" zoom rounded-circle border"
                 src="./mongo.PNG"
               />
               <Figure.Caption>
@@ -340,7 +364,11 @@ export default function Habilidades() {
                 >
                   Progreso
                 </Button>
-                <Overlay target={mtarget.current} show={mshow} placement="right">
+                <Overlay
+                  target={mtarget.current}
+                  show={mshow}
+                  placement="right"
+                >
                   {(props) => (
                     <Tooltip id="overlay-example" {...props}>
                       Porcentaje estimado
@@ -360,13 +388,15 @@ export default function Habilidades() {
           </Col>
         ))}
 
-{Array.from({ length: 1 }).map((_, idx) => (
+        {Array.from({ length: 1 }).map((_, idx) => (
           <Col>
             <Figure>
               <Figure.Image
-             width="150" height="150"  variant="top"  className=" zoom rounded-circle border"
+                width="150"
+                height="150"
+                variant="top"
+                className=" zoom rounded-circle border"
                 src="./mySql.PNG"
-                
               />
               <Figure.Caption>
                 <p className="bg-warning rounded-4 text-center">MySQL</p>
@@ -377,7 +407,11 @@ export default function Habilidades() {
                 >
                   Progreso
                 </Button>
-                <Overlay target={qtarget.current} show={qshow} placement="right">
+                <Overlay
+                  target={qtarget.current}
+                  show={qshow}
+                  placement="right"
+                >
                   {(props) => (
                     <Tooltip id="overlay-example" {...props}>
                       Porcentaje estimado
@@ -397,13 +431,15 @@ export default function Habilidades() {
           </Col>
         ))}
 
-{Array.from({ length: 1 }).map((_, idx) => (
+        {Array.from({ length: 1 }).map((_, idx) => (
           <Col>
             <Figure>
               <Figure.Image
-               width="150" height="150"  variant="top"  className=" zoom rounded-circle border"
+                width="150"
+                height="150"
+                variant="top"
+                className=" zoom rounded-circle border"
                 src="./python.PNG"
-                
               />
               <Figure.Caption>
                 <p className="bg-warning rounded-4 text-center">Python</p>
@@ -414,7 +450,11 @@ export default function Habilidades() {
                 >
                   Progreso
                 </Button>
-                <Overlay target={ttarget.current} show={tshow} placement="right">
+                <Overlay
+                  target={ttarget.current}
+                  show={tshow}
+                  placement="right"
+                >
                   {(props) => (
                     <Tooltip id="overlay-example" {...props}>
                       Porcentaje estimado
@@ -434,13 +474,15 @@ export default function Habilidades() {
           </Col>
         ))}
 
-{Array.from({ length: 1 }).map((_, idx) => (
+        {Array.from({ length: 1 }).map((_, idx) => (
           <Col>
             <Figure>
               <Figure.Image
-                width="150" height="150"  variant="top"  className=" zoom rounded-circle border"
+                width="150"
+                height="150"
+                variant="top"
+                className=" zoom rounded-circle border"
                 src="./java.PNG"
-               
               />
               <Figure.Caption>
                 <p className="bg-warning rounded-4 text-center">JAVA</p>
@@ -451,7 +493,11 @@ export default function Habilidades() {
                 >
                   Progreso
                 </Button>
-                <Overlay target={jtarget.current} show={jshow} placement="right">
+                <Overlay
+                  target={jtarget.current}
+                  show={jshow}
+                  placement="right"
+                >
                   {(props) => (
                     <Tooltip id="overlay-example" {...props}>
                       Porcentaje estimado
@@ -471,16 +517,21 @@ export default function Habilidades() {
           </Col>
         ))}
 
-{Array.from({ length: 1 }).map((_, idx) => (
+        {Array.from({ length: 1 }).map((_, idx) => (
           <Col>
             <Figure>
               <Figure.Image
-                width="150" height="150"  variant="top"  className=" zoom rounded-circle border"
+                width="150"
+                height="150"
+                variant="top"
+                className=" zoom rounded-circle border"
                 src="./restadistico.PNG"
-            
               />
               <Figure.Caption>
-                <p className="bg-warning rounded-4 text-center"> R estadistico</p>
+                <p className="bg-warning rounded-4 text-center">
+                  {" "}
+                  R estadistico
+                </p>
                 <Button
                   variant="primary"
                   ref={dtarget}
@@ -488,7 +539,11 @@ export default function Habilidades() {
                 >
                   Progreso
                 </Button>
-                <Overlay target={dtarget.current} show={dshow} placement="right">
+                <Overlay
+                  target={dtarget.current}
+                  show={dshow}
+                  placement="right"
+                >
                   {(props) => (
                     <Tooltip id="overlay-example" {...props}>
                       Porcentaje estimado
@@ -508,13 +563,15 @@ export default function Habilidades() {
           </Col>
         ))}
 
-{Array.from({ length: 1 }).map((_, idx) => (
+        {Array.from({ length: 1 }).map((_, idx) => (
           <Col>
             <Figure>
               <Figure.Image
-               width="150" height="150"  variant="top"  className=" zoom rounded-circle border"
+                width="150"
+                height="150"
+                variant="top"
+                className=" zoom rounded-circle border"
                 src="./excel1.PNG"
-              
               />
               <Figure.Caption>
                 <p className="bg-warning rounded-4 text-center"> Excel</p>
@@ -525,7 +582,11 @@ export default function Habilidades() {
                 >
                   Progreso
                 </Button>
-                <Overlay target={ztarget.current} show={zshow} placement="right">
+                <Overlay
+                  target={ztarget.current}
+                  show={zshow}
+                  placement="right"
+                >
                   {(props) => (
                     <Tooltip id="overlay-example" {...props}>
                       Porcentaje estimado
@@ -545,16 +606,21 @@ export default function Habilidades() {
           </Col>
         ))}
 
-{Array.from({ length: 1 }).map((_, idx) => (
+        {Array.from({ length: 1 }).map((_, idx) => (
           <Col>
             <Figure>
               <Figure.Image
-            width="150" height="150"  variant="top"  className=" zoom rounded-circle border"
+                width="150"
+                height="150"
+                variant="top"
+                className=" zoom rounded-circle border"
                 src="./Aillustrator.PNG"
-               
               />
               <Figure.Caption>
-                <p className="bg-warning form-wrapper rounded-4 text-center"> Adobe Illustrator</p>
+                <p className="bg-warning form-wrapper rounded-4 text-center">
+                  {" "}
+                  Adobe Illustrator
+                </p>
                 <Button
                   variant="primary"
                   ref={gtarget}
@@ -563,7 +629,11 @@ export default function Habilidades() {
                 >
                   Progreso
                 </Button>
-                <Overlay target={gtarget.current} show={gshow} placement="right">
+                <Overlay
+                  target={gtarget.current}
+                  show={gshow}
+                  placement="right"
+                >
                   {(props) => (
                     <Tooltip id="overlay-example" {...props}>
                       Porcentaje estimado
@@ -583,13 +653,15 @@ export default function Habilidades() {
           </Col>
         ))}
 
-{Array.from({ length: 1 }).map((_, idx) => (
+        {Array.from({ length: 1 }).map((_, idx) => (
           <Col>
             <Figure>
               <Figure.Image
-               width="150" height="150"  variant="top"  className=" zoom rounded-circle border"
+                width="150"
+                height="150"
+                variant="top"
+                className=" zoom rounded-circle border"
                 src="./autocad.PNG"
-            
               />
               <Figure.Caption>
                 <p className="bg-warning rounded-4 text-center"> AUTOCAD</p>
@@ -600,7 +672,11 @@ export default function Habilidades() {
                 >
                   Progreso
                 </Button>
-                <Overlay target={ftarget.current} show={fshow} placement="right">
+                <Overlay
+                  target={ftarget.current}
+                  show={fshow}
+                  placement="right"
+                >
                   {(props) => (
                     <Tooltip id="overlay-example" {...props}>
                       Porcentaje estimado
@@ -620,13 +696,15 @@ export default function Habilidades() {
           </Col>
         ))}
 
-{Array.from({ length: 1 }).map((_, idx) => (
+        {Array.from({ length: 1 }).map((_, idx) => (
           <Col>
             <Figure>
               <Figure.Image
-                width="150" height="150"  variant="top"  className=" zoom rounded-circle border"
+                width="150"
+                height="150"
+                variant="top"
+                className=" zoom rounded-circle border"
                 src="./geogebra.PNG"
-              
               />
               <Figure.Caption>
                 <p className="bg-warning rounded-4 text-center">Geogebra</p>
@@ -637,7 +715,11 @@ export default function Habilidades() {
                 >
                   Progreso
                 </Button>
-                <Overlay target={ktarget.current} show={kshow} placement="right">
+                <Overlay
+                  target={ktarget.current}
+                  show={kshow}
+                  placement="right"
+                >
                   {(props) => (
                     <Tooltip id="overlay-example" {...props}>
                       Porcentaje estimado
@@ -656,9 +738,6 @@ export default function Habilidades() {
             </Figure>
           </Col>
         ))}
-
-
-
       </Row>
     </>
   );
