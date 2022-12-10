@@ -10,7 +10,7 @@ export default class Perfil extends Component {
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
-          border: "1px solid #565555",
+          border: "3px solid #d8b208",
           height: "w-100",
         }}
         class="container my-5 d-flex justify-content-center form-wrapper rounded-4 "
@@ -18,6 +18,7 @@ export default class Perfil extends Component {
         <div className="form-content">
           <div className="form-content">
             <img
+            style={{border: "3px solid #d8b208" }}
               src="/fotop.jpeg"
               alt=""
               className=" img-thumbnail zoom rounded-circle w-50 my-5 mt-5 d-flex justify-content-center form-wrapper"
@@ -52,10 +53,11 @@ export default class Perfil extends Component {
             backgroundSize: "cover",
             border: "1px solid #565555",
             height: "w-100",
-            fontFamily: "bold, text-justify"
+            fontFamily: "Raleway, bold, text-justify"
+            
           }}
             
-            className="img-thumbnail rounded-4 text-justify mx-2 mt-2 my-3"
+            className="img-thumbnail rounded-4 text-justify mx-2 mt-2 my-3 fw-bold"
           >
             <p>Soy Licenciada en matemáticas y estadística, con experiencia en análisis de datos estadísticos, sistematización de información, verificación y validación de datos,
                establecimiento y medición de indicadores, sacar inferencias y presentación de informes de gestión y
