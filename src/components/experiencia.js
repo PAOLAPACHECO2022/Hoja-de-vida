@@ -15,14 +15,16 @@ export default function Experiencia() {
         {Array.from({ length: 1 }).map((_, idx) => (
           <Col>
             <Card
-              className="img-thumbnail"
-              style={{
-                backgroundImage: `url("./jiras.PNG")`,
-                backgroundPosition: "center",
-                backgroundRepeat: "no-repeat",
-                backgroundSize: "cover",
-                border: "1px solid #565555",
-              }}
+             
+              className="img-thumbnail rounded-5"
+style={{
+  backgroundImage: `url("./jiras.PNG")`,
+  backgroundPosition: "center",
+  backgroundRepeat: "no-repeat",
+  backgroundSize: "cover",
+  border: "3px solid #e6ca4e ",
+  
+}}
               class="container my-5 d-flex justify-content-center form-wrapper rounded-4 "
             >
               <Card.Img
@@ -32,11 +34,11 @@ export default function Experiencia() {
                 src="./celestin.PNG"
               />
               <Card.Body>
-                <Card.Title className="fw-bold">
+                <Card.Title className="fw-bold" style={{ fontFamily: "Raleway,bold" }}>
                   Docente de matemáticas, estadística y geometría
                 </Card.Title>
-                <Card.Text className="fw-bold">
-                  <p>Nombre de la empresa: CELESTIN FREINET SUBA-BOGOTÁ </p>
+                <Card.Text className="fw-bold" style={{ fontFamily: "Raleway,bold" }}>
+                  <p>Nombre de la empresa: Celestin Freinet Suba-Bogotá </p>
                   <p>Sector: Educación</p>
                   <p>Teléfono de la empresa: 3157492890</p>
                   <p>Cargo: Docente de 6°,7°, 8° y 9° </p>
@@ -78,7 +80,7 @@ export default function Experiencia() {
                     </Modal.Title>
                   </Modal.Header>
                   <Modal.Body>
-                    <p>
+                    <p style={{ fontFamily: "Raleway,bold" }}>
                       Diseño y aplicación de planes de clase, desarrollo y
                       análisis de guías de trabajo enfocadas al mejoramiento del
                       estudiante, manejo y liderazgo de grupos de trabajo,
@@ -104,14 +106,19 @@ export default function Experiencia() {
         {Array.from({ length: 1 }).map((_, idx) => (
           <Col>
             <Card
-              className="img-thumbnail"
-              style={{
-                backgroundImage: `url("./flor.PNG")`,
-                backgroundPosition: "center",
-                backgroundRepeat: "no-repeat",
-                backgroundSize: "cover",
-                border: "1px solid #565555",
-              }}
+           
+
+                        
+              className="img-thumbnail rounded-5"
+style={{
+  backgroundImage: `url("./flor.PNG")`,
+  backgroundPosition: "center",
+  backgroundRepeat: "no-repeat",
+  backgroundSize: "cover",
+  border: "3px solid #3d6e05",
+  
+}}
+  
             >
               <Card.Img
                 style={{ height: "10rem", width: "10rem" }}
@@ -120,12 +127,12 @@ export default function Experiencia() {
                 src="./icck.PNG"
               />
               <Card.Body>
-                <Card.Title className="fw-bold">
+                <Card.Title className="fw-bold" style={{ fontFamily: "Raleway,bold" }}>
                   Docente de matemáticas, estadística y geometría
                 </Card.Title>
-                <Card.Text className="fw-bold">
+                <Card.Text className="fw-bold" style={{ fontFamily: "Raleway,bold" }}>
                   <p>
-                    Nombre de la empresa: INSTITUTO CULTURAL CIUDAD KENNEDY
+                    Nombre de la empresa: Instituto Cultural Ciudad Kennedy
                     (ICCK){" "}
                   </p>
                   <p>Sector: Educación</p>
@@ -169,7 +176,7 @@ export default function Experiencia() {
                     </Modal.Title>
                   </Modal.Header>
                   <Modal.Body>
-                    <p>
+                    <p style={{ fontFamily: "Raleway,bold" }}>
                       Docente de estudiantes primaría y bachillerato
                       (4°,5°,8°-11°). Diseño y aplicación de planes de área y de
                       clase, desarrollo y análisis de guías de trabajo diseño,
@@ -186,13 +193,13 @@ export default function Experiencia() {
         {Array.from({ length: 1 }).map((_, idx) => (
           <Col>
             <Card
-              className="img-thumbnail"
+              className="img-thumbnail rounded-5"
               style={{
                 backgroundImage: `url("./marceles.PNG")`,
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
-                border: "4px solid #565555",
+                border: "3px solid #d8b208 ",
                 
               }}
             >
@@ -203,10 +210,10 @@ export default function Experiencia() {
                 src="./valencia.PNG"
               />
               <Card.Body>
-                <Card.Title className="fw-bold">
+                <Card.Title className="fw-bold" style={{ fontFamily: "Raleway,bold" }}>
                   Docente de matemáticas, estadística y geometría
                 </Card.Title>
-                <Card.Text className="fw-bold">
+                <Card.Text className="fw-bold" style={{ fontFamily: "Raleway,bold" }}>
                   <p>
                     Nombre de la empresa: Colegio Guillermo León Valencia-
                     Duitama{" "}
@@ -237,7 +244,7 @@ export default function Experiencia() {
                       backgroundPosition: "center",
                       backgroundRepeat: "no-repeat",
                       backgroundSize: "cover",
-                      border: "1px solid #565555",
+                      border: "2px solid #565555",
                     }}
                   >
                     <Modal.Title
@@ -246,13 +253,13 @@ export default function Experiencia() {
                     >
                       <h5
                         style={{ fontFamily: "Raleway,bold" }}
-                        className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
+                        className="font-weight-bold text-center text-uppercase  h3 px-3 "
                       >
                         Docente de matemáticas, estadística y geometría
                       </h5>
                     </Modal.Title>
                   </Modal.Header>
-                  <Modal.Body>
+                  <Modal.Body style={{ fontFamily: "Raleway,bold" }}>
                     <p>
                       Diseño y aplicación de planes de clase y evaluaciones,
                       desarrollo y análisis de proyectos de mejoramiento del
@@ -271,27 +278,30 @@ export default function Experiencia() {
         {Array.from({ length: 1 }).map((_, idx) => (
           <Col>
             <Card
-              className="img-thumbnail"
-              style={{
-                backgroundImage: `url("./mari.PNG")`,
-                backgroundPosition: "center",
-                backgroundRepeat: "no-repeat",
-                backgroundSize: "cover",
-                border: "1px solid #565555",
-              }}
+
+className="img-thumbnail rounded-5"
+style={{
+  backgroundImage: `url("./mari.PNG")`,
+  backgroundPosition: "center",
+  backgroundRepeat: "no-repeat",
+  backgroundSize: "cover",
+  border: "3px solid #d8b208 ",
+  
+}}
+         
             >
               <Card.Img
-                style={{ height: "10rem", width: "10rem" }}
+                style={{ height: "10rem", width: "10rem", border: "6px solid #d8b208 " }}
                 variant="top"
-                className="img-thumbnail zoom rounded-circle border d-flex justify-content-center form-wrapper"
+                className="img-thumbnail zoom rounded-circle  d-flex justify-content-center form-wrapper"
                 src="./uptc.PNG"
               />
               <Card.Body>
-                <Card.Title className="fw-bold">
+                <Card.Title className="fw-bold" style={{ fontFamily: "Raleway,bold" }}>
                   Monografía-Desarrollo de Modelo de Predicción (Machine
                   Learning){" "}
                 </Card.Title>
-                <Card.Text className="fw-bold">
+                <Card.Text className="fw-bold" style={{ fontFamily: "Raleway,bold" }}>
                   <p>
                     Nombre de la empresa: Universidad Pedagógica y Tecnológica
                     de Colombia
@@ -338,7 +348,7 @@ export default function Experiencia() {
                     </Modal.Title>
                   </Modal.Header>
                   <Modal.Body>
-                    <p>
+                    <p style={{ fontFamily: "Raleway,bold" }}>
                       Análisis estadístico de información de los puntajes de la
                       prueba Saber Pro del programa de Administración
                       Agropecuaria de la Universidad Pedagógica y Tecnológica
