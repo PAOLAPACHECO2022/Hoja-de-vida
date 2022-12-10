@@ -17,8 +17,7 @@ export default class Perfil extends Component {
       >
         <div className="form-content">
           <div className="form-content">
-            <img
-            style={{border: "1px solid #d8b208" }}
+            <img           
               src="/fotop1.PNG"
               alt=""
               className="zoom rounded-circle w-50 my-5 mt-5 d-flex justify-content-center form-wrapper"
