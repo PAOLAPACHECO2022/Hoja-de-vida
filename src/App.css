@@ -40,7 +40,7 @@ body h3 {
 .App {
   min-height: 100vh;
   background-image: url(
-    "https://img.freepik.com/fotos-premium/textura-cielo-gris-fondo-nubes-oscuras_84738-5375.jpg?w=740");
+     "/public/p20.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: relative;
