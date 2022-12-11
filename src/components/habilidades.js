@@ -91,7 +91,7 @@ export default function Habilidades() {
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         border: "1px solid #565555",
-        fontFamily: "cursive,bold",
+        fontFamily: "times,bold",
       }}
        
         className="img-thumbnail bg-warning rounded-4 text-justify fw-bold"
