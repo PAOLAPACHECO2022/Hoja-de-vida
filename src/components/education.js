@@ -7,6 +7,8 @@ import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 import {
   Col,
+  Row,
+
   //Image,
 } from "react-bootstrap";
 export default function Education() {
@@ -33,10 +35,10 @@ export default function Education() {
   const [faShow, setfaShow] = useState(false);
   return (
     <>
-   
-        <Col md={12}  className=" rounded-4 mt-5 d-flex justify-content-center form-wrapper">
+     
+        <Col md={12} className="Apps-thumbnail rounded-4 mt-5 d-flex justify-content-center form-wrapper" >
           <Card
-            className="img-thumbnail rounded-4 mt-5 d-flex justify-content-center form-wrapper"
+            className="img-thumbnail rounded-4"
             style={{
               backgroundImage: `url("./jirasol.PNG")`,
               backgroundPosition: "center",
@@ -115,13 +117,26 @@ export default function Education() {
             </Card.Body>
           </Card>
         </Col>
-  
+      
 
       {/* ------------------------------------ACORDION--------------------------------- */}
       <Col md={12} >
-       
-       
-
+        <Row>
+          <div className="mt-5 d-flex justify-content-center form-wrapper">
+          <h1
+            style={{
+              backgroundImage: `url("./koko.PNG")`,
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+              border: "1px solid #565555",
+            }}
+            className="text-center mx-3  font-weight-bold h5 text-dark my-3 rounded-4"
+          >
+            FORMACIÓN COMPLEMENTARIA
+          </h1>
+          </div>
+        </Row>
         <Accordion className="mt-5 my-5 justify-content-center form-wrapper">
           <Accordion.Item
             eventKey="0"
