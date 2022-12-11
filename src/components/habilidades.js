@@ -86,7 +86,7 @@ export default function Habilidades() {
       </div>
       <p
       style={{
-        backgroundImage: `url("./jiras.PNG")`,
+        backgroundImage: `url("https://st2.depositphotos.com/1944815/9160/i/950/depositphotos_91600656-stock-photo-green-lime-background-with-bubbles.jpg")`,
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
