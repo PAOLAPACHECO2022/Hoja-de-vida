@@ -7,7 +7,7 @@ export default class Contacto extends Component {
       <div class="container" style={{ fontFamily: "Raleway,bold" }}>
         <div class="section-title  text-center mt-5  ">
           <h2 style={{ fontFamily: "Raleway,bold" }}> CONTACTO</h2>
-          <p Style={" color:     #e79c2b"}>
+          <p style={{ fontFamily: "Raleway,bold" }}>
             Si deseas contactarme, lo puedes realizar mediante Email o mediante
             teléfono.
           </p>
@@ -21,19 +21,19 @@ export default class Contacto extends Component {
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
                 <h4 style={{ fontFamily: "Raleway,bold" }}>Ubicación</h4>
-                <p Style={" color:    #7a4b05","fontFamily: Raleway,bold"}> Cundinamarca, Bogotá,</p>
+                <p style={{ fontFamily: "Raleway,bold" }}> Cundinamarca, Bogotá,</p>
               </div>
 
               <div class="email">
                 <i class="bi bi-envelope"></i>
                 <h4 style={{ fontFamily: "Raleway,bold" }}>Email:</h4>
-                <p Style={" color:    #7a4b05","fontFamily: Raleway,bold"}>paolapacheco.moreno@gmail.com</p>
+                <p style={{ fontFamily: "Raleway,bold" }}>paolapacheco.moreno@gmail.com</p>
               </div>
 
               <div class="phone">
                 <i class="bi bi-phone"></i>
                 <h4 style={{ fontFamily: "Raleway,bold" }}>Teléfono:</h4>
-                <p Style={" color:    #7a4b05","fontFamily: Raleway,bold"} >+57 3209887626</p>
+                <p style={{ fontFamily: "Raleway,bold" }} >+57 3209887626</p>
               </div>
             </div>
           </div>
