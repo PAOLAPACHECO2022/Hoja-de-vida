@@ -6,7 +6,7 @@ export default class Contacto extends Component {
     return (
       <div class="container" style={{ fontFamily: "Raleway,bold" }}>
         <div class="section-title  text-center mt-5  ">
-          <h2 Style={"color: rgb(0, 0, 0);"}> CONTACTO</h2>
+          <h2 Style={"color: rgb("0, 0, 0);"}> CONTACTO</h2>
           <p Style={" color:     #e79c2b"} style={{ fontFamily: "fontFamily: "times,bold" }}>
             Si deseas contactarme, lo puedes realizar mediante Email o mediante
             teléfono.
