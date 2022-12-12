@@ -8,6 +8,7 @@ export default function Experiencia() {
   const [show, setShow] = useState(false);
   const [shhow, sethShow] = useState(false);
   const [xshow, setxShow] = useState(false);
+  const [lshow, setlShow] = useState(false);
 
   return (
     <>
@@ -226,13 +227,13 @@ style={{
                   <p>Fecha de retiro: Mayo de 2017 </p>
                   Tipo experiencia laboral: Pasantía o Práctica Laboral
                 </Card.Text>
-                <Button variant="warning" onClick={() => setxShow(true)}>
+                <Button variant="warning" onClick={() => setlShow(true)}>
                   Logros
                 </Button>
 
                 <Modal
-                  show={xshow}
-                  onHide={() => setxShow(false)}
+                  show={lshow}
+                  onHide={() => setlShow(false)}
                   dialogClassName="modal-dialog modal-lg"
                   aria-labelledby="example-custom-modal-styling-title"
                   ClassName="modal-dialog modal-xl"
@@ -352,13 +353,11 @@ style={{
                       Análisis estadístico de información de los puntajes de la
                       prueba Saber Pro del programa de Administración
                       Agropecuaria de la Universidad Pedagógica y Tecnológica
-                      seccional Duitama, donde se llevó a cabo el desarrollo y
-                      ejecución de modelos estadísticos(Modelos de regresión
+                      seccional Duitama, donde se llevó a cabo el desarrollo de un modelo estadístico (Modelo de regresión
                       logística-Predicción de los puntajes de la prueba saber
                       Pro), análisis de datos mediante estadísticas
                       descriptivas, inferencias, análisis probabilístico y
-                      análisis multivariado, todo estomediantelos programas
-                      (Excel, R estadístico, SPSS, Statistics).
+                      análisis multivariado, todo esto mediante los programas: Excel, R estadístico y SPSS.
                     </p>
                   </Modal.Body>
                 </Modal>
