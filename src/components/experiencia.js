@@ -9,7 +9,7 @@ export default function Experiencia() {
   const [shhow, sethShow] = useState(false);
   const [xshow, setxShow] = useState(false);
   const [lshow, setlShow] = useState(false);
-
+  
   return (
     <>
       <Row xs={1} md={2} className="g-4  mt-5">
@@ -360,6 +360,7 @@ style={{
                       análisis multivariado, todo esto mediante los programas: Excel, R estadístico y SPSS.
                     </p>
                    
+<p https://drive.google.com/file/d/1Kla1LvU8mzuNdSFvrIUOMkaDy0OCWKb4/view?usp=sharing</p>
                   </Modal.Body>
                 </Modal>
               </Card.Body>
