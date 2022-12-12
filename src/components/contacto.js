@@ -21,19 +21,19 @@ export default class Contacto extends Component {
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
                 <h4 style={{ fontFamily: "Raleway,bold" }}>Ubicación</h4>
-                <p Style={" color:     #e79c2b"}>Cundinamarca, Bogotá,</p>
+                <p Style={" color:    #7a4b05"}>Cundinamarca, Bogotá,</p>
               </div>
 
               <div class="email">
                 <i class="bi bi-envelope"></i>
                 <h4 style={{ fontFamily: "Raleway,bold" }}>Email:</h4>
-                <p Style={" color:     #e79c2b"}>paolapacheco.moreno@gmail.com</p>
+                <p Style={" color:    #7a4b05"}>paolapacheco.moreno@gmail.com</p>
               </div>
 
               <div class="phone">
                 <i class="bi bi-phone"></i>
                 <h4 style={{ fontFamily: "Raleway,bold" }}>Teléfono:</h4>
-                <p Style={" color:     #e79c2b"} >+57 3209887626</p>
+                <p Style={" color:    #7a4b05"} >+57 3209887626</p>
               </div>
             </div>
           </div>
