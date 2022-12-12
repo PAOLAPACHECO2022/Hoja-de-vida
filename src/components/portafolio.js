@@ -12,18 +12,19 @@ export default class Portafolio extends Component {
         {Array.from({ length: 1 }).map((_, idx) => (
           <Col>
             <Card
+              className="img-thumbnail rounded-4"
               style={{
                 backgroundImage: `url("./alas.PNG")`,
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
-                border: "1px solid #565555",
+                border: "2px solid #565555",
               }}
             >
               <Card.Img
                 variant="top"
                 src="./laplaza.PNG"
-                className="img-thumbnail"
+                className="img-thumbnail rounded-4"
               />
               <Card.Img
                 variant="top"
@@ -63,12 +64,13 @@ export default class Portafolio extends Component {
         {Array.from({ length: 1 }).map((_, idx) => (
           <Col>
             <Card
+              className="img-thumbnail rounded-4"
               style={{
                 backgroundImage: `url("./alas.PNG")`,
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
-                border: "1px solid #565555",
+                border: "2px solid #565555",
               }}
             >
               <Card.Img
@@ -113,12 +115,13 @@ export default class Portafolio extends Component {
         {Array.from({ length: 1 }).map((_, idx) => (
           <Col>
             <Card
+               className="img-thumbnail rounded-4"
               style={{
                 backgroundImage: `url("./alas.PNG")`,
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
-                border: "1px solid #565555",
+                border: "2px solid #565555",
               }}
             >
               <Card.Img
@@ -148,12 +151,13 @@ export default class Portafolio extends Component {
         {Array.from({ length: 1 }).map((_, idx) => (
           <Col>
             <Card
+               className="img-thumbnail rounded-4"
               style={{
                 backgroundImage: `url("./alas.PNG")`,
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
-                border: "1px solid #565555",
+                border: "2px solid #565555",
               }}
             >
               <Card.Img
@@ -185,12 +189,13 @@ export default class Portafolio extends Component {
         {Array.from({ length: 1 }).map((_, idx) => (
           <Col>
             <Card
+              className="img-thumbnail rounded-4"
               style={{
                 backgroundImage: `url("./alas.PNG")`,
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
-                border: "1px solid #565555",
+                border: "2px solid #565555",
               }}
             >
               
@@ -201,16 +206,11 @@ export default class Portafolio extends Component {
               />
                 <Card.Img
                 variant="top"
-                src="./t3.JPG"
-                className="img-thumbnail"
-              />
-                <Card.Img
-                variant="top"
                 src="./t1.JPG"
                 className="img-thumbnail"
               />
               <Card.Body>
-                <Card.Title className="text-center bold h3 bg-success" style={{ fontFamily: "Raleway,bold" }}>
+                <Card.Title className="text-center bold h3 bg-success img-thumbnail rounded-3" style={{ fontFamily: "Raleway,bold" }}>
                  “Factores demográficos,  socioeconómicos y  académicos que influyen sobre los resultados del componente genérico de la prueba Saber Pro.
                  Caso: Administración de Empresas Agropecuarias de la universidad pedagógica y tecnológica de Colombia, seccional Duitama”.
                 </Card.Title>
