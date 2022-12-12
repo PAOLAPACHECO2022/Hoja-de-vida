@@ -18,7 +18,7 @@ export default class Portafolio extends Component {
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
-                border: "2px solid #565555",
+                border: "3px solid #565555",
               }}
             >
               <Card.Img
@@ -70,7 +70,7 @@ export default class Portafolio extends Component {
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
-                border: "2px solid #565555",
+                border: "3px solid #565555",
               }}
             >
               <Card.Img
@@ -121,7 +121,7 @@ export default class Portafolio extends Component {
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
-                border: "2px solid #565555",
+                border: "3px solid #565555",
               }}
             >
               <Card.Img
@@ -157,7 +157,7 @@ export default class Portafolio extends Component {
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
-                border: "2px solid #565555",
+                border: "3px solid #565555",
               }}
             >
               <Card.Img
@@ -195,7 +195,7 @@ export default class Portafolio extends Component {
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
-                border: "2px solid #565555",
+                border: "3px solid #565555",
               }}
             >
               
