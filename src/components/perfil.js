@@ -70,15 +70,15 @@ export default class Perfil extends Component {
                SPSS, Python, Java, JS, React, Bootstrap, SQL, Html y CSS.  </p>
                 
 
-               <p>Tengo 3 de años de experiencia, realizando funciones de aplicación de planes de clase y
+               <p>Tengo 3 de años de experiencia, realizando funciones de aplicación de planes de clase,
                evaluaciones, desarrollo y análisis de proyectos de mejoramiento del estudiante, desarrollo y
-               ejecución proyecto de ajedrez de primaria y básica secundaria y liderazgo de grupos de trabajo,
+               ejecución proyecto de ajedrez de primaria y básica secundaria, liderazgo de grupos de trabajo,
                diseño, planeación y aplicación de actividades didácticas basadas en la enseñanza de conceptos
                matemáticos y estadísticos. </p>
               
 
                <p>Soy emprendedora, responsable, con espíritu crítico, analítico e
-               innovador, con una capacidad investigadora que me permite interactuar eficazmente con
+               innovador, con una capacidad de interactuar eficazmente con
                profesionales de otras disciplinas, tanto en el área de docencia, como en el campo empresarial.</p>
           </h6>
         </div>
