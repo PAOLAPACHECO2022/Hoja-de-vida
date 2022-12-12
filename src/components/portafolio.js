@@ -46,7 +46,7 @@ export default class Portafolio extends Component {
                   href="https://github.com/PAOLAPACHECO2022/LA--PLAZA--CAMPESINA--2022.git"
                   variant="warning"
                 >
-                  Ver Código
+                  Ver Repositorio
                 </Button>
                 <Button
                   target="_blank"
@@ -96,7 +96,7 @@ export default class Portafolio extends Component {
                   href="https://github.com/PAOLAPACHECO2022/LA-PLAZA.git"
                   variant="warning"
                 >
-                  Ver Código
+                  Ver Repositorio
                 </Button>
                 <Button
                   target="_blank"
