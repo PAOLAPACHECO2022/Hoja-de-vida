@@ -123,7 +123,7 @@ function App() {
   
   <footer className="footer"
      style={{
-      backgroundImage: `url("/footer3.JPG")`,
+      backgroundImage: `url("/footer2.JPG")`,
       backgroundPosition: "center",
       backgroundRepeat: "no-repeat",
       backgroundSize: "cover",
