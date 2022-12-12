@@ -181,6 +181,54 @@ export default class Portafolio extends Component {
             </Card>
           </Col>
         ))}
+        
+        {Array.from({ length: 1 }).map((_, idx) => (
+          <Col>
+            <Card
+              style={{
+                backgroundImage: `url("./alas.PNG")`,
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+                border: "1px solid #565555",
+              }}
+            >
+              
+               <Card.Img
+                variant="top"
+                src="./t2.JPG"
+                className="img-thumbnail"
+              />
+                <Card.Img
+                variant="top"
+                src="./t3.JPG"
+                className="img-thumbnail"
+              />
+                <Card.Img
+                variant="top"
+                src="./t1.JPG"
+                className="img-thumbnail"
+              />
+              <Card.Body>
+                <Card.Title className="text-center bold h3 bg-success" style={{ fontFamily: "Raleway,bold" }}>
+                 “Factores demográficos,  socioeconómicos y  académicos que influyen sobre los resultados del componente genérico de la prueba Saber Pro.
+                 Caso: Administración de Empresas Agropecuarias de la universidad pedagógica y tecnológica de Colombia, seccional Duitama”.
+                </Card.Title>
+                <Card.Text style={{ fontFamily: "Raleway,bold" }}>
+                  Proyecto de investigación (Modelo de regresión logística para la predicción de los puntajes de la prueba saber Pro)
+                </Card.Text>
+                <Button
+                  target="_blank"
+                  href="https://drive.google.com/file/d/1Kla1LvU8mzuNdSFvrIUOMkaDy0OCWKb4/view?usp=sharing"
+                  variant="warning"
+                  
+                >
+                  Ver Proyecto de investigación 
+                </Button>
+              </Card.Body>
+            </Card>
+          </Col>
+        ))}
       </Row>
     );
   }
