@@ -310,14 +310,20 @@ style={{
                   <p>Sector: Educativo</p>
                   <p>Tipo experiencia laboral: Monografia</p>
                   <p>Teléfono directora de monografía: 3164662607</p>
-                  <p>Cargo: Docente de 4°,5°,8°, 9°, 10° y 11° </p>
                   <p>Ubicación: Colombia</p>
                   <p>Fecha de ingreso: Febrero de 2017</p>
-                  <p>Fecha de retiro: Junio de2018</p>
+                  <p>Fecha de retiro: Junio de 2018</p>
+
+                  <a href="https://drive.google.com/file/d/1Kla1LvU8mzuNdSFvrIUOMkaDy0OCWKb4/view?usp=sharing">
+                        Ver proyecto de investigación
+                   </a>
                 </Card.Text>
                 <Button variant="warning" onClick={() => sethShow(true)}>
                   Logros
                 </Button>
+
+
+          
 
                 <Modal
                   show={shhow}
@@ -359,8 +365,8 @@ style={{
                       descriptivas, inferencias, análisis probabilístico y
                       análisis multivariado, todo esto mediante los programas: Excel, R estadístico y SPSS.
                     </p>
-                   
-<p https://drive.google.com/file/d/1Kla1LvU8mzuNdSFvrIUOMkaDy0OCWKb4/view?usp=sharing</p>
+
+                  
                   </Modal.Body>
                 </Modal>
               </Card.Body>
