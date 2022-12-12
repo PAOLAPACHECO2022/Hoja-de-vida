@@ -100,7 +100,7 @@ export default function Habilidades() {
         que trato de estar lista para ello, capacitandome con diversos
         conocimientos que me ayuden con el cumplimiento de mis objetivos.
       </p>
-      <Row xs={1} md={3} className="g-4 mx-4 my-3  mt-5">
+      <Row xs={1} md={4} className="g-4 mx-4 my-3  mt-5">
         {Array.from({ length: 1 }).map((_, idx) => (
           <Col>
             <Figure>
