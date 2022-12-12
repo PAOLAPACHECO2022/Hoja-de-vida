@@ -43,14 +43,6 @@ export default class Portafolio extends Component {
                 </Card.Text>
                 <Button
                   target="_blank"
-                  href="https://la-plaza-campesina-2022-qkbcxrtnl-paolapachecomoreno-gmailcom.vercel.app/"
-                  variant="success"
-                  className="mx-3"
-                >
-                  Ver Página
-                </Button>{" "}
-                <Button
-                  target="_blank"
                   href="https://github.com/PAOLAPACHECO2022/LA--PLAZA--CAMPESINA--2022.git"
                   variant="warning"
                 >
