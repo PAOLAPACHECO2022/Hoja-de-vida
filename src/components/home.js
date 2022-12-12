@@ -71,8 +71,8 @@ export default class Home extends Component {
       <Carousel.Item>
             <img
            alt="Sixth slide"
-          src="https://scontent-bog1-1.xx.fbcdn.net/v/t39.30808-6/318436036_3321831864699078_6295963960734629542_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeGb79lMtn57PfTL6gB1jjbgPBLeM0GH78c8Et4zQYfvx0Nfgj5PSdobarrmBwJaQyu1ko2iRcHEp3jrzb0kl8mc&_nc_ohc=sp7D_lmTdtIAX_qBGa9&_nc_ht=scontent-bog1-1.xx&oh=00_AfAmWCuLie1_QqBUuYH35sDWLcA-tHokhExXRSPWkuTPiA&oe=6396F591" 
-        className=" img-thumbnail my-3 rounded-4 d-flex justify-content-center form-wrapper" 
+           src="/c6.jpg"
+          className=" img-thumbnail my-3 rounded-4 d-flex justify-content-center form-wrapper" 
         style={{ height: '25rem', width: '33rem' }}
             />
           </Carousel.Item>
@@ -80,7 +80,7 @@ export default class Home extends Component {
       <Carousel.Item>
             <img
            alt="Seventh slide"
-          src="https://scontent-bog1-1.xx.fbcdn.net/v/t39.30808-6/316813747_3321831854699079_7413003996634075567_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHWcKqAHCxcX-i-bY-OL0Hw0xzQnFMdNKDTHNCcUx00oL0LkygLTm4E6eoyAEvsbLKiIVSAwP61dFrEAnGU_UiQ&_nc_ohc=ZgkBaOyv_O4AX9Xh2Dv&_nc_ht=scontent-bog1-1.xx&oh=00_AfBwkt29uBkiNNp3KPF8H0Il23VmhIr_dheGF5EeM3su-w&oe=63975A2F" 
+           src="/c7.jpg"
            className=" img-thumbnail my-3 rounded-4 d-flex justify-content-center form-wrapper" 
         style={{ height: '25rem', width: '40rem' }}          
               
@@ -110,8 +110,8 @@ className=" img-thumbnail my-3 rounded-4 d-flex justify-content-center form-wrap
       <Carousel.Item>
             <img
            alt="Tenth slide"
-          src="https://scontent-bog1-1.xx.fbcdn.net/v/t39.30808-6/317943916_3321831648032433_7232224002297734427_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeGD9G9-FCjhrICQoH08bBOhPpav-OgGuCg-lq_46Aa4KKnhpZZPHtDAfFV9X6zT4mVk_qEVcJys6rjP5WPp807T&_nc_ohc=JMwKd_gEhDsAX-sNDgT&_nc_ht=scontent-bog1-1.xx&oh=00_AfByJ63tMimXn5H3rXLBTCk9za_NWItq9MqwXIJYzdYNQw&oe=639670B1" 
-          className=" img-thumbnail my-3 rounded-4 d-flex justify-content-center form-wrapper" 
+           src="/c10.jpg"
+           className=" img-thumbnail my-3 rounded-4 d-flex justify-content-center form-wrapper" 
         style={{ height: '25rem', width: '40rem' }}          
               
             />
@@ -120,8 +120,8 @@ className=" img-thumbnail my-3 rounded-4 d-flex justify-content-center form-wrap
       <Carousel.Item>
             <img
            alt="Eleventh slide"
-          src="https://scontent-bog1-1.xx.fbcdn.net/v/t39.30808-6/318320874_3321831644699100_46481856180241245_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHwr4oHT8hWKb2fU55jxPlyPo8U9bJJp00-jxT1skmnTWXKO_m2gzwPaobv0lKfKk6PhSiED7bhwE_Rqzhlmo9j&_nc_ohc=1LowVnWWcZcAX_4D3Ai&_nc_ht=scontent-bog1-1.xx&oh=00_AfBaXvw7uYFwkJ7-3tUS2PlOSZDRrMiRaNNI8MaOk3uJig&oe=6396C01E" 
-          className="img-thumbnail my-3 rounded-4 d-flex justify-content-center form-wrapper"
+         src="/c11.jpg"
+         className="img-thumbnail my-3 rounded-4 d-flex justify-content-center form-wrapper"
   
         style={{ height: '25rem', width: '30rem' }}          
               
@@ -131,8 +131,8 @@ className=" img-thumbnail my-3 rounded-4 d-flex justify-content-center form-wrap
       <Carousel.Item>
             <img
            alt="Twelfth slide"
-          src="https://scontent-bog1-1.xx.fbcdn.net/v/t39.30808-6/316813595_3321831588032439_7208329461542485451_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeGBCzefhBL4tGuTs_JVDeekD2LI3F9nEq0PYsjcX2cSrZgTNkvaOlBmflTW2iZuI326KpqgW5KDTKL-u_lNC1p6&_nc_ohc=XIk6Yy7sgEgAX9aaZ8r&_nc_ht=scontent-bog1-1.xx&oh=00_AfD5lyWnF9uKXNRYDt2Y8-RkOLP064E-hSjQmpiefwS2-A&oe=6396A8CC" 
-          className=" img-thumbnail my-3 rounded-4 d-flex justify-content-center form-wrapper" 
+           src="/c12.jpg"
+           className=" img-thumbnail my-3 rounded-4 d-flex justify-content-center form-wrapper" 
         style={{ height: '25rem', width: '40rem' }}           
               
             />
@@ -151,8 +151,8 @@ className=" img-thumbnail my-3 rounded-4 d-flex justify-content-center form-wrap
       <Carousel.Item>
             <img
            alt="Fourteenth slide"
-          src="https://scontent-bog1-1.xx.fbcdn.net/v/t39.30808-6/318242802_3322059458009652_3937462111384245434_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeFLgc2nyo63uPMmmxXdkgUUb3CKqR5pl1VvcIqpHmmXVWowO17i-m-rr9ZSHLY2QuKs8Ti3Dz7Q9jTHtE_htW_J&_nc_ohc=IGHcz3d6mYcAX9ef9U4&_nc_ht=scontent-bog1-1.xx&oh=00_AfBEagdJeZ6cVT9Y4GkOOM9jlU0pr9n9yx3u6z8GLIUNHg&oe=6396ED36"
- className=" img-thumbnail my-3 rounded-4 d-flex justify-content-center form-wrapper" 
+            src="/c14.jpg"
+          className=" img-thumbnail my-3 rounded-4 d-flex justify-content-center form-wrapper" 
         style={{ height: '25rem', width: '40rem' }}          
               
             />
@@ -161,8 +161,8 @@ className=" img-thumbnail my-3 rounded-4 d-flex justify-content-center form-wrap
       <Carousel.Item>
             <img
            alt="Fifteenth slide"
-          src="https://scontent-bog1-1.xx.fbcdn.net/v/t39.30808-6/318226033_3322059384676326_3908868136973337158_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeFIpEWKsPKkAuczvvEVYxa45jFNnjI3HrjmMU2eMjceuKoNfF9DVUN5qqNe_0DN6_6xFI8nsY2FV_PLF2sACfdR&_nc_ohc=9dASImFiN9AAX9_DAOD&tn=yZ7i9IOsIermm4V2&_nc_ht=scontent-bog1-1.xx&oh=00_AfCZRJiFCw6A96acD5EZiCBMLjyfsrnc-6ShM0iZwvnRCg&oe=63977386"
-  className=" img-thumbnail my-3 rounded-4 d-flex justify-content-center form-wrapper" 
+            src="/c15.jpg"
+          className=" img-thumbnail my-3 rounded-4 d-flex justify-content-center form-wrapper" 
         style={{ height: '25rem', width: '40rem' }}
         
               //className=" lg-10;"           
@@ -187,7 +187,7 @@ className=" img-thumbnail my-3 rounded-4 d-flex justify-content-center form-wrap
       <Carousel.Item>
             <img
            alt="Seventeenth slide"
-          src="https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-6/317929759_3321831488032449_3839597918049270915_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHevJbxq305HoEjdqpZxoYbv8-1NNbkINO_z7U01uQg01p0unnk-9qZxIVEyRoQ6SKNu8AWcmha3sskYEJonFNP&_nc_ohc=OH_RU-Sz1ecAX8vPb_h&tn=yZ7i9IOsIermm4V2&_nc_ht=scontent-atl3-2.xx&oh=00_AfAstwQL88ZGDNUM9zY9IVF1oFEpcgLJHn8ipHyGGAi4bw&oe=6396B089" 
+          src="/c17.jpg"
           className=" img-thumbnail my-3 rounded-4 d-flex justify-content-center form-wrapper"
               //className=" lg-10;"  
         style={{ height: '25rem', width: '20rem' }}
