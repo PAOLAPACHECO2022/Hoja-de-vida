@@ -49,13 +49,13 @@ function App() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" Style={"color: #eed757;"} className="bg-dark"/>
         <Navbar.Collapse  id="responsive-navbar-nav"  >
           <Nav  id="opciones" Style={"color: #eed757;"}>
-            <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"}className="bx- bx-user fw-bold " href="/perfil">Mi perfil profesional</Nav.Link>
-            <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"} className="bx bx-file-blank fw-bold" href="/education">Educación</Nav.Link>
-            <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"} className="bx bx-book-content fw-bold" href="/portafolio">Portafolio</Nav.Link>
-            <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"} className="bx bx-server fw-bold"  href="/habilidades">Habilidades</Nav.Link>
-            <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"} className="bx bx-server fw-bold"  href="/experiencia">Experiencia</Nav.Link>
-            <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"} className="bx bx-envelope fw-bold " href="/home">Mis pasatiempos</Nav.Link>
-            <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"} className="bx bx-envelope fw-bold" href="/contacto">Contacto</Nav.Link>
+            <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"}className="bx- bx-user fw-bold bg-warning  " href="/perfil">Mi perfil profesional</Nav.Link>
+            <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"} className="bx bx-file-blank fw-bold bg-warning " href="/education">Educación</Nav.Link>
+            <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"} className="bx bx-book-content fw-bold bg-warning " href="/portafolio">Portafolio</Nav.Link>
+            <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"} className="bx bx-server fw-bold bg-warning "  href="/habilidades">Habilidades</Nav.Link>
+            <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"} className="bx bx-server fw-bold bg-warning "  href="/experiencia">Experiencia</Nav.Link>
+            <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"} className="bx bx-envelope fw-bold bg-warning " href="/home">Mis pasatiempos</Nav.Link>
+            <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"} className="bx bx-envelope fw-bold bg-warning " href="/contacto">Contacto</Nav.Link>
             
           </Nav>
           <Nav>
