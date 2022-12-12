@@ -43,6 +43,7 @@ function App() {
           src="/logo.png"
           width="100"
           height="100"
+          href="/perfil"
        
         />{' '}            
   
@@ -140,11 +141,10 @@ function App() {
       <Link to={"/perfil"} className="nav-link">
           <img
           alt=""
-       className="zoom"
           src="/logo.png"
           width="100"
           height="100"
-          className="d-inline-block align-top"
+          className="zoom d-inline-block align-top"
         />{' '}            
           
       </Link>
