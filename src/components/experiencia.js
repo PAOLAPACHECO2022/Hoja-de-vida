@@ -314,16 +314,18 @@ style={{
                   <p>Fecha de ingreso: Febrero de 2017</p>
                   <p>Fecha de retiro: Junio de 2018</p>
 
-                  <a href="https://drive.google.com/file/d/1Kla1LvU8mzuNdSFvrIUOMkaDy0OCWKb4/view?usp=sharing">
-                        Ver proyecto de investigación
-                   </a>
+                <Button
+                  target="_blank"
+                  href="https://drive.google.com/file/d/1Kla1LvU8mzuNdSFvrIUOMkaDy0OCWKb4/view?usp=sharing"
+                  variant="warning"                 
+                >
+                  Ver proyecto de investigación
+                </Button>
+ 
                 </Card.Text>
                 <Button variant="warning" onClick={() => sethShow(true)}>
                   Logros
                 </Button>
-
-
-          
 
                 <Modal
                   show={shhow}
