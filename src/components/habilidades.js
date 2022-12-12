@@ -86,7 +86,7 @@ export default function Habilidades() {
       </div>
       <p
       style={{
-        backgroundImage: `url("/p20.png")`,
+        backgroundImage: `url("/p23.JPG")`,
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
