@@ -70,7 +70,7 @@ export default class Perfil extends Component {
                  tales como el manejo de: Excel, R estadístico, SPSS, Html, CSS, Boostrap, React, JS, MongoDB, SQL,  Python y Java.  </p>
                 
 
-               <p>Licenciada en matemáticas y estadística, con 3 de años de experiencia, realizando funciones tales el diseño, 
+               <p>Licenciada en matemáticas y estadística, con 3 de años de experiencia, realizando funciones tales como el diseño, 
                  planeación y aplicación de actividades didácticas basadas en la enseñanza de conceptos matemáticos y  estadísticos,
                  desarrollo y análisis de proyectos de mejoramiento del estudiante y liderazgo de grupos de trabajo. </p>
               
