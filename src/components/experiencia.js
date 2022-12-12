@@ -354,11 +354,12 @@ style={{
                       prueba Saber Pro del programa de Administración
                       Agropecuaria de la Universidad Pedagógica y Tecnológica
                       seccional Duitama, donde se llevó a cabo el desarrollo de un modelo estadístico (Modelo de regresión
-                      logística-Predicción de los puntajes de la prueba saber
+                      logística para predecir los puntajes de la prueba saber
                       Pro), análisis de datos mediante estadísticas
                       descriptivas, inferencias, análisis probabilístico y
                       análisis multivariado, todo esto mediante los programas: Excel, R estadístico y SPSS.
                     </p>
+                   
                   </Modal.Body>
                 </Modal>
               </Card.Body>
