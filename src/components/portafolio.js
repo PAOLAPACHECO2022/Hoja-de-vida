@@ -29,11 +29,11 @@ export default class Portafolio extends Component {
               <Card.Img
                 variant="top"
                 src="./laplaza2.PNG"
-                className="img-thumbnail"
+                className="img-thumbnail rounded-4"
               />
 
               <Card.Body>
-                <Card.Title className="text-center bold h3 bg-success" style={{ fontFamily: "Raleway,bold" }}>
+                <Card.Title className="text-center bold h3 bg-success  img-thumbnail rounded-3" style={{ fontFamily: "Raleway,bold" }}>
                   La Plaza Campesina
                 </Card.Title>
                 <Card.Text style={{ fontFamily: "Raleway,bold" }}>
@@ -76,15 +76,15 @@ export default class Portafolio extends Component {
               <Card.Img
                 variant="top"
                 src="./lafinca.PNG"
-                className="img-thumbnail"
+                className="img-thumbnail rounded-4"
               />
               <Card.Img
                 variant="top"
                 src="./crearp.PNG"
-                className="img-thumbnail"
+                className="img-thumbnail rounded-4"
               />
               <Card.Body>
-                <Card.Title className="text-center bold h3 bg-success " style={{ fontFamily: "Raleway,bold" }}>
+                <Card.Title className="text-center bold h3 bg-success  img-thumbnail rounded-3" style={{ fontFamily: "Raleway,bold" }}>
                   CRUD de La Plaza Campesina
                 </Card.Title>
                 <Card.Text style={{ fontFamily: "Raleway,bold" }}>
@@ -127,10 +127,10 @@ export default class Portafolio extends Component {
               <Card.Img
                 variant="top"
                 src="./lengua.PNG"
-                className="img-thumbnail"
+                className="img-thumbnail rounded-4"
               />
               <Card.Body>
-                <Card.Title className="text-center bold h3 bg-success" style={{ fontFamily: "Raleway,bold" }}>
+                <Card.Title className="text-center bold h3 bg-success img-thumbnail rounded-3" style={{ fontFamily: "Raleway,bold" }}>
                   Otros Proyectos
                 </Card.Title>
                 <Card.Text style={{ fontFamily: "Raleway,bold" }}>
@@ -163,10 +163,10 @@ export default class Portafolio extends Component {
               <Card.Img
                 variant="top"
                 src="./lengua.PNG"
-                className="img-thumbnail"
+                className="img-thumbnail rounded-4"
               />
               <Card.Body>
-                <Card.Title className="text-center bold h3 bg-success" style={{ fontFamily: "Raleway,bold" }}>
+                <Card.Title className="text-center bold h3 bg-success  img-thumbnail rounded-3" style={{ fontFamily: "Raleway,bold" }}>
                   Proyecto grupal(La plaza)
                 </Card.Title>
                 <Card.Text style={{ fontFamily: "Raleway,bold" }}>
@@ -202,12 +202,12 @@ export default class Portafolio extends Component {
                <Card.Img
                 variant="top"
                 src="./t2.JPG"
-                className="img-thumbnail"
+                className="img-thumbnail rounded-4"
               />
                 <Card.Img
                 variant="top"
                 src="./t1.JPG"
-                className="img-thumbnail"
+                className="img-thumbnail rounded-4"
               />
               <Card.Body>
                 <Card.Title className="text-center bold h3 bg-success img-thumbnail rounded-3" style={{ fontFamily: "Raleway,bold" }}>
