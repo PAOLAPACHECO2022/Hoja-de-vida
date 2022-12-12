@@ -7,8 +7,8 @@ import { Col, Row } from "react-bootstrap";
 export default function Experiencia() {
   const [show, setShow] = useState(false);
   const [shhow, sethShow] = useState(false);
-  const [xshow, setxShow] = useState(false);
   const [lshow, setlShow] = useState(false);
+  const [wshow, setwShow] = useState(false);
   
   return (
     <>
@@ -143,13 +143,13 @@ style={{
                   <p>Fecha de ingreso: Mayo de 2019</p>
                   <p>Fecha de retiro: Noviembre de 2019 </p>
                 </Card.Text>
-                <Button variant="warning" onClick={() => sethShow(true)}>
+                <Button variant="warning" onClick={() => setwShow(true)}>
                   Logros
                 </Button>
 
                 <Modal
-                  show={shhow}
-                  onHide={() => sethShow(false)}
+                  show={wshow}
+                  onHide={() => setwShow(false)}
                   dialogClassName="modal-dialog modal-lg"
                   aria-labelledby="example-custom-modal-styling-title"
                   ClassName="modal-dialog modal-xl"
@@ -317,7 +317,7 @@ style={{
                 <Button
                   target="_blank"
                   href="https://drive.google.com/file/d/1Kla1LvU8mzuNdSFvrIUOMkaDy0OCWKb4/view?usp=sharing"
-                  variant="warning"                 
+                  variant="success"                 
                 >
                   Ver proyecto de investigación
                 </Button>
