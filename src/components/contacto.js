@@ -6,8 +6,8 @@ export default class Contacto extends Component {
     return (
       <div class="container" style={{ fontFamily: "Raleway,bold" }}>
         <div class="section-title  text-center mt-5  ">
-          <h2 Style={"color: rgb(0, 0, 0)"}> CONTACTO</h2>
-          <p Style={" color:     #e79c2b"} style={{ fontFamily: "fontFamily: "times,bold" }}>
+          <h2 style={{ fontFamily: "Raleway,bold" }}> CONTACTO</h2>
+          <p Style={" color:     #e79c2b"}>
             Si deseas contactarme, lo puedes realizar mediante Email o mediante
             teléfono.
           </p>
@@ -20,20 +20,20 @@ export default class Contacto extends Component {
             <div class="info">
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
-                <h4 Style={"color: rgb(0, 0, 0)"}>Ubicación</h4>
+                <h4 style={{ fontFamily: "Raleway,bold" }}>Ubicación</h4>
                 <p Style={" color:     #e79c2b"}>Cundinamarca, Bogotá,</p>
               </div>
 
               <div class="email">
                 <i class="bi bi-envelope"></i>
-                <h4 Style={"color: rgb(0, 0, 0)"}>Email:</h4>
+                <h4 style={{ fontFamily: "Raleway,bold" }}>Email:</h4>
                 <p Style={" color:     #e79c2b"}>paolapacheco.moreno@gmail.com</p>
               </div>
 
               <div class="phone">
                 <i class="bi bi-phone"></i>
-                <h4 Style={"color: rgb(0, 0, 0)"}>Teléfono:</h4>
-                <p Style={" color:     #e79c2b"}>+57 3209887626</p>
+                <h4 style={{ fontFamily: "Raleway,bold" }}>Teléfono:</h4>
+                <p Style={" color:     #e79c2b"} >+57 3209887626</p>
               </div>
             </div>
           </div>
@@ -46,7 +46,7 @@ export default class Contacto extends Component {
             >
               <div class="row">
                 <div class="form-group col-md-6">
-                  <label Style={"color: rgb(0, 0, 0)"} for="name">
+                  <label style={{ fontFamily: "Raleway,bold" }} for="name">
                     Nombre
                   </label>
                   <input
@@ -59,7 +59,7 @@ export default class Contacto extends Component {
                   />
                 </div>
                 <div class="form-group col-md-6">
-                  <label Style={"color: rgb(0, 0, 0)"} for="name">
+                  <label style={{ fontFamily: "Raleway,bold" }} for="name">
                     Email
                   </label>
                   <input
@@ -74,7 +74,7 @@ export default class Contacto extends Component {
                 </div>
               </div>
               <div class="form-group">  
-                <label Style={"color: rgb(0, 0, 0)"} for="name">
+                <label style={{ fontFamily: "Raleway,bold" }} for="name">
                   Asunto
                 </label>
                 <input
@@ -87,7 +87,7 @@ export default class Contacto extends Component {
                 />
               </div>
               <div class="form-group">
-                <label Style={"color: rgb(0, 0, 0)"} for="name">
+                <label style={{ fontFamily: "Raleway,bold" }} for="name">
                   Mensaje
                 </label>
                 <textarea
