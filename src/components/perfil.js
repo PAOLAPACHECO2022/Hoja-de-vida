@@ -65,15 +65,14 @@ export default class Perfil extends Component {
                creatividad, el mejoramiento continuo y la capacidad de análisis. </p>
                 
 
-               <p> Me gusta estar siempre en proceso de aprendizaje, es por esto que trato de estar lista para ello, capacitandome 
-             con diversos conocimientos que me ayuden con el cumplimiento de mis objetivos, tales como el manejo de: Excel, R estadístico,
-               SPSS, Python, Java, JS, React, Bootstrap, SQL, Html y CSS.  </p>
+               <p> Me gusta estar siempre en proceso de aprendizaje, es por esto que trato de estar lista para ello, 
+                 capacitándome con diversos conocimientos que me ayuden con el cumplimiento de mis objetivos, 
+                 tales como el manejo de: Excel, R estadístico, SPSS, Html, CSS, Boostrap, React, JS, MongoDB, SQL,  Python y Java.  </p>
                 
 
-               <p>Licenciada en matemáticas y estadística, con 3 de años de experiencia, realizando funciones tales como la aplicación de planes de clase,
-                 desarrollo y análisis de proyectos de mejoramiento del estudiante, desarrollo y ejecución proyecto de ajedrez de primaria y básica secundaria,
-                   liderazgo de grupos de trabajo, diseño, planeación y aplicación de actividades didácticas basadas en la enseñanza de conceptos matemáticos y
-                   estadísticos.  </p>
+               <p>Licenciada en matemáticas y estadística, con 3 de años de experiencia, realizando funciones tales el diseño, 
+                 planeación y aplicación de actividades didácticas basadas en la enseñanza de conceptos matemáticos y  estadísticos,
+                 desarrollo y análisis de proyectos de mejoramiento del estudiante y liderazgo de grupos de trabajo. </p>
               
 
                <p>Soy emprendedora, responsable, con espíritu crítico, analítico e
