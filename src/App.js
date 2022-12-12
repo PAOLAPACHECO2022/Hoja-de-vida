@@ -38,6 +38,7 @@ function App() {
       <Container>
         
           <img
+          className="zoom"
           alt=""
           src="/logo.png"
           width="100"
@@ -136,10 +137,10 @@ function App() {
   <CDBBox display="flex" justifyContent="between" className="flex-wrap">
     <CDBBox>
       <a href="/" className="d-flex align-items-center p-0 text-dark">
-      <Link to={"/create-product"} className="nav-link">
+      <Link to={"/perfil"} className="nav-link">
           <img
           alt=""
-       
+       className="zoom"
           src="/logo.png"
           width="100"
           height="100"
@@ -167,10 +168,10 @@ function App() {
       </p>
       <CDBBox display="flex" flex="column" style={{ cursor: 'pointer', padding: '0' }}>
       <ul className="list-unstyled">
-              <li><a href="#opciones">Matemáticas</a></li>
-              <li><a href="#opcione">Estadistica</a></li>
-              <li><a href="#opcione">programación</a></li>
-              <li><a href="#opcione">Manualidades y pintura</a></li>
+              <li><a href="/education">Matemáticas</a></li>
+              <li><a href="/education">Estadistica</a></li>
+              <li><a href="/portafolio">programación</a></li>
+              <li><a href="/home">Manualidades y pintura</a></li>
              
           </ul>
       </CDBBox>
