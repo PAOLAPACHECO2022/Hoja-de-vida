@@ -108,8 +108,9 @@ export default function Habilidades() {
                 width="150"
                 height="150"
                 variant="top"
-                className=" zoom rounded-circle border"
+                className="img-thumbnail zoom rounded-circle border"
                 src="./javascript.PNG"
+          
               />
               <Figure.Caption>
                 <p className="bg-warning rounded-4 text-center">JS</p>
@@ -151,7 +152,7 @@ export default function Habilidades() {
                 width="150"
                 height="150"
                 variant="top"
-                className=" zoom rounded-circle border"
+                className="img-thumbnail zoom rounded-circle border"
                 src="./html5.PNG"
               />
               <Figure.Caption>
@@ -190,7 +191,7 @@ export default function Habilidades() {
                 width="150"
                 height="150"
                 variant="top"
-                className=" zoom rounded-circle border"
+                className="img-thumbnail zoom rounded-circle border"
                 src="./css3.PNG"
               />
               <Figure.Caption>
@@ -233,7 +234,7 @@ export default function Habilidades() {
                 width="150"
                 height="150"
                 variant="top"
-                className=" zoom rounded-circle border"
+                className="img-thumbnail zoom rounded-circle border"
                 src="./bootstrap.PNG"
               />
               <Figure.Caption>
@@ -276,7 +277,7 @@ export default function Habilidades() {
                 width="150"
                 height="150"
                 variant="top"
-                className=" zoom rounded-circle border"
+                className="img-thumbnail zoom rounded-circle border"
                 src="./sqlserver.PNG"
               />
               <Figure.Caption>
@@ -319,7 +320,7 @@ export default function Habilidades() {
                 width="150"
                 height="150"
                 variant="top"
-                className=" zoom rounded-circle border"
+                className="img-thumbnail zoom rounded-circle border"
                 src="./potsgre.PNG"
               />
               <Figure.Caption>
@@ -362,7 +363,7 @@ export default function Habilidades() {
                 width="150"
                 height="150"
                 variant="top"
-                className=" zoom rounded-circle border"
+                className="img-thumbnail zoom rounded-circle border"
                 src="./mongo.PNG"
               />
               <Figure.Caption>
@@ -405,7 +406,7 @@ export default function Habilidades() {
                 width="150"
                 height="150"
                 variant="top"
-                className=" zoom rounded-circle border"
+                className="img-thumbnail zoom rounded-circle border"
                 src="./mySql.PNG"
               />
               <Figure.Caption>
@@ -448,7 +449,7 @@ export default function Habilidades() {
                 width="150"
                 height="150"
                 variant="top"
-                className=" zoom rounded-circle border"
+                className="img-thumbnail zoom rounded-circle border"
                 src="./python.PNG"
               />
               <Figure.Caption>
@@ -491,7 +492,7 @@ export default function Habilidades() {
                 width="150"
                 height="150"
                 variant="top"
-                className=" zoom rounded-circle border"
+                className="img-thumbnail zoom rounded-circle border"
                 src="./java.PNG"
               />
               <Figure.Caption>
@@ -534,7 +535,7 @@ export default function Habilidades() {
                 width="150"
                 height="150"
                 variant="top"
-                className=" zoom rounded-circle border"
+                className="img-thumbnail zoom rounded-circle border"
                 src="./restadistico.PNG"
               />
               <Figure.Caption>
@@ -580,7 +581,7 @@ export default function Habilidades() {
                 width="150"
                 height="150"
                 variant="top"
-                className=" zoom rounded-circle border"
+                className="img-thumbnail zoom rounded-circle border"
                 src="./excel1.PNG"
               />
               <Figure.Caption>
@@ -623,7 +624,7 @@ export default function Habilidades() {
                 width="150"
                 height="150"
                 variant="top"
-                className=" zoom rounded-circle border"
+                className="img-thumbnail zoom rounded-circle border"
                 src="./Aillustrator.PNG"
               />
               <Figure.Caption>
@@ -670,7 +671,7 @@ export default function Habilidades() {
                 width="150"
                 height="150"
                 variant="top"
-                className=" zoom rounded-circle border"
+                className="img-thumbnail zoom rounded-circle border"
                 src="./autocad.PNG"
               />
               <Figure.Caption>
@@ -713,7 +714,7 @@ export default function Habilidades() {
                 width="150"
                 height="150"
                 variant="top"
-                className=" zoom rounded-circle border"
+                className="img-thumbnail zoom rounded-circle border"
                 src="./geogebra.PNG"
               />
               <Figure.Caption>
