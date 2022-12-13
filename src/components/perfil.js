@@ -32,15 +32,9 @@ export default class Perfil extends Component {
 
             <h3
              style={{
-              backgroundImage: `url("https://i.pinimg.com/564x/86/b0/98/86b0980ef543191114a946d7d4f1c90a.jpg")`,
-              backgroundPosition: "center",
-              backgroundRepeat: "no-repeat",
-              backgroundSize: "cover",
-              border: "1px solid #565555",
-              height: "w-100",
               fontFamily: "cursive,bold" 
             }}
-              className="text-thumbnail bg-light font-weight-bold mt-5 justify-content-center d-flex form-wrapper rounded-4 "
+              className="text-center font-weight-bold mt-5 justify-content-center d-flex form-wrapper"
             >
               Sobre mí
             </h3>
