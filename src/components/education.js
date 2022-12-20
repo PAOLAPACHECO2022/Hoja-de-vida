@@ -34,6 +34,7 @@ export default function Education() {
   const [laShow, setlaShow] = useState(false);
   const [faShow, setfaShow] = useState(false);
   const [lpShow, setlpShow] = useState(false);
+  const [llShow, setllShow] = useState(false);
   return (
     <>
      
@@ -435,6 +436,61 @@ export default function Education() {
                       </Modal>
                     </td>
                   </tr>
+
+
+                  <tr className="form-wrapper">
+                    <td>Fundamentos en analítica de datos</td>
+
+                    <td>
+                      {" "}
+                      <a href="https://drive.google.com/file/d/1GYVmrhAC0b96OKnXl6q6iNWZ9YV9IBJj/view?usp=sharing">
+                        PDF
+                      </a>
+                    </td>
+                    <td>
+                      <Button
+                        variant="success"
+                        onClick={() => setllShow(true)}
+                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
+                      >
+                        Ver
+                      </Button>
+                      <Modal
+                        show={llShow}
+                        onHide={() => setllShow(false)}
+                        dialogClassName="modal-dialog modal-lg"
+                        aria-labelledby="example-modal-sizes-title-sm"
+                      >
+                        <Modal.Header
+                          closeButton
+                          style={{
+                            backgroundImage: `url("./jirasol.PNG")`,
+                            backgroundPosition: "center",
+                            backgroundRepeat: "no-repeat",
+                            backgroundSize: "cover",
+                            border: "1px solid #565555",
+                          }}
+                        >
+                          <Modal.Title variant="success">
+                            <h5
+                              style={{ fontFamily: "Raleway,bold" }}
+                              className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
+                            >
+                              Fundamentos en analítica de datos
+                            </h5>
+                          </Modal.Title>
+                        </Modal.Header>
+                        <Modal.Body>
+                          <img
+                            src="./diploanalitica.JPG"
+                            alt=""
+                            className=" zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
+                          ></img>
+                        </Modal.Body>
+                      </Modal>
+                    </td>
+                  </tr>
+
 
                 </tbody>
               </Table>
