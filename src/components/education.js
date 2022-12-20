@@ -33,6 +33,7 @@ export default function Education() {
   const [paShow, setpaShow] = useState(false);
   const [laShow, setlaShow] = useState(false);
   const [faShow, setfaShow] = useState(false);
+  const [lpShow, setlpShow] = useState(false);
   return (
     <>
      
@@ -334,7 +335,7 @@ export default function Education() {
 
                     <td>
                       {" "}
-                      <a href="https://drive.google.com/file/d/1iABIKN7qhr0aB4zBldY-E5dYBJql8v2H/view?usp=sharing">
+                      <a href="https://drive.google.com/file/d/1adm3K8WLmMRyG6y82bJ5FDn-152roT7A/view?usp=sharing">
                         PDF
                       </a>
                     </td>
@@ -373,7 +374,7 @@ export default function Education() {
                         </Modal.Header>
                         <Modal.Body>
                           <img
-                            src="./msciclo4.PNG"
+                            src="./diplo4.PNG"
                             alt=""
                             className="boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
                           ></img>
@@ -381,6 +382,60 @@ export default function Education() {
                       </Modal>
                     </td>
                   </tr>
+
+                <tr className="form-wrapper">
+                    <td>Diplomado Programación-Desarrollo Web</td>
+
+                    <td>
+                      {" "}
+                      <a href="https://drive.google.com/file/d/1nFdWWKpjRsRKPDuvUZQsvIb-d1lQMPBT/view?usp=sharing">
+                        PDF
+                      </a>
+                    </td>
+                    <td>
+                      <Button
+                        variant="success"
+                        onClick={() => setlpShow(true)}
+                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
+                      >
+                        Ver
+                      </Button>
+                      <Modal
+                        show={lpShow}
+                        onHide={() => setlpShow(false)}
+                        dialogClassName="modal-dialog modal-lg"
+                        aria-labelledby="example-modal-sizes-title-sm"
+                      >
+                        <Modal.Header
+                          closeButton
+                          style={{
+                            backgroundImage: `url("./jirasol.PNG")`,
+                            backgroundPosition: "center",
+                            backgroundRepeat: "no-repeat",
+                            backgroundSize: "cover",
+                            border: "1px solid #565555",
+                          }}
+                        >
+                          <Modal.Title variant="success">
+                            <h5
+                              style={{ fontFamily: "Raleway,bold" }}
+                              className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
+                            >
+                              Diplomado en Programación de Desarrollo Web
+                            </h5>
+                          </Modal.Title>
+                        </Modal.Header>
+                        <Modal.Body>
+                          <img
+                            src="./doplogeneral.PNG"
+                            alt=""
+                            className="boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
+                          ></img>
+                        </Modal.Body>
+                      </Modal>
+                    </td>
+                  </tr>
+
                 </tbody>
               </Table>
             </Accordion.Body>
