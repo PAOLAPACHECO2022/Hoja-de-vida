@@ -111,7 +111,7 @@ export default function Education() {
                   <img
                     src="./diploma.PNG"
                     alt=""
-                    className="img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
+                    className=" zoom img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
                   ></img>
                 </Modal.Body>
               </Modal>
@@ -217,7 +217,7 @@ export default function Education() {
                           <img
                             src="./mtciclo1.PNG"
                             alt=""
-                            className="boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
+                            className=" zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
                           ></img>
                         </Modal.Body>
                       </Modal>
@@ -270,7 +270,7 @@ export default function Education() {
                           <img
                             src="./msciclo2.PNG"
                             alt=""
-                            className="boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
+                            className="zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
                           ></img>
                         </Modal.Body>
                       </Modal>
@@ -323,7 +323,7 @@ export default function Education() {
                           <img
                             src="./msciclo3.PNG"
                             alt=""
-                            className="boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
+                            className="zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
                           ></img>
                         </Modal.Body>
                       </Modal>
@@ -374,9 +374,9 @@ export default function Education() {
                         </Modal.Header>
                         <Modal.Body>
                           <img
-                            src="./diplo4.PNG"
+                            src="./diploc4.JPG"
                             alt=""
-                            className="boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
+                            className="zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
                           ></img>
                         </Modal.Body>
                       </Modal>
@@ -384,7 +384,7 @@ export default function Education() {
                   </tr>
 
                 <tr className="form-wrapper">
-                    <td>Diplomado Programación-Desarrollo Web</td>
+                    <td>Diplomado general en Programación de Desarrollo Web</td>
 
                     <td>
                       {" "}
@@ -421,15 +421,15 @@ export default function Education() {
                               style={{ fontFamily: "Raleway,bold" }}
                               className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
                             >
-                              Diplomado en Programación de Desarrollo Web
+                              Diplomado general en Programación de Desarrollo Web
                             </h5>
                           </Modal.Title>
                         </Modal.Header>
                         <Modal.Body>
                           <img
-                            src="./doplogeneral.PNG"
+                            src="./doplogeneral.JPG"
                             alt=""
-                            className="boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
+                            className=" zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
                           ></img>
                         </Modal.Body>
                       </Modal>
@@ -527,7 +527,7 @@ export default function Education() {
                           <img
                             src="./coursera.PNG"
                             alt=""
-                            className="boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
+                            className="zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
                           ></img>
                         </Modal.Body>
                       </Modal>
@@ -622,7 +622,7 @@ export default function Education() {
                           <img
                             src="./Ingedatos.PNG"
                             alt=""
-                            className="boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
+                            className="zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
                           ></img>
                         </Modal.Body>
                       </Modal>
@@ -676,7 +676,7 @@ export default function Education() {
                           <img
                             src="./pythonb.PNG"
                             alt=""
-                            className="boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
+                            className="zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
                           ></img>
                         </Modal.Body>
                       </Modal>
@@ -730,7 +730,7 @@ export default function Education() {
                           <img
                             src="./pythonin.PNG"
                             alt=""
-                            className="boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
+                            className="zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
                           ></img>
                         </Modal.Body>
                       </Modal>
@@ -784,7 +784,7 @@ export default function Education() {
                           <img
                             src="./pythonp.PNG"
                             alt=""
-                            className="boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
+                            className="zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
                           ></img>
                         </Modal.Body>
                       </Modal>
@@ -838,7 +838,7 @@ export default function Education() {
                           <img
                             src="./estadcompu.PNG"
                             alt=""
-                            className="boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
+                            className="zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
                           ></img>
                         </Modal.Body>
                       </Modal>
@@ -892,7 +892,7 @@ export default function Education() {
                           <img
                             src="./datoslinp.PNG"
                             alt=""
-                            className="boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
+                            className="zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
                           ></img>
                         </Modal.Body>
                       </Modal>
@@ -946,7 +946,7 @@ export default function Education() {
                           <img
                             src="./machine.PNG"
                             alt=""
-                            className="boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
+                            className="zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
                           ></img>
                         </Modal.Body>
                       </Modal>
@@ -1000,7 +1000,7 @@ export default function Education() {
                           <img
                             src="./scrum.PNG"
                             alt=""
-                            className="boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
+                            className="zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
                           ></img>
                         </Modal.Body>
                       </Modal>
@@ -1096,7 +1096,7 @@ export default function Education() {
                           <img
                             src="./excel.PNG"
                             alt=""
-                            className="boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
+                            className="zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
                           ></img>
                         </Modal.Body>
                       </Modal>
@@ -1150,7 +1150,7 @@ export default function Education() {
                           <img
                             src="./sql.PNG"
                             alt=""
-                            className="boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
+                            className="zoom  boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
                           ></img>
                         </Modal.Body>
                       </Modal>
@@ -1204,7 +1204,7 @@ export default function Education() {
                           <img
                             src="./sqlp.PNG"
                             alt=""
-                            className="boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
+                            className="zoom  boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
                           ></img>
                         </Modal.Body>
                       </Modal>
@@ -1293,7 +1293,7 @@ export default function Education() {
                           <img
                             src="./ingles1.PNG"
                             alt=""
-                            className="boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
+                            className=" zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
                           ></img>
                         </Modal.Body>
                       </Modal>
@@ -1341,7 +1341,7 @@ export default function Education() {
                           <img
                             src="./ingles2.PNG"
                             alt=""
-                            className="boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
+                            className="zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
                           ></img>
                         </Modal.Body>
                       </Modal>
@@ -1389,7 +1389,7 @@ export default function Education() {
                           <img
                             src="./ingles3.PNG"
                             alt=""
-                            className="boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
+                            className="zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
                           ></img>
                         </Modal.Body>
                       </Modal>
@@ -1437,7 +1437,7 @@ export default function Education() {
                           <img
                             src="./ingles4.PNG"
                             alt=""
-                            className="boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
+                            className="zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
                           ></img>
                         </Modal.Body>
                       </Modal>
