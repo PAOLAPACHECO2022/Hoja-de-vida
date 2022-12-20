@@ -49,8 +49,8 @@ export default class Home extends Component {
           <Carousel.Item>
             <img
            alt="Fourth slide"
-           src="https://scontent-bog1-1.xx.fbcdn.net/v/t39.30808-6/318326621_3321831934699071_8122746998955327410_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeE4CT17LGCmJShw9zkDC4Pe_svAbKl9Akf-y8BsqX0CRz3pyzVXaM1B7xpYJdNK8Emmf1MaqiQfjwIAeCF9fovr&_nc_ohc=ikb7xzIUWsAAX_ysZ2o&tn=yZ7i9IOsIermm4V2&_nc_ht=scontent-bog1-1.xx&oh=00_AfCrb2qCdFH65Xw-nHMJ4sFw53X9-Qib59rRHXHyS3nGDQ&oe=63978847"  
-           className=" img-thumbnail my-3 rounded-4 d-flex justify-content-center form-wrapper" 
+          src="/gallina.JPG"
+          className=" img-thumbnail my-3 rounded-4 d-flex justify-content-center form-wrapper" 
         style={{ height: '25rem', width: '35rem' }}
               
             />
@@ -61,7 +61,7 @@ export default class Home extends Component {
       <Carousel.Item>
             <img
            alt="Fifth slide"
-          src="https://scontent-bog1-1.xx.fbcdn.net/v/t39.30808-6/317747636_3321831878032410_3249404754322525378_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHiEB8ZRLRzSeXG2WZkrKhm-MOUwQjaHIr4w5TBCNocirExaR8RcgKG5F_4CmdZX_XVDTuPri8pzFWtI8qneWEe&_nc_ohc=w-LlHURO7_cAX8qfQjl&tn=yZ7i9IOsIermm4V2&_nc_ht=scontent-bog1-1.xx&oh=00_AfB2wTeDd7NxaQYuEobLCEOfzSNRs-pz5dUb5IJoStwq6Q&oe=6398571E" 
+         src="/gitarra.JPG"
         className=" img-thumbnail my-3 rounded-4 d-flex justify-content-center form-wrapper" 
         style={{ height: '25rem', width: '20rem' }}
      
@@ -90,8 +90,8 @@ export default class Home extends Component {
       <Carousel.Item>
             <img
            alt="Eighth slide"
-          src="https://scontent-bog1-1.xx.fbcdn.net/v/t39.30808-6/319283928_3321831811365750_6361704321542720002_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeH6BFP8gRZlqnGlnmnHshKbcLRO4K2G_55wtE7grYb_noEzZguSCKAk_77zzo_N5MNkThCpNE7KJ600s2ECpjE4&_nc_ohc=knSsvZYUcUoAX96M56Q&_nc_ht=scontent-bog1-1.xx&oh=00_AfD6BiIH_DRNo16_yuy-9-8cIS4i5Aev0q8lT0cORJ7ygQ&oe=639821C7" 
-           className=" img-thumbnail my-3 rounded-4 d-flex justify-content-center form-wrapper" 
+        src="/caballo.JPG"
+        className=" img-thumbnail my-3 rounded-4 d-flex justify-content-center form-wrapper" 
         style={{ height: '25rem', width: '40rem' }}            
               
             />
@@ -100,8 +100,8 @@ export default class Home extends Component {
       <Carousel.Item>
             <img
            alt="Ninth slide"
-          src="https://scontent-bog1-1.xx.fbcdn.net/v/t39.30808-6/318606766_3322059471342984_1917334555809754046_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeEFLXsrwqkyteikmshFhWMLRq5hex869KJGrmF7Hzr0oiNSW40lLbxfeQ06wtODZ8I-XS1Jd6xygrGUpdIgxiMP&_nc_ohc=R4CChTNi8H8AX8Hbv1N&_nc_ht=scontent-bog1-1.xx&oh=00_AfD8Ifr66M7lQHubHfYFba-RQPmle5qqqvItHdHa3LTK4g&oe=63989BA9"
-className=" img-thumbnail my-3 rounded-4 d-flex justify-content-center form-wrapper" 
+          src="/gorroverde.JPG"
+         className=" img-thumbnail my-3 rounded-4 d-flex justify-content-center form-wrapper" 
         style={{ height: '25rem', width: '30rem' }}                
               
             />
@@ -141,8 +141,8 @@ className=" img-thumbnail my-3 rounded-4 d-flex justify-content-center form-wrap
       <Carousel.Item>
             <img
            alt="Thirteenth slide"
-          src="https://scontent-bog1-1.xx.fbcdn.net/v/t39.30808-6/318201684_3322059401342991_8064400051246058170_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHiYutxBAhIga9Rm66G-7eGyQEEPFOMrhDJAQQ8U4yuEDXEXB9wjuaFbb1kU1b-6h5SkNr51llJDWVZH1VF0IcF&_nc_ohc=TZ2nrgclAmYAX9QiQxN&_nc_ht=scontent-bog1-1.xx&oh=00_AfAE5fEROLlfF7tvB8YoXXBPeRyDFFR1HTlU-7DG4sqhcA&oe=63979E62"
-  className=" img-thumbnail my-3 rounded-4 d-flex justify-content-center form-wrapper" 
+         src="/gorrolau.JPG"
+        className=" img-thumbnail my-3 rounded-4 d-flex justify-content-center form-wrapper" 
         style={{ height: '25rem', width: '40rem' }}               
               
             />
@@ -169,21 +169,7 @@ className=" img-thumbnail my-3 rounded-4 d-flex justify-content-center form-wrap
               
             />
           </Carousel.Item>
-      
-      <Carousel.Item>
-            <img
-           alt="Sixteenth slide"
-          src="https://scontent-bog1-1.xx.fbcdn.net/v/t39.30808-6/318656666_3322059371342994_3040744126116768387_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeFY34i8NqSd8wF5dQWHZQ42dGkmPmW-Lmx0aSY-Zb4ubFXn4EScZMijZmefuHb8R-6K86O5EjVtJTKibCAscTqO&_nc_ohc=hFx0lBboeCoAX85MB06&_nc_ht=scontent-bog1-1.xx&oh=00_AfAIXtWQwhtw_qDBRWgL47SJI4bcgv8r31cX5RYj80dCTw&oe=63982D39" 
-          className=" img-thumbnail my-3 rounded-4 d-flex justify-content-center form-wrapper"
-         
-           
-        style={{ height: '25rem', width: '40rem' }}
-        
-     
-              
-            />
-          </Carousel.Item>
-      
+          
       <Carousel.Item>
             <img
            alt="Seventeenth slide"
@@ -199,10 +185,10 @@ className=" img-thumbnail my-3 rounded-4 d-flex justify-content-center form-wrap
       <Carousel.Item>
             <img
            alt="eighteenth 71x180"
-          src="https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-6/318071961_3321831498032448_5268104203246211117_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHRNmBwJ4d49NgqiDXWIQ_cBzgMllt9nDkHOAyWW32cOW00rGFA09Gla9m8RPop9mUAT7rVU5dfBSHFyCWoShOe&_nc_ohc=JTCdi5LRw0QAX_h_aAS&tn=yZ7i9IOsIermm4V2&_nc_ht=scontent-atl3-2.xx&oh=00_AfDoiRy4_t5HXM9TebViZiS6nfzdGMLiHPnUAdm-VCPodA&oe=63979B15" 
-         className=" img-thumbnail my-3 rounded-4 d-flex justify-content-center form-wrapper"
+           src="/gorrojirasol.JPG"
+           className=" img-thumbnail my-3 rounded-4 d-flex justify-content-center form-wrapper"
               //className=" lg-10;"  
-        style={{ height: '25rem', width: '40rem' }}
+            style={{ height: '25rem', width: '40rem' }}
         
         
               
