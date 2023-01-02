@@ -112,7 +112,7 @@ export default function Education() {
                   <img
                     src="./diploma.PNG"
                     alt=""
-                    className=" zoom img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
+                    className=" zoom img-thumbnail  w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
                   ></img>
                 </Modal.Body>
               </Modal>
