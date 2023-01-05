@@ -184,32 +184,32 @@ function App() {
       <a href="/" className=" text-dark">
     
     <img
-          alt=""
+          href="/habilidades"
           src="./F14.PNG" 
           width="30"
           height="30"
           className="bg-warning form-wrapper rounded-4 my-3"
         />
-        <span className="ml-4 h7 mb-0 font-weight-black">Python</span>
+        <span className="ml-4 h7 mb-0 font-weight-light">Python</span>
     </a>
     
     </CDBBox>
     <CDBBox display="flex" >
     <a href="/" className="d-flex  p-0 text-dark">
     <img
-          alt=""
+          href="/portafolio"
           src="./f15.PNG"
           width="30"
           height="30"
           className="bg-warning form-wrapper rounded-4"
         />{' '}
-        <span className="ml-4 h7 mb-0 font-weight-black"> R estadístico</span>
+        <span className="ml-4 h7 mb-0 font-weight-light"> R estadístico</span>
     </a>
       </CDBBox>
       <CDBBox display="flex" >
     <a href="/" className="d-flex  p-0 text-dark">
     <img
-          alt=""
+          href="/habilidades"
           src="./Captura.PNG"
           width="30"
           height="30"
@@ -217,19 +217,19 @@ function App() {
           
         />{' '}
         <span className="
-        ml-4 h7 mb-0 font-weight-black"> JS</span>
+        ml-4 h7 mb-0 font-weight-light"> JS</span>
     </a>
       </CDBBox>
       <CDBBox display="flex" >
     <a href="/" className="d-flex  p-0 text-dark">
     <img
-          alt=""
+          href="/habilidades"
           src="./f16.PNG"
           width="30"
           height="30"
           className="bg-warning form-wrapper rounded-4"
         />{' '}
-        <span className="ml-4 h7 mb-0 font-weight-black">SQL, entre otros</span>
+        <span className="ml-4 h7 mb-0 font-weight-light">SQL, entre otros</span>
     </a>
       </CDBBox>
     </CDBBox>
