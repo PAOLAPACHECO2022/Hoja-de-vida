@@ -28,7 +28,7 @@ function App() {
 
      <Navbar collapseOnSelect expand="lg" 
        style={{
-        backgroundImage: `url("/footer5.png")`,
+        backgroundImage: `url("/footer3.png")`,
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
