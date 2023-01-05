@@ -51,8 +51,8 @@ function App() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" Style={"rgb(197, 184, 70);"} className="bg-warning"/>
         <Navbar.Collapse  id="responsive-navbar-nav"  >
           <Nav  id="opciones" Style={"rgb(197, 184, 70);"}>
-            <Nav.Link className=" bg-warning zoom bx- bx-user fw-bold text-decoration-none" href="/perfil">Mi perfil profesional</Nav.Link>
-            <Nav.Link className=" bg-warning zoom bx bx-file-blank  fw-bold text-decoration-none " href="/education">Educación</Nav.Link>
+            <Nav.Link className=" text-warning zoom bx- bx-user fw-bold text-decoration-none" href="/perfil">Mi perfil profesional</Nav.Link>
+            <Nav.Link className=" text-warning zoom bx bx-file-blank  fw-bold text-decoration-none " href="/education">Educación</Nav.Link>
             <Nav.Link Style={"color: rgb(197, 184, 70);"} className="zoom bx bx-book-content fw-bold" href="/portafolio">Portafolio</Nav.Link>
             <Nav.Link Style={"color: rgb(197, 184, 70);"} className="zoom bx bx-server  fw-bold"  href="/habilidades">Habilidades</Nav.Link>
             <Nav.Link Style={"color: rgb(197, 184, 70);"} className="zoom bx bx-server fw-bold "  href="/experiencia">Experiencia</Nav.Link>
