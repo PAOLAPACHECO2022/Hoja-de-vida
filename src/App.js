@@ -51,8 +51,8 @@ function App() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" Style={"rgb(197, 184, 70);"} className="bg-warning"/>
         <Navbar.Collapse  id="responsive-navbar-nav"  >
           <Nav  id="opciones" Style={"rgb(197, 184, 70);"}>
-            <Nav.Link Style={"color: rgb(197, 184, 70);"}className="zoom bx- bx-user fw-bold text-decoration-none" href="/perfil">Mi perfil profesional</Nav.Link>
-            <Nav.Link Style={"color: rgb(197, 184, 70);"} className="zoom bx bx-file-blank  fw-bold text-decoration-none " href="/education">Educación</Nav.Link>
+            <Nav.Link className=" bg-warning zoom bx- bx-user fw-bold text-decoration-none" href="/perfil">Mi perfil profesional</Nav.Link>
+            <Nav.Link className=" bg-warning zoom bx bx-file-blank  fw-bold text-decoration-none " href="/education">Educación</Nav.Link>
             <Nav.Link Style={"color: rgb(197, 184, 70);"} className="zoom bx bx-book-content fw-bold" href="/portafolio">Portafolio</Nav.Link>
             <Nav.Link Style={"color: rgb(197, 184, 70);"} className="zoom bx bx-server  fw-bold"  href="/habilidades">Habilidades</Nav.Link>
             <Nav.Link Style={"color: rgb(197, 184, 70);"} className="zoom bx bx-server fw-bold "  href="/experiencia">Experiencia</Nav.Link>
@@ -184,26 +184,26 @@ function App() {
       <a href="/" className=" text-dark">
     
     <img
-          href="/habilidades"
+          alt="/habilidades"
           src="./F14.PNG" 
           width="30"
           height="30"
           className="bg-warning form-wrapper rounded-4 my-3"
         />
-        <span className="ml-4 h7 mb-0 font-weight-light">Python</span>
+        <span Style={"color: rgb(197, 184, 70);"}  className="ml-4 h7 mb-0 font-weight">Python</span>
     </a>
     
     </CDBBox>
     <CDBBox display="flex" >
     <a href="/" className="d-flex  p-0 text-dark">
     <img
-          href="/portafolio"
+          alt="/portafolio"
           src="./f15.PNG"
           width="30"
           height="30"
           className="bg-warning form-wrapper rounded-4"
         />{' '}
-        <span Style={"color: rgb(197, 184, 70);"}  className="ml-4 h7 mb-0 font-weight-light"> R estadístico</span>
+        <span Style={"color: rgb(197, 184, 70);"}  className="ml-4 h7 mb-0 font-weight"> R estadístico</span>
     </a>
       </CDBBox>
       <CDBBox display="flex" >
@@ -223,13 +223,13 @@ function App() {
       <CDBBox display="flex" >
     <a href="/" className="d-flex  p-0 text-dark">
     <img
-          href="/habilidades"
+          alt="/habilidades"
           src="./f16.PNG"
           width="30"
           height="30"
           className="bg-warning form-wrapper rounded-4"
         />{' '}
-        <span className="ml-4 h7 mb-0 font-weight-light">SQL, entre otros</span>
+        <span Style={"color: rgb(197, 184, 70);"}  className="ml-4 h7 mb-0 font-weight">SQL, entre otros</span>
     </a>
       </CDBBox>
     </CDBBox>
