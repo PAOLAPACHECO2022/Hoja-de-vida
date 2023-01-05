@@ -51,13 +51,13 @@ function App() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" Style={"color: #eed757;"} className="bg-dark"/>
         <Navbar.Collapse  id="responsive-navbar-nav"  >
           <Nav  id="opciones" Style={"color: #eed757;"}>
-            <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"}className="zoom bx- bx-user fw-bold" href="/perfil"><u>Mi perfil profesional</u></Nav.Link>
-            <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"} className="zoom bx bx-file-blank fw-bold  " href="/education"><u>Educación</u></Nav.Link>
-            <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"} className="zoom bx bx-book-content fw-bold " href="/portafolio"><u>Portafolio</u></Nav.Link>
-            <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"} className="zoom bx bx-server fw-bold  "  href="/habilidades"><u>Habilidades</u></Nav.Link>
-            <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"} className="zoom bx bx-server fw-bold "  href="/experiencia"><u>Experiencia</u></Nav.Link>
-            <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"} className="zoom bx bx-envelope fw-bold  " href="/home"><u>Mis pasatiempos</u></Nav.Link>
-            <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"} className="zoom bx bx-envelope fw-bold " href="/contacto"><u>Contacto</u></Nav.Link>
+            <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"}className="zoom bx- bx-user" href="/perfil"><u>Mi perfil profesional</u></Nav.Link>
+            <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"} className="zoom bx bx-file-blank   " href="/education"><u>Educación</u></Nav.Link>
+            <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"} className="zoom bx bx-book-content " href="/portafolio"><u>Portafolio</u></Nav.Link>
+            <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"} className="zoom bx bx-server  "  href="/habilidades"><u>Habilidades</u></Nav.Link>
+            <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"} className="zoom bx bx-server "  href="/experiencia"><u>Experiencia</u></Nav.Link>
+            <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"} className="zoom bx bx-envelope " href="/home"><u>Mis pasatiempos</u></Nav.Link>
+            <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"} className="zoom bx bx-envelope  " href="/contacto"><u>Contacto</u></Nav.Link>
             
           </Nav>
           <Nav>
