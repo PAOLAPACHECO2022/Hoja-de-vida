@@ -216,7 +216,7 @@ function App() {
           className=" form-wrapper rounded-4"
           
         />{' '}
-        <span className="
+        <span Style={"color: rgb(197, 184, 70);"} className="
         ml-4 h7 mb-0 font-weight-light"> JS</span>
     </a>
       </CDBBox>
