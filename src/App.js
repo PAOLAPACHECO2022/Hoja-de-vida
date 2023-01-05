@@ -203,7 +203,7 @@ function App() {
           height="30"
           className="bg-warning form-wrapper rounded-4"
         />{' '}
-        <span className="ml-4 h7 mb-0 font-weight-light"> R estadístico</span>
+        <span Style={"color: rgb(197, 184, 70);"}  className="ml-4 h7 mb-0 font-weight-light"> R estadístico</span>
     </a>
       </CDBBox>
       <CDBBox display="flex" >
