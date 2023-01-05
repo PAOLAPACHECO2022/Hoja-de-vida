@@ -48,16 +48,16 @@ function App() {
         />{' '}            
   
        
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" Style={"color: #eed757;"} className="bg-success"/>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" Style={"rgb(197, 184, 70);"} className="bg-warning"/>
         <Navbar.Collapse  id="responsive-navbar-nav"  >
-          <Nav  id="opciones" Style={"color: #eed757;"}>
-            <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"}className="zoom bx- bx-user fw-bold text-decoration-none" href="/perfil">Mi perfil profesional</Nav.Link>
-            <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"} className="zoom bx bx-file-blank  fw-bold text-decoration-none " href="/education">Educación</Nav.Link>
-            <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"} className="zoom bx bx-book-content fw-bold" href="/portafolio">Portafolio</Nav.Link>
-            <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"} className="zoom bx bx-server  fw-bold"  href="/habilidades">Habilidades</Nav.Link>
-            <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"} className="zoom bx bx-server fw-bold "  href="/experiencia">Experiencia</Nav.Link>
-            <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"} className="zoom bx bx-envelope fw-bold" href="/home">Mis pasatiempos</Nav.Link>
-            <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"} className="zoom bx bx-envelope  fw-bold" href="/contacto">Contacto</Nav.Link>
+          <Nav  id="opciones" Style={"rgb(197, 184, 70);"}>
+            <Nav.Link Style={"color: rgb(197, 184, 70);"}className="zoom bx- bx-user fw-bold text-decoration-none" href="/perfil">Mi perfil profesional</Nav.Link>
+            <Nav.Link Style={"color: rgb(197, 184, 70);"} className="zoom bx bx-file-blank  fw-bold text-decoration-none " href="/education">Educación</Nav.Link>
+            <Nav.Link Style={"color: rgb(197, 184, 70);"} className="zoom bx bx-book-content fw-bold" href="/portafolio">Portafolio</Nav.Link>
+            <Nav.Link Style={"color: rgb(197, 184, 70);"} className="zoom bx bx-server  fw-bold"  href="/habilidades">Habilidades</Nav.Link>
+            <Nav.Link Style={"color: rgb(197, 184, 70);"} className="zoom bx bx-server fw-bold "  href="/experiencia">Experiencia</Nav.Link>
+            <Nav.Link Style={"color: rgb(197, 184, 70);"} className="zoom bx bx-envelope fw-bold" href="/home">Mis pasatiempos</Nav.Link>
+            <Nav.Link Style={"color: rgb(197, 184, 70);"} className="zoom bx bx-envelope  fw-bold" href="/contacto">Contacto</Nav.Link>
             
           </Nav>
           <Nav>
