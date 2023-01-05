@@ -48,7 +48,7 @@ function App() {
         />{' '}            
   
        
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" Style={"color: #eed757;"} className="bg-dark"/>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" Style={"color: #eed757;"} className="bg-success"/>
         <Navbar.Collapse  id="responsive-navbar-nav"  >
           <Nav  id="opciones" Style={"color: #eed757;"}>
             <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"}className="zoom bx- bx-user fw-bold text-decoration-none" href="/perfil">Mi perfil profesional</Nav.Link>
