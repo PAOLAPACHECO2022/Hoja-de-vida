@@ -53,8 +53,15 @@ function App() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" 
      style={{     
           border: "5px solid #565555",
-           height: "w-100"}}
-           className="bg-warning zoom w-100 rounded-3 "/>
+           height: "w-40"}}
+           className="bg-warning zoom w-40 rounded-3 "
+        <img
+          alt=""
+          src="./cubo.gif"
+          width="30"
+          height="30"
+          className=" form-wrapper rounded-4"
+        />{' '}/>
         <Navbar.Collapse  id="responsive-navbar-nav"  >
           <Nav  id="opciones" Style={"color: #eed757;"}>
             <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"} className="  zoom bx- bx-user fw-bold text-decoration-none" href="/perfil">Mi perfil profesional</Nav.Link>
