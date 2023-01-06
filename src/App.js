@@ -134,7 +134,7 @@ function App() {
       fontFamily: "bold" 
     }}>
     
-  <CDBBox display="flex" flex="column" className="mx-auto py-5 fw-bold" style={{ width: '90%' }}>
+  <CDBBox display="flex" flex="column" className="mx-auto py-5 " style={{ width: '90%' }}>
   <CDBBox display="flex" justifyContent="between" className="flex-wrap">
     <CDBBox>
       <a href="/" className="d-flex align-items-center p-0 text-dark">
@@ -149,12 +149,12 @@ function App() {
           
       </Link>
       </a>
-      <p className="my-3" style={{ width: '250px' }}>
+      <p className="my-3 fw-bold" style={{ width: '250px' }}>
       Matemáticas, estadística, programación y más...
       </p>
     </CDBBox>
     <CDBBox>
-      <p className="h6 mb-4" style={{ fontWeight: '600' }}>
+      <p className="h6 mb-4 fw-bold" style={{ fontWeight: '600' }}>
       Contactenos
       </p>
       <CDBBox flex="column" display="flex" style={{ cursor: 'pointer', padding: '0' }}>
@@ -163,7 +163,7 @@ function App() {
       </CDBBox>
     </CDBBox>
     <CDBBox>
-      <p className="h6 mb-4" style={{ fontWeight: '600' }}>
+      <p className="h6 mb-4 fw-bold" style={{ fontWeight: '600' }}>
       Formaciones
       </p>
       <CDBBox display="flex" flex="column" style={{ cursor: 'pointer', padding: '0' }}>
