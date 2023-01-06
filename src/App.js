@@ -33,8 +33,8 @@ function App() {
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         border: "4px solid #565555",
-        height: "w-100"
-        fontFamily: "Raleway,bold",
+        height: "w-100",
+        fontFamily: "Raleway,bold"
       }} 
     className="img-thumbnail rounded-3">
     
