@@ -34,6 +34,7 @@ function App() {
         backgroundSize: "cover",
         border: "4px solid #565555",
         height: "w-100"
+        fontFamily: "Playfair Display,bold",
       }} 
     className="img-thumbnail rounded-3">
     
@@ -139,7 +140,7 @@ function App() {
       backgroundSize: "cover",
       border: "4px solid #565555",
       height: "w-100",
-      fontFamily: "bold" 
+      fontFamily: "Playfair Display,bold", 
     }}>
     
   <CDBBox display="flex" flex="column" className="mx-auto py-5 " style={{ width: '90%' }}>
