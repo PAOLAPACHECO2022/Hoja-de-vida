@@ -12,7 +12,7 @@ export default class Contacto extends Component {
             teléfono.
           </p>
 
-          <p Style={"color: #7a4b05"}>GRACIAS POR VISITAR MI PÁGINA .</p>
+          <p Style={"color: rgb(197, 184, 70);"}>GRACIAS POR VISITAR MI PÁGINA .</p>
         </div>
 
         <div class="row" data-aos="fade-in">
