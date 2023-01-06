@@ -32,10 +32,11 @@ function App() {
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
-        border: "4px solid #0c0c0c",
+        border: "4px solid #565555",
         height: "w-100"
-      }} >
-    className="rounded-3"
+      }} 
+    className="rounded-3">
+    
       <Container >
         
           <img
@@ -134,7 +135,7 @@ function App() {
       backgroundPosition: "center",
       backgroundRepeat: "no-repeat",
       backgroundSize: "cover",
-      border: "4px solid #0c0c0c",
+      border: "4px solid #565555",
       height: "w-100",
       fontFamily: "bold" 
     }}>
