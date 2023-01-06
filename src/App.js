@@ -28,7 +28,7 @@ function App() {
 
      <Navbar collapseOnSelect expand="lg" 
        style={{
-        backgroundImage: `url("/footer1.png")`,
+        backgroundImage: `url("/nue.PNG")`,
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
@@ -125,7 +125,7 @@ function App() {
   
   <footer className="footer"
      style={{
-      backgroundImage: `url("/footer1.png")`,
+      backgroundImage: `url("/nue.PNG")`,
       backgroundPosition: "center",
       backgroundRepeat: "no-repeat",
       backgroundSize: "cover",
