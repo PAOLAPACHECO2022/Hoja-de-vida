@@ -34,7 +34,7 @@ function App() {
         backgroundSize: "cover",
         border: "4px solid #565555",
         height: "w-100"
-        fontFamily: "Playfair Display,bold",
+        fontFamily: "Raleway,bold",
       }} 
     className="img-thumbnail rounded-3">
     
