@@ -32,7 +32,7 @@ function App() {
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
-        border: "1px solid #565555",
+        border: "4px solid #565555",
         height: "w-100"
       }} >
       <Container>
@@ -129,7 +129,7 @@ function App() {
       backgroundPosition: "center",
       backgroundRepeat: "no-repeat",
       backgroundSize: "cover",
-      border: "1px solid #565555",
+      border: "4px solid #565555",
       height: "w-100",
       fontFamily: "bold" 
     }}>
