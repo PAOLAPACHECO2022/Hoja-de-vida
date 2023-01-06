@@ -55,7 +55,7 @@ function App() {
           border: "5px solid #0c0c0c",
            height: "w-40"}}
            
-           className="bg-warning zoom w-40 rounded-3 "/>
+           className="img-thumbnail bg-warning w-40 rounded-3 "/>
           
         <Navbar.Collapse  id="responsive-navbar-nav"  >
           <Nav  id="opciones" Style={"color: #eed757;"}>
