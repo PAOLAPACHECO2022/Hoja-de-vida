@@ -6,7 +6,7 @@ export default class Contacto extends Component {
     return (
       <div class="container" style={{ fontFamily: "Raleway,bold" }}>
         <div class="section-title  text-center mt-5  ">
-          <h2 style={{ fontFamily: "Raleway,bold" }}> CONTACTO</h2>
+          <h2 style={{ fontFamily: "Raleway,bold" }, {"color: rgb(197, 184, 70);"}}> CONTACTO</h2>
           <p style={{ fontFamily: "Raleway,bold" }}>
             Si deseas contactarme, lo puedes realizar mediante Email o mediante
             teléfono.
@@ -20,20 +20,20 @@ export default class Contacto extends Component {
             <div class="info">
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
-                <h4 style={{ fontFamily: "Raleway,bold" }}>Ubicación</h4>
-                <p style={{ fontFamily: "Raleway,bold" }}> Cundinamarca, Bogotá,</p>
+                <h4 style={{ fontFamily: "Raleway,bold" }, {"color: rgb(197, 184, 70);"}}>Ubicación</h4>
+                <p style={{ fontFamily: "Raleway,bold" }, {" color:   #f7ac0b"}}> Cundinamarca, Bogotá,</p>
               </div>
 
               <div class="email">
                 <i class="bi bi-envelope"></i>
-                <h4 style={{ fontFamily: "Raleway,bold" }}>Email:</h4>
-                <p style={{ fontFamily: "Raleway,bold" }}>paolapacheco.moreno@gmail.com</p>
+                <h4 style={{ fontFamily: "Raleway,bold" }, {"color: rgb(197, 184, 70);"}}>Email:</h4>
+                <p style={{ fontFamily: "Raleway,bold" }, {" color:   #f7ac0b"}}>paolapacheco.moreno@gmail.com</p>
               </div>
 
               <div class="phone">
                 <i class="bi bi-phone"></i>
-                <h4 style={{ fontFamily: "Raleway,bold" }}>Teléfono:</h4>
-                <p style={{ fontFamily: "Raleway,bold" }} >+57 3209887626</p>
+                <h4 style={{ fontFamily: "Raleway,bold" }, {"color: rgb(197, 184, 70);"}}>Teléfono:</h4>
+                <p style={{ fontFamily: "Raleway,bold" }, {" color:   #f7ac0b"}} >+57 3209887626</p>
               </div>
             </div>
           </div>
