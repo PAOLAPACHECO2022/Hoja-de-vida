@@ -158,8 +158,8 @@ function App() {
       Contactenos
       </p>
       <CDBBox flex="column" display="flex" style={{ cursor: 'pointer', padding: '0' }}>
-      <p>(+57) 3209887626</p>
-          <p>paolapacheco.moreno@gmail.com </p>
+      <p Style={"color: rgba(14, 10, 0, 0.87);"}>(+57) 3209887626</p>
+          <p Style={"color: rgba(14, 10, 0, 0.87);"}>paolapacheco.moreno@gmail.com </p>
       </CDBBox>
     </CDBBox>
     <CDBBox>
