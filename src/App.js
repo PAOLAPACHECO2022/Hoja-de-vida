@@ -35,7 +35,8 @@ function App() {
         border: "4px solid #0c0c0c",
         height: "w-100"
       }} >
-      <Container className="rounded-4">
+    className="rounded-3"
+      <Container >
         
           <img
           className="zoom"
@@ -127,7 +128,7 @@ function App() {
           </Container>
   
   
-  <footer className="footer"
+  <footer className="footer rounded-3"
      style={{
       backgroundImage: `url("/nue.PNG")`,
       backgroundPosition: "center",
