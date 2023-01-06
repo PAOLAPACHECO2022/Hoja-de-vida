@@ -24,7 +24,7 @@ import Contacto from "./components/contacto"
 function App() {
   return (
     <Router>
-    <div className="App ">
+    <div className="App rounded-4 ">
 
      <Navbar collapseOnSelect expand="lg" 
        style={{
@@ -43,12 +43,18 @@ function App() {
           src="/logo.png"
           width="100"
           height="100"
-          href="/perfil"
+          href="/perfil" 
        
         />{' '}            
   
        
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" Style={"rgb(197, 184, 70);"} className="bg-warning"/>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" 
+     style={{     
+          rder: "4px solid #0c0c0c",
+           height: "w-100"}}
+           className="bg-warning zoom"  
+           width="100"
+          height="100"/>
         <Navbar.Collapse  id="responsive-navbar-nav"  >
           <Nav  id="opciones" Style={"color: #eed757;"}>
             <Nav.Link Style={"color: rgba(14, 10, 0, 0.87);"} className="  zoom bx- bx-user fw-bold text-decoration-none" href="/perfil">Mi perfil profesional</Nav.Link>
