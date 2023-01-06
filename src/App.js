@@ -52,15 +52,9 @@ function App() {
        
         <Navbar.Toggle aria-controls="responsive-navbar-nav" 
      style={{     
-          border: "5px solid #565555",
+          border: "5px solid ##020202",
            height: "w-40"}}
-               <img
-          alt=""
-          src="./cubo.gif"
-          width="30"
-          height="30"
-          className=" form-wrapper rounded-4"
-        />
+           
            className="bg-warning zoom w-40 rounded-3 "/>
           
         <Navbar.Collapse  id="responsive-navbar-nav"  >
