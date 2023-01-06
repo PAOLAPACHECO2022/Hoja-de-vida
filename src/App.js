@@ -52,7 +52,7 @@ function App() {
        
         <Navbar.Toggle aria-controls="responsive-navbar-nav" 
      style={{     
-          border: "5px solid ##020202",
+          border: "5px solid #0c0c0c",
            height: "w-40"}}
            
            className="bg-warning zoom w-40 rounded-3 "/>
