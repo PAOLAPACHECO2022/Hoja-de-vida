@@ -179,7 +179,7 @@ function App() {
       <ul className="list-unstyled">
               <li><a href="/education">Matemáticas</a></li>
               <li><a href="/education">Estadistica</a></li>
-              <li><a href="/portafolio">programación</a></li>
+              <li><a href="/portafolio">Programación</a></li>
               <li><a href="/home">Manualidades y pintura</a></li>
              
           </ul>
