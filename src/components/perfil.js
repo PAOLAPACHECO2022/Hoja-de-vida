@@ -53,7 +53,7 @@ export default class Perfil extends Component {
             
             className="img-thumbnail rounded-4 text-justify mx-2 mt-2 my-3 fw-bold"
           >
-            <p>Soy Licenciada en matemáticas y estadística y egresada de Misión Tic 2022 como desarrolladora de software Junior, con experiencia en análisis de datos estadísticos, sistematización de información,
+            <p>Soy Licenciada en matemáticas y estadística y egresada de Misión Tic 2022 como desarrolladora de software Junior, cuento con experiencia en análisis de datos estadísticos, sistematización de información,
               verificación y validación de datos, establecimiento y medición de indicadores, desarrollo de modelos predictivos, presentación de informes de gestión y
                resultados. Con competencias y capacidades como la orientación a los resultados, la planeación, la
                creatividad, el mejoramiento continuo y la capacidad de análisis. </p>
