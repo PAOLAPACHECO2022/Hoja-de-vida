@@ -161,7 +161,7 @@ export default function Education() {
               </Button>
 
               <Modal
-                show={show}
+                show={senaShow}
                 onHide={() => setsenaShow(false)}
                 dialogClassName="modal-dialog modal-lg"
                 aria-labelledby="example-custom-modal-styling-title"
