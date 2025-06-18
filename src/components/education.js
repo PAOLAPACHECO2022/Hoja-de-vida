@@ -177,7 +177,7 @@ export default function Education() {
 
                     <td>
                       {" "}
-                      <a href="https://certificadomisionticutp.com/apiv1/public/docs/1/_1052400786-.pdf">
+                      <a href="https://drive.google.com/file/d/1600iOn5pvqlFCjrPEEjJ6M0R3FYDqXik/view?usp=sharing">
                         PDF
                       </a>
                     </td>
@@ -230,7 +230,7 @@ export default function Education() {
 
                     <td>
                       {" "}
-                      <a href="https://certificadomisionticutp.com/apiv1/public/docs/2/_1052400786-.pdf">
+                      <a href="https://drive.google.com/drive/folders/1XILpXTPhHQ_N7_9eGfoRvguqvrYTaMWR">
                         PDF
                       </a>
                     </td>
@@ -283,7 +283,7 @@ export default function Education() {
 
                     <td>
                       {" "}
-                      <a href="https://certificadomisionticutp.com/apiv1/public/docs/3/_1052400786-.pdf">
+                      <a href="https://drive.google.com/file/d/1gR2vDLBBdKBxy3rDEmPqgtg_Bsb-hS1k/view?usp=sharing">
                         PDF
                       </a>
                     </td>
