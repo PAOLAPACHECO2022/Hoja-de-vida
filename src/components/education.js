@@ -13,6 +13,7 @@ import {
 } from "react-bootstrap";
 export default function Education() {
   const [show, setShow] = useState(false);
+  const [senaShow, setsenaShow] = useState(false);
   const [smShow, setsmShow] = useState(false);
   const [slShow, setslShow] = useState(false);
   const [stShow, setstShow] = useState(false);
@@ -72,7 +73,6 @@ export default function Education() {
                 <p>Nivel educativo: Universitaria </p>
                 <p>Institución: U. Pedagógica y Tecnológica de Colombia - -</p>
                 <p>UPTC - - Duitama</p>
-                <p>Estado: Graduado</p>
                 <p>Fecha de finalización: Junio de 2018</p>
               </Card.Text>
               <Button variant="success" onClick={() => setShow(true)}>
@@ -119,7 +119,87 @@ export default function Education() {
             </Card.Body>
           </Card>
         </Col>
-      
+
+
+ <Col md={12} className="Apps-thumbnail rounded-4 mt-5 d-flex justify-content-center form-wrapper" >
+          <Card
+            className="img-thumbnail rounded-4"
+            style={{
+              backgroundImage: `url("./jirasol.PNG")`,
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+              border: "1px solid #565555",
+            }}
+          >
+            <Card.Header
+              style={{
+                backgroundImage: `url("./koko.PNG")`,
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+                border: "1px solid #565555",
+                fontFamily: "Raleway,bold"
+              }}
+              className="img-thumbnail rounded-4 text-center fw-bold"
+            >
+              FORMACIÓN TECNOLÓGICA
+            </Card.Header>
+            <Card.Body>
+              <Card.Title style={{ fontFamily: "Raleway,bold" }}
+              className="fw-bold"
+              >Anàlisis y Desarrollo de Software</Card.Title>
+              <Card.Text style={{ fontFamily: "Raleway,bold" }}
+               className="fw-bold"
+              >
+                <p>Nivel educativo: Tecnológico </p>
+                <p>Institución: SENA</p>
+                <p>Fecha de finalización: Marzo de 2025</p>
+              </Card.Text>
+              <Button variant="success" onClick={() => setsenaShow(true)}>
+                Ver diploma
+              </Button>
+
+              <Modal
+                show={show}
+                onHide={() => setsenaShow(false)}
+                dialogClassName="modal-dialog modal-lg"
+                aria-labelledby="example-custom-modal-styling-title"
+                ClassName="modal-dialog modal-xl"
+              >
+                <Modal.Header
+                  closeButton
+                  style={{
+                    backgroundImage: `url("./jirasol.PNG")`,
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat",
+                    backgroundSize: "cover",
+                    border: "1px solid #565555",
+                  }}
+                >
+                  <Modal.Title
+                    variant="primary"
+                    id=" example-custom-modal-styling-title h5"
+                  >
+                    <h5
+                      style={{ fontFamily: "Raleway,bold" }}
+                      className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
+                    >
+                      Tecnología en Análisis y Desarrollo de Software 
+                    </h5>
+                  </Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                  <img
+                    src="./CertSena.PNG"
+                    alt=""
+                    className=" zoom img-thumbnail  w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
+                  ></img>
+                </Modal.Body>
+              </Modal>
+            </Card.Body>
+          </Card>
+        </Col>
 
       {/* ------------------------------------ACORDION--------------------------------- */}
       <Col md={12} >
