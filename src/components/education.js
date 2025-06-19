@@ -718,7 +718,7 @@ export default function Education() {
                 </thead>
                 <tbody variant="primmary" className="form-wrapper">
                   <tr className="form-wrapper">
-                    <td style="color: white; background-color: black;">Aspectos básicos: datos, datos, en todas partes</td>
+                     <td>Aspectos básicos: datos, datos, en todas partes</td>
 
 
                     <td>
