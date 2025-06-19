@@ -1520,7 +1520,7 @@ export default function Education() {
                         >
                           <Modal.Title variant="success">
                             <h5
-                              style={{ fontFamily: "Raleway,bold" }}
+                              style={{ fontFamily: "Raleway,bold"}}
                               className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3"
                             >
                               ENGLISH DOT WORKS 1 (INGLES)
@@ -1616,7 +1616,7 @@ export default function Education() {
                         >
                           <Modal.Title variant="success">
                             <h5
-                              style={{ fontFamily: "Raleway,bold" }}
+                              style={{ fontFamily: "Raleway,bold"}}
                               className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3"
                             >
                               ENGLISH DOT WORKS 3 (INGLES)
