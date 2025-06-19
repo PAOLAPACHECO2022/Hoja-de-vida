@@ -76,7 +76,7 @@ export default function Education() {
                 <p>UPTC - - Duitama</p>
                 <p>Fecha de finalización: Junio de 2018</p>
               </Card.Text>
-              <Button variant="success" onClick={() => setShow(true)}>
+               <Button variant="light" onClick={() => setsenaShow(true)} style={{ border: '2px solid black' }}>
                 Ver diploma
               </Button>
 
@@ -157,7 +157,7 @@ export default function Education() {
                 <p>Institución: SENA</p>
                 <p>Fecha de finalización: Marzo de 2025</p>
               </Card.Text>
-              <Button variant="success" onClick={() => setsenaShow(true)} style={{ border: '2px solid black' }}>
+              <Button variant="warning" onClick={() => setsenaShow(true)} style={{ border: '2px solid black' }}>
                 Ver diploma
               </Button>                 
               <Modal
