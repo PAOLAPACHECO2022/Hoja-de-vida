@@ -324,7 +324,7 @@ export default function Education() {
           <Accordion.Item
             eventKey="0"
             style={{
-              backgroundImage: `url("./alas.PNG")`,
+              backgroundImage: `url("./estrellas.jpg")`,
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
               backgroundSize: "cover",
@@ -779,7 +779,7 @@ export default function Education() {
           <Accordion.Item
             eventKey="2"
             style={{
-              backgroundImage: `url("./alas.PNG")`,
+              backgroundImage: `url("./estrellas.jpg")`,
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
               backgroundSize: "cover",
@@ -1253,7 +1253,7 @@ export default function Education() {
           <Accordion.Item
             eventKey="3"
             style={{
-              backgroundImage: `url("./alas.PNG")`,
+              backgroundImage: `url("./estrellas.jpg")`,
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
               backgroundSize: "cover",
@@ -1457,7 +1457,7 @@ export default function Education() {
           <Accordion.Item
             eventKey="4"
             style={{
-              backgroundImage: `url("./alas.PNG")`,
+              backgroundImage: `url("./estrellas.jpg")`,
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
               backgroundSize: "cover",
