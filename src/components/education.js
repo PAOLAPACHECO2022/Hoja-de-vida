@@ -272,7 +272,7 @@ export default function Education() {
                     </td>
                     <td>
                       <Button
-                        variant="success"
+                        variant="light"
                         onClick={() => settalenShow(true)}
                         className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
                       >
@@ -364,7 +364,7 @@ export default function Education() {
                     </td>
                     <td>
                       <Button
-                        variant="success"
+                        variant="warning"
                         onClick={() => setslShow(true)}
                         className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
                       >
@@ -417,7 +417,7 @@ export default function Education() {
                     </td>
                     <td>
                       <Button
-                        variant="success"
+                        variant="warning"
                         onClick={() => setstShow(true)}
                         className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
                       >
@@ -470,7 +470,7 @@ export default function Education() {
                     </td>
                     <td>
                       <Button
-                        variant="success"
+                        variant="light"
                         onClick={() => setspShow(true)}
                         className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
                       >
@@ -523,7 +523,7 @@ export default function Education() {
                     </td>
                     <td>
                       <Button
-                        variant="success"
+                        variant="light"
                         onClick={() => setsfShow(true)}
                         className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
                       >
