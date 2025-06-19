@@ -791,11 +791,12 @@ export default function Education() {
               PLATZI
             </Accordion.Header>
             <Accordion.Body>
+             <div className="d-flex justify-content-center">
               <Table
                 striped
                 bordered
                 hover
-                className="mt-2 justify-content-center form-wrapper"
+                className="mt-2"
               >
                 <thead class="bg-light form-wrapper rounded-4">
                   <tr className="form-wrapper">
@@ -1238,6 +1239,7 @@ export default function Education() {
                   </tr>
                 </tbody>
               </Table>
+             </div>
             </Accordion.Body>
           </Accordion.Item>
 
