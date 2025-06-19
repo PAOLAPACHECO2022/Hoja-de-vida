@@ -826,7 +826,7 @@ export default function Education() {
                       <Button
                         variant="success"
                         onClick={() => setsdShow(true)}
-                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
+                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
                       >
                         Ver
                       </Button>
@@ -880,7 +880,7 @@ export default function Education() {
                       <Button
                         variant="success"
                         onClick={() => setsnShow(true)}
-                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
+                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
                       >
                         Ver
                       </Button>
@@ -934,7 +934,7 @@ export default function Education() {
                       <Button
                         variant="success"
                         onClick={() => setsrShow(true)}
-                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
+                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
                       >
                         Ver
                       </Button>
@@ -1042,7 +1042,7 @@ export default function Education() {
                       <Button
                         variant="success"
                         onClick={() => setskShow(true)}
-                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
+                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
                       >
                         Ver
                       </Button>
@@ -1096,7 +1096,7 @@ export default function Education() {
                       <Button
                         variant="success"
                         onClick={() => setszShow(true)}
-                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
+                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
                       >
                         Ver
                       </Button>
@@ -1150,7 +1150,7 @@ export default function Education() {
                       <Button
                         variant="success"
                         onClick={() => setshShow(true)}
-                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
+                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
                       >
                         Ver
                       </Button>
@@ -1204,7 +1204,7 @@ export default function Education() {
                       <Button
                         variant="success"
                         onClick={() => setscShow(true)}
-                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
+                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
                       >
                         Ver
                       </Button>
