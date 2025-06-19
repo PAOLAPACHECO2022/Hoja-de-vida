@@ -682,7 +682,7 @@ export default function Education() {
           <Accordion.Item
             eventKey="1"
             style={{
-              backgroundImage: `url("./alas.PNG")`,
+              backgroundImage: `url("./estrellas.jpg")`,
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
               backgroundSize: "cover",
