@@ -249,7 +249,7 @@ export default function Education() {
                 src="./Talent.PNG"
                 className="boton1 img-thumbnail  d-flex justify-content-center form-wrapper"
               ></img>
-              TALENO TECH B.
+              TALENO TECH
             </Accordion.Header>
             <Accordion.Body>
               <Table
