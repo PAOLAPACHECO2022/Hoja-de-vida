@@ -157,10 +157,9 @@ export default function Education() {
                 <p>Institución: SENA</p>
                 <p>Fecha de finalización: Marzo de 2025</p>
               </Card.Text>
-              <Button variant="success" onClick={() => setsenaShow(true)}>
+              <Button variant="success" onClick={() => setsenaShow(true)} style={{ border: '2px solid black' }}>
                 Ver diploma
-              </Button>
-
+              </Button>                 
               <Modal
                 show={senaShow}
                 onHide={() => setsenaShow(false)}
