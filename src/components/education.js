@@ -826,7 +826,7 @@ export default function Education() {
 
                    <tr className="form-wrapper">
                     <td className="form-wrapper">
-                      Harnessing the Power of Data with Power BI
+                      Harnessing the Power of Data - Power BI
                     </td>
 
                     <td>
@@ -864,7 +864,7 @@ export default function Education() {
                               style={{ fontFamily: "Raleway,bold" }}
                               className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
                             >
-                              Harnessing the Power of Data with Power BI
+                              Harnessing the Power of Data - Power BI
                             </h5>
                           </Modal.Title>
                         </Modal.Header>
@@ -881,7 +881,7 @@ export default function Education() {
 
                     <tr className="form-wrapper">
                     <td className="form-wrapper">
-                      Machine Learning with Python
+                      Machine Learning - Python
                     </td>
 
                     <td>
@@ -919,7 +919,7 @@ export default function Education() {
                               style={{ fontFamily: "Raleway,bold" }}
                               className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
                             >
-                              Machine Learning with Python
+                              Machine Learning - Python
                             </h5>
                           </Modal.Title>
                         </Modal.Header>
@@ -991,7 +991,7 @@ export default function Education() {
 
                       <tr className="form-wrapper">
                     <td className="form-wrapper">
-                      Preparing Data for Analysis with Microsoft Excel
+                      Preparing Data  Analysis - Microsoft Excel
                     </td>
 
                     <td>
@@ -1029,7 +1029,7 @@ export default function Education() {
                               style={{ fontFamily: "Raleway,bold" }}
                               className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
                             >
-                              Preparing Data for Analysis with Microsoft Excel
+                              Preparing Data Analysis - Microsoft Excel
                             </h5>
                           </Modal.Title>
                         </Modal.Header>
