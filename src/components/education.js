@@ -789,9 +789,9 @@ export default function Education() {
                 className="boton1 img-thumbnail justify-content-center form-wrapper"
               ></img>
               PLATZI
-            </Accordion.Header>
+            </Accordion.Header>                 
             <Accordion.Body>
-             <div className="d-flex justify-content-center">
+             <div className="d-flex justify-content-center align-items-center" style={{ minHeight: '200px' }}>
               <Table
                 striped
                 bordered
