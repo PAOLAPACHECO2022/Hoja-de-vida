@@ -206,17 +206,24 @@ export default function Education() {
         
         <Row>
   <div className="mt-5 d-flex justify-content-center form-wrapper">
-    <img
-      src="./koko.PNG"
-      alt="Formación Complementaria"
+    <h1
       style={{
-        maxWidth: "100%", // Ensures the image scales down if the container is smaller
-        height: "auto", // Maintains aspect ratio
-        border: "1px solid #565555", // Keep the border if desired
-        borderRadius: "20px", // Approximate border-radius to match the image
+        backgroundImage: `url("./koko.PNG")`,
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+        border: "1px solid #565555",
+        // Add padding to create space around the text
+        padding: "15px 30px", // Adjust these values as needed (top/bottom, left/right)
+        display: "inline-block", // Makes the h1 shrink to fit its content + padding
+        // Or you could use: width: "fit-content",
+        // And for the rounded corners to match the image
+        borderRadius: "20px", // Adjust to match your koko.PNG's rounded corners
       }}
-      className="mx-3"
-    />
+      className="text-center mx-3 font-weight-bold h5 text-dark my-3"
+    >
+      FORMACIÓN COMPLEMENTARIA
+    </h1>
   </div>
 </Row>
         <Accordion className="mt-5 my-5 justify-content-center form-wrapper">
