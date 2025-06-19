@@ -926,7 +926,7 @@ export default function Education() {
                         </Modal.Header>
                         <Modal.Body>
                           <img
-                            src="./Coursera4.jpg"
+                            src="./Coursera5.jpg"
                             alt=""
                             className=" zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
                           ></img>
@@ -981,7 +981,7 @@ export default function Education() {
                         </Modal.Header>
                         <Modal.Body>
                           <img
-                            src="./Coursera5.jpg"
+                            src="./Coursera4.jpg"
                             alt=""
                             className=" zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
                           ></img>
