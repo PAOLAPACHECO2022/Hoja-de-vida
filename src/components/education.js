@@ -708,7 +708,7 @@ export default function Education() {
                 hover
                 className="justify-content-center form-wrapper"
               >
-                <thead class="bg-warning form-wrapper rounded-4">
+                <thead class="bg-info form-wrapper rounded-4">
                   <tr className="form-wrapper">
                     <th>Curso</th>
 
@@ -731,7 +731,7 @@ export default function Education() {
                       <Button
                         variant="success"
                         onClick={() => setsmShow(true)}
-                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
+                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-info"
                       >
                         Ver
                       </Button>
