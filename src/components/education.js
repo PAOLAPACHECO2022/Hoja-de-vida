@@ -684,481 +684,417 @@ export default function Education() {
           </Accordion.Item>
 
           {/* ------------------------------------Coursera certificaciones--------------------------------- */}
-         <Accordion.Item
-            eventKey="1"
-            style={{
-              backgroundImage: `url("./estrellas.jpg")`,
-              backgroundPosition: "center",
-              backgroundRepeat: "no-repeat",
-              backgroundSize: "cover",
-              border: "1px solid #565555",
-            }}
-          >
+<Accordion.Item
+  eventKey="1" // Asegúrate de que esta 'eventKey' sea única dentro de tu Accordion
+  style={{
+    backgroundImage: url("./estrellas.jpg"),
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    border: "1px solid #565555",
+  }}
+>
+  <Accordion.Header>
+    <div className="w-100 d-flex justify-content-center">
+      <img
+        alt=""
+        width="100"
+        height="100"
+        src="./courserar.PNG"
+        className="img-thumbnail"
+      />
+    </div>
+  </Accordion.Header>
+  <Accordion.Body>
+    <Table
+      striped
+      bordered
+      hover
+      className=" img-thumbnail w-100 my-2 mt-2 d-flex justify-content-center form-wrapper"
+    >
+      <tbody variant="primmary" className="form-wrapper">
+        <tr className="form-wrapper">
+          <td className="form-wrapper">
+            Cómo resolver problemas y tomar decisiones con eficacia
+          </td>
 
-            <Accordion.Header>
-            <div className="w-100 d-flex justify-content-center">
-              <img
-                alt=""
-                width="100"
-                height="100"
-                src="./courserar.PNG"
-                className="img-thumbnail"
-              /></div>    
-            </Accordion.Header>
-            <Accordion.Body>
-              <Table
-                striped
-                bordered
-                hover
-                className=" img-thumbnail w-100 my-2 mt-2 d-flex justify-content-center form-wrapper"
+          <td>
+            {" "}
+            <a href="https://coursera.org/share/617c02de5093d39711b725b4fa3a021c">
+              PDF
+            </a>
+          </td>
+          <td>
+            <Button
+              variant="light"
+              onClick={() => setcourseraAShow(true)}
+              className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
+            >
+              Ver
+            </Button>
+            <Modal
+              show={courseraAShow}
+              onHide={() => setcourseraAShow(false)}
+              dialogClassName="modal-dialog modal-lg"
+              aria-labelledby="example-modal-sizes-title-sm"
+            >
+              <Modal.Header
+                closeButton
+                style={{
+                  backgroundImage: url("./jirasol.PNG"),
+                  backgroundPosition: "center",
+                  backgroundRepeat: "no-repeat",
+                  backgroundSize: "cover",
+                  border: "1px solid #565555",
+                }}
               >
-                <tbody variant="primmary" className="form-wrapper">
+                <Modal.Title variant="primary">
+                  <h5
+                    style={{ fontFamily: "Raleway,bold" }}
+                    className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
+                  >
+                    Cómo resolver problemas y tomar decisiones con eficacia
+                  </h5>
+                </Modal.Title>
+              </Modal.Header>
+              <Modal.Body>
+                <img
+                  src="./Coursera1.jpg"
+                  alt=""
+                  className=" zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
+                ></img>
+              </Modal.Body>
+            </Modal>
+          </td>
+        </tr>
 
-                  <tr className="form-wrapper">
-                    <td className="form-wrapper">
-                      Cómo resolver problemas y tomar decisiones con eficacia
-                    </td>
+        <tr className="form-wrapper">
+          <td className="form-wrapper">Programar en Python</td>
 
-                    <td>
-                      {" "}
-                      <a href="https://coursera.org/share/617c02de5093d39711b725b4fa3a021c">
-                        PDF
-                      </a>
-                    </td>
-                    <td>
-                      <Button
-                        variant="light"
-                        onClick={() => setcourseraAShow(true)}
-                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
-                      >
-                        Ver
-                      </Button>
-                      <Modal
-                        show={courseraAShow}
-                        onHide={() => setcourseraAShow(false)}
-                        dialogClassName="modal-dialog modal-lg"
-                        aria-labelledby="example-modal-sizes-title-sm"
-                      >
-                        <Modal.Header
-                          closeButton
-                          style={{
-                            backgroundImage: `url("./jirasol.PNG")`,
-                            backgroundPosition: "center",
-                            backgroundRepeat: "no-repeat",
-                            backgroundSize: "cover",
-                            border: "1px solid #565555",
-                          }}
-                        >
-                          <Modal.Title variant="primary">
-                            <h5
-                              style={{ fontFamily: "Raleway,bold" }}
-                              className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
-                            >
-                              Cómo resolver problemas y tomar decisiones con eficacia
-                            </h5>
-                          </Modal.Title>
-                        </Modal.Header>
-                        <Modal.Body>
-                          <img
-                            src="./Coursera1.jpg"
-                            alt=""
-                            className=" zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
-                          ></img>
-                        </Modal.Body>
-                      </Modal>
-                    </td>
-                  </tr>
+          <td>
+            {" "}
+            <a href="https://coursera.org/share/c6f97053be853f9810d6c662b338d9e8">
+              PDF
+            </a>
+          </td>
+          <td>
+            <Button
+              variant="light"
+              onClick={() => setcourseraBShow(true)}
+              className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
+            >
+              Ver
+            </Button>
+            <Modal
+              show={courseraBShow}
+              onHide={() => setcourseraBShow(false)}
+              dialogClassName="modal-dialog modal-lg"
+              aria-labelledby="example-modal-sizes-title-sm"
+            >
+              <Modal.Header
+                closeButton
+                style={{
+                  backgroundImage: url("./jirasol.PNG"),
+                  backgroundPosition: "center",
+                  backgroundRepeat: "no-repeat",
+                  backgroundSize: "cover",
+                  border: "1px solid #565555",
+                }}
+              >
+                <Modal.Title variant="primary">
+                  <h5
+                    style={{ fontFamily: "Raleway,bold" }}
+                    className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
+                  >
+                    Programar en Python
+                  </h5>
+                </Modal.Title>
+              </Modal.Header>
+              <Modal.Body>
+                <img
+                  src="./Coursera2.jpg"
+                  alt=""
+                  className=" zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
+                ></img>
+              </Modal.Body>
+            </Modal>
+          </td>
+        </tr>
 
-                  <tr className="form-wrapper">
-                    <td className="form-wrapper">
-                      Programar en Python
-                    </td>
+        <tr className="form-wrapper">
+          <td className="form-wrapper">
+            Harnessing the Power of Data - Power BI
+          </td>
 
-                    <td>
-                      {" "}
-                      <a href="https://coursera.org/share/c6f97053be853f9810d6c662b338d9e8">
-                        PDF
-                      </a>
-                    </td>
-                    <td>
-                      <Button
-                        variant="light"
-                        onClick={() => setcourseraBShow(true)}
-                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
-                      >
-                        Ver
-                      </Button>
-                      <Modal
-                        show={courseraBShow}
-                        onHide={() => setcourseraBShow(false)}
-                        dialogClassName="modal-dialog modal-lg"
-                        aria-labelledby="example-modal-sizes-title-sm"
-                      >
-                        <Modal.Header
-                          closeButton
-                          style={{
-                            backgroundImage: `url("./jirasol.PNG")`,
-                            backgroundPosition: "center",
-                            backgroundRepeat: "no-repeat",
-                            backgroundSize: "cover",
-                            border: "1px solid #565555",
-                          }}
-                        >
-                          <Modal.Title variant="primary">
-                            <h5
-                              style={{ fontFamily: "Raleway,bold" }}
-                              className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
-                            >
-                              Programar en Python
-                            </h5>
-                          </Modal.Title>
-                        </Modal.Header>
-                        <Modal.Body>
-                          <img
-                            src="./Coursera2.jpg"
-                            alt=""
-                            className=" zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
-                          ></img>
-                        </Modal.Body>
-                      </Modal>
-                    </td>
-                  </tr>
+          <td>
+            {" "}
+            <a href="https://coursera.org/share/45f23188141c9a5c23042a424a48fe09">
+              PDF
+            </a>
+          </td>
+          <td>
+            <Button
+              variant="light"
+              onClick={() => setcourseraCShow(true)}
+              className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
+            >
+              Ver
+            </Button>
+            <Modal
+              show={courseraCShow}
+              onHide={() => setcourseraCShow(false)}
+              dialogClassName="modal-dialog modal-lg"
+              aria-labelledby="example-modal-sizes-title-sm"
+            >
+              <Modal.Header
+                closeButton
+                style={{
+                  backgroundImage: url("./jirasol.PNG"),
+                  backgroundPosition: "center",
+                  backgroundRepeat: "no-repeat",
+                  backgroundSize: "cover",
+                  border: "1px solid #565555",
+                }}
+              >
+                <Modal.Title variant="primary">
+                  <h5
+                    style={{ fontFamily: "Raleway,bold" }}
+                    className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
+                  >
+                    Harnessing the Power of Data - Power BI
+                  </h5>
+                </Modal.Title>
+              </Modal.Header>
+              <Modal.Body>
+                <img
+                  src="./Coursera3.jpg"
+                  alt=""
+                  className=" zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
+                ></img>
+              </Modal.Body>
+            </Modal>
+          </td>
+        </tr>
 
-                   <tr className="form-wrapper">
-                    <td className="form-wrapper">
-                      Harnessing the Power of Data, Power BI
-                    </td>
+        <tr className="form-wrapper">
+          <td className="form-wrapper">Machine Learning - Python</td>
 
-                    <td>
-                      {" "}
-                      <a href="https://coursera.org/share/45f23188141c9a5c23042a424a48fe09">
-                        PDF
-                      </a>
-                    </td>
-                    <td>
-                      <Button
-                        variant="light"
-                        onClick={() => setcourseraCShow(true)}
-                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
-                      >
-                        Ver
-                      </Button>
-                      <Modal
-                        show={courseraCShow}
-                        onHide={() => setcourseraCShow(false)}
-                        dialogClassName="modal-dialog modal-lg"
-                        aria-labelledby="example-modal-sizes-title-sm"
-                      >
-                        <Modal.Header
-                          closeButton
-                          style={{
-                            backgroundImage: `url("./jirasol.PNG")`,
-                            backgroundPosition: "center",
-                            backgroundRepeat: "no-repeat",
-                            backgroundSize: "cover",
-                            border: "1px solid #565555",
-                          }}
-                        >
-                          <Modal.Title variant="primary">
-                            <h5
-                              style={{ fontFamily: "Raleway,bold" }}
-                              className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
-                            >
-                              Harnessing the Power of Data,  Power BI
-                            </h5>
-                          </Modal.Title>
-                        </Modal.Header>
-                        <Modal.Body>
-                          <img
-                            src="./Coursera3.jpg"
-                            alt=""
-                            className=" zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
-                          ></img>
-                        </Modal.Body>
-                      </Modal>
-                    </td>
-                  </tr>
+          <td>
+            {" "}
+            <a href="https://coursera.org/share/97f4e6998ca5f51f0b55b0887c76b82b">
+              PDF
+            </a>
+          </td>
+          <td>
+            <Button
+              variant="light"
+              onClick={() => setcourseraDShow(true)}
+              className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
+            >
+              Ver
+            </Button>
+            <Modal
+              show={courseraDShow}
+              onHide={() => setcourseraDShow(false)}
+              dialogClassName="modal-dialog modal-lg"
+              aria-labelledby="example-modal-sizes-title-sm"
+            >
+              <Modal.Header
+                closeButton
+                style={{
+                  backgroundImage: url("./jirasol.PNG"),
+                  backgroundPosition: "center",
+                  backgroundRepeat: "no-repeat",
+                  backgroundSize: "cover",
+                  border: "1px solid #565555",
+                }}
+              >
+                <Modal.Title variant="primary">
+                  <h5
+                    style={{ fontFamily: "Raleway,bold" }}
+                    className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
+                  >
+                    Machine Learning - Python
+                  </h5>
+                </Modal.Title>
+              </Modal.Header>
+              <Modal.Body>
+                <img
+                  src="./Coursera4.jpg"
+                  alt=""
+                  className=" zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
+                ></img>
+              </Modal.Body>
+            </Modal>
+          </td>
+        </tr>
 
-                    <tr className="form-wrapper">
-                    <td className="form-wrapper">
-                      Machine Learning  Python
-                    </td>
+        <tr className="form-wrapper">
+          <td className="form-wrapper">
+            Questions, Present Progressive and Future Tenses
+          </td>
 
-                    <td>
-                      {" "}
-                      <a href="https://coursera.org/share/97f4e6998ca5f51f0b55b0887c76b82b">
-                        PDF
-                      </a>
-                    </td>
-                    <td>
-                      <Button
-                        variant="light"
-                        onClick={() => setcourseraDShow(true)}
-                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
-                      >
-                        Ver
-                      </Button>
-                      <Modal
-                        show={courseraDShow}
-                        onHide={() => setcourseraDShow(false)}
-                        dialogClassName="modal-dialog modal-lg"
-                        aria-labelledby="example-modal-sizes-title-sm"
-                      >
-                        <Modal.Header
-                          closeButton
-                          style={{
-                            backgroundImage: `url("./jirasol.PNG")`,
-                            backgroundPosition: "center",
-                            backgroundRepeat: "no-repeat",
-                            backgroundSize: "cover",
-                            border: "1px solid #565555",
-                          }}
-                        >
-                          <Modal.Title variant="primary">
-                            <h5
-                              style={{ fontFamily: "Raleway,bold" }}
-                              className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
-                            >
-                              Machine Learning  Python
-                            </h5>
-                          </Modal.Title>
-                        </Modal.Header>
-                        <Modal.Body>
-                          <img
-                            src="./Coursera4.jpg"
-                            alt=""
-                            className=" zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
-                          ></img>
-                        </Modal.Body>
-                      </Modal>
-                    </td>
-                  </tr>
+          <td>
+            {" "}
+            <a href="https://coursera.org/share/4f2d4206ba3e60e02d9603213f7b03da">
+              PDF
+            </a>
+          </td>
+          <td>
+            <Button
+              variant="light"
+              onClick={() => setcourseraEShow(true)}
+              className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
+            >
+              Ver
+            </Button>
+            <Modal
+              show={courseraEShow}
+              onHide={() => setcourseraEShow(false)}
+              dialogClassName="modal-dialog modal-lg"
+              aria-labelledby="example-modal-sizes-title-sm"
+            >
+              <Modal.Header
+                closeButton
+                style={{
+                  backgroundImage: url("./jirasol.PNG"),
+                  backgroundPosition: "center",
+                  backgroundRepeat: "no-repeat",
+                  backgroundSize: "cover",
+                  border: "1px solid #565555",
+                }}
+              >
+                <Modal.Title variant="primary">
+                  <h5
+                    style={{ fontFamily: "Raleway,bold" }}
+                    className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
+                  >
+                    Questions, Present Progressive and Future Tenses
+                  </h5>
+                </Modal.Title>
+              </Modal.Header>
+              <Modal.Body>
+                <img
+                  src="./Coursera5.jpg"
+                  alt=""
+                  className=" zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
+                ></img>
+              </Modal.Body>
+            </Modal>
+          </td>
+        </tr>
 
-                      <tr className="form-wrapper">
-                    <td className="form-wrapper">
-                      Questions, Present Progressive and Future Tenses
-                    </td>
+        <tr className="form-wrapper">
+          <td className="form-wrapper">
+            Preparing Data Analysis - Microsoft Excel
+          </td>
 
-                    <td>
-                      {" "}
-                      <a href="https://coursera.org/share/4f2d4206ba3e60e02d9603213f7b03da">
-                        PDF
-                      </a>
-                    </td>
-                    <td>
-                      <Button
-                        variant="light"
-                        onClick={() => setcourseraEShow(true)}
-                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
-                      >
-                        Ver
-                      </Button>
-                      <Modal
-                        show={courseraEShow}
-                        onHide={() => setcourseraEShow(false)}
-                        dialogClassName="modal-dialog modal-lg"
-                        aria-labelledby="example-modal-sizes-title-sm"
-                      >
-                        <Modal.Header
-                          closeButton
-                          style={{
-                            backgroundImage: `url("./jirasol.PNG")`,
-                            backgroundPosition: "center",
-                            backgroundRepeat: "no-repeat",
-                            backgroundSize: "cover",
-                            border: "1px solid #565555",
-                          }}
-                        >
-                          <Modal.Title variant="primary">
-                            <h5
-                              style={{ fontFamily: "Raleway,bold" }}
-                              className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
-                            >
-                              Questions, Present Progressive and Future Tenses
-                            </h5>
-                          </Modal.Title>
-                        </Modal.Header>
-                        <Modal.Body>
-                          <img
-                            src="./Coursera5.jpg"
-                            alt=""
-                            className=" zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
-                          ></img>
-                        </Modal.Body>
-                      </Modal>
-                    </td>
-                  </tr>
+          <td>
+            {" "}
+            <a href="https://coursera.org/share/45ee4e0a2f0fde6bdc501149c275b47c">
+              PDF
+            </a>
+          </td>
+          <td>
+            <Button
+              variant="light"
+              onClick={() => setcourseraFShow(true)}
+              className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
+            >
+              Ver
+            </Button>
+            <Modal
+              show={courseraFShow}
+              onHide={() => setcourseraFShow(false)}
+              dialogClassName="modal-dialog modal-lg"
+              aria-labelledby="example-modal-sizes-title-sm"
+            >
+              <Modal.Header
+                closeButton
+                style={{
+                  backgroundImage: url("./jirasol.PNG"),
+                  backgroundPosition: "center",
+                  backgroundRepeat: "no-repeat",
+                  backgroundSize: "cover",
+                  border: "1px solid #565555",
+                }}
+              >
+                <Modal.Title variant="primary">
+                  <h5
+                    style={{ fontFamily: "Raleway,bold" }}
+                    className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
+                  >
+                    Preparing Data Analysis - Microsoft Excel
+                  </h5>
+                </Modal.Title>
+              </Modal.Header>
+              <Modal.Body>
+                <img
+                  src="./Coursera6.jpg"
+                  alt=""
+                  className=" zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
+                ></img>
+              </Modal.Body>
+            </Modal>
+          </td>
+        </tr>
 
-                      <tr className="form-wrapper">
-                    <td className="form-wrapper">
-                      Preparing Data  Analysis,  Microsoft Excel
-                    </td>
+        <tr className="form-wrapper">
+          <td className="form-wrapper">Word Forms and Simple Present Tense</td>
 
-                    <td>
-                      {" "}
-                      <a href="https://coursera.org/share/45ee4e0a2f0fde6bdc501149c275b47c">
-                        PDF
-                      </a>
-                    </td>
-                    <td>
-                      <Button
-                        variant="light"
-                        onClick={() => setcourseraFShow(true)}
-                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
-                      >
-                        Ver
-                      </Button>
-                      <Modal
-                        show={courseraFShow}
-                        onHide={() => setcourseraFShow(false)}
-                        dialogClassName="modal-dialog modal-lg"
-                        aria-labelledby="example-modal-sizes-title-sm"
-                      >
-                        <Modal.Header
-                          closeButton
-                          style={{
-                            backgroundImage: `url("./jirasol.PNG")`,
-                            backgroundPosition: "center",
-                            backgroundRepeat: "no-repeat",
-                            backgroundSize: "cover",
-                            border: "1px solid #565555",
-                          }}
-                        >
-                          <Modal.Title variant="primary">
-                            <h5
-                              style={{ fontFamily: "Raleway,bold" }}
-                              className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
-                            >
-                              Preparing Data Analysis, Microsoft Excel
-                            </h5>
-                          </Modal.Title>
-                        </Modal.Header>
-                        <Modal.Body>
-                          <img
-                            src="./Coursera6.jpg"
-                            alt=""
-                            className=" zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
-                          ></img>
-                        </Modal.Body>
-                      </Modal>
-                    </td>
-                  </tr>
-
-                    <tr className="form-wrapper">
-                    <td className="form-wrapper">
-                      Word Forms and Simple Present Tense
-                    </td>
-
-                    <td>
-                      {" "}
-                      <a href="https://coursera.org/share/77c044136f1ba00c08b4238d01bcbff5">
-                        PDF
-                      </a>
-                    </td>
-                    <td>
-                      <Button
-                        variant="light"
-                        onClick={() => setcourseraGShow(true)}
-                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
-                      >
-                        Ver
-                      </Button>
-                      <Modal
-                        show={courseraGShow}
-                        onHide={() => setcourseraGShow(false)}
-                        dialogClassName="modal-dialog modal-lg"
-                        aria-labelledby="example-modal-sizes-title-sm"
-                      >
-                        <Modal.Header
-                          closeButton
-                          style={{
-                            backgroundImage: `url("./jirasol.PNG")`,
-                            backgroundPosition: "center",
-                            backgroundRepeat: "no-repeat",
-                            backgroundSize: "cover",
-                            border: "1px solid #565555",
-                          }}
-                        >
-                          <Modal.Title variant="primary">
-                            <h5
-                              style={{ fontFamily: "Raleway,bold" }}
-                              className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
-                            >
-                              Word Forms and Simple Present Tense
-                            </h5>
-                          </Modal.Title>
-                        </Modal.Header>
-                        <Modal.Body>
-                          <img
-                            src="./Coursera7.jpg"
-                            alt=""
-                            className=" zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
-                          ></img>
-                        </Modal.Body>
-                      </Modal>
-                    </td>
-                  </tr>
-
-                  <tr className="form-wrapper">
-                    <td className="form-wrapper">
-                      Aspectos básicos: datos, datos, en todas partes
-                    </td>
-
-                    <td>
-                      {" "}
-                      <a href="https://coursera.org/share/12dbacae516ec6e36bf9272b291d85f7">
-                        PDF
-                      </a>
-                    </td>
-                    <td>
-                      <Button
-                        variant="light"
-                        onClick={() => setsmShow(true)}
-                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
-                      >
-                        Ver
-                      </Button>
-                      <Modal
-                        show={smShow}
-                        onHide={() => setsmShow(false)}
-                        dialogClassName="modal-dialog modal-lg"
-                        aria-labelledby="example-modal-sizes-title-sm"
-                      >
-                        <Modal.Header
-                          closeButton
-                          style={{
-                            backgroundImage: `url("./jirasol.PNG")`,
-                            backgroundPosition: "center",
-                            backgroundRepeat: "no-repeat",
-                            backgroundSize: "cover",
-                            border: "1px solid #565555",
-                          }}
-                        >
-                          <Modal.Title variant="primary">
-                            <h5
-                              style={{ fontFamily: "Raleway,bold" }}
-                              className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
-                            >
-                              Aspectos básicos: datos, datos, en todas partes
-                            </h5>
-                          </Modal.Title>
-                        </Modal.Header>
-                        <Modal.Body>
-                          <img
-                            src="./coursera.PNG"
-                            alt=""
-                            className=" zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
-                          ></img>
-                        </Modal.Body>
-                      </Modal>
-                    </td>
-                  </tr>
-
-                  
-                </tbody>
-              </Table>
-            </Accordion.Body>
-          </Accordion.Item>
+          <td>
+            {" "}
+            <a href="https://coursera.org/share/77c044136f1ba00c08b4238d01bcbff5">
+              PDF
+            </a>
+          </td>
+          <td>
+            <Button
+              variant="light"
+              onClick={() => setcourseraGShow(true)}
+              className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
+            >
+              Ver
+            </Button>
+            <Modal
+              show={courseraGShow}
+              onHide={() => setcourseraGShow(false)}
+              dialogClassName="modal-dialog modal-lg"
+              aria-labelledby="example-modal-sizes-title-sm"
+            >
+              <Modal.Header
+                closeButton
+                style={{
+                  backgroundImage: url("./jirasol.PNG"),
+                  backgroundPosition: "center",
+                  backgroundRepeat: "no-repeat",
+                  backgroundSize: "cover",
+                  border: "1px solid #565555",
+                }}
+              >
+                <Modal.Title variant="primary">
+                  <h5
+                    style={{ fontFamily: "Raleway,bold" }}
+                    className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
+                  >
+                    Word Forms and Simple Present Tense
+                  </h5>
+                </Modal.Title>
+              </Modal.Header>
+              <Modal.Body>
+                <img
+                  src="./Coursera7.jpg" // Asumo que este sería el nombre del archivo de imagen
+                  alt=""
+                  className=" zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
+                ></img>
+              </Modal.Body>
+            </Modal>
+          </td>
+        </tr>
+      </tbody>
+    </Table>
+  </Accordion.Body>
+</Accordion.Item>
           {/* ------------------------------------PLatzi certificaciones--------------------------------- */}
 
           <Accordion.Item
