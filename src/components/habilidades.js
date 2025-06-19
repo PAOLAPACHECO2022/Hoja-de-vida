@@ -69,37 +69,50 @@ export default function Habilidades() {
 
   return (
     <>
-    <div className="d-flex justify-content-center  text-center  rounded-4 my-5 font-weight-bold mt-5">
+    <div className="d-flex justify-content-center text-center my-5 font-weight-bold mt-5">
+  <p
+    style={{
+      backgroundImage: `url("./jirasol.PNG")`,
+      backgroundPosition: "center",
+      backgroundRepeat: "no-repeat",
+      backgroundSize: "cover",
+      border: "1px solid #565555",
+      fontFamily: "cursive,bold",
+      // Add padding to create space around the text
+      padding: "15px 30px", // Adjust these values as needed (top/bottom, left/right)
+      display: "inline-block", // Makes the p tag shrink to fit its content + padding
+      // Or you could use: width: "fit-content",
+      // And for the rounded corners to match the image
+      borderRadius: "20px", // Adjust to match your jirasol.PNG's rounded corners
+    }}
+    className="h1 text-center text-thumbnail bg-light"
+  >
+    Habilidades
+  </p>
+</div>
       <p
-        style={{
-          backgroundImage: `url("./jirasol.PNG")`,
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
-          border: "1px solid #565555",
-          fontFamily: "cursive,bold",
-        }}
-        className="text-thumbnail h1 text-center bg-light rounded-4 my-5 font-weight-bold mt-5"
-      >
-        Habilidades
-      </p>
-      </div>
-      <p
-      style={{
-        backgroundImage: `url("/p23.JPG")`,
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "cover",
-        border: "1px solid #565555",
-        fontFamily: "times,bold",
-      }}
-       
-        className="img-thumbnail bg-warning rounded-4 text-justify fw-bold"
-      >
-        Soy una persona que le gusta asumir retos constantemente, es por esto
-        que trato de estar lista para ello, capacitandome con diversos
-        conocimientos que me ayuden con el cumplimiento de mis objetivos.
-      </p>
+  style={{
+    backgroundImage: `url("/p23.JPG")`,
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    border: "1px solid #565555",
+    fontFamily: "times,bold",
+    // Add padding for spacing around the text
+    padding: "20px 30px", // Adjust these values as needed (top/bottom, left/right)
+    display: "inline-block", // Makes the p tag shrink to fit its content + padding
+    // Or you could use: width: "fit-content",
+    // To control the wrapping of the long text:
+    maxWidth: "80%", // Adjust this percentage or use a fixed pixel value (e.g., "500px")
+    // For rounded corners
+    borderRadius: "20px", // Adjust to match your p23.JPG's rounded corners
+  }}
+  className="img-thumbnail bg-warning text-justify fw-bold"
+>
+  Soy una persona que le gusta asumir retos constantemente, es por esto que
+  trato de estar lista para ello, capacitandome con diversos conocimientos que
+  me ayuden con el cumplimiento de mis objetivos.
+</p>
       <Row xs={1} md={4} className="g-4 mx-4 my-3  mt-5">
         {Array.from({ length: 1 }).map((_, idx) => (
           <Col>
