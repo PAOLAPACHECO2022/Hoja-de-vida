@@ -14,7 +14,7 @@ import {
 export default function Education() {
   const [show, setShow] = useState(false); 
   const [senaShow, setsenaShow] = useState(false);
-  const [coursera1Show, setcoursera1Show] = useState(false);
+  const [cousera1Show, setcousera1Show] = useState(false);
   const [coursera2Show, setcoursera2Show] = useState(false);
   const [coursera3Show, setcoursera3Show] = useState(false);
   const [coursera4Show, setcoursera4Show] = useState(false);
@@ -1064,8 +1064,8 @@ export default function Education() {
                         Ver
                       </Button>
                       <Modal
-                        show={courseraShow}
-                        onHide={() => setcourseraShow(false)}
+                        show={coursera7Show}
+                        onHide={() => setcoursera7Show(false)}
                         dialogClassName="modal-dialog modal-lg"
                         aria-labelledby="example-modal-sizes-title-sm"
                       >
