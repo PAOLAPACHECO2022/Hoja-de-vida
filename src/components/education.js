@@ -696,7 +696,7 @@ export default function Education() {
                 src="./courserar.PNG"
                 className="boton1 img-thumbnail  d-flex justify-content-center form-wrapper"
               ></img>
-              COURSERA
+              
             </Accordion.Header>
             <Accordion.Body>
               <Table
@@ -787,7 +787,7 @@ export default function Education() {
                 alt=""
                 className="boton1 img-thumbnail justify-content-center form-wrapper"
               ></img>
-              PLATZI
+              
             </Accordion.Header>                 
             <Accordion.Body>
              <div className="d-flex justify-content-center align-items-center" style={{ minHeight: '200px' }}>
@@ -1263,7 +1263,7 @@ export default function Education() {
                 alt=""
                 className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
               ></img>
-              UDEMY
+              
             </Accordion.Header>
             <Accordion.Body>
               <Table
@@ -1466,7 +1466,7 @@ export default function Education() {
                 alt=""
                 className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
               ></img>
-              SENA
+              
             </Accordion.Header>
             <Accordion.Body>
               <Table
