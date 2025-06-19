@@ -679,7 +679,7 @@ export default function Education() {
           </Accordion.Item>
 
           {/* ------------------------------------Coursera certificaciones--------------------------------- */}
-          <Accordion.Item
+         <Accordion.Item
             eventKey="1"
             style={{
               backgroundImage: `url("./estrellas.jpg")`,
@@ -689,53 +689,44 @@ export default function Education() {
               border: "1px solid #565555",
             }}
           >
+
             <Accordion.Header>
-              {" "}
               <img
-                src="./courserar.PNG"
-                width="90"
-                height="90"
                 alt=""
-                className="boton1 img-thumbnail d-flex justify-content-center form-wrapper"
+                width="100"
+                height="100"
+                src="./courserar.PNG"
+                className="boton1 img-thumbnail  d-flex justify-content-center form-wrapper"
               ></img>
               COURSERA
             </Accordion.Header>
-
             <Accordion.Body>
               <Table
                 striped
                 bordered
                 hover
-                className="justify-content-center form-wrapper"
+                className=" img-thumbnail w-100 my-2 mt-2 d-flex justify-content-center form-wrapper"
               >
-                <thead class="bg-info form-wrapper rounded-4">
-                  <tr className="form-wrapper">
-                    <th>Curso</th>
-
-                    <th>Acceso</th>
-                    <th>Certif.</th>
-                  </tr>
-                </thead>
                 <tbody variant="primmary" className="form-wrapper">
                   <tr className="form-wrapper">
-                     <td>Aspectos básicos: datos, datos, en todas partes</td>
-
+                    <td className="form-wrapper">
+                      Aspectos básicos: datos, datos, en todas partes
+                    </td>
 
                     <td>
                       {" "}
                       <a href="https://coursera.org/share/12dbacae516ec6e36bf9272b291d85f7">
-                        Enlace
+                        PDF
                       </a>
                     </td>
                     <td>
                       <Button
                         variant="success"
                         onClick={() => setsmShow(true)}
-                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-info"
+                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
                       >
                         Ver
                       </Button>
-
                       <Modal
                         show={smShow}
                         onHide={() => setsmShow(false)}
@@ -752,7 +743,7 @@ export default function Education() {
                             border: "1px solid #565555",
                           }}
                         >
-                          <Modal.Title variant="success">
+                          <Modal.Title variant="primary">
                             <h5
                               style={{ fontFamily: "Raleway,bold" }}
                               className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
@@ -765,12 +756,14 @@ export default function Education() {
                           <img
                             src="./coursera.PNG"
                             alt=""
-                            className="zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
+                            className=" zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
                           ></img>
                         </Modal.Body>
                       </Modal>
                     </td>
                   </tr>
+
+                  
                 </tbody>
               </Table>
             </Accordion.Body>
