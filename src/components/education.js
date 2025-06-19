@@ -1255,18 +1255,14 @@ export default function Education() {
             }}
           >
             <Accordion.Header>
-              {" "}
-             <div className="w-100 d-flex justify-content-center">
+            <div className="w-100 d-flex justify-content-center">
               <img
-                width="80"
-                height="80"
-                src="./udemy.PNG"
-                width="90"
-                height="90"
                 alt=""
-                className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
-              ></img>
-              
+                width="100"
+                height="100"
+                src="./udemy.PNG"
+                className="img-thumbnail"
+              /></div>
                 className="img-thumbnail"
                /></div>
              
