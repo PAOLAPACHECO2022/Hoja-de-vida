@@ -1279,7 +1279,7 @@ export default function Education() {
                 hover
                 className="justify-content-center form-wrapper"
               >
-                <thead class="bg-warning form-wrapper rounded-4">
+                <thead class="form-wrapper rounded-4" Style={"color: rgb(197, 184, 70);"}>
                   <tr class="form-wrapper">
                     <th>Curso</th>
 
@@ -1342,7 +1342,7 @@ export default function Education() {
                   </tr>
 
                   <tr className="form-wrapper">
-                    <td>SQL Básico a Intermedio</td>
+                    <td Style={"color: rgb(197, 184, 70);"}>SQL Básico a Intermedio</td>
 
                     <td>
                       {" "}
@@ -1396,7 +1396,7 @@ export default function Education() {
                   </tr>
 
                   <tr className="form-wrapper">
-                    <td>SQL Cero a Profesional</td>
+                    <td Style={"color: rgb(197, 184, 70);"}>SQL Cero a Profesional</td>
 
                     <td>
                       {" "}
@@ -1483,11 +1483,11 @@ export default function Education() {
                 hover
                 className="justify-content-center form-wrapper"
               >
-                <thead class="bg-warning form-wrapper rounded-4 text-center">
+                <thead class="bg-success form-wrapper rounded-4 text-center">
                   <tr class="form-wrapper">
                     <th>Nombre del curso</th>
 
-                    <th>Certificación</th>
+                    <th>Certif.</th>
                   </tr>
                 </thead>
                 <tbody variant="primmary" class="form-wrapper mt-auto">
@@ -1664,7 +1664,7 @@ export default function Education() {
                         >
                           <Modal.Title variant="success">
                             <h5
-                              style={{ fontFamily: "Raleway,bold" }}
+                              style={{ fontFamily: "Raleway,bold" }} 
                               className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
                             >
                               ENGLISH DOT WORKS 4 (INGLES)
