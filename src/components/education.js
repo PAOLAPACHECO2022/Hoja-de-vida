@@ -227,6 +227,99 @@ export default function Education() {
   </div>
 </Row>
         <Accordion className="mt-5 my-5 justify-content-center form-wrapper">
+
+{/* ------------------------------------Talento tech Bogotà certificaciones--------------------------------- */}
+<Accordion.Item
+            eventKey="0"
+            style={{
+              backgroundImage: `url("./alas.PNG")`,
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+              border: "1px solid #565555",
+            }}
+          >
+
+            <Accordion.Header>
+              <img
+                alt=""
+                width="100"
+                height="100"
+                src="./Talent.PNG"
+                className="boton1 img-thumbnail  d-flex justify-content-center form-wrapper"
+              ></img>
+              TALENO TECH B.
+            </Accordion.Header>
+            <Accordion.Body>
+              <Table
+                striped
+                bordered
+                hover
+                className=" img-thumbnail w-100 my-2 mt-2 d-flex justify-content-center form-wrapper"
+              >
+                <tbody variant="primmary" className="form-wrapper">
+                  <tr className="form-wrapper">
+                    <td className="form-wrapper">
+                      Bootcamp- Análisis y Visualización de Datos
+                    </td>
+
+                    <td>
+                      {" "}
+                      <a href="https://drive.google.com/file/d/1600iOn5pvqlFCjrPEEjJ6M0R3FYDqXik/view?usp=sharing">
+                        PDF
+                      </a>
+                    </td>
+                    <td>
+                      <Button
+                        variant="success"
+                        onClick={() => settalenShow(true)}
+                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
+                      >
+                        Ver
+                      </Button>
+                      <Modal
+                        show={talenShow}
+                        onHide={() => settalenShow(false)}
+                        dialogClassName="modal-dialog modal-lg"
+                        aria-labelledby="example-modal-sizes-title-sm"
+                      >
+                        <Modal.Header
+                          closeButton
+                          style={{
+                            backgroundImage: `url("./jirasol.PNG")`,
+                            backgroundPosition: "center",
+                            backgroundRepeat: "no-repeat",
+                            backgroundSize: "cover",
+                            border: "1px solid #565555",
+                          }}
+                        >
+                          <Modal.Title variant="primary">
+                            <h5
+                              style={{ fontFamily: "Raleway,bold" }}
+                              className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
+                            >
+                              Diplomado en Fundamentos de Programación en Python
+                            </h5>
+                          </Modal.Title>
+                        </Modal.Header>
+                        <Modal.Body>
+                          <img
+                            src="./AnVi.PNG"
+                            alt=""
+                            className=" zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
+                          ></img>
+                        </Modal.Body>
+                      </Modal>
+                    </td>
+                  </tr>
+
+                  
+                </tbody>
+              </Table>
+            </Accordion.Body>
+          </Accordion.Item>
+
+                              
           <Accordion.Item
             eventKey="0"
             style={{
@@ -237,7 +330,7 @@ export default function Education() {
               border: "1px solid #565555",
             }}
           >
-            {/* ------------------------------------misióntoc certificaciones--------------------------------- */}
+ {/* ------------------------------------misióntoc certificaciones--------------------------------- */}
 
             <Accordion.Header>
               <img
