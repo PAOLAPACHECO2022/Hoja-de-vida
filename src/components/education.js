@@ -231,7 +231,7 @@ export default function Education() {
 
 {/* ------------------------------------Talento tech Bogotà certificaciones--------------------------------- */}
 <Accordion.Item
-            eventKey="0"
+            eventKey="5"
             style={{
               backgroundImage: `url("./alas.PNG")`,
               backgroundPosition: "center",
