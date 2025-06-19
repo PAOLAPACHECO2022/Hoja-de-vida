@@ -807,7 +807,7 @@ export default function Education() {
                 </thead>
                 <tbody variant="primmary" className="form-wrapper">
                   <tr className="form-wrapper">
-                    <td>Ingeniería de datos con Python</td>
+                    <td Style={"color: rgb(197, 184, 70);"}>Ingeniería de datos con Python</td>
 
                     <td>
                       {" "}
@@ -845,7 +845,7 @@ export default function Education() {
                               style={{ fontFamily: "Raleway,bold" }}
                               className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
                             >
-                              Aspectos básicos: datos, datos, en todas partes
+                              Ingeniería de datos con Python
                             </h5>
                           </Modal.Title>
                         </Modal.Header>
@@ -861,7 +861,7 @@ export default function Education() {
                   </tr>
 
                   <tr className="form-wrapper">
-                    <td>Python Básico</td>
+                    <td Style={"color: rgb(197, 184, 70);"}>Python Básico</td>
 
                     <td>
                       {" "}
@@ -915,7 +915,7 @@ export default function Education() {
                   </tr>
 
                   <tr className="form-wrapper">
-                    <td>Python Intermedio</td>
+                    <td Style={"color: rgb(197, 184, 70);"}>Python Intermedio</td>
 
                     <td>
                       {" "}
@@ -969,7 +969,7 @@ export default function Education() {
                   </tr>
 
                   <tr>
-                    <td>Python Profesional</td>
+                    <td Style={"color: rgb(197, 184, 70);"}>Python Profesional</td>
 
                     <td>
                       {" "}
@@ -1023,7 +1023,7 @@ export default function Education() {
                   </tr>
 
                   <tr className="form-wrapper">
-                    <td>Estadística computacional con Python</td>
+                    <td Style={"color: rgb(197, 184, 70);"}>Estadística computacional con Python</td>
 
                     <td>
                       {" "}
@@ -1077,7 +1077,7 @@ export default function Education() {
                   </tr>
 
                   <tr className="form-wrapper">
-                    <td>Estructura de datos lineales con Python</td>
+                    <td Style={"color: rgb(197, 184, 70);"}>Estructura de datos lineales con Python</td>
 
                     <td>
                       {" "}
@@ -1131,7 +1131,7 @@ export default function Education() {
                   </tr>
 
                   <tr className="form-wrapper">
-                    <td>Machine Learning con Python</td>
+                    <td Style={"color: rgb(197, 184, 70);"}>Machine Learning con Python</td>
 
                     <td>
                       {" "}
@@ -1185,7 +1185,7 @@ export default function Education() {
                   </tr>
 
                   <tr className="form-wrapper">
-                    <td>Curso Profesional de Scrum</td>
+                    <td Style={"color: rgb(197, 184, 70);"}>Curso Profesional de Scrum</td>
 
                     <td>
                       {" "}
