@@ -364,7 +364,7 @@ export default function Education() {
                     </td>
                     <td>
                       <Button
-                        variant="warning"
+                        variant="light"
                         onClick={() => setslShow(true)}
                         className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
                       >
@@ -417,7 +417,7 @@ export default function Education() {
                     </td>
                     <td>
                       <Button
-                        variant="warning"
+                       variant="light"
                         onClick={() => setstShow(true)}
                         className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
                       >
@@ -576,7 +576,7 @@ export default function Education() {
                     </td>
                     <td>
                       <Button
-                        variant="success"
+                        variant="light"
                         onClick={() => setlpShow(true)}
                         className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
                       >
@@ -630,7 +630,7 @@ export default function Education() {
                     </td>
                     <td>
                       <Button
-                        variant="success"
+                        variant="light"
                         onClick={() => setllShow(true)}
                         className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
                       >
@@ -721,7 +721,7 @@ export default function Education() {
                     </td>
                     <td>
                       <Button
-                        variant="success"
+                        variant="light"
                         onClick={() => setsmShow(true)}
                         className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
                       >
@@ -817,7 +817,7 @@ export default function Education() {
                     </td>
                     <td>
                       <Button
-                        variant="success"
+                       variant="light"
                         onClick={() => setsdShow(true)}
                         className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
                       >
@@ -871,7 +871,7 @@ export default function Education() {
                     </td>
                     <td>
                       <Button
-                        variant="success"
+                        variant="light"
                         onClick={() => setsnShow(true)}
                         className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
                       >
@@ -925,7 +925,7 @@ export default function Education() {
                     </td>
                     <td>
                       <Button
-                        variant="success"
+                        variant="light"
                         onClick={() => setsrShow(true)}
                         className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
                       >
@@ -979,7 +979,7 @@ export default function Education() {
                     </td>
                     <td>
                       <Button
-                        variant="success"
+                        variant="light"
                         onClick={() => setssShow(true)}
                         className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
                       >
@@ -1033,7 +1033,7 @@ export default function Education() {
                     </td>
                     <td>
                       <Button
-                        variant="success"
+                        variant="light"
                         onClick={() => setskShow(true)}
                         className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
                       >
@@ -1087,7 +1087,7 @@ export default function Education() {
                     </td>
                     <td>
                       <Button
-                        variant="success"
+                        variant="light"
                         onClick={() => setszShow(true)}
                         className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
                       >
@@ -1141,7 +1141,7 @@ export default function Education() {
                     </td>
                     <td>
                       <Button
-                        variant="success"
+                       variant="light"
                         onClick={() => setshShow(true)}
                         className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
                       >
@@ -1195,7 +1195,7 @@ export default function Education() {
                     </td>
                     <td>
                       <Button
-                        variant="success"
+                        variant="light"
                         onClick={() => setscShow(true)}
                         className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
                       >
@@ -1291,7 +1291,7 @@ export default function Education() {
                     </td>
                     <td>
                       <Button
-                        variant="success"
+                        variant="light"
                         onClick={() => setsxShow(true)}
                         className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
                       >
@@ -1344,7 +1344,7 @@ export default function Education() {
                     </td>
                     <td>
                       <Button
-                        variant="success"
+                        variant="light"
                         onClick={() => setsgShow(true)}
                         className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
                       >
@@ -1398,7 +1398,7 @@ export default function Education() {
                     </td>
                     <td>
                       <Button
-                        variant="success"
+                        variant="light"
                         onClick={() => setswShow(true)}
                         className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
                       >
@@ -1488,7 +1488,7 @@ export default function Education() {
 
                     <td>
                       <Button
-                        variant="success"
+                        variant="light"
                         onClick={() => setenShow(true)}
                         className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
                       >
@@ -1535,7 +1535,7 @@ export default function Education() {
 
                     <td>
                       <Button
-                        variant="success"
+                        variant="light"
                         onClick={() => setfaShow(true)}
                         className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
                       >
@@ -1583,7 +1583,7 @@ export default function Education() {
 
                     <td>
                       <Button
-                        variant="success"
+                        variant="light"
                         onClick={() => setlaShow(true)}
                         className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
                       >
@@ -1631,7 +1631,7 @@ export default function Education() {
 
                     <td>
                       <Button
-                        variant="success"
+                        variant="light"
                         onClick={() => setpaShow(true)}
                         className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
                       >
