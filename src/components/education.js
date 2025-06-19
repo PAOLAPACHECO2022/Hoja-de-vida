@@ -14,7 +14,6 @@ import {
 export default function Education() {
   const [show, setShow] = useState(false); 
   const [senaShow, setsenaShow] = useState(false);
-  const [courseraAShow, setcourseraAShow] = useState(false); 
   const [talenShow, settalenShow] = useState(false);
   const [smShow, setsmShow] = useState(false);
   const [slShow, setslShow] = useState(false);
@@ -40,7 +39,7 @@ export default function Education() {
   const [llShow, setllShow] = useState(false);
   return (
     <>
-     
+
         <Col md={12} className="Apps-thumbnail rounded-4 mt-5 d-flex justify-content-center form-wrapper" >
           <Card
             className="img-thumbnail rounded-4"
@@ -77,7 +76,7 @@ export default function Education() {
                 <p>UPTC - - Duitama</p>
                 <p>Fecha de finalización: Junio de 2018</p>
               </Card.Text>
-               <Button variant="light" onClick={() => setShow(true)} style={{ border: '2px solid black' }}>
+               <Button variant="light" onClick={() => setsenaShow(true)} style={{ border: '2px solid black' }}>
                 Ver diploma
               </Button>
 
@@ -204,7 +203,7 @@ export default function Education() {
 
       {/* ------------------------------------ACORDION--------------------------------- */}
       <Col md={12} >
-        
+
         <Row>
   <div className="mt-5 d-flex justify-content-center form-wrapper">
     <h1
@@ -314,13 +313,13 @@ export default function Education() {
                     </td>
                   </tr>
 
-                  
+
                 </tbody>
               </Table>
             </Accordion.Body>
           </Accordion.Item>
 
-                              
+
           <Accordion.Item
             eventKey="0"
             style={{
@@ -679,147 +678,95 @@ export default function Education() {
           </Accordion.Item>
 
           {/* ------------------------------------Coursera certificaciones--------------------------------- */}
-<Accordion.Item
-  eventKey="1" // Asegúrate de que esta 'eventKey' sea única dentro de tu Accordion
-  style={{
-    backgroundImage: url("./estrellas.jpg"),
-    backgroundPosition: "center",
-    backgroundRepeat: "no-repeat",
-    backgroundSize: "cover",
-    border: "1px solid #565555",
-  }}
->
-  <Accordion.Header>
-    <div className="w-100 d-flex justify-content-center">
-      <img
-        alt=""
-        width="100"
-        height="100"
-        src="./courserar.PNG"
-        className="img-thumbnail"
-      />
-    </div>
-  </Accordion.Header>
-  <Accordion.Body>
-    <Table
-      striped
-      bordered
-      hover
-      className=" img-thumbnail w-100 my-2 mt-2 d-flex justify-content-center form-wrapper"
-    >
-      <tbody variant="primmary" className="form-wrapper">
-        <tr className="form-wrapper">
-          <td className="form-wrapper">
-            Cómo resolver problemas y tomar decisiones con eficacia
-          </td>
+         <Accordion.Item
+            eventKey="1"
+            style={{
+              backgroundImage: `url("./estrellas.jpg")`,
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+              border: "1px solid #565555",
+            }}
+          >
 
-          <td>
-            {" "}
-            <a href="https://coursera.org/share/617c02de5093d39711b725b4fa3a021c">
-              PDF
-            </a>
-          </td>
-          <td>
-            <Button
-              variant="light"
-              onClick={() => setcourseraAShow(true)}
-              className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
-            >
-              Ver
-            </Button>
-            <Modal
-              show={courseraAShow}
-              onHide={() => setcourseraAShow(false)}
-              dialogClassName="modal-dialog modal-lg"
-              aria-labelledby="example-modal-sizes-title-sm"
-            >
-              <Modal.Header
-                closeButton
-                style={{
-                  backgroundImage: url("./jirasol.PNG"),
-                  backgroundPosition: "center",
-                  backgroundRepeat: "no-repeat",
-                  backgroundSize: "cover",
-                  border: "1px solid #565555",
-                }}
+            <Accordion.Header>
+            <div className="w-100 d-flex justify-content-center">
+              <img
+                alt=""
+                width="100"
+                height="100"
+                src="./courserar.PNG"
+                className="img-thumbnail"
+              /></div>    
+            </Accordion.Header>
+            <Accordion.Body>
+              <Table
+                striped
+                bordered
+                hover
+                className=" img-thumbnail w-100 my-2 mt-2 d-flex justify-content-center form-wrapper"
               >
-                <Modal.Title variant="primary">
-                  <h5
-                    style={{ fontFamily: "Raleway,bold" }}
-                    className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
-                  >
-                    Cómo resolver problemas y tomar decisiones con eficacia
-                  </h5>
-                </Modal.Title>
-              </Modal.Header>
-              <Modal.Body>
-                <img
-                  src="./Coursera1.jpg"
-                  alt=""
-                  className=" zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
-                ></img>
-              </Modal.Body>
-            </Modal>
-          </td>
-        </tr>
+                <tbody variant="primmary" className="form-wrapper">
+                  <tr className="form-wrapper">
+                    <td className="form-wrapper">
+                      Aspectos básicos: datos, datos, en todas partes
+                    </td>
+
+                    <td>
+                      {" "}
+                      <a href="https://coursera.org/share/12dbacae516ec6e36bf9272b291d85f7">
+                        PDF
+                      </a>
+                    </td>
+                    <td>
+                      <Button
+                        variant="light"
+                        onClick={() => setsmShow(true)}
+                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
+                      >
+                        Ver
+                      </Button>
+                      <Modal
+                        show={smShow}
+                        onHide={() => setsmShow(false)}
+                        dialogClassName="modal-dialog modal-lg"
+                        aria-labelledby="example-modal-sizes-title-sm"
+                      >
+                        <Modal.Header
+                          closeButton
+                          style={{
+                            backgroundImage: `url("./jirasol.PNG")`,
+                            backgroundPosition: "center",
+                            backgroundRepeat: "no-repeat",
+                            backgroundSize: "cover",
+                            border: "1px solid #565555",
+                          }}
+                        >
+                          <Modal.Title variant="primary">
+                            <h5
+                              style={{ fontFamily: "Raleway,bold" }}
+                              className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
+                            >
+                              Aspectos básicos: datos, datos, en todas partes
+                            </h5>
+                          </Modal.Title>
+                        </Modal.Header>
+                        <Modal.Body>
+                          <img
+                            src="./coursera.PNG"
+                            alt=""
+                            className=" zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
+                          ></img>
+                        </Modal.Body>
+                      </Modal>
+                    </td>
+                  </tr>
 
 
-        <tr className="form-wrapper">
-          <td className="form-wrapper">Word Forms and Simple Present Tense</td>
-
-          <td>
-            {" "}
-            <a href="https://coursera.org/share/77c044136f1ba00c08b4238d01bcbff5">
-              PDF
-            </a>
-          </td>
-          <td>
-            <Button
-              variant="light"
-              onClick={() => setcourseraGShow(true)}
-              className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
-            >
-              Ver
-            </Button>
-            <Modal
-              show={courseraGShow}
-              onHide={() => setcourseraGShow(false)}
-              dialogClassName="modal-dialog modal-lg"
-              aria-labelledby="example-modal-sizes-title-sm"
-            >
-              <Modal.Header
-                closeButton
-                style={{
-                  backgroundImage: url("./jirasol.PNG"),
-                  backgroundPosition: "center",
-                  backgroundRepeat: "no-repeat",
-                  backgroundSize: "cover",
-                  border: "1px solid #565555",
-                }}
-              >
-                <Modal.Title variant="primary">
-                  <h5
-                    style={{ fontFamily: "Raleway,bold" }}
-                    className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
-                  >
-                    Word Forms and Simple Present Tense
-                  </h5>
-                </Modal.Title>
-              </Modal.Header>
-              <Modal.Body>
-                <img
-                  src="./Coursera7.jpg" // Asumo que este sería el nombre del archivo de imagen
-                  alt=""
-                  className=" zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
-                ></img>
-              </Modal.Body>
-            </Modal>
-          </td>
-        </tr>
-      </tbody>
-    </Table>
-  </Accordion.Body>
-</Accordion.Item>
+                </tbody>
+              </Table>
+            </Accordion.Body>
+          </Accordion.Item>
           {/* ------------------------------------PLatzi certificaciones--------------------------------- */}
 
           <Accordion.Item
@@ -840,6 +787,9 @@ export default function Education() {
                 width="90"
                 height="90"
                 alt=""
+                className="boton1 img-thumbnail justify-content-center form-wrapper"
+              ></img>
+              
                 className="img-thumbnail"
                /></div> 
             </Accordion.Header>                 
@@ -1312,10 +1262,15 @@ export default function Education() {
               {" "}
              <div className="w-100 d-flex justify-content-center">
               <img
+                width="80"
+                height="80"
                 src="./udemy.PNG"
                 width="90"
                 height="90"
                 alt=""
+                className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
+              ></img>
+              
                 className="img-thumbnail"
                /></div>
              
@@ -1516,13 +1471,17 @@ export default function Education() {
               {" "}
             <div className="w-100 d-flex justify-content-center">
               <img
+                width="120"
+                height="120"
                 src="./sena.PNG"
                 width="90"
                 height="90"
                 alt=""
+                className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
+              ></img>
                 className="img-thumbnail"
                /></div>
-              
+
             </Accordion.Header>
             <Accordion.Body>
               <Table
