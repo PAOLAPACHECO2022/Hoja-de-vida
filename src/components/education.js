@@ -1472,7 +1472,7 @@ export default function Education() {
                 striped
                 bordered
                 hover
-                className=" img-thumbnail w-100 my-2 mt-2 d-flex justify-content-center form-wrapper
+                className="img-thumbnail w-100 my-2 mt-2 d-flex justify-content-center fform-wrapper"                
               >
                 <thead class="bg-light form-wrapper rounded-4 text-center">
                   <tr class="form-wrapper">
