@@ -241,16 +241,15 @@ export default function Education() {
           >
 
             <Accordion.Header>
-              <div className="w-100 d-flex justify-content-center">
-    <img
-      alt=""
-      width="100"
-      height="100"
-      src="./Talent.PNG"
-      className="img-thumbnail"
-    />
-  </div>
-             </Accordion.Header>
+            <div className="w-100 d-flex justify-content-center">
+              <img
+                alt=""
+                width="100"
+                height="100"
+                src="./Talent.PNG"
+                className="img-thumbnail"
+              /></div> 
+            </Accordion.Header>
             <Accordion.Body>
               <Table
                 striped
@@ -334,14 +333,14 @@ export default function Education() {
  {/* ------------------------------------misióntoc certificaciones--------------------------------- */}
 
             <Accordion.Header>
+              <div className="w-100 d-flex justify-content-center">
               <img
                 alt=""
                 width="100"
                 height="100"
                 src="./misionticp.PNG"
-                className="boton1 img-thumbnail  d-flex justify-content-center form-wrapper"
-              ></img>
-              
+                className="img-thumbnail"
+              /></div>           
             </Accordion.Header>
             <Accordion.Body>
               <Table
@@ -691,14 +690,14 @@ export default function Education() {
           >
 
             <Accordion.Header>
+            <div className="w-100 d-flex justify-content-center">
               <img
                 alt=""
                 width="100"
                 height="100"
                 src="./courserar.PNG"
-                className="boton1 img-thumbnail  d-flex justify-content-center form-wrapper"
-              ></img>
-              
+                className="img-thumbnail"
+              /></div>    
             </Accordion.Header>
             <Accordion.Body>
               <Table
