@@ -248,8 +248,7 @@ export default function Education() {
                 src="./Talent.PNG"
                 className="boton1 img-thumbnail  d-flex justify-content-center form-wrapper"
               ></img>
-              TALENO TECH
-            </Accordion.Header>
+             </Accordion.Header>
             <Accordion.Body>
               <Table
                 striped
@@ -340,7 +339,7 @@ export default function Education() {
                 src="./misionticp.PNG"
                 className="boton1 img-thumbnail  d-flex justify-content-center form-wrapper"
               ></img>
-              MISIÓN TIC
+              
             </Accordion.Header>
             <Accordion.Body>
               <Table
