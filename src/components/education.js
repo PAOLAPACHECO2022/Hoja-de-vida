@@ -1474,7 +1474,7 @@ export default function Education() {
                 hover
                 className="justify-content-center form-wrapper"
               >
-                <thead class="bg-success form-wrapper rounded-4 text-center">
+                <thead class="bg-light form-wrapper rounded-4 text-center">
                   <tr class="form-wrapper">
                     <th>Nombre del curso</th>
 
