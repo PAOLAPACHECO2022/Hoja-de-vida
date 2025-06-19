@@ -90,29 +90,30 @@ export default function Habilidades() {
     Habilidades
   </p>
 </div>
-      <p
-  style={{
-    backgroundImage: `url("/p23.JPG")`,
-    backgroundPosition: "center",
-    backgroundRepeat: "no-repeat",
-    backgroundSize: "cover",
-    border: "1px solid #565555",
-    fontFamily: "times,bold",
-    // Add padding for spacing around the text
-    padding: "20px 30px", // Adjust these values as needed (top/bottom, left/right)
-    display: "inline-block", // Makes the p tag shrink to fit its content + padding
-    // Or you could use: width: "fit-content",
-    // To control the wrapping of the long text:
-    maxWidth: "80%", // Adjust this percentage or use a fixed pixel value (e.g., "500px")
-    // For rounded corners
-    borderRadius: "20px", // Adjust to match your p23.JPG's rounded corners
-  }}
-  className="img-thumbnail bg-warning text-justify fw-bold"
->
-  Soy una persona que le gusta asumir retos constantemente, es por esto que
-  trato de estar lista para ello, capacitandome con diversos conocimientos que
-  me ayuden con el cumplimiento de mis objetivos.
-</p>
+      <div class="d-flex justify-content-center">
+  <p
+    style={{
+      backgroundImage: `url("/p23.JPG")`,
+      backgroundPosition: "center",
+      backgroundRepeat: "no-repeat",
+      backgroundSize: "cover",
+      border: "1px solid #565555",
+      fontFamily: "times,bold",
+      padding: "20px 30px", // Adjust these values as needed
+      display: "inline-block", // Keep this to make it wrap its content
+      maxWidth: "700px", // Set a maximum width for responsiveness
+      width: "90%", // Make it take up 90% of available width, up to maxWidth
+      // To center it horizontally, when display is inline-block and it's within a flex container:
+      // margin: "0 auto", // This could also work if the parent isn't flex or you want it explicitly centered
+      borderRadius: "20px", // Adjust to match your image
+    }}
+    className="img-thumbnail bg-warning text-justify fw-bold my-5"
+  >
+    Soy una persona que le gusta asumir retos constantemente, es por esto que
+    trato de estar lista para ello, capacitandome con diversos conocimientos que
+    me ayuden con el cumplimiento de mis objetivos.
+  </p>
+</div>
       <Row xs={1} md={4} className="g-4 mx-4 my-3  mt-5">
         {Array.from({ length: 1 }).map((_, idx) => (
           <Col>
