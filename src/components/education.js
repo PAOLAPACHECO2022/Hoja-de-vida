@@ -1284,12 +1284,12 @@ export default function Education() {
                     <th>Curso</th>
 
                     <th>Enlace</th>
-                    <th>Certificación</th>
+                    <th>Certif.</th>
                   </tr>
                 </thead>
                 <tbody variant="primmary" class="form-wrapper mt-auto">
                   <tr className="form-wrapper">
-                    <td>Excel Desde cero hasta avanzado</td>
+                    <td Style={"color: rgb(197, 184, 70);"}>Excel Desde cero hasta avanzado</td>
 
                     <td>
                       {" "}
