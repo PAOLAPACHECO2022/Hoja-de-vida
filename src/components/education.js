@@ -203,22 +203,22 @@ export default function Education() {
 
       {/* ------------------------------------ACORDION--------------------------------- */}
       <Col md={12} >
+        
         <Row>
-          <div className="mt-5 d-flex justify-content-center form-wrapper">
-          <h1
-            style={{
-              backgroundImage: `url("./koko.PNG")`,
-              backgroundPosition: "center",
-              backgroundRepeat: "no-repeat",
-              backgroundSize: "cover",
-              border: "1px solid #565555",
-            }}
-            className="text-center mx-3  font-weight-bold h5 text-dark my-3 rounded-4"
-          >
-            FORMACIÓN COMPLEMENTARIA
-          </h1>
-          </div>
-        </Row>
+  <div className="mt-5 d-flex justify-content-center form-wrapper">
+    <img
+      src="./koko.PNG"
+      alt="Formación Complementaria"
+      style={{
+        maxWidth: "100%", // Ensures the image scales down if the container is smaller
+        height: "auto", // Maintains aspect ratio
+        border: "1px solid #565555", // Keep the border if desired
+        borderRadius: "20px", // Approximate border-radius to match the image
+      }}
+      className="mx-3"
+    />
+  </div>
+</Row>
         <Accordion className="mt-5 my-5 justify-content-center form-wrapper">
           <Accordion.Item
             eventKey="0"
