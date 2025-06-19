@@ -578,7 +578,7 @@ export default function Education() {
                       <Button
                         variant="light"
                         onClick={() => setlpShow(true)}
-                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
+                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
                       >
                         Ver
                       </Button>
@@ -632,7 +632,7 @@ export default function Education() {
                       <Button
                         variant="light"
                         onClick={() => setllShow(true)}
-                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
+                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
                       >
                         Ver
                       </Button>
@@ -723,7 +723,7 @@ export default function Education() {
                       <Button
                         variant="light"
                         onClick={() => setsmShow(true)}
-                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
+                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
                       >
                         Ver
                       </Button>
@@ -981,7 +981,7 @@ export default function Education() {
                       <Button
                         variant="light"
                         onClick={() => setssShow(true)}
-                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
+                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
                       >
                         Ver
                       </Button>
