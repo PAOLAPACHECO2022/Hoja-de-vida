@@ -305,7 +305,7 @@ export default function Education() {
                         </Modal.Header>
                         <Modal.Body>
                           <img
-                            src="./AnVi.PNG"
+                            src="./AnVi.JPG"
                             alt=""
                             className=" zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
                           ></img>
