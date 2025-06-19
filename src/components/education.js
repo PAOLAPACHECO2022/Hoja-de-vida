@@ -241,13 +241,15 @@ export default function Education() {
           >
 
             <Accordion.Header>
-              <img
-                alt=""
-                width="100"
-                height="100"
-                src="./Talent.PNG"
-                className="boton1 img-thumbnail  d-flex justify-content-center form-wrapper"
-              ></img>
+              <div className="w-100 d-flex justify-content-center">
+    <img
+      alt=""
+      width="100"
+      height="100"
+      src="./Talent.PNG"
+      className="img-thumbnail"
+    />
+  </div>
              </Accordion.Header>
             <Accordion.Body>
               <Table
