@@ -713,12 +713,13 @@ export default function Education() {
                     <th>Curso</th>
 
                     <th>Acceso</th>
-                    <th>Certificación</th>
+                    <th>Certif.</th>
                   </tr>
                 </thead>
                 <tbody variant="primmary" className="form-wrapper">
                   <tr className="form-wrapper">
-                    <td>Aspectos básicos: datos, datos, en todas partes</td>
+                    <td style="color: white; background-color: black;">Aspectos básicos: datos, datos, en todas partes</td>
+
 
                     <td>
                       {" "}
