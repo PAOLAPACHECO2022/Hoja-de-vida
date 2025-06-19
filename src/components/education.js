@@ -801,7 +801,7 @@ export default function Education() {
                   <tr className="form-wrapper">
                     <th className="form-wrapper">Curso</th>
                     <th className="form-wrapper">Enlace</th>
-                    <th className="form-wrapper">Img</th>
+                    <th className="form-wrapper">Certf.</th>
                   </tr>
                 </thead>
                 <tbody variant="primmary" className="form-wrapper">
@@ -926,7 +926,7 @@ export default function Education() {
                       <Button
                         variant="light"
                         onClick={() => setsrShow(true)}
-                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
+                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
                       >
                         Ver
                       </Button>
@@ -1088,7 +1088,7 @@ export default function Education() {
                       <Button
                         variant="light"
                         onClick={() => setszShow(true)}
-                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
+                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
                       >
                         Ver
                       </Button>
@@ -1196,7 +1196,7 @@ export default function Education() {
                       <Button
                         variant="light"
                         onClick={() => setscShow(true)}
-                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
+                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
                       >
                         Ver
                       </Button>
@@ -1275,7 +1275,7 @@ export default function Education() {
                   <tr className="form-wrapper">
                     <th className="form-wrapper">Curso</th>
                     <th className="form-wrapper">Enlace</th>
-                    <th className="form-wrapper">Img</th>
+                    <th className="form-wrapper">Certf.</th>
                   </tr>
                 </thead>
                 <tbody variant="primmary" class="form-wrapper mt-auto">
