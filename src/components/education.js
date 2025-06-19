@@ -14,13 +14,13 @@ import {
 export default function Education() {
   const [show, setShow] = useState(false); 
   const [senaShow, setsenaShow] = useState(false);
-  const [cousera1Show, setcousera1Show] = useState(false);
-  const [coursera2Show, setcoursera2Show] = useState(false);
-  const [coursera3Show, setcoursera3Show] = useState(false);
-  const [coursera4Show, setcoursera4Show] = useState(false);
-  const [coursera5Show, setcoursera5Show] = useState(false);
-  const [coursera6Show, setcoursera6Show] = useState(false);
-  const [coursera7Show, setcoursera7Show] = useState(false);  
+  const [courseraAShow, setcourseraAShow] = useState(false);
+  const [courseraBShow, setcourseraBShow] = useState(false);
+  const [courseraCShow, setcourseraCShow] = useState(false);
+  const [courseraDShow, setcourseraDShow] = useState(false);
+  const [courseraEShow, setcourseraEShow] = useState(false);
+  const [courseraFShow, setcourseraFShow] = useState(false);
+  const [courseraGShow, setcourseraGShow] = useState(false);  
   const [smShow, setsmShow] = useState(false);
   const [slShow, setslShow] = useState(false);
   const [stShow, setstShow] = useState(false);
@@ -728,14 +728,14 @@ export default function Education() {
                     <td>
                       <Button
                         variant="light"
-                        onClick={() => setcousera1Show(true)}
+                        onClick={() => setcourseraAShow(true)}
                         className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
                       >
                         Ver
                       </Button>
                       <Modal
-                        show={cousera1Show}
-                        onHide={() => setcousera1Show(false)}
+                        show={courseraAShow}
+                        onHide={() => setcourseraAShow(false)}
                         dialogClassName="modal-dialog modal-lg"
                         aria-labelledby="example-modal-sizes-title-sm"
                       >
@@ -783,14 +783,14 @@ export default function Education() {
                     <td>
                       <Button
                         variant="light"
-                        onClick={() => setcoursera2Show(true)}
+                        onClick={() => setcourseraBShow(true)}
                         className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
                       >
                         Ver
                       </Button>
                       <Modal
-                        show={cousera2Show}
-                        onHide={() => setcousera2Show(false)}
+                        show={courseraBShow}
+                        onHide={() => setcourseraBShow(false)}
                         dialogClassName="modal-dialog modal-lg"
                         aria-labelledby="example-modal-sizes-title-sm"
                       >
@@ -838,14 +838,14 @@ export default function Education() {
                     <td>
                       <Button
                         variant="light"
-                        onClick={() => setcoursera3Show(true)}
+                        onClick={() => setcourseraCShow(true)}
                         className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
                       >
                         Ver
                       </Button>
                       <Modal
-                        show={coursera3Show}
-                        onHide={() => setcousera3Show(false)}
+                        show={courseraCShow}
+                        onHide={() => setcourseraCShow(false)}
                         dialogClassName="modal-dialog modal-lg"
                         aria-labelledby="example-modal-sizes-title-sm"
                       >
@@ -893,14 +893,14 @@ export default function Education() {
                     <td>
                       <Button
                         variant="light"
-                        onClick={() => setcoursera4Show(true)}
+                        onClick={() => setcourseraDShow(true)}
                         className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
                       >
                         Ver
                       </Button>
                       <Modal
-                        show={coursera4Show}
-                        onHide={() => setcoursera4Show(false)}
+                        show={courseraDShow}
+                        onHide={() => setcourseraDShow(false)}
                         dialogClassName="modal-dialog modal-lg"
                         aria-labelledby="example-modal-sizes-title-sm"
                       >
@@ -948,14 +948,14 @@ export default function Education() {
                     <td>
                       <Button
                         variant="light"
-                        onClick={() => setcoursera5Show(true)}
+                        onClick={() => setcourseraEShow(true)}
                         className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
                       >
                         Ver
                       </Button>
                       <Modal
-                        show={coursera5Show}
-                        onHide={() => setcoursera5Show(false)}
+                        show={courseraEShow}
+                        onHide={() => setcourseraEShow(false)}
                         dialogClassName="modal-dialog modal-lg"
                         aria-labelledby="example-modal-sizes-title-sm"
                       >
@@ -1003,14 +1003,14 @@ export default function Education() {
                     <td>
                       <Button
                         variant="light"
-                        onClick={() => setcoursera6Show(true)}
+                        onClick={() => setcourseraFShow(true)}
                         className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
                       >
                         Ver
                       </Button>
                       <Modal
-                        show={coursera6Show}
-                        onHide={() => setcoursera6Show(false)}
+                        show={courseraFShow}
+                        onHide={() => setcourseraFShow(false)}
                         dialogClassName="modal-dialog modal-lg"
                         aria-labelledby="example-modal-sizes-title-sm"
                       >
@@ -1058,14 +1058,14 @@ export default function Education() {
                     <td>
                       <Button
                         variant="light"
-                        onClick={() => setcoursera7Show(true)}
+                        onClick={() => setcourseraGShow(true)}
                         className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
                       >
                         Ver
                       </Button>
                       <Modal
-                        show={coursera7Show}
-                        onHide={() => setcoursera7Show(false)}
+                        show={courseraGShow}
+                        onHide={() => setcourseraGShow(false)}
                         dialogClassName="modal-dialog modal-lg"
                         aria-labelledby="example-modal-sizes-title-sm"
                       >
