@@ -12,8 +12,9 @@ import {
   //Image,
 } from "react-bootstrap";
 export default function Education() {
-  const [show, setShow] = useState(false);
+  const [show, setShow] = useState(false); 
   const [senaShow, setsenaShow] = useState(false);
+  const [talenShow, settalenShow] = useState(false);
   const [smShow, setsmShow] = useState(false);
   const [slShow, setslShow] = useState(false);
   const [stShow, setstShow] = useState(false);
