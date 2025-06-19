@@ -53,25 +53,22 @@ export default class Perfil extends Component {
             
             className="img-thumbnail rounded-4 text-justify mx-2 mt-2 my-3 fw-bold"
           >
-            <p>Soy Licenciada en matemáticas y estadística y egresada de Misión Tic 2022 como desarrolladora de software Junior, cuento con experiencia en análisis de datos estadísticos, sistematización de información,
-              verificación y validación de datos, establecimiento y medición de indicadores, desarrollo de modelos predictivos, presentación de informes de gestión y
-               resultados. Con competencias y capacidades como la orientación a los resultados, la planeación, la
-               creatividad, el mejoramiento continuo y la capacidad de análisis. </p>
+            <p>Soy Licenciada en Matemáticas y Estadística y Tecnóloga en Análisis y Desarrollo de Software, con formación en Desarrollo de Software,
+              Análisis y Visualización de Datos a través del programa Misión TIC 2022 (MinTIC) </p>
                 
 
-               <p> Me gusta estar siempre en proceso de aprendizaje, es por esto que trato de estar lista para ello, 
-                 capacitándome con diversos conocimientos que me ayuden con el cumplimiento de mis objetivos, 
-                 tales como el manejo de: Excel, R estadístico, SPSS, Html, CSS, Boostrap, React, JS, MongoDB, SQL,  Python y Java.  </p>
+               <p> Cuento con más de 3 años de experiencia como analista de datos, con manejo de herramientas como Excel, Power BI, SQL, R, Python, MongoDB,
+              y procesos ETL, entre otros. He desarrollado modelos predictivos (machine learning), informes de gestión basados en análisis estadístico, 
+              sistematización, verificación, validación de datos y automatización de reportes.  </p>
                 
 
-               <p>Tengo 3 de años de experiencia, realizando funciones tales como el diseño, 
-                 planeación y aplicación de actividades didácticas basadas en la enseñanza de conceptos matemáticos y  estadísticos,
-                 desarrollo y análisis de proyectos de mejoramiento del estudiante y liderazgo de grupos de trabajo. </p>
+               <p>Además, tengo experiencia en el desarrollo de software y soporte técnico en frontend y backend, así como en la gestión de bases de datos en entornos administrativos. 
+              También he trabajado durante 3 años como docente en el área de matemáticas.</p>
               
 
-               <p>Soy emprendedora, responsable, con espíritu crítico, analítico e
-               innovador, con una capacidad de interactuar eficazmente con
-               profesionales de otras disciplinas, tanto en el área de docencia, como en el campo empresarial.</p>
+               <p>Me interesa seguir creciendo en los campos de ciencia de datos y desarrollo, 
+              incorporando el uso de la inteligencia artificial como herramienta estratégica para aportar soluciones, mejorar procesos y apoyar la toma de decisiones. 
+              Busco contribuir con pensamiento analítico, innovación y compromiso en cada proyecto..</p>
           </h6>
         </div>
       </div>
