@@ -1272,12 +1272,11 @@ export default function Education() {
                 hover
                 className="justify-content-center form-wrapper"
               >
-                <thead class="form-wrapper rounded-4" Style={"color: rgb(197, 184, 70);"}>
-                  <tr class="form-wrapper">
-                    <th>Curso</th>
-
-                    <th>Enlace</th>
-                    <th>Certif.</th>
+                <thead class="bg-warning form-wrapper rounded-4">
+                  <tr className="form-wrapper">
+                    <th className="form-wrapper">Curso</th>
+                    <th className="form-wrapper">Enlace</th>
+                    <th className="form-wrapper">Img</th>
                   </tr>
                 </thead>
                 <tbody variant="primmary" class="form-wrapper mt-auto">
