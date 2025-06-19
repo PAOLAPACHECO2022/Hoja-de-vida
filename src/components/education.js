@@ -988,7 +988,7 @@ export default function Education() {
                       <Button
                         variant="success"
                         onClick={() => setssShow(true)}
-                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
+                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
                       >
                         Ver
                       </Button>
@@ -1279,7 +1279,7 @@ export default function Education() {
                 hover
                 className="justify-content-center form-wrapper"
               >
-                <thead class="form-wrapper rounded-4"}>
+                <thead class="form-wrapper rounded-4" Style={"color: rgb(197, 184, 70);"}>
                   <tr class="form-wrapper">
                     <th>Curso</th>
 
@@ -1520,8 +1520,8 @@ export default function Education() {
                         >
                           <Modal.Title variant="success">
                             <h5
-                              style={{ fontFamily: "Raleway,bold"}}
-                              className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3"
+                              style={{ fontFamily: "Raleway,bold" }}
+                              className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
                             >
                               ENGLISH DOT WORKS 1 (INGLES)
                             </h5>
@@ -1616,8 +1616,8 @@ export default function Education() {
                         >
                           <Modal.Title variant="success">
                             <h5
-                              style={{ fontFamily: "Raleway,bold"}}
-                              className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3"
+                              style={{ fontFamily: "Raleway,bold" }}
+                              className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
                             >
                               ENGLISH DOT WORKS 3 (INGLES)
                             </h5>
