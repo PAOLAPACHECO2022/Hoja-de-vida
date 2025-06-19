@@ -1262,10 +1262,7 @@ export default function Education() {
                 height="100"
                 src="./udemy.PNG"
                 className="img-thumbnail"
-              /></div>
-                className="img-thumbnail"
-               /></div>
-             
+              /></div>          
             </Accordion.Header>
             <Accordion.Body>
               <Table
