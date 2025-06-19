@@ -798,7 +798,7 @@ export default function Education() {
                 hover
                 className="mt-2 justify-content-center form-wrapper"
               >
-                <thead class="bg-warning form-wrapper rounded-4">
+                <thead class="bg-light form-wrapper rounded-4">
                   <tr className="form-wrapper">
                     <th className="form-wrapper">Curso</th>
                     <th className="form-wrapper">Enlace</th>
