@@ -1485,7 +1485,7 @@ export default function Education() {
                 </thead>
                 <tbody variant="primmary" class="form-wrapper mt-auto">
                   <tr className="form-wrapper">
-                    <td>ENGLISH DOT WORKS 1 (INGLES)</td>
+                    <td Style={"color: rgb(252, 252, 249);"}>ENGLISH DOT WORKS 1 (INGLES)</td>
 
                     <td>
                       <Button
@@ -1532,7 +1532,7 @@ export default function Education() {
                   </tr>
 
                   <tr className="form-wrapper">
-                    <td>ENGLISH DOT WORKS 2 (INGLES)</td>
+                    <td Style={"color: rgb(252, 252, 249);"}>ENGLISH DOT WORKS 2 (INGLES)</td>
 
                     <td>
                       <Button
@@ -1580,7 +1580,7 @@ export default function Education() {
                   </tr>
 
                   <tr className="form-wrapper">
-                    <td>ENGLISH DOT WORKS 3 (INGLES)</td>
+                    <td Style={"color: rgb(252, 252, 249);"}>ENGLISH DOT WORKS 3 (INGLES)</td>
 
                     <td>
                       <Button
@@ -1628,7 +1628,7 @@ export default function Education() {
                   </tr>
 
                   <tr className="form-wrapper">
-                    <td>ENGLISH DOT WORKS 4 (INGLES)</td>
+                    <td Style={"color: rgb(252, 252, 249);"}>ENGLISH DOT WORKS 4 (INGLES)</td>
 
                     <td>
                       <Button
