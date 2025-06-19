@@ -781,14 +781,14 @@ export default function Education() {
           >
             <Accordion.Header>
               {" "}
+            <div className="w-100 d-flex justify-content-center">
               <img
                 src="./platzi.PNG"
                 width="90"
                 height="90"
                 alt=""
-                className="boton1 img-thumbnail justify-content-center form-wrapper"
-              ></img>
-              
+                className="img-thumbnail"
+               /></div> 
             </Accordion.Header>                 
             <Accordion.Body>
              <div className="d-flex justify-content-center align-items-center" style={{ minHeight: '200px' }}>
@@ -1257,14 +1257,15 @@ export default function Education() {
           >
             <Accordion.Header>
               {" "}
+             <div className="w-100 d-flex justify-content-center">
               <img
-                width="80"
-                height="80"
                 src="./udemy.PNG"
+                width="90"
+                height="90"
                 alt=""
-                className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
-              ></img>
-              
+                className="img-thumbnail"
+               /></div>
+             
             </Accordion.Header>
             <Accordion.Body>
               <Table
@@ -1460,13 +1461,14 @@ export default function Education() {
           >
             <Accordion.Header>
               {" "}
+            <div className="w-100 d-flex justify-content-center">
               <img
-                width="120"
-                height="120"
                 src="./sena.PNG"
+                width="90"
+                height="90"
                 alt=""
-                className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
-              ></img>
+                className="img-thumbnail"
+               /></div>
               
             </Accordion.Header>
             <Accordion.Body>
