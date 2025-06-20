@@ -87,12 +87,12 @@ export default class Portafolio extends Component {
               <Card.Img
                 variant="top"
                 src="./lafinca.PNG"
-                className="img-thumbnail rounded-1"
+                className="img-thumbnail rounded-0"
               />
               <Card.Img
                 variant="top"
                 src="./crearp.PNG"
-                className="img-thumbnail rounded-1"
+                className="img-thumbnail rounded-0"
               />
               <Card.Body>
                 <Card.Title className="text-center bold h3 bg-success  img-thumbnail rounded-3" style={{ fontFamily: "Raleway,bold" }}>
