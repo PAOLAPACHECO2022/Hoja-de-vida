@@ -19,7 +19,7 @@ export default function Experiencia() {
              
               className="img-thumbnail rounded-5"
 style={{
-  backgroundImage: `url("./jiras.PNG")`,
+  backgroundImage: `url("./nueva.PNG")`,
   backgroundPosition: "center",
   backgroundRepeat: "no-repeat",
   backgroundSize: "cover",
