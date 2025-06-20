@@ -17,7 +17,7 @@ export default function Experiencia() {
           <Col>
             <Card
              
-              className="img-thumbnail rounded-5"
+              className="img-thumbnail rounded-1"
 style={{
   backgroundImage: `url("./nueva.PNG")`,
   backgroundPosition: "center",
@@ -26,7 +26,7 @@ style={{
   border: "3px solid #e6ca4e ",
   
 }}
-              class="container my-5 d-flex justify-content-center form-wrapper rounded-4 "
+              class="container my-5 d-flex justify-content-center form-wrapper rounded-1 "
             >
               <Card.Img
                 style={{ height: "10rem", width: "10rem" }}
@@ -110,7 +110,7 @@ style={{
            
 
                         
-              className="img-thumbnail rounded-5"
+              className="img-thumbnail rounded-1"
 style={{
   backgroundImage: `url("./nueva2.PNG")`,
   backgroundPosition: "center",
@@ -194,7 +194,7 @@ style={{
         {Array.from({ length: 1 }).map((_, idx) => (
           <Col>
             <Card
-              className="img-thumbnail rounded-5"
+              className="img-thumbnail rounded-1"
               style={{
                 backgroundImage: `url("./nueva3.PNG")`,
                 backgroundPosition: "center",
@@ -280,7 +280,7 @@ style={{
           <Col>
             <Card
 
-className="img-thumbnail rounded-5"
+className="img-thumbnail rounded-1"
 style={{
   backgroundImage: `url("./mari.PNG")`,
   backgroundPosition: "center",
