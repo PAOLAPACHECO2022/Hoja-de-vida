@@ -13,7 +13,7 @@ export default class Perfil extends Component {
           border: "3px solid #d8b208",
           height: "w-100",
         }}
-        class="container my-5 d-flex justify-content-center form-wrapper rounded-4 "
+        class="container my-5 d-flex justify-content-center form-wrapper rounded-2 "
       >
         <div className="form-content">
           <div className="form-content">
@@ -25,7 +25,7 @@ export default class Perfil extends Component {
             ></img>
             <p
               style={{ fontFamily: "cursive,bold" }}
-             className="text-thumbnail h1 text-center rounded-4 my-5 font-weight-bold mt-5"
+             className="text-thumbnail h1 text-center rounded-2 my-5 font-weight-bold mt-5"
             >
               Dora Paola Pacheco Moreno
             </p>
@@ -51,7 +51,7 @@ export default class Perfil extends Component {
             
           }}
             
-            className="img-thumbnail rounded-4 text-justify mx-2 mt-2 my-3 fw-bold"
+            className="img-thumbnail rounded-2 text-justify mx-2 mt-2 my-3 fw-bold"
           >
             <p>Soy Licenciada en Matemáticas y Estadística y Tecnóloga en Análisis y Desarrollo de Software, con formación en Desarrollo de Software,
               Análisis y Visualización de Datos a través del programa Misión TIC 2022 (MinTIC). </p>
