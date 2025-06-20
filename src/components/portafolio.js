@@ -27,13 +27,13 @@ export default class Portafolio extends Component {
         variant="top"
         src="./laplaza.PNG"
         className="img-thumbnail rounded-0"
-        style={{ margin: 0, padding: 0, border: "none" }}
+        style={{ margin: 0, padding: 0 }}
       />
       <Card.Img
         variant="top"
         src="./laplaza2.PNG"
         className="rounded-0 img-thumbnail"
-        style={{ margin: 0, padding: 0, border: "none" }}
+        style={{ margin: 0, padding: 0 }}
       />
 
       <Card.Body style={{ padding: "1rem" }}>
