@@ -78,9 +78,6 @@ export default class Portafolio extends Component {
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
-                border: "2px solid #ffffff",
-                padding: 0,
-                margin: 0
               }}
             >
        
@@ -88,11 +85,13 @@ export default class Portafolio extends Component {
                 variant="top"
                 src="./lafinca.PNG"
                 className="img-thumbnail rounded-0"
+                style={{ margin: 0, padding: 0 }}
               />
               <Card.Img
                 variant="top"
                 src="./crearp.PNG"
                 className="img-thumbnail rounded-0"
+                style={{ margin: 0, padding: 0 }}
               />
               <Card.Body>
                 <Card.Title className="text-center bold h3 bg-success  img-thumbnail rounded-3" style={{ fontFamily: "Raleway,bold" }}>
