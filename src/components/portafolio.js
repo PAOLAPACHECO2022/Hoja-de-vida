@@ -206,19 +206,19 @@ export default class Portafolio extends Component {
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
-                border: "2px solid #565555",
+                
               }}
             >
               
                <Card.Img
                 variant="top"
                 src="./t2.JPG"
-                className="img-thumbnail rounded-1"
+                className="img-thumbnail"
               />
                 <Card.Img
                 variant="top"
                 src="./t1.JPG"
-                className="img-thumbnail rounded-1"
+                className="img-thumbnail"
               />
               <Card.Body>
                 <Card.Title className="text-center bold h3 bg-success img-thumbnail rounded-3" style={{ fontFamily: "Raleway,bold" }}>
