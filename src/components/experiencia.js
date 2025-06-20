@@ -19,11 +19,11 @@ export default function Experiencia() {
              
               className="img-thumbnail rounded-1"
 style={{
-  backgroundImage: `url("./nueva.PNG")`,
+  backgroundImage: `url("./nueva3.PNG")`,
   backgroundPosition: "center",
   backgroundRepeat: "no-repeat",
   backgroundSize: "cover",
-  border: "3px solid #e6ca4e ",
+  border: "2px solid #e6ca4e ",
   
 }}
               class="container my-5 d-flex justify-content-center form-wrapper rounded-1 "
@@ -112,11 +112,11 @@ style={{
                         
               className="img-thumbnail rounded-1"
 style={{
-  backgroundImage: `url("./nueva2.PNG")`,
+  backgroundImage: `url("./nueva3.PNG")`,
   backgroundPosition: "center",
   backgroundRepeat: "no-repeat",
   backgroundSize: "cover",
-  border: "3px solid #3d6e05",
+  border: "2px solid #e6ca4e", 
   
 }}
   
@@ -200,7 +200,7 @@ style={{
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
-                border: "3px solid #d8b208 ",
+                border: "2px solid #d8b208 ",
                 
               }}
             >
@@ -286,7 +286,7 @@ style={{
   backgroundPosition: "center",
   backgroundRepeat: "no-repeat",
   backgroundSize: "cover",
-  border: "3px solid #d8b208 ",
+  border: "2px solid #d8b208 ",
   
 }}
          
