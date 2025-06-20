@@ -14,7 +14,7 @@ export default class Portafolio extends Component {
             <Card
               className="img-thumbnail rounded-4"
               style={{
-                backgroundImage: `url("./alas.PNG")`,
+                backgroundImage: `url("./nueva.PNG")`,
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
@@ -66,7 +66,7 @@ export default class Portafolio extends Component {
             <Card
               className="img-thumbnail rounded-4"
               style={{
-                backgroundImage: `url("./alas.PNG")`,
+                backgroundImage: `url("./nueva.PNG")`,
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
@@ -117,7 +117,7 @@ export default class Portafolio extends Component {
             <Card
                className="img-thumbnail rounded-4"
               style={{
-                backgroundImage: `url("./alas.PNG")`,
+                backgroundImage: `url("./nueva.PNG")`,
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
@@ -153,7 +153,7 @@ export default class Portafolio extends Component {
             <Card
                className="img-thumbnail rounded-4"
               style={{
-                backgroundImage: `url("./alas.PNG")`,
+                backgroundImage: `url("./nueva.PNG")`,
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
@@ -191,7 +191,7 @@ export default class Portafolio extends Component {
             <Card
               className="img-thumbnail rounded-4"
               style={{
-                backgroundImage: `url("./alas.PNG")`,
+                backgroundImage: `url("./nueva.PNG")`,
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
