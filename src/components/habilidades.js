@@ -76,7 +76,7 @@ export default function Habilidades() {
       backgroundPosition: "center",
       backgroundRepeat: "no-repeat",
       backgroundSize: "cover",
-      border: "1px solid #565555",
+      border: "3px solid #565555",
       fontFamily: "cursive,bold",
       // Add padding to create space around the text
       padding: "15px 30px", // Adjust these values as needed (top/bottom, left/right)
@@ -97,7 +97,7 @@ export default function Habilidades() {
       backgroundPosition: "center",
       backgroundRepeat: "no-repeat",
       backgroundSize: "cover",
-      border: "1px solid #565555",
+      border: "3px solid #ffffff",
       fontFamily: "times,bold",
       padding: "20px 30px", // Adjust these values as needed
       display: "inline-block", // Keep this to make it wrap its content
