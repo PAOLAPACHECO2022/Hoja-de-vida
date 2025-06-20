@@ -112,7 +112,7 @@ style={{
                         
               className="img-thumbnail rounded-5"
 style={{
-  backgroundImage: `url("./flor.PNG")`,
+  backgroundImage: `url("./jirasol.PNG")`,
   backgroundPosition: "center",
   backgroundRepeat: "no-repeat",
   backgroundSize: "cover",
