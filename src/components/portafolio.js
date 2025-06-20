@@ -18,6 +18,7 @@ export default class Portafolio extends Component {
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
+                border: "1px solid #565555",
                 
               }}
   
