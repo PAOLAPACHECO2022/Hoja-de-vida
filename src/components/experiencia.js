@@ -23,7 +23,7 @@ style={{
   backgroundPosition: "center",
   backgroundRepeat: "no-repeat",
   backgroundSize: "cover",
-  border: "2px solid #e6ca4e ",
+  border: "2px solid #CC9900 ",
   
 }}
               class="container my-5 d-flex justify-content-center form-wrapper rounded-1 "
