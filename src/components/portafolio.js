@@ -10,59 +10,65 @@ export default class Portafolio extends Component {
     return (
       <Row xs={1} md={2} className="g-4  mt-5">
         {Array.from({ length: 1 }).map((_, idx) => (
-          <Col>
-            <Card
-              className="img-thumbnail rounded-1"
-              style={{
-                backgroundImage: `url("./alas.PNG")`,
-                backgroundPosition: "center",
-                backgroundRepeat: "no-repeat",
-                backgroundSize: "cover",
-                border: "1px solid #565555",
-                
-              }}
-  
-            >
-              <Card.Img
-                variant="top"
-                src="./laplaza.PNG"
-                className="img-thumbnail rounded-1"
-              />
-              <Card.Img
-                variant="top"
-                src="./laplaza2.PNG"
-                className="img-thumbnail rounded-1"
-              />
+  <Col key={idx}>
+    <Card
+      className="rounded-1"
+      style={{
+        backgroundImage: `url("./alas.PNG")`,
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+        border: "1px solid #565555",
+        padding: 0,
+        margin: 0
+      }}
+    >
+      <Card.Img
+        variant="top"
+        src="./laplaza.PNG"
+        className="rounded-0"
+        style={{ margin: 0, padding: 0, border: "none" }}
+      />
+      <Card.Img
+        variant="top"
+        src="./laplaza2.PNG"
+        className="rounded-0"
+        style={{ margin: 0, padding: 0, border: "none" }}
+      />
 
-              <Card.Body>
-                <Card.Title className="text-center bold h3 bg-success  img-thumbnail rounded-3" style={{ fontFamily: "Raleway,bold" }}>
-                  La Plaza Campesina
-                </Card.Title>
-                <Card.Text style={{ fontFamily: "Raleway,bold" }}>
-                  <p>Desarrollo de aplicación Web</p>
-                  <p>Proyecto Ciclo 4 (front end y Back end)</p>
-                  <p>Presentado a Misión Tic 2022 UTP</p>
-                  <p> 28 de Noviembre 2022</p>
-                </Card.Text>
-                <Button
-                  target="_blank"
-                  href="https://github.com/PAOLAPACHECO2022/LA--PLAZA--CAMPESINA--2022.git"
-                  variant="warning"
-                >
-                  Ver Repositorio
-                </Button>
-                <Button
-                  target="_blank"
-                  href="https://www.youtube.com/watch?v=NEpJmuFagwE"
-                  variant="success"
-                  className="mx-3"
-                >
-                  Ver Video
-                </Button>
-              </Card.Body>
-            </Card>
-          </Col>
-        ))}
+      <Card.Body style={{ padding: "1rem" }}>
+        <Card.Title
+          className="text-center h3 bg-success rounded-3"
+          style={{ fontFamily: "Raleway, bold" }}
+        >
+          La Plaza Campesina
+        </Card.Title>
+        <Card.Text style={{ fontFamily: "Raleway, bold" }}>
+          <p>Desarrollo de aplicación Web</p>
+          <p>Proyecto Ciclo 4 (front end y Back end)</p>
+          <p>Presentado a Misión Tic 2022 UTP</p>
+          <p>28 de Noviembre 2022</p>
+        </Card.Text>
+        <Button
+          target="_blank"
+          href="https://github.com/PAOLAPACHECO2022/LA--PLAZA--CAMPESINA--2022.git"
+          variant="warning"
+        >
+          Ver Repositorio
+        </Button>
+        <Button
+          target="_blank"
+          href="https://www.youtube.com/watch?v=NEpJmuFagwE"
+          variant="success"
+          className="mx-3"
+        >
+          Ver Video
+        </Button>
+      </Card.Body>
+    </Card>
+  </Col>
+))}
+
         {Array.from({ length: 1 }).map((_, idx) => (
           <Col>
             <Card
