@@ -112,7 +112,7 @@ style={{
                         
               className="img-thumbnail rounded-5"
 style={{
-  backgroundImage: `url("./flor.PNG")`,
+  backgroundImage: `url("./nueva2.PNG")`,
   backgroundPosition: "center",
   backgroundRepeat: "no-repeat",
   backgroundSize: "cover",
@@ -196,7 +196,7 @@ style={{
             <Card
               className="img-thumbnail rounded-5"
               style={{
-                backgroundImage: `url("./marceles.PNG")`,
+                backgroundImage: `url("./nueva3.PNG")`,
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
