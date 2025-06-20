@@ -55,7 +55,7 @@ export default function Education() {
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
               backgroundSize: "cover",
-              border: "1px solid #565555",
+              border: "2px solid #565555",
             }}
           >
             <Card.Header
@@ -137,7 +137,7 @@ export default function Education() {
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
               backgroundSize: "cover",
-              border: "1px solid #565555",
+              border: "2px solid #565555",
             }}
           >
             <Card.Header
