@@ -51,7 +51,7 @@ export default function Education() {
           <Card
             className="img-thumbnail rounded-4"
             style={{
-              backgroundImage: `url("./jirasol.PNG")`,
+              backgroundImage: `url("./mari.PNG")`,
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
               backgroundSize: "cover",
