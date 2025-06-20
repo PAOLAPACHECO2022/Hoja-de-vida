@@ -85,7 +85,7 @@ export default function Habilidades() {
       // And for the rounded corners to match the image
       borderRadius: "20px", // Adjust to match your jirasol.PNG's rounded corners
     }}
-    className=" img-thumbnail rounded-1 h1 text-center text-thumbnail bg-light"
+    className=" img-thumbnail rounded-3 h1 text-center text-thumbnail bg-light"
   >
     Habilidades
   </p>
@@ -107,7 +107,7 @@ export default function Habilidades() {
       // margin: "0 auto", // This could also work if the parent isn't flex or you want it explicitly centered
       borderRadius: "20px", // Adjust to match your image
     }}
-    className="img-thumbnail rounded-1 bg-warning text-justify fw-bold my-5"
+    className="img-thumbnail rounded-3 bg-warning text-justify fw-bold my-5"
   >
     Soy una persona que le gusta asumir retos constantemente, es por esto que
     trato de estar lista para ello, capacitandome con diversos conocimientos que
