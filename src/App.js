@@ -32,7 +32,6 @@ function App() {
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
-        border: "4px solid #565555",
         height: "w-100",
         fontFamily: "Raleway,bold"
       }} 
@@ -138,7 +137,6 @@ function App() {
       backgroundPosition: "center",
       backgroundRepeat: "no-repeat",
       backgroundSize: "cover",
-      border: "4px solid #565555",
       height: "w-100",
       fontFamily: "Playfair Display,bold", 
     }}>
