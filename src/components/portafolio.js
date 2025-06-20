@@ -78,19 +78,22 @@ export default class Portafolio extends Component {
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
+                border: "2px solid #ffffff",
+                padding: 0,
+                margin: 0
               }}
             >
        
               <Card.Img
                 variant="top"
                 src="./lafinca.PNG"
-                className="img-thumbnail rounded-0"
+                className="img-thumbnail rounded-1"
                 style={{ margin: 0, padding: 0 }}
               />
               <Card.Img
                 variant="top"
                 src="./crearp.PNG"
-                className="img-thumbnail rounded-0"
+                className="img-thumbnail rounded-1"
                 style={{ margin: 0, padding: 0 }}
               />
               <Card.Body>
@@ -123,7 +126,7 @@ export default class Portafolio extends Component {
           </Col>
         ))}
         {Array.from({ length: 1 }).map((_, idx) => (
-          <Col>
+          <Col key={idx}>
             <Card
                className="img-thumbnail rounded-1"
               style={{
@@ -132,12 +135,15 @@ export default class Portafolio extends Component {
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
                 border: "2px solid #565555",
+                padding: 0,
+                margin: 0
               }}
             >
               <Card.Img
                 variant="top"
                 src="./lengua.PNG"
                 className="img-thumbnail rounded-1"
+               
               />
               <Card.Body>
                 <Card.Title className="text-center bold h3 bg-success img-thumbnail rounded-3" style={{ fontFamily: "Raleway,bold" }}>
@@ -159,7 +165,7 @@ export default class Portafolio extends Component {
           </Col>
         ))}
         {Array.from({ length: 1 }).map((_, idx) => (
-          <Col>
+          <Col key={idx}>
             <Card
                className="img-thumbnail rounded-1"
               style={{
@@ -168,6 +174,8 @@ export default class Portafolio extends Component {
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
                 border: "2px solid #565555",
+                padding: 0,
+                margin: 0
               }}
             >
               <Card.Img
@@ -197,7 +205,7 @@ export default class Portafolio extends Component {
         ))}
         
         {Array.from({ length: 1 }).map((_, idx) => (
-          <Col>
+          <Col key={idx}>
             <Card
               className="img-thumbnail rounded-1"
               style={{
@@ -205,6 +213,8 @@ export default class Portafolio extends Component {
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
+                padding: 0,
+                margin: 0
                 
               }}
             >
