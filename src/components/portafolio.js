@@ -14,11 +14,11 @@ export default class Portafolio extends Component {
             <Card
               className="img-thumbnail rounded-1"
               style={{
-                background-image: url(./alas.PNG);
-                background-position: center center;
-                background-repeat: no-repeat;
-                background-size: cover;
-                border: 1px solid rgb(86, 85, 85);
+                backgroundImage: `url("./alas.PNG")`,
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+                border: "1px solid #565555",
               }}
   
             >
