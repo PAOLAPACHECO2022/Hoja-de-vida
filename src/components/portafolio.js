@@ -12,9 +12,9 @@ export default class Portafolio extends Component {
         {Array.from({ length: 1 }).map((_, idx) => (
           <Col>
             <Card
-              className="img-thumbnail rounded-4"
+              className="img-thumbnail rounded-1"
               style={{
-                backgroundImage: `url("./nueva3.PNG")`,
+                backgroundImage: `url("./alas.PNG")`,
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
@@ -24,12 +24,12 @@ export default class Portafolio extends Component {
               <Card.Img
                 variant="top"
                 src="./laplaza.PNG"
-                className="img-thumbnail rounded-4"
+                className="img-thumbnail rounded-1"
               />
               <Card.Img
                 variant="top"
                 src="./laplaza2.PNG"
-                className="img-thumbnail rounded-4"
+                className="img-thumbnail rounded-1"
               />
 
               <Card.Body>
@@ -64,9 +64,9 @@ export default class Portafolio extends Component {
         {Array.from({ length: 1 }).map((_, idx) => (
           <Col>
             <Card
-              className="img-thumbnail rounded-4"
+              className="img-thumbnail rounded-1"
               style={{
-                backgroundImage: `url("./nueva3.PNG")`,
+                backgroundImage: `url("./alas.PNG")`,
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
@@ -76,12 +76,12 @@ export default class Portafolio extends Component {
               <Card.Img
                 variant="top"
                 src="./lafinca.PNG"
-                className="img-thumbnail rounded-4"
+                className="img-thumbnail rounded-1"
               />
               <Card.Img
                 variant="top"
                 src="./crearp.PNG"
-                className="img-thumbnail rounded-4"
+                className="img-thumbnail rounded-1"
               />
               <Card.Body>
                 <Card.Title className="text-center bold h3 bg-success  img-thumbnail rounded-3" style={{ fontFamily: "Raleway,bold" }}>
@@ -115,9 +115,9 @@ export default class Portafolio extends Component {
         {Array.from({ length: 1 }).map((_, idx) => (
           <Col>
             <Card
-               className="img-thumbnail rounded-4"
+               className="img-thumbnail rounded-1"
               style={{
-                backgroundImage: `url("./nueva3.PNG")`,
+                backgroundImage: `url("./alas.PNG")`,
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
@@ -127,7 +127,7 @@ export default class Portafolio extends Component {
               <Card.Img
                 variant="top"
                 src="./lengua.PNG"
-                className="img-thumbnail rounded-4"
+                className="img-thumbnail rounded-1"
               />
               <Card.Body>
                 <Card.Title className="text-center bold h3 bg-success img-thumbnail rounded-3" style={{ fontFamily: "Raleway,bold" }}>
@@ -151,9 +151,9 @@ export default class Portafolio extends Component {
         {Array.from({ length: 1 }).map((_, idx) => (
           <Col>
             <Card
-               className="img-thumbnail rounded-4"
+               className="img-thumbnail rounded-1"
               style={{
-                backgroundImage: `url("./jirasol.PNG")`,
+                backgroundImage: `url("./alas.PNG")`,
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
@@ -163,7 +163,7 @@ export default class Portafolio extends Component {
               <Card.Img
                 variant="top"
                 src="./lengua.PNG"
-                className="img-thumbnail rounded-4"
+                className="img-thumbnail rounded-1"
               />
               <Card.Body>
                 <Card.Title className="text-center bold h3 bg-success  img-thumbnail rounded-3" style={{ fontFamily: "Raleway,bold" }}>
@@ -189,9 +189,9 @@ export default class Portafolio extends Component {
         {Array.from({ length: 1 }).map((_, idx) => (
           <Col>
             <Card
-              className="img-thumbnail rounded-4"
+              className="img-thumbnail rounded-1"
               style={{
-                backgroundImage: `url("./nueva3.PNG")`,
+                backgroundImage: `url("./alas.PNG")`,
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
@@ -202,12 +202,12 @@ export default class Portafolio extends Component {
                <Card.Img
                 variant="top"
                 src="./t2.JPG"
-                className="img-thumbnail rounded-4"
+                className="img-thumbnail rounded-1"
               />
                 <Card.Img
                 variant="top"
                 src="./t1.JPG"
-                className="img-thumbnail rounded-4"
+                className="img-thumbnail rounded-1"
               />
               <Card.Body>
                 <Card.Title className="text-center bold h3 bg-success img-thumbnail rounded-3" style={{ fontFamily: "Raleway,bold" }}>
