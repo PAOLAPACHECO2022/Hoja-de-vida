@@ -23,7 +23,7 @@ style={{
   backgroundPosition: "center",
   backgroundRepeat: "no-repeat",
   backgroundSize: "cover",
-  border: "2px solid #CC9900 ",
+  border: "2px solid #CC9900",
   
 }}
               class="container my-5 d-flex justify-content-center form-wrapper rounded-1 "
@@ -116,7 +116,7 @@ style={{
   backgroundPosition: "center",
   backgroundRepeat: "no-repeat",
   backgroundSize: "cover",
-  border: "2px solid #e6ca4e", 
+  border: "2px solid #CC9900", 
   
 }}
   
@@ -200,7 +200,7 @@ style={{
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
-                border: "2px solid #d8b208 ",
+                border: "2px solid #CC9900",
                 
               }}
             >
@@ -286,7 +286,7 @@ style={{
   backgroundPosition: "center",
   backgroundRepeat: "no-repeat",
   backgroundSize: "cover",
-  border: "2px solid #d8b208 ",
+  border: "2px solid #CC9900",
   
 }}
          
