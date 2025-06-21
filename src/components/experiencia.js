@@ -90,30 +90,39 @@ return (
                   </Modal.Header>
                   <Modal.Body>
 
-                      <p style={{ fontFamily: "Raleway,bold" }}>
-                      
+                       <ul
+                      style={{
+                        fontFamily: "Raleway, bold",
+                        textAlign: "justify"
+                      }}
+                    >
+                      <li>
                         Manipulación y gestión de bases de datos con SQL,
                         análisis de información y visualización de resultados
                         clave en Power BI (dashboards).
-                       
+                      </li>
+                      <li>
                         Configuración, supervisión y ejecución de flujos en una
                         herramienta ETL para integrar datos desde múltiples
                         fuentes hacia SQL, usando Visual Studio 2019 y Power BI.
-                         
+                      </li>
+                      <li>
                         Revisión, monitoreo, ejecución y aplicación de buenas
                         prácticas en el desarrollo de procedimientos almacenados
                         (SP), jobs y APIs en SQL Server, asegurando eficiencia,
                         escalabilidad y mantenimiento adecuado de las
                         soluciones.
-                      
+                      </li>
+                      <li>
                         Supervisión, análisis y mantenimiento de scripts y/o
                         RPAs en Python para cargar y transformar datos masivos
                         de archivos CSV a bases de datos SQL.
-                       
+                      </li>
+                      <li>
                         Desarrollo de modelos predictivos con machine learning
                         para apoyar la toma de decisiones.
-                    
-                    </p>
+                      </li>
+                    </ul>
                    
                   </Modal.Body>
                 </Modal>
@@ -194,29 +203,38 @@ return (
                     </Modal.Title>
                   </Modal.Header>
                   <Modal.Body>
-                     <p style={{ fontFamily: "Raleway,bold" }}>
-                     
+                       <ul
+                      style={{
+                        fontFamily: "Raleway, bold",
+                        textAlign: "justify"
+                      }}
+                    >
+                      <li>
                         Manipulación de información y bases de datos, utilizando
                         SQL.
-                        
+                      </li>
+                      <li>
                         Generación automatizada de reportes diarios a través de
                         jobs programados en SQL Server Agent. Supervisión y
                         análisis de scripts y/o RPAs en Python para cargar y
                         transformar datos masivos de archivos CSV a bases de
                         datos SQL.
-                     
+                      </li>
+                      <li>
                         Supervisión y ejecución de flujos en una herramienta ETL
                         para integrar datos desde múltiples fuentes hacia SQL.
-                        
+                      </li>
+                      <li>
                         Soporte en frontend y backend, así como atención a
                         incidencias y desarrollo de mejoras continuas en
                         sistemas.
-                         
+                      </li>
+                      <li>
                         Ejecución de pruebas funcionales (Testing) para asegurar
                         el correcto funcionamiento de aplicaciones y flujos de
                         datos.
-                      
-                     </p>
+                      </li>
+                    </ul>
                   </Modal.Body>
                 </Modal>
               </Card.Body>
