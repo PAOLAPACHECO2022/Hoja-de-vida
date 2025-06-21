@@ -88,39 +88,36 @@ export default function Experiencia() {
                     </Modal.Title>
                   </Modal.Header>
                   <Modal.Body>
-                    <ul
-                      style={{
-                        fontFamily: "Raleway, bold",
-                        textAlign: "justify"
-                      }}
-                    >
-                      <li>
+
+                      <p style={{ fontFamily: "Raleway,bold" }}>
+                      
                         Manipulación y gestión de bases de datos con SQL,
                         análisis de información y visualización de resultados
                         clave en Power BI (dashboards).
-                      </li>
-                      <li>
+                        </p>
+                      <p style={{ fontFamily: "Raleway,bold" }}>
                         Configuración, supervisión y ejecución de flujos en una
                         herramienta ETL para integrar datos desde múltiples
                         fuentes hacia SQL, usando Visual Studio 2019 y Power BI.
-                      </li>
-                      <li>
+                         </p>
+                     <p style={{ fontFamily: "Raleway,bold" }}>
                         Revisión, monitoreo, ejecución y aplicación de buenas
                         prácticas en el desarrollo de procedimientos almacenados
                         (SP), jobs y APIs en SQL Server, asegurando eficiencia,
                         escalabilidad y mantenimiento adecuado de las
                         soluciones.
-                      </li>
-                      <li>
+                        </p>
+                      <p style={{ fontFamily: "Raleway,bold" }}>
                         Supervisión, análisis y mantenimiento de scripts y/o
                         RPAs en Python para cargar y transformar datos masivos
                         de archivos CSV a bases de datos SQL.
-                      </li>
-                      <li>
+                       </p>
+                      <p style={{ fontFamily: "Raleway,bold" }}>
                         Desarrollo de modelos predictivos con machine learning
                         para apoyar la toma de decisiones.
-                      </li>
-                    </ul>
+                    
+                    </p>
+                   
                   </Modal.Body>
                 </Modal>
               </Card.Body>
@@ -201,38 +198,33 @@ export default function Experiencia() {
                     </Modal.Title>
                   </Modal.Header>
                   <Modal.Body>
-                    <ul
-                      style={{
-                        fontFamily: "Raleway, bold",
-                        textAlign: "justify"
-                      }}
-                    >
-                      <li>
+                     <p style={{ fontFamily: "Raleway,bold" }}>
+                     
                         Manipulación de información y bases de datos, utilizando
                         SQL.
-                      </li>
-                      <li>
+                        </p>
+                      <p style={{ fontFamily: "Raleway,bold" }}>
                         Generación automatizada de reportes diarios a través de
                         jobs programados en SQL Server Agent. Supervisión y
                         análisis de scripts y/o RPAs en Python para cargar y
                         transformar datos masivos de archivos CSV a bases de
                         datos SQL.
-                      </li>
-                      <li>
+                     </p>
+                     <p style={{ fontFamily: "Raleway,bold" }}>
                         Supervisión y ejecución de flujos en una herramienta ETL
                         para integrar datos desde múltiples fuentes hacia SQL.
-                      </li>
-                      <li>
+                         </p>
+                  <p style={{ fontFamily: "Raleway,bold" }}>
                         Soporte en frontend y backend, así como atención a
                         incidencias y desarrollo de mejoras continuas en
                         sistemas.
-                      </li>
-                      <li>
+                         </p>
+                  <p style={{ fontFamily: "Raleway,bold" }}>
                         Ejecución de pruebas funcionales (Testing) para asegurar
                         el correcto funcionamiento de aplicaciones y flujos de
                         datos.
-                      </li>
-                    </ul>
+                      
+                     </p>
                   </Modal.Body>
                 </Modal>
               </Card.Body>
