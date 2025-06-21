@@ -50,7 +50,8 @@ export default class Portafolio extends Component {
                        reportes académico y convivenciales. Permite la creación, seguimiento y 
                        evaluación de planes de estudio y programas académico, así mismo permite 
                        establecer canales de comunicación entre docentes, estudiantes y personal 
-                      administrativo."</p>
+                       administrativo, facilita la interacción entre la institución educativa y padres de familia acerca del 
+                       desempeño académico y comportamiento de los estudiantes. "</p>
                    
                 </Card.Text>
                <div className="d-flex flex-column flex-md-row justify-content-center align-items-center gap-2 mt-3">
