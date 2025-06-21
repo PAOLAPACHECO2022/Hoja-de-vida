@@ -43,24 +43,32 @@ export default class Portafolio extends Component {
                    <p>Desarrollo de aplicación Web</p>
                    <p>Diciembre 2024</p>
                    <p>"El software School.info busca mejorar la eficiencia operativa, académica y 
-comunicativa de cualquier institución y al mismo tiempo promover un 
-entorno de aprendizaje colaborativo y accesible. 
-Este sistema facilita los procesos y/o tareas administrativas tales como, 
-inscripción de estudiantes y docentes, control de asistencia, generación de 
-reportes académico y convivenciales. Permite la creación, seguimiento y 
-evaluación de planes de estudio y programas académico, así mismo permite 
-establecer canales de comunicación entre docentes, estudiantes y personal 
-administrativo. "</p>
+                       comunicativa de cualquier institución y al mismo tiempo promover un 
+                       entorno de aprendizaje colaborativo y accesible. 
+                       Este sistema facilita los procesos y/o tareas administrativas tales como, 
+                       inscripción de estudiantes y docentes, control de asistencia, generación de 
+                       reportes académico y convivenciales. Permite la creación, seguimiento y 
+                       evaluación de planes de estudio y programas académico, así mismo permite 
+                       establecer canales de comunicación entre docentes, estudiantes y personal 
+                      administrativo. "</p>
                    
                 </Card.Text>
                 <Button
                   target="_blank"
-                  href="https://drive.google.com/file/d/1Kla1LvU8mzuNdSFvrIUOMkaDy0OCWKb4/view?usp=sharing"
+                  href="https://drive.google.com/file/d/13d1w1MDf2Nz07XhImvtH4Di3BiqndltC/view?usp=sharing"
                   variant="warning"
                   
                 >
-                  Ver Proyecto de investigación 
+                  Ver Manual de Usuario
                 </Button>
+                <Button
+                target="_blank"
+                href="https://github.com/PAOLAPACHECO2022/schoolinfoserver.git"
+                variant="warning"
+                >
+                Ver Repositorio
+               </Button>
+       
               </Card.Body>
             </Card>
           </Col>
