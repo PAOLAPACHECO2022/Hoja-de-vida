@@ -12,7 +12,7 @@ export default function Experiencia() {
   const [tpashow, settpaShow] = useState(false);
   const [tpshow, settpShow] = useState(false);
 
-return (
+  return (
     <>
       <Row xs={1} md={2} className="g-4  mt-5">
         {Array.from({ length: 1 }).map((_, idx) => (
@@ -26,7 +26,6 @@ return (
                 backgroundSize: "cover",
                 border: "2px solid #CC9900"
               }}
-            
             >
               <Card.Img
                 style={{ height: "10rem", width: "10rem" }}
@@ -89,8 +88,7 @@ return (
                     </Modal.Title>
                   </Modal.Header>
                   <Modal.Body>
-
-                       <ul
+                    <ul
                       style={{
                         fontFamily: "Raleway, bold",
                         textAlign: "justify"
@@ -123,7 +121,6 @@ return (
                         para apoyar la toma de decisiones.
                       </li>
                     </ul>
-                   
                   </Modal.Body>
                 </Modal>
               </Card.Body>
@@ -203,7 +200,7 @@ return (
                     </Modal.Title>
                   </Modal.Header>
                   <Modal.Body>
-                       <ul
+                    <ul
                       style={{
                         fontFamily: "Raleway, bold",
                         textAlign: "justify"
@@ -253,7 +250,6 @@ return (
                 backgroundSize: "cover",
                 border: "2px solid #CC9900"
               }}
-              
             >
               <Card.Img
                 style={{ height: "10rem", width: "10rem" }}
@@ -337,7 +333,7 @@ return (
           </Col>
         ))}
 
- {Array.from({ length: 1 }).map((_, idx) => (
+        {Array.from({ length: 1 }).map((_, idx) => (
           <Col>
             <Card
               className="img-thumbnail rounded-1"
@@ -364,7 +360,7 @@ return (
                   className="fw-bold"
                   style={{ fontFamily: "Raleway,bold" }}
                 >
-                  Monografía-Desarrollo de Modelo de Predicción (Machine
+                  Monografía: Desarrollo de Modelo de Predicción (Machine
                   Learning){" "}
                 </Card.Title>
                 <Card.Text
@@ -382,18 +378,11 @@ return (
                   <p>Fecha de ingreso: Febrero de 2017</p>
                   <p>Fecha de retiro: Junio de 2018</p>
 
-                  <Button
-                    target="_blank"
-                    href="https://drive.google.com/file/d/1Kla1LvU8mzuNdSFvrIUOMkaDy0OCWKb4/view?usp=sharing"
-                    variant="success"
-                  >
-                    Ver proyecto de investigación
-                  </Button>
-                </Card.Text>
-                <Button variant="warning" onClick={() => sethShow(true)}>
-                  Logros
-                </Button>
+         
 
+
+                </Card.Text>
+                
                 <Modal
                   show={shhow}
                   onHide={() => sethShow(false)}
@@ -424,18 +413,29 @@ return (
                     </Modal.Title>
                   </Modal.Header>
                   <Modal.Body>
-                    <ul style={{ fontFamily: "Raleway, bold", textAlign: "justify" }}>
-  <li>
-    Análisis de información de los puntajes de la prueba Saber Pro del programa de Administración Agropecuaria.
-  </li>
-  <li>
-    Desarrollo de un modelo estadístico – Machine Learning (modelo de regresión logística) para predecir los puntajes de la prueba Saber Pro del programa de Administración Agropecuaria de la Universidad Pedagógica y Tecnológica seccional Duitama.
-  </li>
-  <li>
-    Análisis de datos mediante estadísticas descriptivas, inferencias, análisis probabilístico y análisis multivariado, utilizando Excel y R Estadístico.
-  </li>
-</ul>
-
+                    <ul
+                      style={{
+                        fontFamily: "Raleway, bold",
+                        textAlign: "justify"
+                      }}
+                    >
+                      <li>
+                        Análisis de información de los puntajes de la prueba
+                        Saber Pro del programa de Administración Agropecuaria.
+                      </li>
+                      <li>
+                        Desarrollo de un modelo estadístico – Machine Learning
+                        (modelo de regresión logística) para predecir los
+                        puntajes de la prueba Saber Pro del programa de
+                        Administración Agropecuaria de la Universidad Pedagógica
+                        y Tecnológica seccional Duitama.
+                      </li>
+                      <li>
+                        Análisis de datos mediante estadísticas descriptivas,
+                        inferencias, análisis probabilístico y análisis
+                        multivariado, utilizando Excel y R Estadístico.
+                      </li>
+                    </ul>
                   </Modal.Body>
                 </Modal>
               </Card.Body>
@@ -620,9 +620,8 @@ return (
             </Card>
           </Col>
         ))}
-
-       
       </Row>
     </>
   );
 }
+
