@@ -36,13 +36,13 @@ export default class Portafolio extends Component {
                 className="img-thumbnail"
               />
               <Card.Body>
-                <Card.Title className="text-center bold h3 bg-success img-thumbnail rounded-3" style={{ fontFamily: "Raleway,bold" }}>
+                <Card.Title className="text-center bold h2 bg-success img-thumbnail rounded-3" style={{ fontFamily: "Raleway,bold" }}>
                  Software MERN "School.Info."
                 </Card.Title>
                 <Card.Text style={{ fontFamily: "Raleway,bold" }}>
                    <p>Desarrollo de aplicación Web</p>
                    <p>Diciembre 2024</p>
-                   <p>"El software School.info busca mejorar la eficiencia operativa, académica y 
+                   <p style="text-align: justify;">"El software School.info busca mejorar la eficiencia operativa, académica y 
                        comunicativa de cualquier institución y al mismo tiempo promover un 
                        entorno de aprendizaje colaborativo y accesible. 
                        Este sistema facilita los procesos y/o tareas administrativas tales como, 
@@ -116,7 +116,7 @@ export default class Portafolio extends Component {
                 className="img-thumbnail"
               />
               <Card.Body>
-                <Card.Title className="text-center bold h2 bg-success img-thumbnail rounded-3" style={{ fontFamily: "Raleway,bold" }}>
+                <Card.Title className="text-center bold h4 bg-success img-thumbnail rounded-3" style={{ fontFamily: "Raleway,bold" }}>
                  “Factores demográficos,  socioeconómicos y  académicos que influyen sobre los resultados del componente genérico de la prueba Saber Pro.
                  Caso: Administración de Empresas Agropecuarias de la universidad pedagógica y tecnológica de Colombia, seccional Duitama”.
                 </Card.Title>
