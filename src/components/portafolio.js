@@ -65,6 +65,7 @@ export default class Portafolio extends Component {
                 target="_blank"
                 href="https://github.com/PAOLAPACHECO2022/schoolinfoserver.git"
                 variant="warning"
+                className="mx-3"
                 >
                 Ver Repositorio
                </Button>
@@ -72,6 +73,7 @@ export default class Portafolio extends Component {
                 target="_blank"
                 href="https://schoolinfocliente.onrender.com/"
                 variant="warning"
+                className="mx-3"
                 >
                 Ver Aplicaciòn
                </Button>
