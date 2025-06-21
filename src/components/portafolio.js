@@ -110,6 +110,11 @@ export default class Portafolio extends Component {
                 src="./t1.JPG"
                 className="img-thumbnail"
               />
+                <Card.Img
+                variant="top"
+                src="./ResultadoML.jpg"
+                className="img-thumbnail"
+              />
               <Card.Body>
                 <Card.Title className="text-center bold h3 bg-success img-thumbnail rounded-3" style={{ fontFamily: "Raleway,bold" }}>
                  “Factores demográficos,  socioeconómicos y  académicos que influyen sobre los resultados del componente genérico de la prueba Saber Pro.
