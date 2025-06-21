@@ -42,7 +42,8 @@ export default class Portafolio extends Component {
                 <Card.Text style={{ fontFamily: "Raleway,bold" }}>
                    <p>Desarrollo de aplicación Web</p>
                    <p>Diciembre 2024</p>
-                   <p style="text-align: justify;">"El software School.info busca mejorar la eficiencia operativa, académica y 
+                   className="text-justify"
+                   <p>"El software School.info busca mejorar la eficiencia operativa, académica y 
                        comunicativa de cualquier institución y al mismo tiempo promover un 
                        entorno de aprendizaje colaborativo y accesible. 
                        Este sistema facilita los procesos y/o tareas administrativas tales como, 
