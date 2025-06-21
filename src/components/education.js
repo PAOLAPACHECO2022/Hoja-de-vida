@@ -7,12 +7,12 @@ import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 import {
   Col,
-  Row,
+  Row
 
   //Image,
 } from "react-bootstrap";
 export default function Education() {
-  const [show, setShow] = useState(false); 
+  const [show, setShow] = useState(false);
   const [senaShow, setsenaShow] = useState(false);
   const [talenShow, settalenShow] = useState(false);
   const [courseraAShow, setcourseraAShow] = useState(false);
@@ -21,7 +21,7 @@ export default function Education() {
   const [courseraDShow, setcourseraDShow] = useState(false);
   const [courseraEShow, setcourseraEShow] = useState(false);
   const [courseraFShow, setcourseraFShow] = useState(false);
-  const [courseraGShow, setcourseraGShow] = useState(false); 
+  const [courseraGShow, setcourseraGShow] = useState(false);
   const [smShow, setsmShow] = useState(false);
   const [slShow, setslShow] = useState(false);
   const [stShow, setstShow] = useState(false);
@@ -46,216 +46,234 @@ export default function Education() {
   const [llShow, setllShow] = useState(false);
   return (
     <>
-
-        <Col md={12} className="Apps-thumbnail rounded-4 mt-5 d-flex justify-content-center form-wrapper" >
-          <Card
-            className="img-thumbnail rounded-4"
+      <Col
+        md={12}
+        className="Apps-thumbnail rounded-4 mt-5 d-flex justify-content-center form-wrapper"
+      >
+        <Card
+          className="img-thumbnail rounded-4"
+          style={{
+            backgroundImage: `url("./jirasol.PNG")`,
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "cover",
+            border: "3px solid #CC9900"
+          }}
+        >
+          <Card.Header
             style={{
-              backgroundImage: `url("./jirasol.PNG")`,
+              backgroundImage: `url("./koko.PNG")`,
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
               backgroundSize: "cover",
-              border: "3px solid #CC9900",
+              border: "1px solid #565555",
+              fontFamily: "Raleway,bold"
             }}
+            className="img-thumbnail rounded-4 text-center fw-bold"
           >
-            <Card.Header
-              style={{
-                backgroundImage: `url("./koko.PNG")`,
-                backgroundPosition: "center",
-                backgroundRepeat: "no-repeat",
-                backgroundSize: "cover",
-                border: "1px solid #565555",
-                fontFamily: "Raleway,bold"
-              }}
-              className="img-thumbnail rounded-4 text-center fw-bold"
-            >
-              FORMACIÓN PROFESIONAL
-            </Card.Header>
-            <Card.Body>
-              <Card.Title style={{ fontFamily: "Raleway,bold" }}
+            FORMACIÓN PROFESIONAL
+          </Card.Header>
+          <Card.Body>
+            <Card.Title
+              style={{ fontFamily: "Raleway,bold" }}
               className="fw-bold"
-              >Licenciatura en matemáticas y estadística</Card.Title>
-              <Card.Text style={{ fontFamily: "Raleway,bold" }}
-               className="fw-bold"
-              >
-                <p>Nivel educativo: Universitaria </p>
-                <p>Institución: U. Pedagógica y Tecnológica de Colombia - -</p>
-                <p>UPTC - - Duitama</p>
-                <p>Fecha de finalización: Junio de 2018</p>
-              </Card.Text>
-               <Button variant="light" onClick={() => setShow(true)} style={{ border: '2px solid black' }}>
-                Ver diploma
-              </Button>
+            >
+              Licenciatura en matemáticas y estadística
+            </Card.Title>
+            <Card.Text
+              style={{ fontFamily: "Raleway,bold" }}
+              className="fw-bold"
+            >
+              <p>Nivel educativo: Universitaria </p>
+              <p>Institución: U. Pedagógica y Tecnológica de Colombia - -</p>
+              <p>UPTC - - Duitama</p>
+              <p>Fecha de finalización: Junio de 2018</p>
+            </Card.Text>
+            <Button
+              variant="light"
+              onClick={() => setShow(true)}
+              style={{ border: "2px solid black" }}
+            >
+              Ver diploma
+            </Button>
 
-              <Modal
-                show={show}
-                onHide={() => setShow(false)}
-                dialogClassName="modal-dialog modal-lg"
-                aria-labelledby="example-custom-modal-styling-title"
-                ClassName="modal-dialog modal-xl"
+            <Modal
+              show={show}
+              onHide={() => setShow(false)}
+              dialogClassName="modal-dialog modal-lg"
+              aria-labelledby="example-custom-modal-styling-title"
+              ClassName="modal-dialog modal-xl"
+            >
+              <Modal.Header
+                closeButton
+                style={{
+                  backgroundImage: `url("./jirasol.PNG")`,
+                  backgroundPosition: "center",
+                  backgroundRepeat: "no-repeat",
+                  backgroundSize: "cover",
+                  border: "1px solid #565555"
+                }}
               >
-                <Modal.Header
-                  closeButton
-                  style={{
-                    backgroundImage: `url("./jirasol.PNG")`,
-                    backgroundPosition: "center",
-                    backgroundRepeat: "no-repeat",
-                    backgroundSize: "cover",
-                    border: "1px solid #565555",
-                  }}
+                <Modal.Title
+                  variant="primary"
+                  id=" example-custom-modal-styling-title h5"
                 >
-                  <Modal.Title
-                    variant="primary"
-                    id=" example-custom-modal-styling-title h5"
+                  <h5
+                    style={{ fontFamily: "Raleway,bold" }}
+                    className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
                   >
-                    <h5
-                      style={{ fontFamily: "Raleway,bold" }}
-                      className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
-                    >
-                      Licenciatuta en matemáticas y estadística
-                    </h5>
-                  </Modal.Title>
-                </Modal.Header>
-                <Modal.Body>
-                  <img
-                    src="./diploma.PNG"
-                    alt=""
-                    className=" zoom img-thumbnail  w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
-                  ></img>
-                </Modal.Body>
-              </Modal>
-            </Card.Body>
-          </Card>
-        </Col>
+                    Licenciatuta en matemáticas y estadística
+                  </h5>
+                </Modal.Title>
+              </Modal.Header>
+              <Modal.Body>
+                <img
+                  src="./diploma.PNG"
+                  alt=""
+                  className=" zoom img-thumbnail  w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
+                ></img>
+              </Modal.Body>
+            </Modal>
+          </Card.Body>
+        </Card>
+      </Col>
 
-
- <Col md={12} className="Apps-thumbnail rounded-4 mt-5 d-flex justify-content-center form-wrapper" >
-          <Card
-            className="img-thumbnail rounded-4"
+      <Col
+        md={12}
+        className="Apps-thumbnail rounded-4 mt-5 d-flex justify-content-center form-wrapper"
+      >
+        <Card
+          className="img-thumbnail rounded-4"
+          style={{
+            backgroundImage: `url("./jirasol.PNG")`,
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "cover",
+            border: "2px solid #565555"
+          }}
+        >
+          <Card.Header
             style={{
-              backgroundImage: `url("./jirasol.PNG")`,
+              backgroundImage: `url("./koko.PNG")`,
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
               backgroundSize: "cover",
-              border: "2px solid #565555",
+              border: "1px solid #565555",
+              fontFamily: "Raleway,bold"
             }}
+            className="img-thumbnail rounded-4 text-center fw-bold"
           >
-            <Card.Header
-              style={{
-                backgroundImage: `url("./koko.PNG")`,
-                backgroundPosition: "center",
-                backgroundRepeat: "no-repeat",
-                backgroundSize: "cover",
-                border: "1px solid #565555",
-                fontFamily: "Raleway,bold"
-              }}
-              className="img-thumbnail rounded-4 text-center fw-bold"
-            >
-              FORMACIÓN TECNOLÓGICA
-            </Card.Header>
-            <Card.Body>
-              <Card.Title style={{ fontFamily: "Raleway,bold" }}
+            FORMACIÓN TECNOLÓGICA
+          </Card.Header>
+          <Card.Body>
+            <Card.Title
+              style={{ fontFamily: "Raleway,bold" }}
               className="fw-bold"
-              >Anàlisis y Desarrollo de Software</Card.Title>
-              <Card.Text style={{ fontFamily: "Raleway,bold" }}
-               className="fw-bold"
+            >
+              Anàlisis y Desarrollo de Software
+            </Card.Title>
+            <Card.Text
+              style={{ fontFamily: "Raleway,bold" }}
+              className="fw-bold"
+            >
+              <p>Nivel educativo: Tecnológico </p>
+              <p>Institución: SENA</p>
+              <p>Fecha de finalización: Marzo de 2025</p>
+            </Card.Text>
+            <Button
+              variant="warning"
+              onClick={() => setsenaShow(true)}
+              style={{ border: "2px solid black" }}
+            >
+              Ver diploma
+            </Button>
+            <Modal
+              show={senaShow}
+              onHide={() => setsenaShow(false)}
+              dialogClassName="modal-dialog modal-lg"
+              aria-labelledby="example-custom-modal-styling-title"
+              ClassName="modal-dialog modal-xl"
+            >
+              <Modal.Header
+                closeButton
+                style={{
+                  backgroundImage: `url("./jirasol.PNG")`,
+                  backgroundPosition: "center",
+                  backgroundRepeat: "no-repeat",
+                  backgroundSize: "cover",
+                  border: "1px solid #565555"
+                }}
               >
-                <p>Nivel educativo: Tecnológico </p>
-                <p>Institución: SENA</p>
-                <p>Fecha de finalización: Marzo de 2025</p>
-              </Card.Text>
-              <Button variant="warning" onClick={() => setsenaShow(true)} style={{ border: '2px solid black' }}>
-                Ver diploma
-              </Button>                 
-              <Modal
-                show={senaShow}
-                onHide={() => setsenaShow(false)}
-                dialogClassName="modal-dialog modal-lg"
-                aria-labelledby="example-custom-modal-styling-title"
-                ClassName="modal-dialog modal-xl"
-              >
-                <Modal.Header
-                  closeButton
-                  style={{
-                    backgroundImage: `url("./jirasol.PNG")`,
-                    backgroundPosition: "center",
-                    backgroundRepeat: "no-repeat",
-                    backgroundSize: "cover",
-                    border: "1px solid #565555",
-                  }}
+                <Modal.Title
+                  variant="primary"
+                  id=" example-custom-modal-styling-title h5"
                 >
-                  <Modal.Title
-                    variant="primary"
-                    id=" example-custom-modal-styling-title h5"
+                  <h5
+                    style={{ fontFamily: "Raleway,bold" }}
+                    className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
                   >
-                    <h5
-                      style={{ fontFamily: "Raleway,bold" }}
-                      className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
-                    >
-                      Tecnología en Análisis y Desarrollo de Software 
-                    </h5>
-                  </Modal.Title>
-                </Modal.Header>
-                <Modal.Body>
-                  <img
-                    src="./CertSena.PNG"
-                    alt=""
-                    className=" zoom img-thumbnail  w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
-                  ></img>
-                </Modal.Body>
-              </Modal>
-            </Card.Body>
-          </Card>
-        </Col>
+                    Tecnología en Análisis y Desarrollo de Software
+                  </h5>
+                </Modal.Title>
+              </Modal.Header>
+              <Modal.Body>
+                <img
+                  src="./CertSena.PNG"
+                  alt=""
+                  className=" zoom img-thumbnail  w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
+                ></img>
+              </Modal.Body>
+            </Modal>
+          </Card.Body>
+        </Card>
+      </Col>
 
       {/* ------------------------------------ACORDION--------------------------------- */}
-      <Col md={12} >
-
+      <Col md={12}>
         <Row>
-  <div className="mt-5 d-flex justify-content-center form-wrapper">
-    <h1
-      style={{
-        backgroundImage: `url("./koko.PNG")`,
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "cover",
-        border: "1px solid #565555",
-        // Add padding to create space around the text
-        padding: "15px 30px", // Adjust these values as needed (top/bottom, left/right)
-        display: "inline-block", // Makes the h1 shrink to fit its content + padding
-        // Or you could use: width: "fit-content",
-        // And for the rounded corners to match the image
-        borderRadius: "20px", // Adjust to match your koko.PNG's rounded corners
-      }}
-      className="text-center mx-3 font-weight-bold h5 text-dark my-3"
-    >
-      FORMACIÓN COMPLEMENTARIA
-    </h1>
-  </div>
-</Row>
+          <div className="mt-5 d-flex justify-content-center form-wrapper">
+            <h1
+              style={{
+                backgroundImage: `url("./koko.PNG")`,
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+                border: "1px solid #565555",
+                // Add padding to create space around the text
+                padding: "15px 30px", // Adjust these values as needed (top/bottom, left/right)
+                display: "inline-block", // Makes the h1 shrink to fit its content + padding
+                // Or you could use: width: "fit-content",
+                // And for the rounded corners to match the image
+                borderRadius: "20px" // Adjust to match your koko.PNG's rounded corners
+              }}
+              className="text-center mx-3 font-weight-bold h5 text-dark my-3"
+            >
+              FORMACIÓN COMPLEMENTARIA
+            </h1>
+          </div>
+        </Row>
         <Accordion className="mt-5 my-5 justify-content-center form-wrapper">
-
-{/* ------------------------------------Talento tech Bogotà certificaciones--------------------------------- */}
-<Accordion.Item
+          {/* ------------------------------------Talento tech Bogotà certificaciones--------------------------------- */}
+          <Accordion.Item
             eventKey="5"
             style={{
               backgroundImage: `url("./estrellas.jpg")`,
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
               backgroundSize: "cover",
-              border: "1px solid #565555",
+              border: "1px solid #565555"
             }}
           >
-
             <Accordion.Header>
-            <div className="w-100 d-flex justify-content-center">
-              <img
-                alt=""
-                width="100"
-                height="100"
-                src="./Talent.PNG"
-                className="img-thumbnail"
-              /></div> 
+              <div className="w-100 d-flex justify-content-center">
+                <img
+                  alt=""
+                  width="100"
+                  height="100"
+                  src="./Talent.PNG"
+                  className="img-thumbnail"
+                />
+              </div>
             </Accordion.Header>
             <Accordion.Body>
               <Table
@@ -297,7 +315,7 @@ export default function Education() {
                             backgroundPosition: "center",
                             backgroundRepeat: "no-repeat",
                             backgroundSize: "cover",
-                            border: "1px solid #565555",
+                            border: "1px solid #565555"
                           }}
                         >
                           <Modal.Title variant="primary">
@@ -319,13 +337,10 @@ export default function Education() {
                       </Modal>
                     </td>
                   </tr>
-
-
                 </tbody>
               </Table>
             </Accordion.Body>
           </Accordion.Item>
-
 
           <Accordion.Item
             eventKey="0"
@@ -334,20 +349,21 @@ export default function Education() {
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
               backgroundSize: "cover",
-              border: "1px solid #565555",
+              border: "1px solid #565555"
             }}
           >
- {/* ------------------------------------misióntoc certificaciones--------------------------------- */}
+            {/* ------------------------------------misióntoc certificaciones--------------------------------- */}
 
             <Accordion.Header>
               <div className="w-100 d-flex justify-content-center">
-              <img
-                alt=""
-                width="100"
-                height="100"
-                src="./misionticp.PNG"
-                className="img-thumbnail"
-              /></div>           
+                <img
+                  alt=""
+                  width="100"
+                  height="100"
+                  src="./misionticp.PNG"
+                  className="img-thumbnail"
+                />
+              </div>
             </Accordion.Header>
             <Accordion.Body>
               <Table
@@ -389,7 +405,7 @@ export default function Education() {
                             backgroundPosition: "center",
                             backgroundRepeat: "no-repeat",
                             backgroundSize: "cover",
-                            border: "1px solid #565555",
+                            border: "1px solid #565555"
                           }}
                         >
                           <Modal.Title variant="primary">
@@ -423,7 +439,7 @@ export default function Education() {
                     </td>
                     <td>
                       <Button
-                       variant="light"
+                        variant="light"
                         onClick={() => setstShow(true)}
                         className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
                       >
@@ -442,7 +458,7 @@ export default function Education() {
                             backgroundPosition: "center",
                             backgroundRepeat: "no-repeat",
                             backgroundSize: "cover",
-                            border: "1px solid #565555",
+                            border: "1px solid #565555"
                           }}
                         >
                           <Modal.Title variant="primary">
@@ -495,7 +511,7 @@ export default function Education() {
                             backgroundPosition: "center",
                             backgroundRepeat: "no-repeat",
                             backgroundSize: "cover",
-                            border: "1px solid #565555",
+                            border: "1px solid #565555"
                           }}
                         >
                           <Modal.Title variant="primary">
@@ -548,7 +564,7 @@ export default function Education() {
                             backgroundPosition: "center",
                             backgroundRepeat: "no-repeat",
                             backgroundSize: "cover",
-                            border: "1px solid #565555",
+                            border: "1px solid #565555"
                           }}
                         >
                           <Modal.Title variant="success">
@@ -571,7 +587,7 @@ export default function Education() {
                     </td>
                   </tr>
 
-                <tr className="form-wrapper">
+                  <tr className="form-wrapper">
                     <td>Diplomado general en Programación de Desarrollo Web</td>
 
                     <td>
@@ -601,7 +617,7 @@ export default function Education() {
                             backgroundPosition: "center",
                             backgroundRepeat: "no-repeat",
                             backgroundSize: "cover",
-                            border: "1px solid #565555",
+                            border: "1px solid #565555"
                           }}
                         >
                           <Modal.Title variant="success">
@@ -609,7 +625,8 @@ export default function Education() {
                               style={{ fontFamily: "Raleway,bold" }}
                               className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
                             >
-                              Diplomado general en Programación de Desarrollo Web
+                              Diplomado general en Programación de Desarrollo
+                              Web
                             </h5>
                           </Modal.Title>
                         </Modal.Header>
@@ -623,7 +640,6 @@ export default function Education() {
                       </Modal>
                     </td>
                   </tr>
-
 
                   <tr className="form-wrapper">
                     <td>Fundamentos en analítica de datos</td>
@@ -655,7 +671,7 @@ export default function Education() {
                             backgroundPosition: "center",
                             backgroundRepeat: "no-repeat",
                             backgroundSize: "cover",
-                            border: "1px solid #565555",
+                            border: "1px solid #565555"
                           }}
                         >
                           <Modal.Title variant="success">
@@ -677,34 +693,32 @@ export default function Education() {
                       </Modal>
                     </td>
                   </tr>
-
-
                 </tbody>
               </Table>
             </Accordion.Body>
           </Accordion.Item>
 
-      {/* ------------------------------------Coursera certificaciones--------------------------------- */}
-         <Accordion.Item
+          {/* ------------------------------------Coursera certificaciones--------------------------------- */}
+          <Accordion.Item
             eventKey="1"
             style={{
               backgroundImage: `url("./estrellas.jpg")`,
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
               backgroundSize: "cover",
-              border: "1px solid #565555",
+              border: "1px solid #565555"
             }}
           >
-
             <Accordion.Header>
-            <div className="w-100 d-flex justify-content-center">
-              <img
-                alt=""
-                width="100"
-                height="100"
-                src="./courserar.PNG"
-                className="img-thumbnail"
-              /></div>    
+              <div className="w-100 d-flex justify-content-center">
+                <img
+                  alt=""
+                  width="100"
+                  height="100"
+                  src="./courserar.PNG"
+                  className="img-thumbnail"
+                />
+              </div>
             </Accordion.Header>
             <Accordion.Body>
               <Table
@@ -714,7 +728,6 @@ export default function Education() {
                 className=" img-thumbnail w-100 my-2 mt-2 d-flex justify-content-center form-wrapper"
               >
                 <tbody variant="primmary" className="form-wrapper">
-
                   <tr className="form-wrapper">
                     <td className="form-wrapper">
                       Cómo resolver problemas y tomar decisiones con eficacia
@@ -747,7 +760,7 @@ export default function Education() {
                             backgroundPosition: "center",
                             backgroundRepeat: "no-repeat",
                             backgroundSize: "cover",
-                            border: "1px solid #565555",
+                            border: "1px solid #565555"
                           }}
                         >
                           <Modal.Title variant="primary">
@@ -755,7 +768,8 @@ export default function Education() {
                               style={{ fontFamily: "Raleway,bold" }}
                               className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
                             >
-                              Cómo resolver problemas y tomar decisiones con eficacia
+                              Cómo resolver problemas y tomar decisiones con
+                              eficacia
                             </h5>
                           </Modal.Title>
                         </Modal.Header>
@@ -771,9 +785,7 @@ export default function Education() {
                   </tr>
 
                   <tr className="form-wrapper">
-                    <td className="form-wrapper">
-                      Programar en Python
-                    </td>
+                    <td className="form-wrapper">Programar en Python</td>
 
                     <td>
                       {" "}
@@ -802,7 +814,7 @@ export default function Education() {
                             backgroundPosition: "center",
                             backgroundRepeat: "no-repeat",
                             backgroundSize: "cover",
-                            border: "1px solid #565555",
+                            border: "1px solid #565555"
                           }}
                         >
                           <Modal.Title variant="primary">
@@ -825,7 +837,7 @@ export default function Education() {
                     </td>
                   </tr>
 
-                   <tr className="form-wrapper">
+                  <tr className="form-wrapper">
                     <td className="form-wrapper">
                       Harnessing the Power of Data - Power BI
                     </td>
@@ -857,7 +869,7 @@ export default function Education() {
                             backgroundPosition: "center",
                             backgroundRepeat: "no-repeat",
                             backgroundSize: "cover",
-                            border: "1px solid #565555",
+                            border: "1px solid #565555"
                           }}
                         >
                           <Modal.Title variant="primary">
@@ -880,10 +892,8 @@ export default function Education() {
                     </td>
                   </tr>
 
-                    <tr className="form-wrapper">
-                    <td className="form-wrapper">
-                      Machine Learning - Python
-                    </td>
+                  <tr className="form-wrapper">
+                    <td className="form-wrapper">Machine Learning - Python</td>
 
                     <td>
                       {" "}
@@ -912,7 +922,7 @@ export default function Education() {
                             backgroundPosition: "center",
                             backgroundRepeat: "no-repeat",
                             backgroundSize: "cover",
-                            border: "1px solid #565555",
+                            border: "1px solid #565555"
                           }}
                         >
                           <Modal.Title variant="primary">
@@ -935,7 +945,7 @@ export default function Education() {
                     </td>
                   </tr>
 
-                      <tr className="form-wrapper">
+                  <tr className="form-wrapper">
                     <td className="form-wrapper">
                       Questions, Present Progressive and Future Tenses
                     </td>
@@ -967,7 +977,7 @@ export default function Education() {
                             backgroundPosition: "center",
                             backgroundRepeat: "no-repeat",
                             backgroundSize: "cover",
-                            border: "1px solid #565555",
+                            border: "1px solid #565555"
                           }}
                         >
                           <Modal.Title variant="primary">
@@ -990,9 +1000,9 @@ export default function Education() {
                     </td>
                   </tr>
 
-                      <tr className="form-wrapper">
+                  <tr className="form-wrapper">
                     <td className="form-wrapper">
-                      Preparing Data  Analysis - Microsoft Excel
+                      Preparing Data Analysis - Microsoft Excel
                     </td>
 
                     <td>
@@ -1022,7 +1032,7 @@ export default function Education() {
                             backgroundPosition: "center",
                             backgroundRepeat: "no-repeat",
                             backgroundSize: "cover",
-                            border: "1px solid #565555",
+                            border: "1px solid #565555"
                           }}
                         >
                           <Modal.Title variant="primary">
@@ -1045,7 +1055,7 @@ export default function Education() {
                     </td>
                   </tr>
 
-                    <tr className="form-wrapper">
+                  <tr className="form-wrapper">
                     <td className="form-wrapper">
                       Word Forms and Simple Present Tense
                     </td>
@@ -1077,7 +1087,7 @@ export default function Education() {
                             backgroundPosition: "center",
                             backgroundRepeat: "no-repeat",
                             backgroundSize: "cover",
-                            border: "1px solid #565555",
+                            border: "1px solid #565555"
                           }}
                         >
                           <Modal.Title variant="primary">
@@ -1132,7 +1142,7 @@ export default function Education() {
                             backgroundPosition: "center",
                             backgroundRepeat: "no-repeat",
                             backgroundSize: "cover",
-                            border: "1px solid #565555",
+                            border: "1px solid #565555"
                           }}
                         >
                           <Modal.Title variant="primary">
@@ -1154,13 +1164,10 @@ export default function Education() {
                       </Modal>
                     </td>
                   </tr>
-
-                  
                 </tbody>
               </Table>
             </Accordion.Body>
           </Accordion.Item>
-          
 
           {/* ------------------------------------PLatzi certificaciones--------------------------------- */}
 
@@ -1171,469 +1178,482 @@ export default function Education() {
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
               backgroundSize: "cover",
-              border: "1px solid #565555",
+              border: "1px solid #565555"
             }}
           >
             <Accordion.Header>
               <div className="w-100 d-flex justify-content-center">
-              <img
-                alt=""
-                width="100"
-                height="100"
-                src="./platzi.PNG"
-                className="img-thumbnail"
-              /></div>   
-           </Accordion.Header>                 
+                <img
+                  alt=""
+                  width="100"
+                  height="100"
+                  src="./platzi.PNG"
+                  className="img-thumbnail"
+                />
+              </div>
+            </Accordion.Header>
             <Accordion.Body>
-             <div className="d-flex justify-content-center align-items-center" style={{ minHeight: '200px' }}>
-              <Table
-                striped
-                bordered
-                hover
-                className="mt-2"
+              <div
+                className="d-flex justify-content-center align-items-center"
+                style={{ minHeight: "200px" }}
               >
-                <thead class="bg-light form-wrapper rounded-4">
-                  <tr className="form-wrapper">
-                    <th className="form-wrapper">Curso</th>
-                    <th className="form-wrapper">Enlace</th>
-                    <th className="form-wrapper">Certf.</th>
-                  </tr>
-                </thead>
-                <tbody variant="primmary" className="form-wrapper">
-                  <tr className="form-wrapper">
-                    <td Style={"color: rgb(197, 184, 70);"}>Ingeniería de datos con Python</td>
+                <Table striped bordered hover className="mt-2">
+                  <thead class="bg-light form-wrapper rounded-4">
+                    <tr className="form-wrapper">
+                      <th className="form-wrapper">Curso</th>
+                      <th className="form-wrapper">Enlace</th>
+                      <th className="form-wrapper">Certf.</th>
+                    </tr>
+                  </thead>
+                  <tbody variant="primmary" className="form-wrapper">
+                    <tr className="form-wrapper">
+                      <td Style={"color: rgb(197, 184, 70);"}>
+                        Ingeniería de datos con Python
+                      </td>
 
-                    <td>
-                      {" "}
-                      <a href="https://platzi.com/p/paolapacheco.moreno/curso/1385-ingenieria-datos/diploma/detalle/">
-                        Link
-                      </a>
-                    </td>
-                    <td>
-                      <Button
-                       variant="light"
-                        onClick={() => setsdShow(true)}
-                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
-                      >
-                        Ver
-                      </Button>
-
-                      <Modal
-                        show={sdShow}
-                        onHide={() => setsdShow(false)}
-                        dialogClassName="modal-dialog modal-lg"
-                        aria-labelledby="example-modal-sizes-title-sm"
-                      >
-                        <Modal.Header
-                          closeButton
-                          style={{
-                            backgroundImage: `url("./jirasol.PNG")`,
-                            backgroundPosition: "center",
-                            backgroundRepeat: "no-repeat",
-                            backgroundSize: "cover",
-                            border: "1px solid #565555",
-                          }}
+                      <td>
+                        {" "}
+                        <a href="https://platzi.com/p/paolapacheco.moreno/curso/1385-ingenieria-datos/diploma/detalle/">
+                          Link
+                        </a>
+                      </td>
+                      <td>
+                        <Button
+                          variant="light"
+                          onClick={() => setsdShow(true)}
+                          className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
                         >
-                          <Modal.Title variant="success">
-                            <h5
-                              style={{ fontFamily: "Raleway,bold" }}
-                              className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
-                            >
-                              Ingeniería de datos con Python
-                            </h5>
-                          </Modal.Title>
-                        </Modal.Header>
-                        <Modal.Body>
-                          <img
-                            src="./Ingedatos.PNG"
-                            alt=""
-                            className="zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
-                          ></img>
-                        </Modal.Body>
-                      </Modal>
-                    </td>
-                  </tr>
+                          Ver
+                        </Button>
 
-                  <tr className="form-wrapper">
-                    <td Style={"color: rgb(197, 184, 70);"}>Python Básico</td>
-
-                    <td>
-                      {" "}
-                      <a href="https://platzi.com/p/paolapacheco.moreno/curso/1937-python/diploma/detalle/">
-                        Link
-                      </a>
-                    </td>
-                    <td>
-                      <Button
-                        variant="light"
-                        onClick={() => setsnShow(true)}
-                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
-                      >
-                        Ver
-                      </Button>
-
-                      <Modal
-                        show={snShow}
-                        onHide={() => setsnShow(false)}
-                        dialogClassName="modal-dialog modal-lg"
-                        aria-labelledby="example-modal-sizes-title-sm"
-                      >
-                        <Modal.Header
-                          closeButton
-                          style={{
-                            backgroundImage: `url("./jirasol.PNG")`,
-                            backgroundPosition: "center",
-                            backgroundRepeat: "no-repeat",
-                            backgroundSize: "cover",
-                            border: "1px solid #565555",
-                          }}
+                        <Modal
+                          show={sdShow}
+                          onHide={() => setsdShow(false)}
+                          dialogClassName="modal-dialog modal-lg"
+                          aria-labelledby="example-modal-sizes-title-sm"
                         >
-                          <Modal.Title variant="success">
-                            <h5
-                              style={{ fontFamily: "Raleway,bold" }}
-                              className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
-                            >
-                              Python Básico
-                            </h5>
-                          </Modal.Title>
-                        </Modal.Header>
-                        <Modal.Body>
-                          <img
-                            src="./pythonb.PNG"
-                            alt=""
-                            className="zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
-                          ></img>
-                        </Modal.Body>
-                      </Modal>
-                    </td>
-                  </tr>
+                          <Modal.Header
+                            closeButton
+                            style={{
+                              backgroundImage: `url("./jirasol.PNG")`,
+                              backgroundPosition: "center",
+                              backgroundRepeat: "no-repeat",
+                              backgroundSize: "cover",
+                              border: "1px solid #565555"
+                            }}
+                          >
+                            <Modal.Title variant="success">
+                              <h5
+                                style={{ fontFamily: "Raleway,bold" }}
+                                className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
+                              >
+                                Ingeniería de datos con Python
+                              </h5>
+                            </Modal.Title>
+                          </Modal.Header>
+                          <Modal.Body>
+                            <img
+                              src="./Ingedatos.PNG"
+                              alt=""
+                              className="zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
+                            ></img>
+                          </Modal.Body>
+                        </Modal>
+                      </td>
+                    </tr>
 
-                  <tr className="form-wrapper">
-                    <td Style={"color: rgb(197, 184, 70);"}>Python Intermedio</td>
+                    <tr className="form-wrapper">
+                      <td Style={"color: rgb(197, 184, 70);"}>Python Básico</td>
 
-                    <td>
-                      {" "}
-                      <a href="https://platzi.com/p/paolapacheco.moreno/curso/2255-python-intermedio/diploma/detalle/">
-                        Link
-                      </a>
-                    </td>
-                    <td>
-                      <Button
-                        variant="light"
-                        onClick={() => setsrShow(true)}
-                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
-                      >
-                        Ver
-                      </Button>
-
-                      <Modal
-                        show={srShow}
-                        onHide={() => setsrShow(false)}
-                        dialogClassName="modal-dialog modal-lg"
-                        aria-labelledby="example-modal-sizes-title-sm"
-                      >
-                        <Modal.Header
-                          closeButton
-                          style={{
-                            backgroundImage: `url("./jirasol.PNG")`,
-                            backgroundPosition: "center",
-                            backgroundRepeat: "no-repeat",
-                            backgroundSize: "cover",
-                            border: "1px solid #565555",
-                          }}
+                      <td>
+                        {" "}
+                        <a href="https://platzi.com/p/paolapacheco.moreno/curso/1937-python/diploma/detalle/">
+                          Link
+                        </a>
+                      </td>
+                      <td>
+                        <Button
+                          variant="light"
+                          onClick={() => setsnShow(true)}
+                          className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
                         >
-                          <Modal.Title variant="success">
-                            <h5
-                              style={{ fontFamily: "Raleway,bold" }}
-                              className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
-                            >
-                              Python Intermedio
-                            </h5>
-                          </Modal.Title>
-                        </Modal.Header>
-                        <Modal.Body>
-                          <img
-                            src="./pythonin.PNG"
-                            alt=""
-                            className="zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
-                          ></img>
-                        </Modal.Body>
-                      </Modal>
-                    </td>
-                  </tr>
+                          Ver
+                        </Button>
 
-                  <tr>
-                    <td Style={"color: rgb(197, 184, 70);"}>Python Profesional</td>
-
-                    <td>
-                      {" "}
-                      <a href="https://platzi.com/p/paolapacheco.moreno/curso/2397-python-profesional/diploma/detalle/">
-                        Link
-                      </a>
-                    </td>
-                    <td>
-                      <Button
-                        variant="light"
-                        onClick={() => setssShow(true)}
-                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
-                      >
-                        Ver
-                      </Button>
-
-                      <Modal
-                        show={ssShow}
-                        onHide={() => setssShow(false)}
-                        dialogClassName="modal-dialog modal-lg"
-                        aria-labelledby="example-modal-sizes-title-sm"
-                      >
-                        <Modal.Header
-                          closeButton
-                          style={{
-                            backgroundImage: `url("./jirasol.PNG")`,
-                            backgroundPosition: "center",
-                            backgroundRepeat: "no-repeat",
-                            backgroundSize: "cover",
-                            border: "1px solid #565555",
-                          }}
+                        <Modal
+                          show={snShow}
+                          onHide={() => setsnShow(false)}
+                          dialogClassName="modal-dialog modal-lg"
+                          aria-labelledby="example-modal-sizes-title-sm"
                         >
-                          <Modal.Title variant="success">
-                            <h5
-                              style={{ fontFamily: "Raleway,bold" }}
-                              className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
-                            >
-                              Python Profesional
-                            </h5>
-                          </Modal.Title>
-                        </Modal.Header>
-                        <Modal.Body>
-                          <img
-                            src="./pythonp.PNG"
-                            alt=""
-                            className="zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
-                          ></img>
-                        </Modal.Body>
-                      </Modal>
-                    </td>
-                  </tr>
+                          <Modal.Header
+                            closeButton
+                            style={{
+                              backgroundImage: `url("./jirasol.PNG")`,
+                              backgroundPosition: "center",
+                              backgroundRepeat: "no-repeat",
+                              backgroundSize: "cover",
+                              border: "1px solid #565555"
+                            }}
+                          >
+                            <Modal.Title variant="success">
+                              <h5
+                                style={{ fontFamily: "Raleway,bold" }}
+                                className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
+                              >
+                                Python Básico
+                              </h5>
+                            </Modal.Title>
+                          </Modal.Header>
+                          <Modal.Body>
+                            <img
+                              src="./pythonb.PNG"
+                              alt=""
+                              className="zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
+                            ></img>
+                          </Modal.Body>
+                        </Modal>
+                      </td>
+                    </tr>
 
-                  <tr className="form-wrapper">
-                    <td Style={"color: rgb(197, 184, 70);"}>Estadística computacional con Python</td>
+                    <tr className="form-wrapper">
+                      <td Style={"color: rgb(197, 184, 70);"}>
+                        Python Intermedio
+                      </td>
 
-                    <td>
-                      {" "}
-                      <a href="https://platzi.com/p/paolapacheco.moreno/curso/1835-programacion-estocastica/diploma/detalle/">
-                        Link
-                      </a>
-                    </td>
-                    <td>
-                      <Button
-                        variant="light"
-                        onClick={() => setskShow(true)}
-                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
-                      >
-                        Ver
-                      </Button>
-
-                      <Modal
-                        show={skShow}
-                        onHide={() => setskShow(false)}
-                        dialogClassName="modal-dialog modal-lg"
-                        aria-labelledby="example-modal-sizes-title-sm"
-                      >
-                        <Modal.Header
-                          closeButton
-                          style={{
-                            backgroundImage: `url("./jirasol.PNG")`,
-                            backgroundPosition: "center",
-                            backgroundRepeat: "no-repeat",
-                            backgroundSize: "cover",
-                            border: "1px solid #565555",
-                          }}
+                      <td>
+                        {" "}
+                        <a href="https://platzi.com/p/paolapacheco.moreno/curso/2255-python-intermedio/diploma/detalle/">
+                          Link
+                        </a>
+                      </td>
+                      <td>
+                        <Button
+                          variant="light"
+                          onClick={() => setsrShow(true)}
+                          className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
                         >
-                          <Modal.Title variant="success">
-                            <h5
-                              style={{ fontFamily: "Raleway,bold" }}
-                              className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
-                            >
-                              Estadística computacional con Python
-                            </h5>
-                          </Modal.Title>
-                        </Modal.Header>
-                        <Modal.Body>
-                          <img
-                            src="./estadcompu.PNG"
-                            alt=""
-                            className="zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
-                          ></img>
-                        </Modal.Body>
-                      </Modal>
-                    </td>
-                  </tr>
+                          Ver
+                        </Button>
 
-                  <tr className="form-wrapper">
-                    <td Style={"color: rgb(197, 184, 70);"}>Estructura de datos lineales con Python</td>
-
-                    <td>
-                      {" "}
-                      <a href="https://platzi.com/p/paolapacheco.moreno/curso/2299-estructuras-datos-python/diploma/detalle/">
-                        Link
-                      </a>
-                    </td>
-                    <td>
-                      <Button
-                        variant="light"
-                        onClick={() => setszShow(true)}
-                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
-                      >
-                        Ver
-                      </Button>
-
-                      <Modal
-                        show={szShow}
-                        onHide={() => setszShow(false)}
-                        dialogClassName="modal-dialog modal-lg"
-                        aria-labelledby="example-modal-sizes-title-sm"
-                      >
-                        <Modal.Header
-                          closeButton
-                          style={{
-                            backgroundImage: `url("./jirasol.PNG")`,
-                            backgroundPosition: "center",
-                            backgroundRepeat: "no-repeat",
-                            backgroundSize: "cover",
-                            border: "1px solid #565555",
-                          }}
+                        <Modal
+                          show={srShow}
+                          onHide={() => setsrShow(false)}
+                          dialogClassName="modal-dialog modal-lg"
+                          aria-labelledby="example-modal-sizes-title-sm"
                         >
-                          <Modal.Title variant="success">
-                            <h5
-                              style={{ fontFamily: "Raleway,bold" }}
-                              className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
-                            >
-                              Estructura de datos lineales con Python
-                            </h5>
-                          </Modal.Title>
-                        </Modal.Header>
-                        <Modal.Body>
-                          <img
-                            src="./datoslinp.PNG"
-                            alt=""
-                            className="zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
-                          ></img>
-                        </Modal.Body>
-                      </Modal>
-                    </td>
-                  </tr>
+                          <Modal.Header
+                            closeButton
+                            style={{
+                              backgroundImage: `url("./jirasol.PNG")`,
+                              backgroundPosition: "center",
+                              backgroundRepeat: "no-repeat",
+                              backgroundSize: "cover",
+                              border: "1px solid #565555"
+                            }}
+                          >
+                            <Modal.Title variant="success">
+                              <h5
+                                style={{ fontFamily: "Raleway,bold" }}
+                                className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
+                              >
+                                Python Intermedio
+                              </h5>
+                            </Modal.Title>
+                          </Modal.Header>
+                          <Modal.Body>
+                            <img
+                              src="./pythonin.PNG"
+                              alt=""
+                              className="zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
+                            ></img>
+                          </Modal.Body>
+                        </Modal>
+                      </td>
+                    </tr>
 
-                  <tr className="form-wrapper">
-                    <td Style={"color: rgb(197, 184, 70);"}>Machine Learning con Python</td>
+                    <tr>
+                      <td Style={"color: rgb(197, 184, 70);"}>
+                        Python Profesional
+                      </td>
 
-                    <td>
-                      {" "}
-                      <a href="https://platzi.com/p/paolapacheco.moreno/curso/1178-scikit/diploma/detalle/">
-                        Link
-                      </a>
-                    </td>
-                    <td>
-                      <Button
-                       variant="light"
-                        onClick={() => setshShow(true)}
-                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
-                      >
-                        Ver
-                      </Button>
-
-                      <Modal
-                        show={shShow}
-                        onHide={() => setshShow(false)}
-                        dialogClassName="modal-dialog modal-lg"
-                        aria-labelledby="example-modal-sizes-title-sm"
-                      >
-                        <Modal.Header
-                          closeButton
-                          style={{
-                            backgroundImage: `url("./jirasol.PNG")`,
-                            backgroundPosition: "center",
-                            backgroundRepeat: "no-repeat",
-                            backgroundSize: "cover",
-                            border: "1px solid #565555",
-                          }}
+                      <td>
+                        {" "}
+                        <a href="https://platzi.com/p/paolapacheco.moreno/curso/2397-python-profesional/diploma/detalle/">
+                          Link
+                        </a>
+                      </td>
+                      <td>
+                        <Button
+                          variant="light"
+                          onClick={() => setssShow(true)}
+                          className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
                         >
-                          <Modal.Title variant="success">
-                            <h5
-                              style={{ fontFamily: "Raleway,bold" }}
-                              className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
-                            >
-                              Machine Learning con Python
-                            </h5>
-                          </Modal.Title>
-                        </Modal.Header>
-                        <Modal.Body>
-                          <img
-                            src="./machine.PNG"
-                            alt=""
-                            className="zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
-                          ></img>
-                        </Modal.Body>
-                      </Modal>
-                    </td>
-                  </tr>
+                          Ver
+                        </Button>
 
-                  <tr className="form-wrapper">
-                    <td Style={"color: rgb(197, 184, 70);"}>Curso Profesional de Scrum</td>
-
-                    <td>
-                      {" "}
-                      <a href="https://platzi.com/r/paolapacheco.moreno/">
-                        Link
-                      </a>
-                    </td>
-                    <td>
-                      <Button
-                        variant="light"
-                        onClick={() => setscShow(true)}
-                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
-                      >
-                        Ver
-                      </Button>
-
-                      <Modal
-                        show={scShow}
-                        onHide={() => setscShow(false)}
-                        dialogClassName="modal-dialog modal-lg"
-                        aria-labelledby="example-modal-sizes-title-sm"
-                      >
-                        <Modal.Header
-                          closeButton
-                          style={{
-                            backgroundImage: `url("./jirasol.PNG")`,
-                            backgroundPosition: "center",
-                            backgroundRepeat: "no-repeat",
-                            backgroundSize: "cover",
-                            border: "1px solid #565555",
-                          }}
+                        <Modal
+                          show={ssShow}
+                          onHide={() => setssShow(false)}
+                          dialogClassName="modal-dialog modal-lg"
+                          aria-labelledby="example-modal-sizes-title-sm"
                         >
-                          <Modal.Title variant="success">
-                            <h5
-                              style={{ fontFamily: "Raleway,bold" }}
-                              className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
-                            >
-                              Curso Profesional de Scrum
-                            </h5>
-                          </Modal.Title>
-                        </Modal.Header>
-                        <Modal.Body>
-                          <img
-                            src="./scrum.PNG"
-                            alt=""
-                            className="zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
-                          ></img>
-                        </Modal.Body>
-                      </Modal>
-                    </td>
-                  </tr>
-                </tbody>
-              </Table>
-             </div>
+                          <Modal.Header
+                            closeButton
+                            style={{
+                              backgroundImage: `url("./jirasol.PNG")`,
+                              backgroundPosition: "center",
+                              backgroundRepeat: "no-repeat",
+                              backgroundSize: "cover",
+                              border: "1px solid #565555"
+                            }}
+                          >
+                            <Modal.Title variant="success">
+                              <h5
+                                style={{ fontFamily: "Raleway,bold" }}
+                                className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
+                              >
+                                Python Profesional
+                              </h5>
+                            </Modal.Title>
+                          </Modal.Header>
+                          <Modal.Body>
+                            <img
+                              src="./pythonp.PNG"
+                              alt=""
+                              className="zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
+                            ></img>
+                          </Modal.Body>
+                        </Modal>
+                      </td>
+                    </tr>
+
+                    <tr className="form-wrapper">
+                      <td Style={"color: rgb(197, 184, 70);"}>
+                        Estadística computacional con Python
+                      </td>
+
+                      <td>
+                        {" "}
+                        <a href="https://platzi.com/p/paolapacheco.moreno/curso/1835-programacion-estocastica/diploma/detalle/">
+                          Link
+                        </a>
+                      </td>
+                      <td>
+                        <Button
+                          variant="light"
+                          onClick={() => setskShow(true)}
+                          className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
+                        >
+                          Ver
+                        </Button>
+
+                        <Modal
+                          show={skShow}
+                          onHide={() => setskShow(false)}
+                          dialogClassName="modal-dialog modal-lg"
+                          aria-labelledby="example-modal-sizes-title-sm"
+                        >
+                          <Modal.Header
+                            closeButton
+                            style={{
+                              backgroundImage: `url("./jirasol.PNG")`,
+                              backgroundPosition: "center",
+                              backgroundRepeat: "no-repeat",
+                              backgroundSize: "cover",
+                              border: "1px solid #565555"
+                            }}
+                          >
+                            <Modal.Title variant="success">
+                              <h5
+                                style={{ fontFamily: "Raleway,bold" }}
+                                className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
+                              >
+                                Estadística computacional con Python
+                              </h5>
+                            </Modal.Title>
+                          </Modal.Header>
+                          <Modal.Body>
+                            <img
+                              src="./estadcompu.PNG"
+                              alt=""
+                              className="zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
+                            ></img>
+                          </Modal.Body>
+                        </Modal>
+                      </td>
+                    </tr>
+
+                    <tr className="form-wrapper">
+                      <td Style={"color: rgb(197, 184, 70);"}>
+                        Estructura de datos lineales con Python
+                      </td>
+
+                      <td>
+                        {" "}
+                        <a href="https://platzi.com/p/paolapacheco.moreno/curso/2299-estructuras-datos-python/diploma/detalle/">
+                          Link
+                        </a>
+                      </td>
+                      <td>
+                        <Button
+                          variant="light"
+                          onClick={() => setszShow(true)}
+                          className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
+                        >
+                          Ver
+                        </Button>
+
+                        <Modal
+                          show={szShow}
+                          onHide={() => setszShow(false)}
+                          dialogClassName="modal-dialog modal-lg"
+                          aria-labelledby="example-modal-sizes-title-sm"
+                        >
+                          <Modal.Header
+                            closeButton
+                            style={{
+                              backgroundImage: `url("./jirasol.PNG")`,
+                              backgroundPosition: "center",
+                              backgroundRepeat: "no-repeat",
+                              backgroundSize: "cover",
+                              border: "1px solid #565555"
+                            }}
+                          >
+                            <Modal.Title variant="success">
+                              <h5
+                                style={{ fontFamily: "Raleway,bold" }}
+                                className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
+                              >
+                                Estructura de datos lineales con Python
+                              </h5>
+                            </Modal.Title>
+                          </Modal.Header>
+                          <Modal.Body>
+                            <img
+                              src="./datoslinp.PNG"
+                              alt=""
+                              className="zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
+                            ></img>
+                          </Modal.Body>
+                        </Modal>
+                      </td>
+                    </tr>
+
+                    <tr className="form-wrapper">
+                      <td Style={"color: rgb(197, 184, 70);"}>
+                        Machine Learning con Python
+                      </td>
+
+                      <td>
+                        {" "}
+                        <a href="https://platzi.com/p/paolapacheco.moreno/curso/1178-scikit/diploma/detalle/">
+                          Link
+                        </a>
+                      </td>
+                      <td>
+                        <Button
+                          variant="light"
+                          onClick={() => setshShow(true)}
+                          className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
+                        >
+                          Ver
+                        </Button>
+
+                        <Modal
+                          show={shShow}
+                          onHide={() => setshShow(false)}
+                          dialogClassName="modal-dialog modal-lg"
+                          aria-labelledby="example-modal-sizes-title-sm"
+                        >
+                          <Modal.Header
+                            closeButton
+                            style={{
+                              backgroundImage: `url("./jirasol.PNG")`,
+                              backgroundPosition: "center",
+                              backgroundRepeat: "no-repeat",
+                              backgroundSize: "cover",
+                              border: "1px solid #565555"
+                            }}
+                          >
+                            <Modal.Title variant="success">
+                              <h5
+                                style={{ fontFamily: "Raleway,bold" }}
+                                className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
+                              >
+                                Machine Learning con Python
+                              </h5>
+                            </Modal.Title>
+                          </Modal.Header>
+                          <Modal.Body>
+                            <img
+                              src="./machine.PNG"
+                              alt=""
+                              className="zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
+                            ></img>
+                          </Modal.Body>
+                        </Modal>
+                      </td>
+                    </tr>
+
+                    <tr className="form-wrapper">
+                      <td Style={"color: rgb(197, 184, 70);"}>
+                        Curso Profesional de Scrum
+                      </td>
+
+                      <td>
+                        {" "}
+                        <a href="https://platzi.com/r/paolapacheco.moreno/">
+                          Link
+                        </a>
+                      </td>
+                      <td>
+                        <Button
+                          variant="light"
+                          onClick={() => setscShow(true)}
+                          className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
+                        >
+                          Ver
+                        </Button>
+
+                        <Modal
+                          show={scShow}
+                          onHide={() => setscShow(false)}
+                          dialogClassName="modal-dialog modal-lg"
+                          aria-labelledby="example-modal-sizes-title-sm"
+                        >
+                          <Modal.Header
+                            closeButton
+                            style={{
+                              backgroundImage: `url("./jirasol.PNG")`,
+                              backgroundPosition: "center",
+                              backgroundRepeat: "no-repeat",
+                              backgroundSize: "cover",
+                              border: "1px solid #565555"
+                            }}
+                          >
+                            <Modal.Title variant="success">
+                              <h5
+                                style={{ fontFamily: "Raleway,bold" }}
+                                className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
+                              >
+                                Curso Profesional de Scrum
+                              </h5>
+                            </Modal.Title>
+                          </Modal.Header>
+                          <Modal.Body>
+                            <img
+                              src="./scrum.PNG"
+                              alt=""
+                              className="zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
+                            ></img>
+                          </Modal.Body>
+                        </Modal>
+                      </td>
+                    </tr>
+                  </tbody>
+                </Table>
+              </div>
             </Accordion.Body>
           </Accordion.Item>
 
@@ -1646,18 +1666,19 @@ export default function Education() {
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
               backgroundSize: "cover",
-              border: "1px solid #565555",
+              border: "1px solid #565555"
             }}
           >
             <Accordion.Header>
-            <div className="w-100 d-flex justify-content-center">
-              <img
-                alt=""
-                width="100"
-                height="100"
-                src="./udemy.PNG"
-                className="img-thumbnail"
-              /></div>          
+              <div className="w-100 d-flex justify-content-center">
+                <img
+                  alt=""
+                  width="100"
+                  height="100"
+                  src="./udemy.PNG"
+                  className="img-thumbnail"
+                />
+              </div>
             </Accordion.Header>
             <Accordion.Body>
               <Table
@@ -1675,7 +1696,9 @@ export default function Education() {
                 </thead>
                 <tbody variant="primmary" class="form-wrapper mt-auto">
                   <tr className="form-wrapper">
-                    <td Style={"color: rgb(197, 184, 70);"}>Excel Desde cero hasta avanzado</td>
+                    <td Style={"color: rgb(197, 184, 70);"}>
+                      Excel Desde cero hasta avanzado
+                    </td>
 
                     <td>
                       {" "}
@@ -1704,7 +1727,7 @@ export default function Education() {
                             backgroundPosition: "center",
                             backgroundRepeat: "no-repeat",
                             backgroundSize: "cover",
-                            border: "1px solid #565555",
+                            border: "1px solid #565555"
                           }}
                         >
                           <Modal.Title variant="success">
@@ -1728,7 +1751,9 @@ export default function Education() {
                   </tr>
 
                   <tr className="form-wrapper">
-                    <td Style={"color: rgb(197, 184, 70);"}>SQL Básico a Intermedio</td>
+                    <td Style={"color: rgb(197, 184, 70);"}>
+                      SQL Básico a Intermedio
+                    </td>
 
                     <td>
                       {" "}
@@ -1758,7 +1783,7 @@ export default function Education() {
                             backgroundPosition: "center",
                             backgroundRepeat: "no-repeat",
                             backgroundSize: "cover",
-                            border: "1px solid #565555",
+                            border: "1px solid #565555"
                           }}
                         >
                           <Modal.Title variant="success">
@@ -1782,7 +1807,9 @@ export default function Education() {
                   </tr>
 
                   <tr className="form-wrapper">
-                    <td Style={"color: rgb(197, 184, 70);"}>SQL Cero a Profesional</td>
+                    <td Style={"color: rgb(197, 184, 70);"}>
+                      SQL Cero a Profesional
+                    </td>
 
                     <td>
                       {" "}
@@ -1812,7 +1839,7 @@ export default function Education() {
                             backgroundPosition: "center",
                             backgroundRepeat: "no-repeat",
                             backgroundSize: "cover",
-                            border: "1px solid #565555",
+                            border: "1px solid #565555"
                           }}
                         >
                           <Modal.Title variant="success">
@@ -1848,27 +1875,26 @@ export default function Education() {
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
               backgroundSize: "cover",
-              border: "1px solid #565555",
+              border: "1px solid #565555"
             }}
           >
             <Accordion.Header>
-
-            <div className="w-100 d-flex justify-content-center">
-              <img
-                alt=""
-                width="100"
-                height="100"
-                src="./sena.PNG"
-                className="img-thumbnail"
-              /></div>
-
-             </Accordion.Header>
+              <div className="w-100 d-flex justify-content-center">
+                <img
+                  alt=""
+                  width="100"
+                  height="100"
+                  src="./sena.PNG"
+                  className="img-thumbnail"
+                />
+              </div>
+            </Accordion.Header>
             <Accordion.Body>
               <Table
                 striped
                 bordered
                 hover
-                className="mt-2 justify-content-center form-wrapper"                    
+                className="mt-2 justify-content-center form-wrapper"
               >
                 <thead class="bg-light form-wrapper rounded-4 text-center">
                   <tr class="form-wrapper">
@@ -1879,7 +1905,9 @@ export default function Education() {
                 </thead>
                 <tbody variant="primmary" class="form-wrapper mt-auto">
                   <tr className="form-wrapper">
-                    <td Style={"color: rgb(252, 252, 249);"}>ENGLISH DOT WORKS 1 (INGLES)</td>
+                    <td Style={"color: rgb(252, 252, 249);"}>
+                      ENGLISH DOT WORKS 1 (INGLES)
+                    </td>
 
                     <td>
                       <Button
@@ -1902,7 +1930,7 @@ export default function Education() {
                             backgroundPosition: "center",
                             backgroundRepeat: "no-repeat",
                             backgroundSize: "cover",
-                            border: "1px solid #565555",
+                            border: "1px solid #565555"
                           }}
                         >
                           <Modal.Title variant="success">
@@ -1926,7 +1954,9 @@ export default function Education() {
                   </tr>
 
                   <tr className="form-wrapper">
-                    <td Style={"color: rgb(252, 252, 249);"}>ENGLISH DOT WORKS 2 (INGLES)</td>
+                    <td Style={"color: rgb(252, 252, 249);"}>
+                      ENGLISH DOT WORKS 2 (INGLES)
+                    </td>
 
                     <td>
                       <Button
@@ -1950,7 +1980,7 @@ export default function Education() {
                             backgroundPosition: "center",
                             backgroundRepeat: "no-repeat",
                             backgroundSize: "cover",
-                            border: "1px solid #565555",
+                            border: "1px solid #565555"
                           }}
                         >
                           <Modal.Title variant="success">
@@ -1974,7 +2004,9 @@ export default function Education() {
                   </tr>
 
                   <tr className="form-wrapper">
-                    <td Style={"color: rgb(252, 252, 249);"}>ENGLISH DOT WORKS 3 (INGLES)</td>
+                    <td Style={"color: rgb(252, 252, 249);"}>
+                      ENGLISH DOT WORKS 3 (INGLES)
+                    </td>
 
                     <td>
                       <Button
@@ -1998,7 +2030,7 @@ export default function Education() {
                             backgroundPosition: "center",
                             backgroundRepeat: "no-repeat",
                             backgroundSize: "cover",
-                            border: "1px solid #565555",
+                            border: "1px solid #565555"
                           }}
                         >
                           <Modal.Title variant="success">
@@ -2022,7 +2054,9 @@ export default function Education() {
                   </tr>
 
                   <tr className="form-wrapper">
-                    <td Style={"color: rgb(252, 252, 249);"}>ENGLISH DOT WORKS 4 (INGLES)</td>
+                    <td Style={"color: rgb(252, 252, 249);"}>
+                      ENGLISH DOT WORKS 4 (INGLES)
+                    </td>
 
                     <td>
                       <Button
@@ -2046,12 +2080,12 @@ export default function Education() {
                             backgroundPosition: "center",
                             backgroundRepeat: "no-repeat",
                             backgroundSize: "cover",
-                            border: "1px solid #565555",
+                            border: "1px solid #565555"
                           }}
                         >
                           <Modal.Title variant="success">
                             <h5
-                              style={{ fontFamily: "Raleway,bold" }} 
+                              style={{ fontFamily: "Raleway,bold" }}
                               className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
                             >
                               ENGLISH DOT WORKS 4 (INGLES)
