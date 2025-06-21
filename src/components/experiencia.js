@@ -50,7 +50,6 @@ export default function Experiencia() {
                     Cargo:Predictive Analytic Analyst I - Práctica SENA
                     (Tecnologìa Análisis de Datos y desarrollo de Software)
                   </p>
-                  <p>Ubicación:Bogotá Colombia,</p>
                   <p>Fecha de ingreso: Junio de 2024</p>
                   <p>Fecha de retiro: Mayo de 2025 </p>
                 </Card.Text>
@@ -162,7 +161,6 @@ export default function Experiencia() {
                   <p>
                     Cargo: Analista de Datos (Helpdesk Support - Data Office){" "}
                   </p>
-                  <p>Ubicación:Bogotá Colombia,</p>
                   <p>Fecha de ingreso: Octubre de 2022</p>
                   <p>Fecha de retiro: Mayo de 2024 </p>
                 </Card.Text>
@@ -270,9 +268,7 @@ export default function Experiencia() {
                 >
                   <p>Nombre de la empresa: Celestin Freinet Suba-Bogotá </p>
                   <p>Sector: Educación</p>
-                  <p>Teléfono de la empresa: 3157492890</p>
                   <p>Cargo: Docente de 6°,7°, 8° y 9° </p>
-                  <p>Ubicación:Bogotá Colombia,</p>
                   <p>Fecha de ingreso: febrero de 2020</p>
                   <p>Fecha de retiro: Noviembre de 2021 </p>
                 </Card.Text>
@@ -373,8 +369,6 @@ export default function Experiencia() {
                   </p>
                   <p>Sector: Educativo</p>
                   <p>Tipo experiencia laboral: Monografia</p>
-                  <p>Teléfono directora de monografía: 3164662607</p>
-                  <p>Ubicación: Colombia</p>
                   <p>Fecha de ingreso: Febrero de 2017</p>
                   <p>Fecha de retiro: Junio de 2018</p>
 
@@ -487,9 +481,7 @@ export default function Experiencia() {
                     (ICCK){" "}
                   </p>
                   <p>Sector: Educación</p>
-                  <p>Teléfono de la empresa: 3165669327</p>
                   <p>Cargo: Docente de 4°,5°,8°, 9°, 10° y 11° </p>
-                  <p>Ubicación:Bogotá Colombia</p>
                   <p>Fecha de ingreso: Mayo de 2019</p>
                   <p>Fecha de retiro: Noviembre de 2019 </p>
                 </Card.Text>
@@ -575,9 +567,7 @@ export default function Experiencia() {
                     Duitama{" "}
                   </p>
                   <p>Sector: Educación</p>
-                  <p>Teléfono de la empresa: 3112341555</p>
                   <p>Cargo: Docente de 6°,7°, 8° y 9° </p>
-                  <p>Ubicación:Boyacá Colombia,</p>
                   <p>Fecha de ingreso: Febrero de 2017</p>
                   <p>Fecha de retiro: Mayo de 2017 </p>
                   Tipo experiencia laboral: Pasantía o Práctica Laboral
