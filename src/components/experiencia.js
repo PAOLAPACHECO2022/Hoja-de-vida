@@ -268,6 +268,7 @@ export default function Experiencia() {
                 >
                   <p>Nombre de la empresa: Celestin Freinet Suba-Bogotá </p>
                   <p>Sector: Educación</p>
+                  <p>Ubicaciòn: Bogotà, Colombia</p>
                   <p>Cargo: Docente de 6°,7°, 8° y 9° </p>
                   <p>Fecha de ingreso: febrero de 2020</p>
                   <p>Fecha de retiro: Noviembre de 2021 </p>
