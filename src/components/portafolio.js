@@ -53,30 +53,32 @@ export default class Portafolio extends Component {
                       administrativo. "</p>
                    
                 </Card.Text>
-                <Button
-                  target="_blank"
-                  href="https://drive.google.com/file/d/13d1w1MDf2Nz07XhImvtH4Di3BiqndltC/view?usp=sharing"
-                  variant="warning"
-                  
-                >
-                  Manual de Usuario
-                </Button>
-                <Button
-                target="_blank"
-                href="https://github.com/PAOLAPACHECO2022/schoolinfoserver.git"
-                variant="warning"
-                className="mx-1"
-                >
-                Repositorio
-               </Button>
-                <Button
-                target="_blank"
-                href="https://schoolinfocliente.onrender.com/"
-                variant="warning"
-                className="mx-1"
-                >
-                Ver Aplicaciòn
-               </Button>
+               <div className="d-flex flex-column flex-md-row justify-content-center align-items-center gap-2 mt-3">
+  <Button
+    target="_blank"
+    href="https://drive.google.com/file/d/13d1w1MDf2Nz07XhImvtH4Di3BiqndltC/view?usp=sharing"
+    variant="warning"
+  >
+    Manual de Usuario
+  </Button>
+
+  <Button
+    target="_blank"
+    href="https://github.com/PAOLAPACHECO2022/schoolinfoserver.git"
+    variant="warning"
+  >
+    Repositorio
+  </Button>
+
+  <Button
+    target="_blank"
+    href="https://schoolinfocliente.onrender.com/"
+    variant="warning"
+  >
+    Ver Aplicación
+  </Button>
+</div>
+
        
               </Card.Body>
             </Card>
