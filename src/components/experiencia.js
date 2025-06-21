@@ -337,6 +337,112 @@ return (
           </Col>
         ))}
 
+ {Array.from({ length: 1 }).map((_, idx) => (
+          <Col>
+            <Card
+              className="img-thumbnail rounded-1"
+              style={{
+                backgroundImage: `url("./mari.PNG")`,
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+                border: "2px solid #CC9900"
+              }}
+            >
+              <Card.Img
+                style={{
+                  height: "10rem",
+                  width: "10rem",
+                  border: "6px solid #d8b208 "
+                }}
+                variant="top"
+                className="img-thumbnail zoom rounded-circle  d-flex justify-content-center form-wrapper"
+                src="./uptc.PNG"
+              />
+              <Card.Body>
+                <Card.Title
+                  className="fw-bold"
+                  style={{ fontFamily: "Raleway,bold" }}
+                >
+                  Monografía-Desarrollo de Modelo de Predicción (Machine
+                  Learning){" "}
+                </Card.Title>
+                <Card.Text
+                  className="fw-bold"
+                  style={{ fontFamily: "Raleway,bold" }}
+                >
+                  <p>
+                    Nombre de la empresa: Universidad Pedagógica y Tecnológica
+                    de Colombia
+                  </p>
+                  <p>Sector: Educativo</p>
+                  <p>Tipo experiencia laboral: Monografia</p>
+                  <p>Teléfono directora de monografía: 3164662607</p>
+                  <p>Ubicación: Colombia</p>
+                  <p>Fecha de ingreso: Febrero de 2017</p>
+                  <p>Fecha de retiro: Junio de 2018</p>
+
+                  <Button
+                    target="_blank"
+                    href="https://drive.google.com/file/d/1Kla1LvU8mzuNdSFvrIUOMkaDy0OCWKb4/view?usp=sharing"
+                    variant="success"
+                  >
+                    Ver proyecto de investigación
+                  </Button>
+                </Card.Text>
+                <Button variant="warning" onClick={() => sethShow(true)}>
+                  Logros
+                </Button>
+
+                <Modal
+                  show={shhow}
+                  onHide={() => sethShow(false)}
+                  dialogClassName="modal-dialog modal-lg"
+                  aria-labelledby="example-custom-modal-styling-title"
+                  ClassName="modal-dialog modal-xl"
+                >
+                  <Modal.Header
+                    closeButton
+                    style={{
+                      backgroundImage: `url("./jirasol.PNG")`,
+                      backgroundPosition: "center",
+                      backgroundRepeat: "no-repeat",
+                      backgroundSize: "cover",
+                      border: "1px solid #565555"
+                    }}
+                  >
+                    <Modal.Title
+                      variant="primary"
+                      id=" example-custom-modal-styling-title h5"
+                    >
+                      <h5
+                        style={{ fontFamily: "Raleway,bold" }}
+                        className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
+                      >
+                        Desarrollo de modelo de Predicción (Machine Learning)
+                      </h5>
+                    </Modal.Title>
+                  </Modal.Header>
+                  <Modal.Body>
+                    <ul style={{ fontFamily: "Raleway, bold", textAlign: "justify" }}>
+  <li>
+    Análisis de información de los puntajes de la prueba Saber Pro del programa de Administración Agropecuaria.
+  </li>
+  <li>
+    Desarrollo de un modelo estadístico – Machine Learning (modelo de regresión logística) para predecir los puntajes de la prueba Saber Pro del programa de Administración Agropecuaria de la Universidad Pedagógica y Tecnológica seccional Duitama.
+  </li>
+  <li>
+    Análisis de datos mediante estadísticas descriptivas, inferencias, análisis probabilístico y análisis multivariado, utilizando Excel y R Estadístico.
+  </li>
+</ul>
+
+                  </Modal.Body>
+                </Modal>
+              </Card.Body>
+            </Card>
+          </Col>
+        ))}
+
         {Array.from({ length: 1 }).map((_, idx) => (
           <Col>
             <Card
@@ -515,109 +621,7 @@ return (
           </Col>
         ))}
 
-        {Array.from({ length: 1 }).map((_, idx) => (
-          <Col>
-            <Card
-              className="img-thumbnail rounded-1"
-              style={{
-                backgroundImage: `url("./mari.PNG")`,
-                backgroundPosition: "center",
-                backgroundRepeat: "no-repeat",
-                backgroundSize: "cover",
-                border: "2px solid #CC9900"
-              }}
-            >
-              <Card.Img
-                style={{
-                  height: "10rem",
-                  width: "10rem",
-                  border: "6px solid #d8b208 "
-                }}
-                variant="top"
-                className="img-thumbnail zoom rounded-circle  d-flex justify-content-center form-wrapper"
-                src="./uptc.PNG"
-              />
-              <Card.Body>
-                <Card.Title
-                  className="fw-bold"
-                  style={{ fontFamily: "Raleway,bold" }}
-                >
-                  Monografía-Desarrollo de Modelo de Predicción (Machine
-                  Learning){" "}
-                </Card.Title>
-                <Card.Text
-                  className="fw-bold"
-                  style={{ fontFamily: "Raleway,bold" }}
-                >
-                  <p>
-                    Nombre de la empresa: Universidad Pedagógica y Tecnológica
-                    de Colombia
-                  </p>
-                  <p>Sector: Educativo</p>
-                  <p>Tipo experiencia laboral: Monografia</p>
-                  <p>Teléfono directora de monografía: 3164662607</p>
-                  <p>Ubicación: Colombia</p>
-                  <p>Fecha de ingreso: Febrero de 2017</p>
-                  <p>Fecha de retiro: Junio de 2018</p>
-
-                  <Button
-                    target="_blank"
-                    href="https://drive.google.com/file/d/1Kla1LvU8mzuNdSFvrIUOMkaDy0OCWKb4/view?usp=sharing"
-                    variant="success"
-                  >
-                    Ver proyecto de investigación
-                  </Button>
-                </Card.Text>
-                <Button variant="warning" onClick={() => sethShow(true)}>
-                  Logros
-                </Button>
-
-                <Modal
-                  show={shhow}
-                  onHide={() => sethShow(false)}
-                  dialogClassName="modal-dialog modal-lg"
-                  aria-labelledby="example-custom-modal-styling-title"
-                  ClassName="modal-dialog modal-xl"
-                >
-                  <Modal.Header
-                    closeButton
-                    style={{
-                      backgroundImage: `url("./jirasol.PNG")`,
-                      backgroundPosition: "center",
-                      backgroundRepeat: "no-repeat",
-                      backgroundSize: "cover",
-                      border: "1px solid #565555"
-                    }}
-                  >
-                    <Modal.Title
-                      variant="primary"
-                      id=" example-custom-modal-styling-title h5"
-                    >
-                      <h5
-                        style={{ fontFamily: "Raleway,bold" }}
-                        className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
-                      >
-                        Desarrollo de modelo de Predicción (Machine Learning)
-                      </h5>
-                    </Modal.Title>
-                  </Modal.Header>
-                  <Modal.Body>
-                    <p style={{ fontFamily: "Raleway,bold" }}>
-                      Desarrollo de un modelo estadístico (Modelo de regresión
-                      logística para predecir los puntajes de la prueba saber
-                      Pro del programa de Administración Agropecuaria de la
-                      Universidad Pedagógica y Tecnológica seccional Duitama),
-                      análisis de datos mediante estadísticas descriptivas,
-                      inferencias, análisis probabilístico y análisis
-                      multivariado, todo esto mediante los programas: Excel, R
-                      estadístico y SPSS.
-                    </p>
-                  </Modal.Body>
-                </Modal>
-              </Card.Body>
-            </Card>
-          </Col>
-        ))}
+       
       </Row>
     </>
   );
