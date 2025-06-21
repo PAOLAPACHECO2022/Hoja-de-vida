@@ -234,7 +234,7 @@ export default function Experiencia() {
                 backgroundSize: "cover",
                 border: "2px solid #CC9900"
               }}
-              class="container my-5 d-flex justify-content-center form-wrapper rounded-1 "
+              
             >
               <Card.Img
                 style={{ height: "10rem", width: "10rem" }}
