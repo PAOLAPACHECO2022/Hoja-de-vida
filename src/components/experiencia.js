@@ -8,13 +8,221 @@ export default function Experiencia() {
   const [show, setShow] = useState(false);
   const [shhow, sethShow] = useState(false);
   const [lshow, setlShow] = useState(false);
+  const [wshow, setwShow] = useState(false);
   const [tpashow, settpaShow] = useState(false);
   const [tpshow, settpShow] = useState(false);
 
-  return (
+return (
     <>
       <Row xs={1} md={2} className="g-4  mt-5">
-        
+        {Array.from({ length: 1 }).map((_, idx) => (
+          <Col>
+            <Card
+              className="img-thumbnail rounded-1"
+              style={{
+                backgroundImage: `url("./nueva3.PNG")`,
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+                border: "2px solid #CC9900"
+              }}
+            
+            >
+              <Card.Img
+                style={{ height: "10rem", width: "10rem" }}
+                variant="top"
+                className=" zoom rounded-circle border d-flex justify-content-center form-wrapper"
+                src="./tp.jpg"
+              />
+              <Card.Body>
+                <Card.Title
+                  className="fw-bold"
+                  style={{ fontFamily: "Raleway,bold" }}
+                >
+                  Analytic Analyst I
+                </Card.Title>
+                <Card.Text
+                  className="fw-bold"
+                  style={{ fontFamily: "Raleway,bold" }}
+                >
+                  <p>Teleperformance Colombia </p>
+                  <p>Sector: Administrativo</p>
+                  <p>
+                    Cargo:Predictive Analytic Analyst I - Práctica SENA
+                    (Tecnologìa Análisis de Datos y desarrollo de Software)
+                  </p>
+                  <p>Ubicación:Bogotá Colombia,</p>
+                  <p>Fecha de ingreso: Junio de 2024</p>
+                  <p>Fecha de retiro: Mayo de 2025 </p>
+                </Card.Text>
+                <Button variant="warning" onClick={() => settpaShow(true)}>
+                  Logros
+                </Button>
+
+                <Modal
+                  show={tpashow}
+                  onHide={() => settpaShow(false)}
+                  dialogClassName="modal-dialog modal-lg"
+                  aria-labelledby="example-custom-modal-styling-title"
+                  ClassName="modal-dialog modal-xl"
+                >
+                  <Modal.Header
+                    closeButton
+                    style={{
+                      backgroundImage: `url("./jirasol.PNG")`,
+                      backgroundPosition: "center",
+                      backgroundRepeat: "no-repeat",
+                      backgroundSize: "cover",
+                      border: "1px solid #565555"
+                    }}
+                  >
+                    <Modal.Title
+                      variant="primary"
+                      id=" example-custom-modal-styling-title h5"
+                    >
+                      <h5
+                        style={{ fontFamily: "Raleway,bold" }}
+                        className="fw-bold text-center text-uppercase font-weight-bold h3 px-3 "
+                      >
+                        Analytic Analyst I
+                      </h5>
+                    </Modal.Title>
+                  </Modal.Header>
+                  <Modal.Body>
+
+                      <p style={{ fontFamily: "Raleway,bold" }}>
+                      
+                        Manipulación y gestión de bases de datos con SQL,
+                        análisis de información y visualización de resultados
+                        clave en Power BI (dashboards).
+                       
+                        Configuración, supervisión y ejecución de flujos en una
+                        herramienta ETL para integrar datos desde múltiples
+                        fuentes hacia SQL, usando Visual Studio 2019 y Power BI.
+                         
+                        Revisión, monitoreo, ejecución y aplicación de buenas
+                        prácticas en el desarrollo de procedimientos almacenados
+                        (SP), jobs y APIs en SQL Server, asegurando eficiencia,
+                        escalabilidad y mantenimiento adecuado de las
+                        soluciones.
+                      
+                        Supervisión, análisis y mantenimiento de scripts y/o
+                        RPAs en Python para cargar y transformar datos masivos
+                        de archivos CSV a bases de datos SQL.
+                       
+                        Desarrollo de modelos predictivos con machine learning
+                        para apoyar la toma de decisiones.
+                    
+                    </p>
+                   
+                  </Modal.Body>
+                </Modal>
+              </Card.Body>
+            </Card>
+          </Col>
+        ))}
+
+        {Array.from({ length: 1 }).map((_, idx) => (
+          <Col>
+            <Card
+              className="img-thumbnail rounded-1"
+              style={{
+                backgroundImage: `url("./nueva3.PNG")`,
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+                border: "2px solid #CC9900"
+              }}
+            >
+              <Card.Img
+                style={{ height: "10rem", width: "10rem" }}
+                variant="top"
+                className=" zoom rounded-circle border d-flex justify-content-center form-wrapper"
+                src="./tp.jpg"
+              />
+              <Card.Body>
+                <Card.Title
+                  className="fw-bold"
+                  style={{ fontFamily: "Raleway,bold" }}
+                >
+                  Analista de Datos
+                </Card.Title>
+                <Card.Text
+                  className="fw-bold"
+                  style={{ fontFamily: "Raleway,bold" }}
+                >
+                  <p>Teleperformance Colombia </p>
+                  <p>Sector: Administrativo</p>
+                  <p>
+                    Cargo: Analista de Datos (Helpdesk Support - Data Office){" "}
+                  </p>
+                  <p>Ubicación:Bogotá Colombia,</p>
+                  <p>Fecha de ingreso: Octubre de 2022</p>
+                  <p>Fecha de retiro: Mayo de 2024 </p>
+                </Card.Text>
+                <Button variant="warning" onClick={() => settpShow(true)}>
+                  Logros
+                </Button>
+
+                <Modal
+                  show={tpshow}
+                  onHide={() => settpShow(false)}
+                  dialogClassName="modal-dialog modal-lg"
+                  aria-labelledby="example-custom-modal-styling-title"
+                  ClassName="modal-dialog modal-xl"
+                >
+                  <Modal.Header
+                    closeButton
+                    style={{
+                      backgroundImage: `url("./jirasol.PNG")`,
+                      backgroundPosition: "center",
+                      backgroundRepeat: "no-repeat",
+                      backgroundSize: "cover",
+                      border: "1px solid #565555"
+                    }}
+                  >
+                    <Modal.Title
+                      variant="primary"
+                      id=" example-custom-modal-styling-title h5"
+                    >
+                      <h5
+                        style={{ fontFamily: "Raleway,bold" }}
+                        className="fw-bold text-center text-uppercase font-weight-bold h3 px-3 "
+                      >
+                        Analista de Datos
+                      </h5>
+                    </Modal.Title>
+                  </Modal.Header>
+                  <Modal.Body>
+                     <p style={{ fontFamily: "Raleway,bold" }}>
+                     
+                        Manipulación de información y bases de datos, utilizando
+                        SQL.
+                        
+                        Generación automatizada de reportes diarios a través de
+                        jobs programados en SQL Server Agent. Supervisión y
+                        análisis de scripts y/o RPAs en Python para cargar y
+                        transformar datos masivos de archivos CSV a bases de
+                        datos SQL.
+                     
+                        Supervisión y ejecución de flujos en una herramienta ETL
+                        para integrar datos desde múltiples fuentes hacia SQL.
+                        
+                        Soporte en frontend y backend, así como atención a
+                        incidencias y desarrollo de mejoras continuas en
+                        sistemas.
+                         
+                        Ejecución de pruebas funcionales (Testing) para asegurar
+                        el correcto funcionamiento de aplicaciones y flujos de
+                        datos.
+                      
+                     </p>
+                  </Modal.Body>
+                </Modal>
+              </Card.Body>
+            </Card>
+          </Col>
+        ))}
 
         {Array.from({ length: 1 }).map((_, idx) => (
           <Col>
