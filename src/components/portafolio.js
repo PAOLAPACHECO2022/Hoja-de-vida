@@ -27,12 +27,12 @@ export default class Portafolio extends Component {
               
                <Card.Img
                 variant="top"
-                src="./t2.JPG"
+                src="./colegio.PNG.jpg"
                 className="img-thumbnail"
               />
                 <Card.Img
                 variant="top"
-                src="./t1.JPG"
+                src="./colegio1.jpg"
                 className="img-thumbnail"
               />
               <Card.Body>
@@ -67,6 +67,13 @@ export default class Portafolio extends Component {
                 variant="warning"
                 >
                 Ver Repositorio
+               </Button>
+                <Button
+                target="_blank"
+                href="https://schoolinfocliente.onrender.com/"
+                variant="warning"
+                >
+                Ver Aplicaciòn
                </Button>
        
               </Card.Body>
