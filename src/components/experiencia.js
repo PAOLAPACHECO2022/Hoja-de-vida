@@ -9,23 +9,21 @@ export default function Experiencia() {
   const [shhow, sethShow] = useState(false);
   const [lshow, setlShow] = useState(false);
   const [wshow, setwShow] = useState(false);
-  
+
   return (
     <>
       <Row xs={1} md={2} className="g-4  mt-5">
         {Array.from({ length: 1 }).map((_, idx) => (
           <Col>
             <Card
-             
               className="img-thumbnail rounded-1"
-style={{
-  backgroundImage: `url("./nueva3.PNG")`,
-  backgroundPosition: "center",
-  backgroundRepeat: "no-repeat",
-  backgroundSize: "cover",
-  border: "2px solid #CC9900",
-  
-}}
+              style={{
+                backgroundImage: `url("./nueva3.PNG")`,
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+                border: "2px solid #CC9900"
+              }}
               class="container my-5 d-flex justify-content-center form-wrapper rounded-1 "
             >
               <Card.Img
@@ -35,10 +33,16 @@ style={{
                 src="./celestin.PNG"
               />
               <Card.Body>
-                <Card.Title className="fw-bold" style={{ fontFamily: "Raleway,bold" }}>
+                <Card.Title
+                  className="fw-bold"
+                  style={{ fontFamily: "Raleway,bold" }}
+                >
                   Docente de matemáticas, estadística y geometría
                 </Card.Title>
-                <Card.Text className="fw-bold" style={{ fontFamily: "Raleway,bold" }}>
+                <Card.Text
+                  className="fw-bold"
+                  style={{ fontFamily: "Raleway,bold" }}
+                >
                   <p>Nombre de la empresa: Celestin Freinet Suba-Bogotá </p>
                   <p>Sector: Educación</p>
                   <p>Teléfono de la empresa: 3157492890</p>
@@ -65,7 +69,7 @@ style={{
                       backgroundPosition: "center",
                       backgroundRepeat: "no-repeat",
                       backgroundSize: "cover",
-                      border: "1px solid #565555",
+                      border: "1px solid #565555"
                     }}
                   >
                     <Modal.Title
@@ -107,19 +111,14 @@ style={{
         {Array.from({ length: 1 }).map((_, idx) => (
           <Col>
             <Card
-           
-
-                        
               className="img-thumbnail rounded-1"
-style={{
-  backgroundImage: `url("./nueva3.PNG")`,
-  backgroundPosition: "center",
-  backgroundRepeat: "no-repeat",
-  backgroundSize: "cover",
-  border: "2px solid #CC9900", 
-  
-}}
-  
+              style={{
+                backgroundImage: `url("./nueva3.PNG")`,
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+                border: "2px solid #CC9900"
+              }}
             >
               <Card.Img
                 style={{ height: "10rem", width: "10rem" }}
@@ -128,10 +127,16 @@ style={{
                 src="./icck.PNG"
               />
               <Card.Body>
-                <Card.Title className="fw-bold" style={{ fontFamily: "Raleway,bold" }}>
+                <Card.Title
+                  className="fw-bold"
+                  style={{ fontFamily: "Raleway,bold" }}
+                >
                   Docente de matemáticas, estadística y geometría
                 </Card.Title>
-                <Card.Text className="fw-bold" style={{ fontFamily: "Raleway,bold" }}>
+                <Card.Text
+                  className="fw-bold"
+                  style={{ fontFamily: "Raleway,bold" }}
+                >
                   <p>
                     Nombre de la empresa: Instituto Cultural Ciudad Kennedy
                     (ICCK){" "}
@@ -161,7 +166,7 @@ style={{
                       backgroundPosition: "center",
                       backgroundRepeat: "no-repeat",
                       backgroundSize: "cover",
-                      border: "1px solid #565555",
+                      border: "1px solid #565555"
                     }}
                   >
                     <Modal.Title
@@ -200,8 +205,7 @@ style={{
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
-                border: "2px solid #CC9900",
-                
+                border: "2px solid #CC9900"
               }}
             >
               <Card.Img
@@ -211,10 +215,16 @@ style={{
                 src="./valencia.PNG"
               />
               <Card.Body>
-                <Card.Title className="fw-bold" style={{ fontFamily: "Raleway,bold" }}>
+                <Card.Title
+                  className="fw-bold"
+                  style={{ fontFamily: "Raleway,bold" }}
+                >
                   Docente de matemáticas, estadística y geometría
                 </Card.Title>
-                <Card.Text className="fw-bold" style={{ fontFamily: "Raleway,bold" }}>
+                <Card.Text
+                  className="fw-bold"
+                  style={{ fontFamily: "Raleway,bold" }}
+                >
                   <p>
                     Nombre de la empresa: Colegio Guillermo León Valencia-
                     Duitama{" "}
@@ -245,7 +255,7 @@ style={{
                       backgroundPosition: "center",
                       backgroundRepeat: "no-repeat",
                       backgroundSize: "cover",
-                      border: "2px solid #565555",
+                      border: "2px solid #565555"
                     }}
                   >
                     <Modal.Title
@@ -279,30 +289,37 @@ style={{
         {Array.from({ length: 1 }).map((_, idx) => (
           <Col>
             <Card
-
-className="img-thumbnail rounded-1"
-style={{
-  backgroundImage: `url("./mari.PNG")`,
-  backgroundPosition: "center",
-  backgroundRepeat: "no-repeat",
-  backgroundSize: "cover",
-  border: "2px solid #CC9900",
-  
-}}
-         
+              className="img-thumbnail rounded-1"
+              style={{
+                backgroundImage: `url("./mari.PNG")`,
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+                border: "2px solid #CC9900"
+              }}
             >
               <Card.Img
-                style={{ height: "10rem", width: "10rem", border: "6px solid #d8b208 " }}
+                style={{
+                  height: "10rem",
+                  width: "10rem",
+                  border: "6px solid #d8b208 "
+                }}
                 variant="top"
                 className="img-thumbnail zoom rounded-circle  d-flex justify-content-center form-wrapper"
                 src="./uptc.PNG"
               />
               <Card.Body>
-                <Card.Title className="fw-bold" style={{ fontFamily: "Raleway,bold" }}>
+                <Card.Title
+                  className="fw-bold"
+                  style={{ fontFamily: "Raleway,bold" }}
+                >
                   Monografía-Desarrollo de Modelo de Predicción (Machine
                   Learning){" "}
                 </Card.Title>
-                <Card.Text className="fw-bold" style={{ fontFamily: "Raleway,bold" }}>
+                <Card.Text
+                  className="fw-bold"
+                  style={{ fontFamily: "Raleway,bold" }}
+                >
                   <p>
                     Nombre de la empresa: Universidad Pedagógica y Tecnológica
                     de Colombia
@@ -314,14 +331,13 @@ style={{
                   <p>Fecha de ingreso: Febrero de 2017</p>
                   <p>Fecha de retiro: Junio de 2018</p>
 
-                <Button
-                  target="_blank"
-                  href="https://drive.google.com/file/d/1Kla1LvU8mzuNdSFvrIUOMkaDy0OCWKb4/view?usp=sharing"
-                  variant="success"                 
-                >
-                  Ver proyecto de investigación
-                </Button>
- 
+                  <Button
+                    target="_blank"
+                    href="https://drive.google.com/file/d/1Kla1LvU8mzuNdSFvrIUOMkaDy0OCWKb4/view?usp=sharing"
+                    variant="success"
+                  >
+                    Ver proyecto de investigación
+                  </Button>
                 </Card.Text>
                 <Button variant="warning" onClick={() => sethShow(true)}>
                   Logros
@@ -341,7 +357,7 @@ style={{
                       backgroundPosition: "center",
                       backgroundRepeat: "no-repeat",
                       backgroundSize: "cover",
-                      border: "1px solid #565555",
+                      border: "1px solid #565555"
                     }}
                   >
                     <Modal.Title
@@ -360,14 +376,13 @@ style={{
                     <p style={{ fontFamily: "Raleway,bold" }}>
                       Desarrollo de un modelo estadístico (Modelo de regresión
                       logística para predecir los puntajes de la prueba saber
-                      Pro del programa de Administración
-                      Agropecuaria de la Universidad Pedagógica y Tecnológica
-                      seccional Duitama), análisis de datos mediante estadísticas
-                      descriptivas, inferencias, análisis probabilístico y
-                      análisis multivariado, todo esto mediante los programas: Excel, R estadístico y SPSS.
+                      Pro del programa de Administración Agropecuaria de la
+                      Universidad Pedagógica y Tecnológica seccional Duitama),
+                      análisis de datos mediante estadísticas descriptivas,
+                      inferencias, análisis probabilístico y análisis
+                      multivariado, todo esto mediante los programas: Excel, R
+                      estadístico y SPSS.
                     </p>
-
-                  
                   </Modal.Body>
                 </Modal>
               </Card.Body>
