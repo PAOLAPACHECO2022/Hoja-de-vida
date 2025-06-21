@@ -122,7 +122,7 @@ export default class Portafolio extends Component {
                   className="text-center bg-success img-thumbnail rounded-3"
                   style={{
                     fontFamily: "Raleway",
-                    fontSize: "1.1rem", //
+                    fontSize: "1.05rem", //
                     textAlign: "justify", //
                     fontWeight: "bold" //
                   }}
