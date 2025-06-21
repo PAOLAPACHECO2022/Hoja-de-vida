@@ -50,7 +50,7 @@ export default class Portafolio extends Component {
                        reportes académico y convivenciales. Permite la creación, seguimiento y 
                        evaluación de planes de estudio y programas académico, así mismo permite 
                        establecer canales de comunicación entre docentes, estudiantes y personal 
-                      administrativo. "</p>
+                      administrativo."</p>
                    
                 </Card.Text>
                <div className="d-flex flex-column flex-md-row justify-content-center align-items-center gap-2 mt-3">
@@ -116,7 +116,7 @@ export default class Portafolio extends Component {
                 className="img-thumbnail"
               />
               <Card.Body>
-                <Card.Title className="text-center bold h3 bg-success img-thumbnail rounded-3" style={{ fontFamily: "Raleway,bold" }}>
+                <Card.Title className="text-center bold h2 bg-success img-thumbnail rounded-3" style={{ fontFamily: "Raleway,bold" }}>
                  “Factores demográficos,  socioeconómicos y  académicos que influyen sobre los resultados del componente genérico de la prueba Saber Pro.
                  Caso: Administración de Empresas Agropecuarias de la universidad pedagógica y tecnológica de Colombia, seccional Duitama”.
                 </Card.Title>
@@ -330,53 +330,7 @@ export default class Portafolio extends Component {
           </Col>
         ))}
         
-        {Array.from({ length: 1 }).map((_, idx) => (
-          <Col key={idx}>
-            <Card
-              className="img-thumbnail rounded-1"
-              style={{
-                backgroundImage: `url("./alas.PNG")`,
-                backgroundPosition: "center",
-                backgroundRepeat: "no-repeat",
-                backgroundSize: "cover",
-                border: "2px solid #ffffff",
-                padding: 0,
-                margin: 0
-                
-              }}
-            >
-              
-               <Card.Img
-                variant="top"
-                src="./t2.JPG"
-                className="img-thumbnail"
-              />
-                <Card.Img
-                variant="top"
-                src="./t1.JPG"
-                className="img-thumbnail"
-              />
-              <Card.Body>
-                <Card.Title className="text-center bold h3 bg-success img-thumbnail rounded-3" style={{ fontFamily: "Raleway,bold" }}>
-                 “Factores demográficos,  socioeconómicos y  académicos que influyen sobre los resultados del componente genérico de la prueba Saber Pro.
-                 Caso: Administración de Empresas Agropecuarias de la universidad pedagógica y tecnológica de Colombia, seccional Duitama”.
-                </Card.Title>
-                <Card.Text style={{ fontFamily: "Raleway,bold" }}>
-                  Proyecto de investigación (Modelo de regresión logística para la predicción de los puntajes de la prueba saber Pro)
-                </Card.Text>
-                <Button
-                  target="_blank"
-                  href="https://drive.google.com/file/d/1Kla1LvU8mzuNdSFvrIUOMkaDy0OCWKb4/view?usp=sharing"
-                  variant="warning"
-                  
-                >
-                  Ver Proyecto de investigación 
-                </Button>
-              </Card.Body>
-            </Card>
-          </Col>
-        ))}
-      </Row>
+       </Row>
     );
   }
 }
