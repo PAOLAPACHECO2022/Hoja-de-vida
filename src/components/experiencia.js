@@ -334,7 +334,7 @@ export default function Experiencia() {
             <Card
               className="img-thumbnail rounded-1"
               style={{
-                backgroundImage: `url("./mari.PNG")`,
+                backgroundImage: `url("./jirasol.PNG")`,
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
