@@ -116,7 +116,7 @@ export default class Portafolio extends Component {
                 className="img-thumbnail"
               />
               <Card.Body>
-                <Card.Title className="text-center bold h4 bg-success img-thumbnail rounded-3" style={{ fontFamily: "Raleway,bold" }}>
+                <Card.Title className="text-center bold h4 bg-success img-thumbnail rounded-3 text-justify" style={{ fontFamily: "Raleway,bold" }}>
                  “Factores demográficos,  socioeconómicos y  académicos que influyen sobre los resultados del componente genérico de la prueba Saber Pro.
                  Caso: Administración de Empresas Agropecuarias de la universidad pedagógica y tecnológica de Colombia, seccional Duitama”.
                 </Card.Title>
