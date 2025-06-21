@@ -8,13 +8,13 @@ export default function Experiencia() {
   const [show, setShow] = useState(false);
   const [shhow, sethShow] = useState(false);
   const [lshow, setlShow] = useState(false);
-  const [wshow, setwShow] = useState(false);
+  const [tpashow, settpaShow] = useState(false);
+  const [tpshow, settpShow] = useState(false);
 
   return (
     <>
       <Row xs={1} md={2} className="g-4  mt-5">
-
-{Array.from({ length: 1 }).map((_, idx) => (
+        {Array.from({ length: 1 }).map((_, idx) => (
           <Col>
             <Card
               className="img-thumbnail rounded-1"
@@ -46,18 +46,21 @@ export default function Experiencia() {
                 >
                   <p>Teleperformance Colombia </p>
                   <p>Sector: Administrativo</p>
-                  <p>Cargo:Predictive Analytic Analyst I - Práctica SENA (Tecnologìa Análisis de Datos y desarrollo de Software)
+                  <p>
+                    Cargo:Predictive Analytic Analyst I - Práctica SENA
+                    (Tecnologìa Análisis de Datos y desarrollo de Software)
+                  </p>
                   <p>Ubicación:Bogotá Colombia,</p>
                   <p>Fecha de ingreso: Junio de 2024</p>
                   <p>Fecha de retiro: Mayo de 2025 </p>
                 </Card.Text>
-                <Button variant="warning" onClick={() => setShow(true)}>
+                <Button variant="warning" onClick={() => settpaShow(true)}>
                   Logros
                 </Button>
 
                 <Modal
-                  show={show}
-                  onHide={() => setShow(false)}
+                  show={tpashow}
+                  onHide={() => settpaShow(false)}
                   dialogClassName="modal-dialog modal-lg"
                   aria-labelledby="example-custom-modal-styling-title"
                   ClassName="modal-dialog modal-xl"
@@ -85,36 +88,47 @@ export default function Experiencia() {
                     </Modal.Title>
                   </Modal.Header>
                   <Modal.Body>
-  <ul style={{ fontFamily: "Raleway, bold", textAlign: "justify" }}>
-    <li>
-      Manipulación y gestión de bases de datos con SQL, análisis de información y visualización de resultados clave en Power BI (dashboards).
-    </li>
-    <li>
-      Configuración, supervisión y ejecución de flujos en una herramienta ETL para integrar datos desde múltiples fuentes hacia SQL, usando Visual Studio 2019 y Power BI.
-    </li>
-    <li>
-      Revisión, monitoreo, ejecución y aplicación de buenas prácticas en el desarrollo de procedimientos almacenados (SP), jobs y APIs en SQL Server, asegurando eficiencia, escalabilidad y mantenimiento adecuado de las soluciones.
-    </li>
-    <li>
-      Supervisión, análisis y mantenimiento de scripts y/o RPAs en Python para cargar y transformar datos masivos de archivos CSV a bases de datos SQL.
-    </li>
-    <li>
-      Desarrollo de modelos predictivos con machine learning para apoyar la toma de decisiones.
-    </li>
-  </ul>
-</Modal.Body>
-
+                    <ul
+                      style={{
+                        fontFamily: "Raleway, bold",
+                        textAlign: "justify"
+                      }}
+                    >
+                      <li>
+                        Manipulación y gestión de bases de datos con SQL,
+                        análisis de información y visualización de resultados
+                        clave en Power BI (dashboards).
+                      </li>
+                      <li>
+                        Configuración, supervisión y ejecución de flujos en una
+                        herramienta ETL para integrar datos desde múltiples
+                        fuentes hacia SQL, usando Visual Studio 2019 y Power BI.
+                      </li>
+                      <li>
+                        Revisión, monitoreo, ejecución y aplicación de buenas
+                        prácticas en el desarrollo de procedimientos almacenados
+                        (SP), jobs y APIs en SQL Server, asegurando eficiencia,
+                        escalabilidad y mantenimiento adecuado de las
+                        soluciones.
+                      </li>
+                      <li>
+                        Supervisión, análisis y mantenimiento de scripts y/o
+                        RPAs en Python para cargar y transformar datos masivos
+                        de archivos CSV a bases de datos SQL.
+                      </li>
+                      <li>
+                        Desarrollo de modelos predictivos con machine learning
+                        para apoyar la toma de decisiones.
+                      </li>
+                    </ul>
+                  </Modal.Body>
                 </Modal>
               </Card.Body>
             </Card>
           </Col>
         ))}
 
-
-
-
-
-{Array.from({ length: 1 }).map((_, idx) => (
+        {Array.from({ length: 1 }).map((_, idx) => (
           <Col>
             <Card
               className="img-thumbnail rounded-1"
@@ -146,19 +160,20 @@ export default function Experiencia() {
                 >
                   <p>Teleperformance Colombia </p>
                   <p>Sector: Administrativo</p>
-                  <p>Cargo: Analista de Datos (Helpdesk Support - Data Office) 
+                  <p>
+                    Cargo: Analista de Datos (Helpdesk Support - Data Office){" "}
+                  </p>
                   <p>Ubicación:Bogotá Colombia,</p>
                   <p>Fecha de ingreso: Octubre de 2022</p>
                   <p>Fecha de retiro: Mayo de 2024 </p>
-          
                 </Card.Text>
-                <Button variant="warning" onClick={() => setShow(true)}>
+                <Button variant="warning" onClick={() => settpShow(true)}>
                   Logros
                 </Button>
 
                 <Modal
-                  show={show}
-                  onHide={() => setShow(false)}
+                  show={tpshow}
+                  onHide={() => settpShow(false)}
                   dialogClassName="modal-dialog modal-lg"
                   aria-labelledby="example-custom-modal-styling-title"
                   ClassName="modal-dialog modal-xl"
@@ -185,32 +200,46 @@ export default function Experiencia() {
                       </h5>
                     </Modal.Title>
                   </Modal.Header>
-                <Modal.Body>
-  <ul style={{ fontFamily: "Raleway, bold", textAlign: "justify" }}>
-    <li>
-      Manipulación de información y bases de datos, utilizando SQL.
-    </li>
-    <li>
-      Generación automatizada de reportes diarios a través de jobs programados en SQL Server Agent. Supervisión y análisis de scripts y/o RPAs en Python para cargar y transformar datos masivos de archivos CSV a bases de datos SQL.
-    </li>
-    <li>
-      Supervisión y ejecución de flujos en una herramienta ETL para integrar datos desde múltiples fuentes hacia SQL.
-    </li>
-    <li>
-      Soporte en frontend y backend, así como atención a incidencias y desarrollo de mejoras continuas en sistemas.
-    </li>
-    <li>
-      Ejecución de pruebas funcionales (Testing) para asegurar el correcto funcionamiento de aplicaciones y flujos de datos.
-    </li>
-  </ul>
-</Modal.Body>
-
+                  <Modal.Body>
+                    <ul
+                      style={{
+                        fontFamily: "Raleway, bold",
+                        textAlign: "justify"
+                      }}
+                    >
+                      <li>
+                        Manipulación de información y bases de datos, utilizando
+                        SQL.
+                      </li>
+                      <li>
+                        Generación automatizada de reportes diarios a través de
+                        jobs programados en SQL Server Agent. Supervisión y
+                        análisis de scripts y/o RPAs en Python para cargar y
+                        transformar datos masivos de archivos CSV a bases de
+                        datos SQL.
+                      </li>
+                      <li>
+                        Supervisión y ejecución de flujos en una herramienta ETL
+                        para integrar datos desde múltiples fuentes hacia SQL.
+                      </li>
+                      <li>
+                        Soporte en frontend y backend, así como atención a
+                        incidencias y desarrollo de mejoras continuas en
+                        sistemas.
+                      </li>
+                      <li>
+                        Ejecución de pruebas funcionales (Testing) para asegurar
+                        el correcto funcionamiento de aplicaciones y flujos de
+                        datos.
+                      </li>
+                    </ul>
+                  </Modal.Body>
                 </Modal>
               </Card.Body>
             </Card>
           </Col>
         ))}
-    
+
         {Array.from({ length: 1 }).map((_, idx) => (
           <Col>
             <Card
