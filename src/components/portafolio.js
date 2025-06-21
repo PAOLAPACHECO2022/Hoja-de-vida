@@ -120,8 +120,8 @@ export default class Portafolio extends Component {
                 <Card.Title
                   className="text-center bg-success img-thumbnail rounded-3"
                    style={{
-                    fontFamily: "Raleway, bold",
-                    fontSize: "1rem", // 
+                    fontFamily: "Raleway",
+                    fontSize: "2rem", // 
                     textAlign: "justify", // 
                     fontWeight: "bold",   // 
                      }}
