@@ -360,7 +360,7 @@ export default function Experiencia() {
                   className="fw-bold"
                   style={{ fontFamily: "Raleway,bold" }}
                 >
-                  Monografía: Desarrollo de Modelo de Predicción (Machine
+                  Monografía-Desarrollo de Modelo de Predicción (Machine
                   Learning){" "}
                 </Card.Title>
                 <Card.Text
@@ -378,11 +378,21 @@ export default function Experiencia() {
                   <p>Fecha de ingreso: Febrero de 2017</p>
                   <p>Fecha de retiro: Junio de 2018</p>
 
-         
+                  <div className="d-flex flex-column flex-md-row justify-content-center align-items-center gap-2 mt-3">
+                    <Button
+                      target="_blank"
+                      href="https://drive.google.com/file/d/1Kla1LvU8mzuNdSFvrIUOMkaDy0OCWKb4/view?usp=sharing"
+                      variant="success"
+                    >
+                      Ver proyecto de investigación
+                    </Button>
 
-
+                    <Button variant="warning" onClick={() => sethShow(true)}>
+                      Logros
+                    </Button>
+                  </div>
                 </Card.Text>
-                
+
                 <Modal
                   show={shhow}
                   onHide={() => sethShow(false)}
