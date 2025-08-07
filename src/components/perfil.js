@@ -53,11 +53,10 @@ export default class Perfil extends Component {
             
             className="img-thumbnail rounded-2 text-justify mx-2 mt-2 my-3 fw-bold"
           >
-            <p>Soy Licenciada en Matemáticas y Estadística, Tecnóloga en Análisis y Desarrollo de Software, con formación en Desarrollo de Software,
-              Análisis y Visualización de Datos a través del programa Misión TIC 2022 (MinTIC). </p>
-                
+            <p>Profesional en Matemáticas y Estadística, Tecnóloga en Análisis y Desarrollo de Software, con diplomado en Desarrollo de Software,
+              Análisis y Visualización de Datos, otorgado por el programa Misión TIC 2022 (MinTIC). </p>
 
-               <p> Cuento con más de 3 años de experiencia como analista de datos, con manejo de herramientas como Excel, Power BI, SQL, R, Python, MongoDB,
+            <p> Cuento con más de 3 años de experiencia como analista de datos, con manejo de herramientas como Excel, Power BI, SQL, R, Python, MongoDB,
               y procesos ETL, entre otros. He desarrollado modelos predictivos (machine learning), informes de gestión basados en análisis estadístico, 
               sistematización, verificación, validación de datos y automatización de reportes.  </p>
                 
