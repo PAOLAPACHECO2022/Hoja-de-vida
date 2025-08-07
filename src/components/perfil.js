@@ -53,7 +53,7 @@ export default class Perfil extends Component {
             
             className="img-thumbnail rounded-2 text-justify mx-2 mt-2 my-3 fw-bold"
           >
-            <p>Soy Licenciada en Matemáticas y Estadística y Tecnóloga en Análisis y Desarrollo de Software, con formación en Desarrollo de Software,
+            <p>Soy Licenciada en Matemáticas y Estadística, Tecnóloga en Análisis y Desarrollo de Software, con formación en Desarrollo de Software,
               Análisis y Visualización de Datos a través del programa Misión TIC 2022 (MinTIC). </p>
                 
 
