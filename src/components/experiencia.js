@@ -429,8 +429,8 @@ export default function Experiencia() {
                         Saber Pro del programa de Administración Agropecuaria.
                       </li>
                       <li>
-                        Desarrollo de un modelo estadístico – Machine Learning
-                        (modelo de regresión logística) para predecir los
+                        Desarrollo de Modelos estadísticos Supervisados– Machine Learning
+                        (modelos de regresión logística,lineal y polinomal) para predecir los
                         puntajes de la prueba Saber Pro del programa de
                         Administración Agropecuaria de la Universidad Pedagógica
                         y Tecnológica seccional Duitama.
