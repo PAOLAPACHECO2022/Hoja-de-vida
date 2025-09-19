@@ -134,9 +134,9 @@ export default class Portafolio extends Component {
                   Colombia, seccional Duitama”.
                 </Card.Title>
 
-                <Card.Text style={{ fontFamily: "Raleway,bold" }}>
-                  Proyecto de investigación (Modelo de regresión logística para
-                  la predicción de los puntajes de la prueba saber Pro)
+                <Card.Text style={{ fontFamily: "Raleway,bold" }}> 
+                  Proyecto de investigación (Modelos de Machine Learning: clasificación y regresión para
+                  la predicción de los puntajes de la prueba Saber Pro)
                 </Card.Text>
                 <Button
                   target="_blank"
