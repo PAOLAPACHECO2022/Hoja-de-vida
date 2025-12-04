@@ -356,7 +356,7 @@ export default function Experiencia() {
                   className="fw-bold"
                   style={{ fontFamily: "Raleway,bold" }}
                 >
-                  Monografía-Desarrollo de Modelo de Predicción (Machine
+                  Monografía: Desarrollo de Modelos de Predicción (Machine
                   Learning)-Publicado en col.minciencias {" "}
                 </Card.Title>
                 <Card.Text
@@ -412,7 +412,7 @@ export default function Experiencia() {
                         style={{ fontFamily: "Raleway,bold" }}
                         className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
                       >
-                        Desarrollo de modelo de Predicción (Machine Learning)
+                        Desarrollo de modelos de Predicción (Machine Learning)
                       </h5>
                     </Modal.Title>
                   </Modal.Header>
