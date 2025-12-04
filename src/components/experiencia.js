@@ -93,7 +93,7 @@ export default function Experiencia() {
                       }}
                     >
                       <li>
-                        Manipulación y gestión de bases de datos con SQL,
+                        Manipulación y gestión de bases de datos con SQL (DDL,DML,DQL,DCL),
                         análisis de información y visualización de resultados
                         clave en Power BI (dashboards).
                       </li>
@@ -105,7 +105,7 @@ export default function Experiencia() {
                       <li>
                         Revisión, monitoreo, ejecución y aplicación de buenas
                         prácticas en el desarrollo de procedimientos almacenados
-                        (SP), jobs y APIs en SQL Server, asegurando eficiencia,
+                        (SP), jobs y APIs, asegurando eficiencia,
                         escalabilidad y mantenimiento adecuado de las
                         soluciones.
                       </li>
