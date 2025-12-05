@@ -131,7 +131,7 @@ export default class Portafolio extends Component {
                   influyen sobre los resultados del componente genérico de la
                   prueba Saber Pro. Caso: Administración de Empresas
                   Agropecuarias de la Universidad Pedagógica y Tecnológica de
-                  Colombia, seccional Duitama”.
+                  Colombia, seccional Duitama”. Publicado en col.minciencias
                 </Card.Title>
 
                 <Card.Text style={{ fontFamily: "Raleway,bold" }}> 
@@ -139,8 +139,8 @@ export default class Portafolio extends Component {
                   la predicción de los puntajes de la prueba Saber Pro)
                 </Card.Text>
                 <Button
-                  target="_blank"
-                  href="https://drive.google.com/file/d/1Kla1LvU8mzuNdSFvrIUOMkaDy0OCWKb4/view?usp=sharing"
+                  target="_blank" 
+                  href="https://redcol.minciencias.gov.co/Record/REPOUPTC2_2ef5b15e1bf2e9fd024fa4d2024c05de/Details"
                   variant="warning"
                 >
                   Ver Proyecto de investigación
