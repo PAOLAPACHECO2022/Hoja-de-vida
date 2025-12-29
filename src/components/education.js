@@ -1774,299 +1774,304 @@ export default function Education() {
               </div>
             </Accordion.Header>
             <Accordion.Body>
-              <Table
-                striped
-                bordered
-                hover
-                className="justify-content-center form-wrapper"
+              <div
+                className="d-flex justify-content-center align-items-center"
+                style={{ minHeight: "200px" }}
               >
-                <thead class="bg-warning form-wrapper rounded-4">
-                  <tr className="form-wrapper">
-                    <th className="form-wrapper">Curso</th>
-                    <th className="form-wrapper">Enlace</th>
-                    <th className="form-wrapper">Certf.</th>
-                  </tr>
-                </thead>
-                <tbody variant="primmary" class="form-wrapper mt-auto">
-                  <tr className="form-wrapper">
-                    <td Style={"color: rgb(197, 184, 70);"}>
-                      Machine Learning y Data Science con Python
-                    </td>
+                <Table
+                  striped
+                  bordered
+                  hover
+                  className="justify-content-center form-wrapper"
+                >
+                  <thead class="bg-warning form-wrapper rounded-4">
+                    <tr className="form-wrapper">
+                      <th className="form-wrapper">Curso</th>
+                      <th className="form-wrapper">Enlace</th>
+                      <th className="form-wrapper">Certf.</th>
+                    </tr>
+                  </thead>
+                  <tbody variant="primmary" className="form-wrapper">
+                    <tr className="form-wrapper">
+                      <td Style={"color: rgb(197, 184, 70);"}>
+                        Machine Learning y Data Science con Python
+                      </td>
 
-                    <td>
-                      {" "}
-                      <a href="https://www.udemy.com/certificate/UC-878541b0-f11c-44d5-9ae7-5eb30a51418b/">
-                        Link
-                      </a>
-                    </td>
-                    <td>
-                      <Button
-                        variant="light"
-                        onClick={() => setmlShow(true)}
-                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
-                      >
-                        Ver
-                      </Button>
-                      <Modal
-                        show={mlShow}
-                        onHide={() => setmlShow(false)}
-                        dialogClassName="modal-dialog modal-lg"
-                        aria-labelledby="example-modal-sizes-title-sm"
-                      >
-                        <Modal.Header
-                          closeButton
-                          style={{
-                            backgroundImage: `url("./jirasol.PNG")`,
-                            backgroundPosition: "center",
-                            backgroundRepeat: "no-repeat",
-                            backgroundSize: "cover",
-                            border: "1px solid #565555"
-                          }}
+                      <td>
+                        {" "}
+                        <a href="https://www.udemy.com/certificate/UC-878541b0-f11c-44d5-9ae7-5eb30a51418b/">
+                          Link
+                        </a>
+                      </td>
+                      <td>
+                        <Button
+                          variant="light"
+                          onClick={() => setmlShow(true)}
+                          className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
                         >
-                          <Modal.Title variant="success">
-                            <h5
-                              style={{ fontFamily: "Raleway,bold" }}
-                              className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
-                            >
-                              Curso Maestro: Machine Learning y Data Science con
-                              Python
-                            </h5>
-                          </Modal.Title>
-                        </Modal.Header>
-                        <Modal.Body>
-                          <img
-                            src="./mludemy.jpg"
-                            className="zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
-                          ></img>
-                        </Modal.Body>
-                      </Modal>
-                    </td>
-                  </tr>
-
-                  <tr className="form-wrapper">
-                    <td Style={"color: rgb(197, 184, 70);"}>
-                      Visualizaciones y Análisis de Datos en Python
-                    </td>
-
-                    <td>
-                      {" "}
-                      <a href="https://www.udemy.com/certificate/UC-5436c02b-9cf2-46b4-ba68-e9edebf500e7/">
-                        Link
-                      </a>
-                    </td>
-                    <td>
-                      <Button
-                        variant="light"
-                        onClick={() => setvadShow(true)}
-                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
-                      >
-                        Ver
-                      </Button>
-                      <Modal
-                        show={vadShow}
-                        onHide={() => setvadShow(false)}
-                        dialogClassName="modal-dialog modal-lg"
-                        aria-labelledby="example-modal-sizes-title-sm"
-                      >
-                        <Modal.Header
-                          closeButton
-                          style={{
-                            backgroundImage: `url("./jirasol.PNG")`,
-                            backgroundPosition: "center",
-                            backgroundRepeat: "no-repeat",
-                            backgroundSize: "cover",
-                            border: "1px solid #565555"
-                          }}
+                          Ver
+                        </Button>
+                        <Modal
+                          show={mlShow}
+                          onHide={() => setmlShow(false)}
+                          dialogClassName="modal-dialog modal-lg"
+                          aria-labelledby="example-modal-sizes-title-sm"
                         >
-                          <Modal.Title variant="success">
-                            <h5
-                              style={{ fontFamily: "Raleway,bold" }}
-                              className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
-                            >
-                              Curso Maestro: Visualizaciones y Análisis de Datos
-                              en Python
-                            </h5>
-                          </Modal.Title>
-                        </Modal.Header>
-                        <Modal.Body>
-                          <img
-                            src="./visuana.jpg"
-                            alt=""
-                            className="zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
-                          ></img>
-                        </Modal.Body>
-                      </Modal>
-                    </td>
-                  </tr>
+                          <Modal.Header
+                            closeButton
+                            style={{
+                              backgroundImage: `url("./jirasol.PNG")`,
+                              backgroundPosition: "center",
+                              backgroundRepeat: "no-repeat",
+                              backgroundSize: "cover",
+                              border: "1px solid #565555"
+                            }}
+                          >
+                            <Modal.Title variant="success">
+                              <h5
+                                style={{ fontFamily: "Raleway,bold" }}
+                                className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
+                              >
+                                Curso Maestro: Machine Learning y Data Science
+                                con Python
+                              </h5>
+                            </Modal.Title>
+                          </Modal.Header>
+                          <Modal.Body>
+                            <img
+                              src="./mludemy.jpg"
+                              className="zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
+                            ></img>
+                          </Modal.Body>
+                        </Modal>
+                      </td>
+                    </tr>
 
-                  <tr className="form-wrapper">
-                    <td Style={"color: rgb(197, 184, 70);"}>
-                      Excel Desde cero hasta avanzado
-                    </td>
+                    <tr className="form-wrapper">
+                      <td Style={"color: rgb(197, 184, 70);"}>
+                        Visualizaciones y Análisis de Datos en Python
+                      </td>
 
-                    <td>
-                      {" "}
-                      <a href="https://www.udemy.com/certificate/UC-9e7c7937-bee4-4de5-9b6e-2915a850df0f/">
-                        Link
-                      </a>
-                    </td>
-                    <td>
-                      <Button
-                        variant="light"
-                        onClick={() => setsxShow(true)}
-                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
-                      >
-                        Ver
-                      </Button>
-                      <Modal
-                        show={sxShow}
-                        onHide={() => setsxShow(false)}
-                        dialogClassName="modal-dialog modal-lg"
-                        aria-labelledby="example-modal-sizes-title-sm"
-                      >
-                        <Modal.Header
-                          closeButton
-                          style={{
-                            backgroundImage: `url("./jirasol.PNG")`,
-                            backgroundPosition: "center",
-                            backgroundRepeat: "no-repeat",
-                            backgroundSize: "cover",
-                            border: "1px solid #565555"
-                          }}
+                      <td>
+                        {" "}
+                        <a href="https://www.udemy.com/certificate/UC-5436c02b-9cf2-46b4-ba68-e9edebf500e7/">
+                          Link
+                        </a>
+                      </td>
+                      <td>
+                        <Button
+                          variant="light"
+                          onClick={() => setvadShow(true)}
+                          className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
                         >
-                          <Modal.Title variant="success">
-                            <h5
-                              style={{ fontFamily: "Raleway,bold" }}
-                              className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
-                            >
-                              Excel Desde cero hasta avanzado
-                            </h5>
-                          </Modal.Title>
-                        </Modal.Header>
-                        <Modal.Body>
-                          <img
-                            src="./excel.PNG"
-                            alt=""
-                            className="zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
-                          ></img>
-                        </Modal.Body>
-                      </Modal>
-                    </td>
-                  </tr>
-
-                  <tr className="form-wrapper">
-                    <td Style={"color: rgb(197, 184, 70);"}>
-                      SQL Básico a Intermedio
-                    </td>
-
-                    <td>
-                      {" "}
-                      <a href="https://www.udemy.com/certificate/UC-834b2d23-8446-4f1a-856b-bb4cf4a69696/">
-                        Link
-                      </a>
-                    </td>
-                    <td>
-                      <Button
-                        variant="light"
-                        onClick={() => setsgShow(true)}
-                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
-                      >
-                        Ver
-                      </Button>
-
-                      <Modal
-                        show={sgShow}
-                        onHide={() => setsgShow(false)}
-                        dialogClassName="modal-dialog modal-lg"
-                        aria-labelledby="example-modal-sizes-title-sm"
-                      >
-                        <Modal.Header
-                          closeButton
-                          style={{
-                            backgroundImage: `url("./jirasol.PNG")`,
-                            backgroundPosition: "center",
-                            backgroundRepeat: "no-repeat",
-                            backgroundSize: "cover",
-                            border: "1px solid #565555"
-                          }}
+                          Ver
+                        </Button>
+                        <Modal
+                          show={vadShow}
+                          onHide={() => setvadShow(false)}
+                          dialogClassName="modal-dialog modal-lg"
+                          aria-labelledby="example-modal-sizes-title-sm"
                         >
-                          <Modal.Title variant="success">
-                            <h5
-                              style={{ fontFamily: "Raleway,bold" }}
-                              className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
-                            >
-                              SQL Básico a Intermedio
-                            </h5>
-                          </Modal.Title>
-                        </Modal.Header>
-                        <Modal.Body>
-                          <img
-                            src="./sql.PNG"
-                            alt=""
-                            className="zoom  boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
-                          ></img>
-                        </Modal.Body>
-                      </Modal>
-                    </td>
-                  </tr>
+                          <Modal.Header
+                            closeButton
+                            style={{
+                              backgroundImage: `url("./jirasol.PNG")`,
+                              backgroundPosition: "center",
+                              backgroundRepeat: "no-repeat",
+                              backgroundSize: "cover",
+                              border: "1px solid #565555"
+                            }}
+                          >
+                            <Modal.Title variant="success">
+                              <h5
+                                style={{ fontFamily: "Raleway,bold" }}
+                                className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
+                              >
+                                Curso Maestro: Visualizaciones y Análisis de
+                                Datos en Python
+                              </h5>
+                            </Modal.Title>
+                          </Modal.Header>
+                          <Modal.Body>
+                            <img
+                              src="./visuana.jpg"
+                              alt=""
+                              className="zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
+                            ></img>
+                          </Modal.Body>
+                        </Modal>
+                      </td>
+                    </tr>
 
-                  <tr className="form-wrapper">
-                    <td Style={"color: rgb(197, 184, 70);"}>
-                      SQL Cero a Profesional
-                    </td>
+                    <tr className="form-wrapper">
+                      <td Style={"color: rgb(197, 184, 70);"}>
+                        Excel Desde cero hasta avanzado
+                      </td>
 
-                    <td>
-                      {" "}
-                      <a href="https://www.udemy.com/certificate/UC-d4dec75c-0148-4fc8-af1c-f64d3ef44cc6/">
-                        Link
-                      </a>
-                    </td>
-                    <td>
-                      <Button
-                        variant="light"
-                        onClick={() => setswShow(true)}
-                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
-                      >
-                        Ver
-                      </Button>
-
-                      <Modal
-                        show={swShow}
-                        onHide={() => setswShow(false)}
-                        dialogClassName="modal-dialog modal-lg"
-                        aria-labelledby="example-modal-sizes-title-sm"
-                      >
-                        <Modal.Header
-                          closeButton
-                          style={{
-                            backgroundImage: `url("./jirasol.PNG")`,
-                            backgroundPosition: "center",
-                            backgroundRepeat: "no-repeat",
-                            backgroundSize: "cover",
-                            border: "1px solid #565555"
-                          }}
+                      <td>
+                        {" "}
+                        <a href="https://www.udemy.com/certificate/UC-9e7c7937-bee4-4de5-9b6e-2915a850df0f/">
+                          Link
+                        </a>
+                      </td>
+                      <td>
+                        <Button
+                          variant="light"
+                          onClick={() => setsxShow(true)}
+                          className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
                         >
-                          <Modal.Title variant="success">
-                            <h5
-                              style={{ fontFamily: "Raleway,bold" }}
-                              className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
-                            >
-                              SQL Cero a Profesional
-                            </h5>
-                          </Modal.Title>
-                        </Modal.Header>
-                        <Modal.Body>
-                          <img
-                            src="./sqlp.PNG"
-                            alt=""
-                            className="zoom  boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
-                          ></img>
-                        </Modal.Body>
-                      </Modal>
-                    </td>
-                  </tr>
-                </tbody>
-              </Table>
+                          Ver
+                        </Button>
+                        <Modal
+                          show={sxShow}
+                          onHide={() => setsxShow(false)}
+                          dialogClassName="modal-dialog modal-lg"
+                          aria-labelledby="example-modal-sizes-title-sm"
+                        >
+                          <Modal.Header
+                            closeButton
+                            style={{
+                              backgroundImage: `url("./jirasol.PNG")`,
+                              backgroundPosition: "center",
+                              backgroundRepeat: "no-repeat",
+                              backgroundSize: "cover",
+                              border: "1px solid #565555"
+                            }}
+                          >
+                            <Modal.Title variant="success">
+                              <h5
+                                style={{ fontFamily: "Raleway,bold" }}
+                                className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
+                              >
+                                Excel Desde cero hasta avanzado
+                              </h5>
+                            </Modal.Title>
+                          </Modal.Header>
+                          <Modal.Body>
+                            <img
+                              src="./excel.PNG"
+                              alt=""
+                              className="zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
+                            ></img>
+                          </Modal.Body>
+                        </Modal>
+                      </td>
+                    </tr>
+
+                    <tr className="form-wrapper">
+                      <td Style={"color: rgb(197, 184, 70);"}>
+                        SQL Básico a Intermedio
+                      </td>
+
+                      <td>
+                        {" "}
+                        <a href="https://www.udemy.com/certificate/UC-834b2d23-8446-4f1a-856b-bb4cf4a69696/">
+                          Link
+                        </a>
+                      </td>
+                      <td>
+                        <Button
+                          variant="light"
+                          onClick={() => setsgShow(true)}
+                          className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
+                        >
+                          Ver
+                        </Button>
+
+                        <Modal
+                          show={sgShow}
+                          onHide={() => setsgShow(false)}
+                          dialogClassName="modal-dialog modal-lg"
+                          aria-labelledby="example-modal-sizes-title-sm"
+                        >
+                          <Modal.Header
+                            closeButton
+                            style={{
+                              backgroundImage: `url("./jirasol.PNG")`,
+                              backgroundPosition: "center",
+                              backgroundRepeat: "no-repeat",
+                              backgroundSize: "cover",
+                              border: "1px solid #565555"
+                            }}
+                          >
+                            <Modal.Title variant="success">
+                              <h5
+                                style={{ fontFamily: "Raleway,bold" }}
+                                className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
+                              >
+                                SQL Básico a Intermedio
+                              </h5>
+                            </Modal.Title>
+                          </Modal.Header>
+                          <Modal.Body>
+                            <img
+                              src="./sql.PNG"
+                              alt=""
+                              className="zoom  boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
+                            ></img>
+                          </Modal.Body>
+                        </Modal>
+                      </td>
+                    </tr>
+
+                    <tr className="form-wrapper">
+                      <td Style={"color: rgb(197, 184, 70);"}>
+                        SQL Cero a Profesional
+                      </td>
+
+                      <td>
+                        {" "}
+                        <a href="https://www.udemy.com/certificate/UC-d4dec75c-0148-4fc8-af1c-f64d3ef44cc6/">
+                          Link
+                        </a>
+                      </td>
+                      <td>
+                        <Button
+                          variant="light"
+                          onClick={() => setswShow(true)}
+                          className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
+                        >
+                          Ver
+                        </Button>
+
+                        <Modal
+                          show={swShow}
+                          onHide={() => setswShow(false)}
+                          dialogClassName="modal-dialog modal-lg"
+                          aria-labelledby="example-modal-sizes-title-sm"
+                        >
+                          <Modal.Header
+                            closeButton
+                            style={{
+                              backgroundImage: `url("./jirasol.PNG")`,
+                              backgroundPosition: "center",
+                              backgroundRepeat: "no-repeat",
+                              backgroundSize: "cover",
+                              border: "1px solid #565555"
+                            }}
+                          >
+                            <Modal.Title variant="success">
+                              <h5
+                                style={{ fontFamily: "Raleway,bold" }}
+                                className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
+                              >
+                                SQL Cero a Profesional
+                              </h5>
+                            </Modal.Title>
+                          </Modal.Header>
+                          <Modal.Body>
+                            <img
+                              src="./sqlp.PNG"
+                              alt=""
+                              className="zoom  boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
+                            ></img>
+                          </Modal.Body>
+                        </Modal>
+                      </td>
+                    </tr>
+                  </tbody>
+                </Table>
+              </div>
             </Accordion.Body>
           </Accordion.Item>
 
@@ -2315,3 +2320,4 @@ export default function Education() {
     </>
   );
 }
+
