@@ -15,6 +15,7 @@ export default function Education() {
   const [show, setShow] = useState(false);
   const [senaShow, setsenaShow] = useState(false);
   const [talenShow, settalenShow] = useState(false);
+  const [andesShow, setandesShow] = useState(false);
   const [courseraAShow, setcourseraAShow] = useState(false);
   const [courseraBShow, setcourseraBShow] = useState(false);
   const [courseraCShow, setcourseraCShow] = useState(false);
@@ -35,6 +36,8 @@ export default function Education() {
   const [szShow, setszShow] = useState(false);
   const [shShow, setshShow] = useState(false);
   const [scShow, setscShow] = useState(false);
+  const [mlShow, setmlShow] = useState(false);
+  const [vadShow, setvadShow] = useState(false);
   const [sxShow, setsxShow] = useState(false);
   const [sgShow, setsgShow] = useState(false);
   const [swShow, setswShow] = useState(false);
@@ -253,6 +256,96 @@ export default function Education() {
           </div>
         </Row>
         <Accordion className="mt-5 my-5 justify-content-center form-wrapper">
+          {/* ------------------------------------Universidad Andes - Colsubsidio (certificaciones)--------------------------------- */}
+          <Accordion.Item
+            eventKey="6"
+            style={{
+              backgroundImage: `url("./estrellas.jpg")`,
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+              border: "1px solid #565555"
+            }}
+          >
+            <Accordion.Header>
+              <div className="w-100 d-flex justify-content-center">
+                <img
+                  alt=""
+                  width="100"
+                  height="100"
+                  src="./Andes.jpg"
+                  className="img-thumbnail"
+                />
+              </div>
+            </Accordion.Header>
+            <Accordion.Body>
+              <Table
+                striped
+                bordered
+                hover
+                className=" img-thumbnail w-100 my-2 mt-2 d-flex justify-content-center form-wrapper"
+              >
+                <tbody variant="primmary" className="form-wrapper">
+                  <tr className="form-wrapper">
+                    <td className="form-wrapper">
+                      Diseño y gestión de bases de datos con sql
+                    </td>
+
+                    <td>
+                      {" "}
+                      <a href="https://certificados.cetcolsubsidio.edu.co/vista/html/busqueda.html">
+                        PDF
+                      </a>
+                    </td>
+                    <td>
+                      <Button
+                        variant="light"
+                        onClick={() => setandesShow(true)}
+                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper bg-warning"
+                      >
+                        Ver
+                      </Button>
+                      <Modal
+                        show={andesShow}
+                        onHide={() => setandesShow(false)}
+                        dialogClassName="modal-dialog modal-lg"
+                        aria-labelledby="example-modal-sizes-title-sm"
+                      >
+                        <Modal.Header
+                          closeButton
+                          style={{
+                            backgroundImage: `url("./jirasol.PNG")`,
+                            backgroundPosition: "center",
+                            backgroundRepeat: "no-repeat",
+                            backgroundSize: "cover",
+                            border: "1px solid #565555"
+                          }}
+                        >
+                          <Modal.Title variant="primary">
+                            <h5
+                              style={{ fontFamily: "Raleway,bold" }}
+                              className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
+                            >
+                              Curso en Diseño y gestión de bases de datos con
+                              sql
+                            </h5>
+                          </Modal.Title>
+                        </Modal.Header>
+                        <Modal.Body>
+                          <img
+                            src="./CertificadoAndes.jpg"
+                            alt=""
+                            className=" zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
+                          ></img>
+                        </Modal.Body>
+                      </Modal>
+                    </td>
+                  </tr>
+                </tbody>
+              </Table>
+            </Accordion.Body>
+          </Accordion.Item>
+
           {/* ------------------------------------Talento tech Bogotà certificaciones--------------------------------- */}
           <Accordion.Item
             eventKey="5"
@@ -323,7 +416,7 @@ export default function Education() {
                               style={{ fontFamily: "Raleway,bold" }}
                               className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
                             >
-                              Diplomado en Fundamentos de Programación en Python
+                              Bootcamp- Análisis y Visualización de Datos
                             </h5>
                           </Modal.Title>
                         </Modal.Header>
@@ -342,6 +435,8 @@ export default function Education() {
             </Accordion.Body>
           </Accordion.Item>
 
+          {/* ------------------------------------misióntoc certificaciones--------------------------------- */}
+
           <Accordion.Item
             eventKey="0"
             style={{
@@ -352,8 +447,6 @@ export default function Education() {
               border: "1px solid #565555"
             }}
           >
-            {/* ------------------------------------misióntoc certificaciones--------------------------------- */}
-
             <Accordion.Header>
               <div className="w-100 d-flex justify-content-center">
                 <img
@@ -1695,6 +1788,117 @@ export default function Education() {
                   </tr>
                 </thead>
                 <tbody variant="primmary" class="form-wrapper mt-auto">
+                  <tr className="form-wrapper">
+                    <td Style={"color: rgb(197, 184, 70);"}>
+                      Machine Learning y Data Science con Python
+                    </td>
+
+                    <td>
+                      {" "}
+                      <a href="https://www.udemy.com/certificate/UC-878541b0-f11c-44d5-9ae7-5eb30a51418b/">
+                        Link
+                      </a>
+                    </td>
+                    <td>
+                      <Button
+                        variant="light"
+                        onClick={() => setmlShow(true)}
+                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
+                      >
+                        Ver
+                      </Button>
+                      <Modal
+                        show={mlShow}
+                        onHide={() => setmlShow(false)}
+                        dialogClassName="modal-dialog modal-lg"
+                        aria-labelledby="example-modal-sizes-title-sm"
+                      >
+                        <Modal.Header
+                          closeButton
+                          style={{
+                            backgroundImage: `url("./jirasol.PNG")`,
+                            backgroundPosition: "center",
+                            backgroundRepeat: "no-repeat",
+                            backgroundSize: "cover",
+                            border: "1px solid #565555"
+                          }}
+                        >
+                          <Modal.Title variant="success">
+                            <h5
+                              style={{ fontFamily: "Raleway,bold" }}
+                              className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
+                            >
+                              Curso Maestro: Machine Learning y Data Science con
+                              Python
+                            </h5>
+                          </Modal.Title>
+                        </Modal.Header>
+                        <Modal.Body>
+                          <img
+                            src="./mludemy.jpg"
+                            className="zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
+                          ></img>
+                        </Modal.Body>
+                      </Modal>
+                    </td>
+                  </tr>
+
+                  <tr className="form-wrapper">
+                    <td Style={"color: rgb(197, 184, 70);"}>
+                      Visualizaciones y Análisis de Datos en Python
+                    </td>
+
+                    <td>
+                      {" "}
+                      <a href="https://www.udemy.com/certificate/UC-5436c02b-9cf2-46b4-ba68-e9edebf500e7/">
+                        Link
+                      </a>
+                    </td>
+                    <td>
+                      <Button
+                        variant="light"
+                        onClick={() => setvadShow(true)}
+                        className="boton1 img-thumbnail w-30  lg-30  d-flex justify-content-center form-wrapper"
+                      >
+                        Ver
+                      </Button>
+                      <Modal
+                        show={vadShow}
+                        onHide={() => setvadShow(false)}
+                        dialogClassName="modal-dialog modal-lg"
+                        aria-labelledby="example-modal-sizes-title-sm"
+                      >
+                        <Modal.Header
+                          closeButton
+                          style={{
+                            backgroundImage: `url("./jirasol.PNG")`,
+                            backgroundPosition: "center",
+                            backgroundRepeat: "no-repeat",
+                            backgroundSize: "cover",
+                            border: "1px solid #565555"
+                          }}
+                        >
+                          <Modal.Title variant="success">
+                            <h5
+                              style={{ fontFamily: "Raleway,bold" }}
+                              className="font-weight-bold text-center text-uppercase font-weight-bold h3 px-3 "
+                            >
+                              Curso Maestro: Visualizaciones y Análisis de Datos
+                              en Python
+                            </h5>
+                          </Modal.Title>
+                        </Modal.Header>
+                        <Modal.Body>
+                          <img
+                            src="./visuana.jpg"
+                            alt=""
+                            className="zoom boton1 img-thumbnail w-100  lg-100 my-5 mt-5 d-flex justify-content-center form-wrapper"
+                          ></img>
+                        </Modal.Body>
+                      </Modal>
+                    </td>
+                  </tr>
+
                   <tr className="form-wrapper">
                     <td Style={"color: rgb(197, 184, 70);"}>
                       Excel Desde cero hasta avanzado
