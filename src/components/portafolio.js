@@ -138,16 +138,14 @@ export default class Portafolio extends Component {
                   Proyecto de investigación (Modelos de Machine Learning: clasificación y regresión para
                   la predicción de los puntajes de la prueba Saber Pro)
                 </Card.Text>
-                 <Button
-  as="a"
-  href="https://drive.google.com/file/d/1Kla1LvU8mzuNdSFvrIUOMkaDy0OCWKb4/view?usp=sharing"
-  target="_blank"
-  rel="noopener noreferrer"
-  variant="warning"
->
-  Ver proyecto de investigación
-</Button>
-
+                    <Button
+                    target="_blank"
+                    href="https://drive.google.com/file/d/1Kla1LvU8mzuNdSFvrIUOMkaDy0OCWKb4/view?usp=sharing"
+                    variant="warning"
+                  >                  
+                     Ver proyecto de investigación
+                  </Button>
+                      
               </Card.Body>
             </Card>
           </Col>
