@@ -381,7 +381,7 @@ export default function Experiencia() {
                       variant="warning"
                     >
                       Ver proyecto de investigación
-                    </Button>
+                  /Button>
 
                     <Button variant="warning" onClick={() => sethShow(true)}>
                       Logros
