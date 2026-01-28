@@ -376,7 +376,7 @@ export default function Experiencia() {
                     <Button
                       as="a"
                       target="_blank" 
-                      href="http://repositorio.uptc.edu.co/handle/001/2645"
+                      href="https://repositorio.uptc.edu.co/server/api/core/bitstreams/174eb743-cf73-430e-82f6-b9432833a500/content"
                       rel="noopener noreferrer"
                       variant="warning"
                     >
