@@ -139,14 +139,15 @@ export default class Portafolio extends Component {
                   la predicción de los puntajes de la prueba Saber Pro)
                 </Card.Text>
                  <Button
-                  as="a"
-                  target="_blank" 
-                  href="https://drive.google.com/file/d/1Kla1LvU8mzuNdSFvrIUOMkaDy0OCWKb4/view?usp=sharing"
-                  rel="noopener noreferrer"
-                  variant="warning"
-                >
-                  Ver Proyecto de investigación
-                </Button>
+  as="a"
+  href="https://drive.google.com/file/d/1Kla1LvU8mzuNdSFvrIUOMkaDy0OCWKb4/view?usp=sharing"
+  target="_blank"
+  rel="noopener noreferrer"
+  variant="warning"
+>
+  Ver proyecto de investigación
+</Button>
+
               </Card.Body>
             </Card>
           </Col>
