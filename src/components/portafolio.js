@@ -138,9 +138,11 @@ export default class Portafolio extends Component {
                   Proyecto de investigación (Modelos de Machine Learning: clasificación y regresión para
                   la predicción de los puntajes de la prueba Saber Pro)
                 </Card.Text>
-                <Button
+                 <Button
+                  as="a"
                   target="_blank" 
-                  href="https://metaflip.metabiblioteca.com/?pdf=https://repositorio.uptc.edu.co/server/api/core/bitstreams/174eb743-cf73-430e-82f6-b9432833a500/content?authentication-token=null"
+                  href="http://repositorio.uptc.edu.co/handle/001/2645"
+                  rel="noopener noreferrer"
                   variant="warning"
                 >
                   Ver Proyecto de investigación
