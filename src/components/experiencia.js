@@ -375,7 +375,7 @@ export default function Experiencia() {
                   <div className="d-flex flex-column flex-md-row justify-content-center align-items-center gap-2 mt-3">
                     <Button
                       target="_blank"
-                      href="https://drive.google.com/file/d/1Kla1LvU8mzuNdSFvrIUOMkaDy0OCWKb4/view?usp=sharing"
+                      href="https://redcol.minciencias.gov.co/Record/REPOUPTC2_2ef5b15e1bf2e9fd024fa4d2024c05de/Details"
                       variant="success"
                     >
                       Ver proyecto de investigación
@@ -624,3 +624,4 @@ export default function Experiencia() {
     </>
   );
 }
+
