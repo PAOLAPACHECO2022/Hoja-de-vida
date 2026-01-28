@@ -375,7 +375,7 @@ export default function Experiencia() {
                   <div className="d-flex flex-column flex-md-row justify-content-center align-items-center gap-2 mt-3">
                     <Button
                       target="_blank"
-                      href="https://repositorio.uptc.edu.co/entities/publication/294b8e42-73e0-452e-968b-7f58f5b2ae22"
+                      href="http://repositorio.uptc.edu.co/handle/001/2645"
                       variant="success"
                     >
                       Ver proyecto de investigación
