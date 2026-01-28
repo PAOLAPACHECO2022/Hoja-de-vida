@@ -374,9 +374,11 @@ export default function Experiencia() {
 
                   <div className="d-flex flex-column flex-md-row justify-content-center align-items-center gap-2 mt-3">
                     <Button
-                      target="_blank"
+                      as="a"
+                      target="_blank" 
                       href="http://repositorio.uptc.edu.co/handle/001/2645"
-                      variant="success"
+                      rel="noopener noreferrer"
+                      variant="warning"
                     >
                       Ver proyecto de investigación
                     </Button>
