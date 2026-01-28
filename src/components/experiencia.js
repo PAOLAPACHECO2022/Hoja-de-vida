@@ -374,14 +374,15 @@ export default function Experiencia() {
 
                   <div className="d-flex flex-column flex-md-row justify-content-center align-items-center gap-2 mt-3">
                     <Button
-                      as="a"
-                      target="_blank" 
-                      href="https://drive.google.com/file/d/1Kla1LvU8mzuNdSFvrIUOMkaDy0OCWKb4/view?usp=sharing"
-                      rel="noopener noreferrer"
-                      variant="warning"
-                    >
-                      Ver proyecto de investigación
-                  /Button>
+  as="a"
+  href="https://drive.google.com/file/d/1Kla1LvU8mzuNdSFvrIUOMkaDy0OCWKb4/view?usp=sharing"
+  target="_blank"
+  rel="noopener noreferrer"
+  variant="warning"
+>
+  Ver proyecto de investigación
+</Button>
+
 
                     <Button variant="warning" onClick={() => sethShow(true)}>
                       Logros
