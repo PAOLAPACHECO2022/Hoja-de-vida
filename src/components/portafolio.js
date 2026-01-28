@@ -138,14 +138,13 @@ export default class Portafolio extends Component {
                   Proyecto de investigación (Modelos de Machine Learning: clasificación y regresión para
                   la predicción de los puntajes de la prueba Saber Pro)
                 </Card.Text>
-                    <Button
-                    target="_blank"
-                    href="https://drive.google.com/file/d/1Kla1LvU8mzuNdSFvrIUOMkaDy0OCWKb4/view?usp=sharing"
-                    variant="warning"
-                  >                  
-                     Ver proyecto de investigación
-                  </Button>
-                      
+                <Button
+                  target="_blank" 
+                  href="https://redcol.minciencias.gov.co/Record/REPOUPTC2_2ef5b15e1bf2e9fd024fa4d2024c05de/Details"
+                  variant="warning"
+                >
+                  Ver Proyecto de investigación
+                </Button>
               </Card.Body>
             </Card>
           </Col>
