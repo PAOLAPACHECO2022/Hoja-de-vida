@@ -374,14 +374,12 @@ export default function Experiencia() {
 
                   <div className="d-flex flex-column flex-md-row justify-content-center align-items-center gap-2 mt-3">
                     <Button
-
-  href="https://drive.google.com/file/d/1Kla1LvU8mzuNdSFvrIUOMkaDy0OCWKb4/view?usp=sharing"
-  target="_blank"
-  variant="warning"
->
-  Ver proyecto de investigación
-</Button>
-
+                      target="_blank"
+                      href="https://drive.google.com/file/d/1Kla1LvU8mzuNdSFvrIUOMkaDy0OCWKb4/view?usp=sharing"
+                      variant="success"
+                    >
+                      Ver proyecto de investigación
+                    </Button>
 
                     <Button variant="warning" onClick={() => sethShow(true)}>
                       Logros
@@ -626,4 +624,3 @@ export default function Experiencia() {
     </>
   );
 }
-
