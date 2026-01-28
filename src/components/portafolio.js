@@ -140,7 +140,7 @@ export default class Portafolio extends Component {
                 </Card.Text>
                 <Button
                   target="_blank" 
-                  href="https://repositorio.uptc.edu.co/entities/publication/294b8e42-73e0-452e-968b-7f58f5b2ae22"
+                  href="https://metaflip.metabiblioteca.com/?pdf=https://repositorio.uptc.edu.co/server/api/core/bitstreams/174eb743-cf73-430e-82f6-b9432833a500/content?authentication-token=null"
                   variant="warning"
                 >
                   Ver Proyecto de investigación
